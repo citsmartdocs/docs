@@ -1,6 +1,6 @@
-Title: Atualização do CITSmart/Neuro
+Title: Atualização de Pacotes
 
-# Atualização do CITSmart/Neuro
+# Atualização de Pacotes
 
 Este procedimento tem por objetivo demonstrar o passo-a-passo da atualização do produto Citsmart/Neuro em servidores de aplicação Wildfly.
 
