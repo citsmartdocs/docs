@@ -12,7 +12,7 @@ Atualizar o Citsmart da versão `CitsmartITSM-Enterprise-8.0.0.0.war` para a ver
 
 - [X] Ter instalado o servidor de aplicação Wildfly com base no documento [Instalação on-premisses][1].
 
-- [X] Ter realizado o download dos pacotes ***CitsmartITSM-Enterprise-8.0.1.0.war*** e Neuro ***citsmart-neuro-web-1.3.4.0.war*** diretamente do portal do parceiro.
+- [X] Ter realizado o download dos pacotes diretamente do portal do parceiro.
 
 ## Procedimento
 
