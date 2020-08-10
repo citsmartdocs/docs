@@ -216,7 +216,6 @@ nav:
     - Customizar campos:
       - citsmart-platform-9/platform-administration/customizable-fields/label-customize-system.md
       - citsmart-platform-9/platform-administration/customizable-fields/labels-configure-mandatory-fields.md
-      - citsmart-platform-9/platform-administration/customizable-fields/labels-configure-views.md
       - citsmart-platform-9/platform-administration/customizable-fields/register-domain-item.md
       - citsmart-platform-9/platform-administration/customizable-fields/register-domain.md
     - Indexação de dados:
