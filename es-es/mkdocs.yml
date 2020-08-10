@@ -569,8 +569,6 @@ nav:
         - citsmart-platform-9/additional-features/contract-management/configuration/register-subscription.md
         - citsmart-platform-9/additional-features/contract-management/configuration/subscription-group.md
         - citsmart-platform-9/additional-features/contract-management/configuration/work-order-formula.md
-      - Informe:
-        - citsmart-platform-9/additional-features/contract-management/report/control-contract.md
       - Uso:
         - citsmart-platform-9/additional-features/contract-management/use/manage-contracts.md
         - citsmart-platform-9/additional-features/contract-management/use/register-contract.md

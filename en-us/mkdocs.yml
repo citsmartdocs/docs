@@ -600,8 +600,6 @@ nav:
         - citsmart-platform-9/additional-features/contract-management/configuration/register-subscription.md
         - citsmart-platform-9/additional-features/contract-management/configuration/subscription-group.md
         - citsmart-platform-9/additional-features/contract-management/configuration/work-order-formula.md
-      - Report:
-        - citsmart-platform-9/additional-features/contract-management/report/control-contract.md
     - Communication and Notification:
       - Chat:
         - citsmart-platform-9/additional-features/communication-and-notification/chat/chat.md
