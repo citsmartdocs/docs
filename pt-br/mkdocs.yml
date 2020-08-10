@@ -135,6 +135,7 @@ nav:
       - citsmart-platform-9/get-started/installation-and-upgrade/perform-installation/setup-citsmart.md
       # - citsmart-platform-9/get-started/installation-and-upgrade/prepare-for-upgrade.md
       # - citsmart-platform-9/get-started/installation-and-upgrade/run-update.md
+    -  citsmart-platform-9/get-started/installation-and-upgrade/update-citsmart.md
   - Configurações iniciais:
     - citsmart-platform-9/initial-settings/navigation-and-user-interface.md
     - Configuração básica:

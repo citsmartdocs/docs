@@ -1,93 +1,61 @@
-Title: CITSmart Products Release and Update Policy
+Title: CITSmart Products Release and Update Policy 
 Description: Describe the release and update cycles of CITSmart Products, clients notifications and other relevant information.
 
-# CITSmart Products Release and Update Policy
+# CITSmart Products Release and Update Policy 
 
 ## Overview
-The purpose of this policy is to describe the release and update cycles of
-CITSmart Products, clients notifications and other relevant information.
+The purpose of this policy is to describe the release and update cycles for CITSmart Products, client notifications and other relevant information.
 
-The policy guidelines are applicable to all of our products, whether they are
-using the SaaS or On-Premise model.
+The policy guidelines are applicable to all of our products, whether they are using the SaaS or On-Premises model.
 
 ## Release and Update Cycles
-Our release and update cycles approach is designed to provide stability, quick
-response to problems and continuous delivery of new features and experiences.
+Our product release and update proposal was designed to provide stability, quick response to problems and a continuous supply of new features and experiences.
 
-CITSmart products generally follow 3 types of releases, as listed in the
-following table:
+CITSmart products typically follow 4 types of release, as listed below:
 
-| **Release Type**     | **Scope**                                                                                                                 | **Frequency**                      | **Notification**                                                                                  |
-|------------------------|----------------------------------------------------------------------------------------------------------------------------|-------------------------------------|--------------------------------------------------------------------------------------------------|
-| *Major Release*        | New application functionalities and killer features for the product.                                                                    | Typically twice a year     | Typically, one month before the release, with a second notification 20 days after sending the first. |
-| *Minor Release*        | It includes, but is not limited to minor improvements, security updates, and generally doesn't involve architectural changes. | Typically, once every 2 months |                                                                                                  |
-| *Hotfix* **Planned** | Updates including bug and applications fixes, in addition to occasional adjustments.                                                  | Typically, once a month        |                                                                                                  |
-| *Hotfix* **Critical**   | Hot fixes needed for system stability or security                                                 | Whenever necessary               | A few hours before, preferably 48 hours before                                                  |
+|**Type of Release**|**Scope**|**Frequency**|**Notification**|
+|-------------------|---------|-------------|----------------|
+|Major Version|Recommended for all clients, this update may include new features and killer features. Usually with significant changes in the application or architecture.|Annual|In the month prior to the release, with a second notification 20 days after sending the first one.|
+|Stable Release|Recommended for all customers, this update may include new features, improvements, security updates, adjustments and fixes.|Quarterly|In the month prior to the release, with a second notification 10 days before the release.|
+|Beta Release|Usually aimed at Beta Users partners and with specific scope. It may include improvements, updates, adjustments and fixes.|Bimonthly|Ten days before the release.|
+|Hotfix|Recommended for all clients, this update may include emergency fixes to ensure system stability and security.|Whenever necessary, following authorization and urgency criteria to be defined|A few hours before, preferably 48 hours before.|
 
+(*) The frequency of releases are subject to changes, at CITSmart's sole discretion. In the case of changes to this schedule, clients must be notified in advance.
 
-CITSmart refers to each Feature Release, and its associated Hotfixes, as a
-"Series". For example, Version 7.6.5.4 is part of Series 7. The series are
-version updates, most of the time, with significant changes in the application
-or architecture.
+CITSmart products use the following standard for version identification:
 
-Therefore, CITSmart products use the following version standard:
+Version: **Series**
+Release: **Stable Release**.**Beta Release**.**Hotfix**
 
-**Series \> Major Release \> Minor Release \> Hotfix**
+Where: 
+- **Series** Identifies the Major Release, for example: CITSmart 9.
+- **Stable Release** Identifies the related Stable Release 
+- **Beta Release** identifies the related Beta Release, or zero when there is no related Beta Release.
+- **Hotfix** identifies the related Hotfix, or zero when there is no related Hotfix.
 
-For example: In version 7.6.5.4, 7 is the Series, 6 is the Major Release, 5 is
-the Minor Release and 4 is the HotFix associated.
+For example:
 
-The Release Schedule for CITSmart:
-
-| **Release Month** | **Type of Release**             | **Release Number**                |
-|-------------------|---------------------------------|-----------------------------------|
-| **January**       | **Hot-fix Planned**             | **<series\>.x.1.1**              |
-| **February**      | **Minor Release**               | **<series\>.x.2.0**              |
-| **March**         | **Hot-fix Planned**             | **<series\>.x.2.1**              |
-| **April**         | **New Series or Major Release** | **SERIE.0.0.0/ <series\>.X.0.0** |
-| **May**           | **Hot-fix Planned**             | **<series\>.x.0.Y**              |
-| **June**          | **Minor Release**               | **<series\>.x.1.0**              |
-| **July**          | **Hot-fix Planned**             | **<series\>.x.1.Y**              |
-| **August**        | **Minor Release**               | **<series\>.x.2.0**              |
-| **September**     | **Hot-fix Planned**             | **<series\>.x.2.Y**              |
-| **October**       | **New Series or Major Release** | **SERIE.0.0.0/ <series\>.X.0.0** |
-| **November**      | **Hot-fix Planned**             | **<series\>.x.0.Y**              |
-| **December**      | **Minor Release**               | **<series\>.x.1.0**              |
-
-(\*) The timing and frequency of releases is subject to change at the sole
-discretion of CITSmart. In the case of changes in this schedule, clients shall
-be notified in advance.
+CITSmart 9
+Release: 1.2.3 refers to:
+- **Series**: CITSmart 9.
+- **Stable Release**: 1
+- **Beta Release**:  2
+- **Hotfix**: 3
 
 ## Supported Versions
+Our current policy is to support the latest version and the previous one.
 
-Our current policy is to support the most recent Release Series. The immediately
-previous Release Series will be supported up to 6 months after the release of
-the new series.
-
-CITSmart generally makes two majors release per year, the client will need to
-upgrade approximately once per year to stay on a supported version. CITSmart
-provides Updates (e.g.: patches and hotfixes) only for supported version..
+CITSmart generally performs a major release per year, so the client will need to update approximately once every two years to stay on a supported version. CITSmart provides updates (for example, fixes and hotfixes) only for the supported versions.
 
 ## Additional Update Information
+The Update Procedures depend on the model of the acquired solution (SaaS or On-Premises), for each one, follow the recommendations below:
 
+### SaaS Clients
+Clients can schedule software updates when needed by submitting a new service request through our support website. In this request, the client informs the desired date for updating, the version and type of non-production or production environment). Interruption times are defined to minimize disruption to the client's business. The entire update process is done by the CITSmart support team.
 
-Update Procedures depends on the purchased solution model (SaaS or On-Premise),
-to each one of them, follow the recommendations below:
+After all tests, the clients must sign the homologation conformity term, ensuring that they have performed all necessary tests and, in this way, authorize the application of the update in production according to the previously scheduled change window. Without this signed document, the update will not be performed.
 
-**SaaS Clients**
+### On-Premises Clients
+In this case, the clients are responsible for updating the software (or through a CITSmart partner hired for this purpose). We recommend the clients to test the functionality and customizations in the non-production environment before upgrading to the production environment. Guidance on how to update or use new features will be available in the Release Notes.
 
-Clients can schedule software updates at their convenience, submitting a new
-service request via our support website (itsm.citsmart.com). In this request,
-clients define schedule to update, version and environment type (non-production
-or production). Outage times are defined to minimize disruption to clients
-business. The CITSmart Support team makes all update process.
-
-**On-Premise Clients**
-
-In this case, the clients are responsible to update the software. We recommend
-that clients test the functionality and customizations in non-production
-environment before upgrade the production environment. Guidelines about how to
-update or use new features will be available in the Release Notes.
-
-If you have any questions regarding update procedures, please submit a new
-service request via our support website.
+If you have any questions about the update procedures, please send us a service request through our support website.
