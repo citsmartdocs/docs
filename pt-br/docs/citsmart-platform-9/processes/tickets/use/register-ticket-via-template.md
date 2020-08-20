@@ -22,9 +22,9 @@ Procedimento 
 -------------
 
 1.  Acessar a funcionalidade de Gerenciamento de Tickets navegando pelo menu
-    principal Processos \> Gerência de Requisição e Incidente \> Ticket;
+    principal Processos \> Gerência de Ticket \> Ticket;
 
-2.  Clicar no botão “Opções” localizado no canto inferior direito da tela, logo
+2.  Clicar no botão “Ações” localizado no canto inferior direito da tela, logo
     em seguida clicar no botão “Cadastro via template”. Será exibida a tela de
     templates contendo os templates listados;
 
@@ -32,7 +32,7 @@ Procedimento 
     de Ticket com os campos preenchidos de acordo com o template escolhido.
     Preencher as informações complementares necessárias;
 
-4.  Clicar no botão de “Opções” e logo em seguida clicar no botão “Gravar” para
+4.  Clicar no botão de “Ações” e logo em seguida clicar no botão “Gravar” para
     efetuar o registro, onde a data, hora e usuário serão gravados
     automaticamente para uma futura auditoria.
 
