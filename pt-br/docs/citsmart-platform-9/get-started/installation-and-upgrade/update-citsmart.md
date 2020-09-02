@@ -64,11 +64,20 @@ rm -Rf citsmart-neuro-web-1.3.3.0.war*
 
 **4 - Remova os diretórios temporários**
 
+Acesse o diretório `stantalone` do Wildfly
+
+```sh
+cd /opt/wildfly/standalone
+```
+Remove os diretórios "temporários"
+
 ```sh
 rm -Rf data tmp log
 ```
 
 **5 - Crie os diretórios temporários novamente**
+
+Ainda no diretório `standalone` recrie os diretórios "temporários"
 
 ```sh
 mkdir {data, tmp, log}
