@@ -44,7 +44,7 @@ Therefore, following the best service management practices, based on the ITIL be
 CITSmart History
 --------------------
 
-CITSmart is a product that had its initial construction to meet the needs of ITSM (IT Service Management), mainly for the fulfillment of the ITIL requirements, preached by the institution Pink Elephant, through PinkVerify certification. Nowadays CITSmart meets the 16 processes. The main functionalities are Ticket Management (incidents and requests), Service Portfolio and Catalog, Knowledge Base, Changes and CMDB. The current CITSmart target audience are companies that have IT departments, as well as the need of ITSM solutions to manage their ITs.
+CITSmart is a product that had its initial construction to meet the needs of ITSM (IT Service Management), mainly for the fulfillment of the ITIL requirements, preached by the institution Pink Elephant, through PinkVerify certification. Currently, CITSmart meets all the certification processes. The main functionalities are Ticket Management (incidents and requests), Service Portfolio and Catalog, Knowledge Base, Changes and CMDB. The current CITSmart target audience are companies that have IT departments, as well as the need of ITSM solutions to manage their ITs.
 
 Evolution
 ------------

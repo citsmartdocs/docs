@@ -21,17 +21,17 @@ Procedure
 -------------
 
 1.  Access the functionality Ticket Management through the main menu Processes
-    \> Request and Incident Management \> Service Request and Incident;
+     \> Ticket Management \> Ticket;
 
-2.  Click on the button “Operations”  located in the bottom right side of the
+2.  Click on the button “Actions”  located in the bottom right side of the
     screen, then click on the button “Register via template”. It will appear the
     screen of templates with a list of templates;
-
+ 
 3.  Select the template you want and you'll be directed to the Ticket
     Registration screen with the fields completed as the template you have
     choose. Complete the complementary information necessary;
-
-4.  Click on the button “Operations” and then on “Save” button.
+ 
+4.  Click on the button “Actions” and then on “Save” button.
 
 Related
 -----------

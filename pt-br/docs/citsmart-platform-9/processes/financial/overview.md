@@ -12,7 +12,7 @@ O gerenciamento financeiro de serviço de TI é uma disciplina baseada nos princ
 Uso
 -------
 
-- [Cadastrar Ciclo](/pt-br/citsmart-platform-9/processes/financial/use/register-cycle.html)
+- [Cadastrar Ciclo](/pt-br/citsmart-platform-9/processes/financial/use/register-financial-cycle.html)
 
 - [Cadastrar Item Financeiro](/pt-br/citsmart-platform-9/processes/financial/use/register-financial-item.html)
 

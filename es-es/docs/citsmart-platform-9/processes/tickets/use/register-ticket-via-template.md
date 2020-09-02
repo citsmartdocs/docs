@@ -21,18 +21,18 @@ funcionalidad.
 Procedimiento
 -------------
 
-1.  Acceda a la funcionalidad por el menú principal Procesos \> Gestión de
-    Requerimiento e Incidente \> Ticket;
-
-2.  Haga clic en el botón de “Opciones”, después haga clic en el botón
+1.  Acceda a la funcionalidad por el menú principal Procesos \> Gestión de
+    Ticket \> Ticket;
+ 
+2.  Haga clic en el botón de “Acciones”, después haga clic en el botón
     “Registrarse a través de la plantilla”. Se mostrará la pantalla de
     plantillas que contiene las plantillas enumeradas;
-
+ 
 3.  Seleccione la plantilla deseada y luego se dirigirá a la pantalla de
     Registro de Ticket con los campos rellenados de acuerdo con la plantilla
     elegida. Llenar la información complementaria necesaria;
-
-4.  Haga clic en el botón de “Opciones” y después en el botón “Grabar” para
+ 
+4.  Haga clic en el botón de “Acciones” y después en el botón “Grabar” para
     registrarlo.
 
 Relacionado

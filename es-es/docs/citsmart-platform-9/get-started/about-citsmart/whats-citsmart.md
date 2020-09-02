@@ -48,15 +48,7 @@ siendo ellos:
 Historia del CITSmart
 --------------------
 
-CITSmart es un producto que tuvo su construcción inicial para atender las
-necesidades del ITSM (Gestión de Servicios de TI), principalmente para
-el cumplimiento de los requisitos del ITIL, predicado por la institución Pink Elephant,
-a través de la certificación PinkVerify. Actualmente, CITSmart atiende 16 procesos
-de los 16 posibles. Las principales funcionalidades son Gestión de Ticket
-(incidentes y solicitudes), Portafolio de Servicios y Catálogo, Base de
-Conocimiento, SLA, Cambios y CMDB. El público objetivo actual del CITSmart es
-empresas que poseen departamentos de TI, así como la necesidad de soluciones de
-ITSM para administrar sus TI.
+CITSmart es un producto que tuvo su construcción inicial para atender las necesidades del ITSM (Gestión de Servicios de TI), principalmente para el cumplimiento de los requisitos del ITIL, predicado por la institución Pink Elephant, a través de la certificación PinkVerify. Actualmente, CITSmart atiende todos los procesos de la certificación. Las principales funcionalidades son Gestión de Ticket (incidentes y solicitudes), Portafolio de Servicios y Catálogo, Base de Conocimiento, SLA, Cambios y CMDB. El público objetivo actual del CITSmart es empresas que poseen departamentos de TI, así como la necesidad de soluciones de ITSM para administrar sus TI.
 
 Evolución
 ------------
