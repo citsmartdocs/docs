@@ -102,6 +102,21 @@ In the design area you can build the content that will be published in the Exper
     - Do you want to set this page as home when you first open the experience center? - has the function of making this menu the main page of your Experience Center.
     - Inherit Experience Center Groups - allows to select which groups will be allowed to this menu, the groups that are available for management are the groups that have permission on the “Permissions” tab;
 
+*Widget "My Services"*
+
+It's possible to select in Widget the type "My Services" in which is possible to inform the services that will be available in the Experience Center that is being configured.  
+To include the services to be used in the Experience Center:  
+
+1.	Access "Construction" in the Experience Center being created;
+2.	Choose to add widgets and select the “My Services” widget option;
+3.	The system will open the Services selection option;
+4.	Select the services that will be part of the Experience Center being configured;
+5.	Save the configuration made in the widget. At any time, you can edit and delete a service.
+
+!!! note "NOTE"
+
+    1.	If the parameter 293 - Enable access permission for user groups in the portal - Values: "Y" or "N" Default: "N", is set to Yes, the Service added to the Experience Center must have access permission for the public informed in the Experience Center. In addition, the system will only return Services that the logged user has access to.
+
 **Type: Link**
 
 1. When selecting the item link, enter a URL to direct the user when they click on the menu item;  

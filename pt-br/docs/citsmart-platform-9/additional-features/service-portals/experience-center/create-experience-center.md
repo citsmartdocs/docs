@@ -101,8 +101,24 @@ Na Área de desenho você pode construir o conteúdo que será publicado no Cent
 - Após selecionar o layout desejado, é possível escolher funções do CITSmart em forma de Widgets (Ver tabela de Widgets);
 
 !!! note "NOTA"
+
     - Deseja definir está página como inicial ao abrir o centro de experiência pela primeira vez? - tem a função de transformar esse menu na página principal do seu Centro de Experiência.
     - Herdar os grupos do Centro de Experiência - permite selecionar quais os grupos que terão permissão a esse menu, os grupos que estão disponíveis para gerenciamento são os grupos que tiveram permissão na guia “Permissões”;
+    
+*Widget de "Meus Serviços"*
+
+É possível selecionar em Widget o tipo "Meus Serviços" em que é possível informar os serviços que estarão disponíveis no Centro de Experiência que está sendo configurado.  
+Para incluir os serviços a serem utilizados no Centro de Experiência:  
+
+1.	Acessar "Construção" no Centro de Experiência;
+2.	Escolher a adição de Widgets e selecionar a opção de Widget “Meus Serviços”;
+3.	O sistema abrirá a opção de seleção dos Serviços;
+4.	Selecione os serviços que farão parte do Centro de Experiência que está sendo configurado;
+5.	Salve configuração feita no widget. A qualquer momento é possível editar e excluir um serviço.
+
+!!! note "NOTA"
+
+    1.	Se o parâmetro 293 - Habilita permissão de acesso para grupos de usuário no portal - Valores: "S" ou "N" Default: "N", estiver definido como Sim, o Serviço adicionado ao Centro de Experiência deverá possuir permissão de acesso para o público informado no Centro de Experiência. Além disso, o sistema retornará somente Serviços que o usuário logado possuir acesso.    
 
 **Tipo: Link**
 
