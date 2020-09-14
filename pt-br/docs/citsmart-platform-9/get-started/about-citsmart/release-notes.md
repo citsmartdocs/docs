@@ -63,6 +63,18 @@ Bem-vindos ao CITSmart Versão 9.1 Esta versão apresenta os seguintes itens:
 |8835|Melhoria|Webservice|Criar webservice que lista a Origem de contato do ticket|
 |8426|Melhoria||Colocar no final da página o nome do cliente que foi licenciado o ambiente|
 
+Bem-vindos ao Neuro 1.3.5.0
+A versão apresentada possui a(s) seguinte(s) correção(ões):
+
+|Número|Tipo|Descrição|
+|--------|---------|---------|---------|
+|7814|Corretiva|Refactory da integração com ITSM para permitir a flexibilidade da URL externa do Neuro|
+|8416|Corretiva|Correção do erro ao utilizar fluxo ESI como componente no workflow|
+
+|Número|Tipo|Descrição|
+|--------|---------|---------|---------|
+|7751|Melhoria|Ajustar nomes de propriedades componentes em Português para Inglês|
+|7774|Melhoria|Erro de tradução no NEURO --> ESI|
 
 
 ## Versão 9.0 (2020/07/10)
