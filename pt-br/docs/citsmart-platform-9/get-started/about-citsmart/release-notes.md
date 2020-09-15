@@ -4,7 +4,7 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 # Notas de Release
 
 ## Versão 9.1 (2020/09/14)
-Bem-vindos ao CITSmart Versão 9.1 Esta versão apresenta os seguintes itens:
+Bem-vindos ao CITSmart Versão 9.1. Esta versão apresenta os seguintes itens:
 
 |Número|Tipo|Funcionalidade|Descrição|
 |--------|---------|---------|---------|
@@ -77,7 +77,7 @@ Bem-vindos ao Neuro 1.3.5.0. A versão apresentada possui a(s) seguinte(s) corre
 
 
 ## Versão 9.0 (2020/07/10)
-Bem-vindos ao Citsmart Versão 9.0 Esta versão apresenta os seguintes itens:
+Bem-vindos ao Citsmart Versão 9.0. Esta versão apresenta os seguintes itens:
 
 |Número|Tipo|Funcionalidade|Descrição|
 |--------|---------|---------|---------|
