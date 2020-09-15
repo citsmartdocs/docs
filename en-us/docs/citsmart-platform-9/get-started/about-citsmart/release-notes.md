@@ -1,5 +1,5 @@
 Title: Release Notes
-Description: Release notes, bug fixes and improvements in the 4biz.
+Description: Release notes, bug fixes and improvements in the CITSmart.
 
 # Release Notes
 
