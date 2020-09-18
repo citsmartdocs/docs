@@ -18,8 +18,10 @@ Procedimiento
 4.  Hacer clic en "Añadir ocurrencia" y completar los campos obligatórios;
 
     !!! Abstract "NOTA"
+        
         Es posible registrar nuevas categorías y orígenes que mejor se adecuen a la
-        ocurrencia, al hacer clic en el icono "+" y completar los campos necesarios
+        ocurrencia, al hacer clic en el icono "+" y completar los campos necesarios.  
+        Todas las acciones tomadas desde la creación hasta el cierre se registran en el historial, sirviendo como Auditoría.
 
 5.  Hacer clic en "Guardar".
 
