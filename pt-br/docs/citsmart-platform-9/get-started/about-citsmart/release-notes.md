@@ -4,6 +4,11 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 # Notas de Release
 
 ## Versão 9.1 (2020/09/14)
+
+!!! warning "ATENÇÃO"
+
+  Antes de baixar esta versão, verifique as orientações presentes no documento [Guia de orientações CITSmart V9 versão 1.1.1][1]
+
 Bem-vindos ao CITSmart Versão 9.1. Esta versão apresenta os seguintes itens:
 
 |Número|Tipo|Funcionalidade|Descrição|
@@ -62,8 +67,6 @@ Bem-vindos ao CITSmart Versão 9.1. Esta versão apresenta os seguintes itens:
 |8836|Melhoria|Webservice|Criar webservice que lista a localidade de uma unidade do ticket|
 |8835|Melhoria|Webservice|Criar webservice que lista a Origem de contato do ticket|
 |8426|Melhoria||Colocar no final da página o nome do cliente que foi licenciado o ambiente|
-
-Antes de baixar esta versão, verifique as orientações presentes no documento [Guia de orientações CITSmart V9 versão 1.1.1][1]
 
 Bem-vindos ao Neuro 1.3.5.0. A versão apresentada possui a(s) seguinte(s) correção(ões):
 
