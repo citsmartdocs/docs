@@ -99,7 +99,7 @@ Procedimento
 |Prioridade|A nova prioridade que o serviço que será agendado receberá|
 |Grupo|Grupo a quem a assistência será direcionada após a ação de agendamento|
 
-2.  Preencher os Alvos do SLA:
+4.  Preencher os Alvos do SLA:
 
 |Alvos|Descrição|
 |-----|---------|
@@ -110,7 +110,7 @@ Procedimento
 
 (\*) Indicar campos obrigatórios
 
-!!! note
+!!! note "NOTA"
     
     1.	Para efeito de cálculo de SLA, o sistema realiza as seguintes verificações:
     
