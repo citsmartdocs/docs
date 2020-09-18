@@ -110,6 +110,25 @@ Procedimento
 
 (\*) Indicar campos obrigatórios
 
+!!! note
+    
+    1.	Para efeito de cálculo de SLA, o sistema realiza as seguintes verificações:
+    
+        a.	Ser o serviçoxcontrato estiver em mais de um tipo de SLA é importante observar que:
+
+            i.	O tipo de SLA Específico é prioritário sobre os tipos: Cliente e Global
+
+            ii.	O tipo de SLA Cliente é prioritário sobre o tipo: Global
+
+        b.	O sistema ainda considera para a atribuição de SLA:
+
+            i.	Impacto e urgência – Esse atributo sendo identificado para mais de um tipo de serviçoxcontrato  para o mesmo Tipo de SLA, sempre leva em consideração a prioridade de menor impacto, ou seja, nota 5;
+
+        c.	O sistema considera para a atribuição de SLA:
+
+            i.	Os usuários, grupos ou Unidades especiais, conhecidos como VIP’s, nesses casos, o normal é o administrador cadastrar SLA’s Globais com baixa prioridade e incluir usuários, unidades e grupos que podem receber SLA’s com prioridade mais alta.
+
+
 !!! faq "Você sabia?"
 
     Alvo é um local em que o usuário identificará seus principais alvos para usar o SLA.  

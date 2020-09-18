@@ -12,7 +12,7 @@ A funcionalidade permite registrar em comentários todos os passos da execução
     
 !!! note "NOTA"
 
-    O histórico de todos os comentários do ticket pode ser visualizado ao clicar na aba “Histórico”, localizado no canto 
+    No histórico fica registrado todas as ações realizadas desde a criação até o encerramento, servindo como Auditoria. O histórico de todos os comentários do ticket pode ser visualizado ao clicar na aba “Histórico”, localizado no canto 
     superior direito da tela.
 
 ## Antes de começar
