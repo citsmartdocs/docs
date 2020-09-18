@@ -33,7 +33,7 @@ Procedimento
         Para maiores informações sobre como vincular estas funcionalidades, ler o
         conhecimento referente ao mesmo na aba " Relacionado", localizado logo abaixo.
 
-5.  Podemos visualizar o histórico de ocorrências da liberação ao apertar no ícone “Registro de Execução;
+5.  Podemos visualizar o histórico de ocorrências da liberação ao apertar no ícone “Registro de Execução".  
     No histórico fica registrado todas as ações realizadas desde a criação até o encerramento, servindo como Auditoria;
 
 6.  A visualização do fluxo referente a Liberação pode ser visualizada ao clicar no ícone “Visualizar fluxo”.
