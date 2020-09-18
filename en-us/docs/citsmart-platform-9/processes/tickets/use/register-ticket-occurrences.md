@@ -1,9 +1,19 @@
-title:  Add comments in the ticket execution
+title:  Register ticket occurrences
 Description: It allows to register possible occurrences about the execution of a ticket.
 
-# Add comments in the ticket execution
+# Register ticket occurrences
 
-This functionality allows to register in comments all the steps for the execution of a ticket.
+The functionality allows to record in comments all the steps of the ticket execution (its occurrences).In this new version of the ticket functionality, a "Text editor" will be made available for the insertion of the relevant comments to the occurrences.
+
+!!! warning "ATTENTION"
+
+    Comments on occurrences may be changed, deleted or searched (for their content), in the area entitled "Comments".
+    
+!!! note "NOTE"
+    
+    The history of all ticket comments can be viewed by clicking on the "History" tab in 
+    the upper right side of the screen. All actions taken from creation to closure are recorded in the history, serving as Audit.
+
 
 ## Before getting started
 
@@ -18,10 +28,7 @@ To send comments via email, it is necessary to [Configure the messaging service]
 the ticket) and click on the "Add" icon. It is possible to allow this information to be viewed by the requester when selecting the
 "Public" field, in addition to being able to send the comment by email.
 
-!!! note "NOTE"
-    
-    The history of all ticket comments can be viewed by clicking on the "History" tab in 
-    the upper right side of the screen.
+
 
 ## Related
 
