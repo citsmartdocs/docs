@@ -20,8 +20,9 @@ Procedimento
 4.  Clicar no botão “Adicionar ocorrência” e preencher os campos obrigatórios;
 
     !!! Abstract "NOTA"
-        No histórico fica registrado todas as ações realizadas desde a criação até o encerramento, servindo como Auditoria. É possível cadastrar novas categorias e origens que melhor se adequam a
-        ocorrência, ao clicar no ícone “+” e preencher os campos necessários.
+        
+        É possível cadastrar novas categorias e origens que melhor se adequam a
+        ocorrência, ao clicar no ícone “+” e preencher os campos necessários. No histórico fica registrado todas as ações realizadas desde a criação até o encerramento, servindo como Auditoria.
 
 5.  Clicar em “Gravar” para efetuar a operação.
 
