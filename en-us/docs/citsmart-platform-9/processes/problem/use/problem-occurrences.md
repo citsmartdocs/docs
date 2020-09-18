@@ -20,8 +20,9 @@ Procedure
 4.  Click on "Add occurrence" and complete the mandatory fields;
 
     !!! Abstract "NOTE"
+        
         It's possible to register new category and origins that fit the best to the
-        occurrence, when click on the icon “+” and complete the necessary fields.
+        occurrence, when click on the icon “+” and complete the necessary fields. All actions taken from creation to closure are recorded in the history, serving as Audit
 
 5.  Click on "Save".
 
