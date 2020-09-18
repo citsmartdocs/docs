@@ -7,7 +7,7 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 
 !!! warning "ATENÇÃO"
 
-  Antes de baixar esta versão, verifique as orientações presentes no documento [Guia de orientações CITSmart V9 versão 1.1.1][1]
+    Antes de baixar esta versão, verifique as orientações presentes no documento [Guia de orientações CITSmart V9 versão 1.1.1][1]
 
 Bem-vindos ao CITSmart Versão 9.1. Esta versão apresenta os seguintes itens:
 
