@@ -13,6 +13,7 @@ Crear conocimiento es el acto de registrar información en CITSmart usando la fu
 
 
 !!! note "NOTA"
+    
     En las versiones desde la 8.0.5.0, los parámetros 82 y 83 tienen la misma función, por lo que no es necesario configurar estos dos parámetros, elija uno de ellos. Esto se debe a que ahora se ha recopilado en una plantilla clave de correo electrónico que contempla todas las actividades que van desde la creación hasta el archivo de conocimientos. ¿Y qué significa eso? En este nuevo escenario, usará una plantilla de correo electrónico que contendrá varias claves. Esta plantilla ya está disponible en una instalación limpia, o si ya tiene un entorno y lo va a actualizar, puede usar las claves de correo electrónico en sus plantillas ya usadas para que permanezcan en el nuevo estándar (ver [Campos clave de correos electrónicos de base de conocimiento][5], ver [Ejemplos de plantillas de correo electrónico][6]).
 
 ## Gestión de Conocimiento
@@ -66,7 +67,8 @@ La interfaz de registro/gestión de la base de conocimiento tiene las siguientes
 
     
 !!! note "NOTA"
-    Tenga en cuenta que las pestañas "Comentarios", "Historial", "Ítem de configuración" y "Versiones" solo aparecen después de registrar la información, ya que están relacionadas con el proceso de gestión del conocimiento.
+    
+    Tenga en cuenta que las pestañas "Comentarios", "Historial", "Ítem de configuración" y "Versiones" solo aparecen después de registrar la información, ya que están relacionadas con el proceso de gestión del conocimiento. Todas las acciones tomadas desde la creación hasta el cierre se registran en el historial, sirviendo como Auditoría.
   
 
 ### Datos de Registro
@@ -115,9 +117,11 @@ En la creación del conocimiento, CITSmart siempre establecerá la versión "1.0
 ### Consejos
 
 !!! warning "ATENCIÓN"
+    
     Se debe tener mucho cuidado al usar la privacidad "pública", ya que existe el riesgo de que los documentos estén disponibles de manera inapropiada. Este escenario ignora la configuración del perfil de acceso y permite el acceso de documentos a todos los usuarios.
 
 !!! note "Workflow de Aprobación"
+    
     El usuario final puede proponer nuevos Documentos/Conocimientos en el botón flotante del Portal de Conocimiento, el Documento se guarda en la carpeta indicada por el Parámetro 313 del sistema. El Gestor del conocimiento busca documentos no publicados o en la carpeta indicada y, a medida que avanza la aprobación, el documento obtendrá otros estados.
 
 ### Relacionado
