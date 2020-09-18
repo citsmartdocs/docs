@@ -1,9 +1,18 @@
-title: Agregar comentarios en la ejecución del ticket 
+title: Registrar ocurrencias relacionadas con el ticket 
 Description: Permite registrar eventuales ocurrencias referentes a la ejecución del ticket.
 
-# Agregar comentarios en la ejecución del ticket
+# Registrar ocurrencias relacionadas con el ticket
 
-La funcionalidad permite registrar en comentarios todos los pasos de la ejecución del ticket.
+La funcionalidad permite registrar en comentarios todos los pasos de la ejecución del ticket (sus ocurrencias). En esta nueva versión de la funcionalidad del ticket se pondrá a disposición un "Editor de texto" para la inserción de los comentarios pertinentes a las sucesivas ocurrencias.
+
+!!! warning "ATENCIÓN"
+
+    Los comentarios sobre las ocurrencias pueden modificarse, eliminarse o buscarse (por su contenido), en el área titulada  de "Comentarios".
+
+!!! note "NOTA"
+
+    El historial de todos los comentarios del ticket se puede ver haciendo clic en la pestaña "Historial" en la 
+    parte superior derecha de la pantalla. Todas las acciones tomadas desde la creación hasta el cierre se registran en el historial, sirviendo como Auditoría
 
 ## Antes de empezar
 
@@ -16,10 +25,6 @@ Para enviar el comentario por correo electrónico es necesario [Configurar el se
 2. Buscar el ticket que quiera, hacerlo clic y después en el icono "Abrir";
 3. En el área titulada "Comentarios", completar los campos necesarios (escribir el comentario pertinente, registrar la fecha y el tiempo gastado en la ejecución del ticket) y hacer clic en el icono "Agregar". Es posible permitir la visualización de esta información al solicitante cuando seleccionar el campo "Público", además de ser posible enviar el comentario por correo electrónico.
 
-!!! note "NOTA"
-
-    El historial de todos los comentarios del ticket se puede ver haciendo clic en la pestaña "Historial" en la 
-    parte superior derecha de la pantalla.
 
 ## Relacionado
 
