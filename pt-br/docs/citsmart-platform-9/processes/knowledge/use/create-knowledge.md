@@ -75,7 +75,7 @@ A interface de registro/gestão de base de conhecimento possui as seguintes func
     
 !!! note "NOTA"
     
-    No histórico fica registrado todas as ações realizadas desde a criação até o encerramento, servindo como Auditoria. Perceba que as abas "Comentários", "Histórico de Alterações", "Item de Configuração" e "Versões" só aparecem após o registro das informações, pois estão relacionadas ao processo de gestão do conhecimento.
+    Perceba que as abas "Comentários", "Histórico de Alterações", "Item de Configuração" e "Versões" só aparecem após o registro das informações, pois estão relacionadas ao processo de gestão do conhecimento.  No histórico fica registrado todas as ações realizadas desde a criação até o encerramento, servindo como Auditoria. 
   
 
 ### Campos do Conhecimento
