@@ -31,10 +31,12 @@ Procedure
         knowledge about it in the "Related" area, located right bellow.
     
 5.  We can view the history of occurrences of the release by pressing the
-    icon “Execution Registration” and the flow about it when clicking on the
-    icon “View flow”;
+    icon “Execution Registration”.  
+    All actions taken from creation to closure are recorded in the history, serving as Audit.
 
-6.  Click on “Operations” and then on "Save and advance flow" or "Save and keep
+6.  The Release flow can be viewed by clicking on the “View flow” icon.
+
+7.  Click on “Operations” and then on "Save and advance flow" or "Save and keep
     current task" to execute the release request.
 
 Related
