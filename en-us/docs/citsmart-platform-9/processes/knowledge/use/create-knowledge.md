@@ -66,7 +66,8 @@ The knowledge base registration/management interface has the following functiona
 
     
 !!! note "NOTE"
-    Note that the "Comments", "History", "Configuration Item" and "Versions" tabs only appear after the information is registered, as they are related to the knowledge management process.
+    
+    Note that the "Comments", "History", "Configuration Item" and "Versions" tabs only appear after the information is registered, as they are related to the knowledge management process. All actions taken from creation to closure are recorded in the history, serving as Audit
   
 
 ### Registration Data
@@ -115,9 +116,11 @@ When creating a knowledge, CITSmart will always establish version "1.0" and, whe
 ### Tips
 
 !!! warning "ATTENTION"
+    
     Pay attention when using “Public” privacy, as there is a risk of making documents inappropriately available. This scenario disregards the access profile configuration and releases document access for all users.
 
 !!! note "Approval Workflow"
+    
     The end user can propose new Documents/Knowledge on the floating button of the Knowledge Portal, the Document is saved in the folder indicated by Parameter 313 of the system. The knowledge Manager searches for unpublished documents or in the indicated folder and, as the approval progresses, the document will gain other statuses.
 
 ### Related
