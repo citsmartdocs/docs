@@ -32,10 +32,12 @@ Procedimiento
         conocimiento referente en la pestaña "Relacionados", ubicado justo debajo.
 
 5.  Podemos ver el historial de ocurrencias de la liberación al apretar el
-    icono “Registro de Ejecución” y el flujo referente misma al hacer clic en el
-    icono “Ver flujo”;
+    icono “Registro de Ejecución”.  
+    Todas las acciones tomadas desde la creación hasta el cierre se registran en el historial, sirviendo como Auditoría.
 
-6.  Hacer clic en “Opciones” y después en "Guardar y avanzar flujo" o "Guardar y
+6.  La vista de flujo de la Liberación se puede ver haciendo clic en el icono "Ver flujo".
+
+7.  Hacer clic en “Opciones” y después en "Guardar y avanzar flujo" o "Guardar y
     mantener la tarea actual" para ejecutar la solicitud de liberación.
 
 
