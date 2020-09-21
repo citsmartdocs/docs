@@ -7,7 +7,7 @@ Todas as views técnicas com os metadados para os relatórios da plataforma CITS
 
 !!! warning "ATENÇÃO"
 
-  A planilha apresentada para download será sempre atualizada nesse documento. Recomendamos que acesse essa documentação periodicamente para eventuais atualizações.
+    A planilha apresentada para download será sempre atualizada nesse documento. Recomendamos que acesse essa documentação periodicamente para eventuais atualizações.
   
   
   
