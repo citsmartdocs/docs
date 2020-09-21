@@ -13,7 +13,7 @@ Reports > Smart Reports > Smart Reports Creator
 
 - [x] The manager must register the software read in the Register Definitive Media functionality. [Build and maintain smart reports](/en-us/citsmart-platform-9/additional-features/reports/create/smart-reports/configuration/build-maintain-smart-report.html)
 
-- [x] The manager must import the Smart report. [Import smart report](pt-br/citsmart-platform-9/additional-features/reports/create/smart-reports/configuration/build-maintain-smart-report.html#importarexportar-smart-reports)
+- [x] The manager must import the Smart report. [Import smart report](en-us/citsmart-platform-9/additional-features/reports/create/smart-reports/configuration/build-maintain-smart-report.html#importarexportar-smart-reports)
 
 - [x] The user must import the attached package in Reports>> Smart Reports >> Smart Reports Creator
 
