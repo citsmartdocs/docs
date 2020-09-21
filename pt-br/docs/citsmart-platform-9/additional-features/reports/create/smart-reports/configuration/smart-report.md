@@ -30,8 +30,7 @@ Ao acessar a tela de Lista de CMDB o usuário poderá visualizar em Mais Opçõe
 
 Dentro da Opção de Relatório, o sistema listará o Relatório de Controle de Licenças de Software
 
-    
+
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/18/2019 – Anna Martins
