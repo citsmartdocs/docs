@@ -580,6 +580,8 @@ nav:
   - Recursos adicionais:
     - Introdução:
       - citsmart-platform-9/additional-features/introduction.md
+    - Views:
+      - citsmart-platform-9/additional-features/metadata-technical-view-report.md
     - Portal de Serviço:
       - Centro de Experiência:
         - citsmart-platform-9/additional-features/service-portals/experience-center/overview.md
