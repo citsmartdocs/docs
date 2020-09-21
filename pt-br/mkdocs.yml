@@ -645,6 +645,7 @@ nav:
           - citsmart-platform-9/additional-features/reports/create/smart-reports/configuration/build-maintain-smart-report.md
           - citsmart-platform-9/additional-features/reports/create/smart-reports/configuration/configure-report-view-attendance-data.md
           - citsmart-platform-9/additional-features/reports/create/smart-reports/configuration/create-smart-report.md
+          - citsmart-platform-9/additional-features/reports/create/smart-reports/configuration/smart-report.md
       - Gerais:
         - citsmart-platform-9/additional-features/reports/use/cost-of-unavailability.md
         - citsmart-platform-9/additional-features/reports/use/generate-reports-personnel-management.md
