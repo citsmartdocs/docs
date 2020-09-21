@@ -1,6 +1,6 @@
-title: Construir y mantener informes Smart - V. 8.0
+title: Construir y mantener informes Smart
 Description: Proveer la facilidad de elaboración de informes personalizados con los datos de las funcionalidades requeridas, sin necesidad de nuevas actualizaciones o software adicional.
-# Construir y mantener informes Smart - V. 8.0
+# Construir y mantener informes Smart
 
 
 Esta funcionalidad tiene el objetivo de proveer la facilidad de elaboración de
@@ -10,7 +10,11 @@ necesidad de nuevas actualizaciones o software adicional.
 Antes de empezar
 --------------------
 
-Es necesario tener registrado sub informes.
+- [x] Es necesario tener permiso de acceso. 
+
+- [x] Para utilizar el Designer es necesario definir el nombre del Schema de la base de datos a partir del parámetro 32 (por ejemplo: public).
+
+- [x] Es necesario conocimientos de Standard Query Language (SQL) para crear o manipular informes.
 
 Procedimiento
 -----------------
