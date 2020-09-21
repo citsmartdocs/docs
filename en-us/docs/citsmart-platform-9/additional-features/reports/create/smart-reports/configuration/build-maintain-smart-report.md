@@ -9,7 +9,11 @@ software.
 Before getting started
 --------------------------
 
-It's necessary to have registered sub-reports.
+- [x] It's necessary to have ccess permission. 
+
+- [x] To use the Designer it's necessary to define the name of the Schema database from the parameter 32 (eg.: public).
+
+- [x] It's necessary to have knowledge in Standard Query Language (SQL) to create or manipulate reports.
 
 Procedure
 -------------
