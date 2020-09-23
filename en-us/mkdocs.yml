@@ -708,8 +708,8 @@ nav:
     - neuro/advanced-options/variables.md
   - Add-Ons:
     - neuro/addons/addons-list.md
-  - Database Dictionary:
-    - neuro/database-dictionary.md
+ # - Database Dictionary:
+ #   - neuro/database-dictionary.md
   - Neuro FAQ:
     - neuro/neuro-faq.md
 - Anuva:

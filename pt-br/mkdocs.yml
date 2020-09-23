@@ -707,8 +707,8 @@ nav:
     - neuro/advanced-options/variables.md
   - Add-Ons:
     - neuro/addons/addons-list.md
-  - Dicionário de Banco de Dados:
-    - neuro/database-dictionary.md
+ # - Dicionário de Banco de Dados:
+ #   - neuro/database-dictionary.md
   - Neuro FAQ:
     - neuro/neuro-faq.md
 - Anuva:
