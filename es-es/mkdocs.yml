@@ -536,6 +536,8 @@ nav:
   - Recursos adicionales:
     - Introducción:
       - citsmart-platform-9/additional-features/introduction.md
+    - Views:
+      - citsmart-platform-9/additional-features/metadata-technical-view-report.md      
     - Add-ons:
       - citsmart-platform-9/additional-features/add-ons/event-monitor.md
       - citsmart-platform-9/additional-features/add-ons/inventory.md
