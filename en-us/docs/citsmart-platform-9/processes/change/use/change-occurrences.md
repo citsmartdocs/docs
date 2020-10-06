@@ -21,7 +21,7 @@ Procedure
     !!! Abstract "NOTE"
         
         It's possible to register new categories and origins that best adapt to the
-        occurrence, when click on the icon “+” and complete the necessary fields. All actions taken from creation to closure are recorded in the history, serving as Audit
+        occurrence, when click on the icon “+” and complete the necessary fields. All actions taken from creation to closure are recorded in the history, serving as Audit.
 
 5.  Click on "Save".
 
