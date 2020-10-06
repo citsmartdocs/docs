@@ -67,7 +67,7 @@ The knowledge base registration/management interface has the following functiona
     
 !!! note "NOTE"
     
-    Note that the "Comments", "History", "Configuration Item" and "Versions" tabs only appear after the information is registered, as they are related to the knowledge management process. All actions taken from creation to closure are recorded in the history, serving as Audit
+    Note that the "Comments", "History", "Configuration Item" and "Versions" tabs only appear after the information is registered, as they are related to the knowledge management process. All actions taken from creation to closure are recorded in the history, serving as Audit.
   
 
 ### Registration Data
