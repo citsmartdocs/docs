@@ -21,7 +21,7 @@ Procedimiento
     !!! Abstract "NOTA"
         
         Es posible registrar nuevas categorías y orígenes que mejor se adecuan a la ocurrencia,
-        al hacer clic en el icono “+” y completar los campos necesarios. Todas las acciones tomadas desde la creación hasta el cierre se registran en el historial, sirviendo como Auditoría
+        al hacer clic en el icono “+” y completar los campos necesarios. Todas las acciones tomadas desde la creación hasta el cierre se registran en el historial, sirviendo como Auditoría.
 
 5.  Hacer clic en "Guardar".
 
