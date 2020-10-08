@@ -3,7 +3,7 @@ Description: Operational limits of the CITSmart platform.
 
 # Operational Limits
 
-Currently, CITSmart operates properly within the following usage limits, considering the recommended hardware configurations described in the document [System Requirements](https://docs.run2biz.com/en-us/4biz-helium/get-started/installation-and-upgrade/system-requirements.html#aplicacao-e-banco-de-dados-no-mesmo-servidor).
+Currently, CITSmart operates properly within the following usage limits, considering the recommended hardware configurations described in the document [System Requirements](https://docs.citsmart.com/en-us/citsmart-platform-9/get-started/installation-and-upgrade/system-requirements.html).
 
 ## Recommendations and limits for installation on premises:
 
