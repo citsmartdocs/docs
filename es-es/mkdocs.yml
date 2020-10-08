@@ -110,6 +110,7 @@ nav:
         - citsmart-platform-9/get-started/about-citsmart/release-policy.md
     - Arquitectura:
       - citsmart-platform-9/get-started/architecture/architecture.md
+      - citsmart-platform-9/get-started/architecture/operational-limits.md
     - Instalación y atualización:
       - citsmart-platform-9/get-started/installation-and-upgrade/overview.md
       - citsmart-platform-9/get-started/installation-and-upgrade/system-requirements.md
