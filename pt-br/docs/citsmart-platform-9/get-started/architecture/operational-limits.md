@@ -33,7 +33,7 @@ Atualmente o CITSmart opera adequadamente dentro dos seguintes limites de uso, c
 
     Recomendamos a instalação ou ampliação de ambiente clusterizado caso a sua operação ultrapasse os limites indicados acima.
 
-!!! warning "WARNING"
+!!! warning "ATENÇÃO"
 
     Importante observar que estes limites não são acumulativos. Ultrapassar qualquer um deles poderá causar degradação ou uma experiência inadequada do produto.  
     Qualquer dúvida favor consultar o suporte técnico.
