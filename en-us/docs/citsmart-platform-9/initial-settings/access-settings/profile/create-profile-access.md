@@ -1,36 +1,31 @@
 title: Create profile access
 Description: Defines which rights and permissions the user have in the system.
-# Create profile access
 
-The profile access defines which rights and permissions the user have in the
-system.
+# Access Profile
 
-After authenticate the user, the process definition of certain access determines
-what he/she can do in the system.
+The access profile organizes user's rights and permissions in the system, particularly the authorization to search for records or to record and delete information.
 
-This feature provides a variety of actions, such as including, changing, and
-deleting a profile access.
+After authenticating the user, the access definition process consults the permissions and rights related to the user's access profile. Thus, it defines what can or cannot be done in the system.
 
-Procedure
--------------
+It is possible to perform different actions, such as adding, changing and deleting an access profile.
 
-1.  Access the Profile Access functionality through the main menu Access and
-    Permission \> Access Profile;
+## Procedure
 
-2.  Enter the name of the profile you want to search, in the search tab;
+1. Access the functionality through navigation in the Navigation Menu> Access and Permission> Access Profile;
 
-3.  Click and select the action fields (Search, Save and Delete) of each
-    functionality. When determine the type of access profile,
-    selecting/deselecting a checkbox, all checkboxes subordinate to this in the
-    structure are also selected/deselected in cascade;
+2. Insert the name of the new profile or search for an existing one, in the search tab;
 
-4.  Configure the System Access actions (define whether the profile will have
-    access to the system from the portal), Access by situation of the Work Order
-    (select the WO status that the profile will have access to) and Access by
-    invoice status (select the invoice status that the profile will have access
-    to);
+3. To include the permission in the user profile, select the available action fields (Search, Save and Delete) for each feature presented. Note that permissions can be associated with more specific levels of some functionality. To do this, click on the + sign to access more specific items;
 
-5.  Click on "Save".
+!!! info "Important"
+    
+    When selecting a field of action at a higher level, all subordinates to it in the structure will be equally marked or deselected.
+
+4\. Also, indicate whether the user profile will allow access to the system, through login and password;
+
+5\. If you use the functionalities of Work Order or Invoice, make the appointments to authorize access to the user profile to certain situations of Work Order or Invoice;
+
+6\. Click on "Save".
 
 
 <!-- !!! tip "About"
