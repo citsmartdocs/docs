@@ -1,124 +1,175 @@
 title: Capturing a ticket
 Description: Capturing the ticket means take responsibility to solve, in a satisfactory way, the ticket.
-# Capturing a ticket
 
-Capturing the ticket means taking responsibility for attending it or contributing to its solution.
+# Capturing an Incident or Service Request
+
+Capturing a Ticket inside the Incident/Request Management means taking responsibility for attending it or contributing to its solution.
 
 ## Before getting started
 
-- [X] To capture a ticket, it's necessary to have at least one opened.
-- [X] It's necessary to have permission to view, capture, and perform possible actions within the ticket.
+- [X] It is a prerequisite to have at least one ticket available and opened in order to capture it inside the Incident/Request Management.
+- [X] It's necessary to have the permissions to view, capture, and perform possible actions within the Incident or Request.
 
 ## Procedure
 
-1. To go to the Attendance Interface, access the menu Processes > Ticket Management > Ticket > Open
+1.	Access the menu Processes > Ticket Management > Ticket(Incident or Service Request) > Open;
 
-2. Find the ticket you want by clicking once to open the actions and selecting the "Open" button or double-clicking to open it directly.
+2.	Clicking once on the Incident or Request you want attend will open the actions and selecting the "Open" button will open it. Double-clicking will directly open it.
 
 
-### Capturing the ticket
+## Incident or Service Request Information
 
-To become responsible for the ticket, you can find in the menu bar the option "Capture ticket" (item 5) to become responsible for it, another way to be able to capture is by ticket options (item 13) - in the top bar.
+After the Incident or Request is opened, the system will retrieve the Incident or Service Request information.
 
-#### Toolbar Items
+### Fields 
+| Field| Description |
+|-|-|
+|Activity|The activity chosen by the requester;|
+|Contact's origin|Service Desk, Email, Facebook, Twitter among others|
+|Contract|Contracts linked to the portfolio;|
+|Description|Auxiliary text written by the end user;|
+|E-mail|Add an e-mail for the requester|
+|Impact|Impact of the activity;|
+|Portfolio|The portfolios chosen by the requester;|
+|Requester|Name of requester (can be searchable with %%)|
+|Requester history|Requester’s history with No. of calls, Calls resolved on time, Delayed calls, Calls still open, Calls running and delayed, and the Level of Satisfaction.|
+|Send email|Select which types of email the user will receive;|
+|Service|The service selected by the requester;|
+|Unit|Unit of the requester|
+|Urgency|Urgency of the activity|
 
-![CITSmart ticket menu bar][1]
+## Capturing the Incident or Service Request
 
-**1: Back** - get back to the desktop of Serivce Desk;
+To become responsible for the Incident or Request, click on the option “Assign Ticket” which you can find in the top menu bar.
 
-**2: Number** - ticket identifier;
+## Toolbar Items
 
-**3: Task** - requested;
+|Item|Description|
+|-|-|
+|Assignment|The person responsible for the Incident or Service Request|
+|Attachments|View the existing attachment(s) or attach new object|
+|Back|Back to the Service Desk list of Tickets|
+|Current group|The group responsible for the solution|
+|Knowledge|	Appears when there is knowledge linked to the current step of the flow|
+|Layout|	Enables page layout editing (30% - 70%, 50% - 50% and 100%)|
+|Limit time|	Date and time limit for attendance|
+|Number|Incident or Service Request identifier|
+|Scripts|	Show scripts to attend the service|
+|SLA|Total time for resolution|
+|Task|	Step of the service flow|
+|View flow|	Show the service flow|
 
-**4: Current group** – the responsible for the solution;
-
-**5: Assignment** – the person responsible for the ticket;
-
-**6: SLA** – total time for resolution;
-
-**7: Limit time** – presents the date and time limit for attendance;
-
-**8: Attachments** – view existing attachment or attach new file;
-
-**9: View flow**;
-
-**10: Scripts**;
-
-**11: Knowledge of task** – Appears when there is knowledge linked to the flow;
-
-**12: Layout** – enables page layout editing (30% - 70%, 50% - 50% and 100%);
-
-**13: Options**.
 
 ### Ticket options
 
-![tickets option ticket CITSmart][2]
-
 In the options, we have:
 
-**1: Assign ticket**;
+|Option| Description|
+|-|-|
+|Assign ticket	Use it to become responsible for the Incident or Service Request
+|Change SLA|Change the SLA assigned to the Incident or Service Request|
+|Create related ticket|Link a related Incident or Request for the attendance|
+|Create sub-ticket|Create a sub Incident or Request for the attendance
+|Delegate|Delegate the Incident or Service Request to another attendant
+|Print|Print the Incident or Request Information
+|Reclassify|Change the Portfolio/Service/Activity of the Incident or Request|
+|Schedule activity|Can schedule an Activity for the Incident or Request
+|Suspend|Suspend (pause) the time of attendance for the Incident or Service Request
 
-**2: Delegate**;
 
-**3: Suspend**;
+## Attending an Incident or Service Request
 
-**4: Change SLA**;
+The effective start of the attendance occurs when the right Team captures the Incident or Request or when the Service Desk team forwards it to the right area.
 
-**5: Reclassify**;
+Analysts are provided with several features to attend a ticket, such as: Adding comments, Reviewing the ticket’s History, Sending an email Notification to the requester and posting the time used to attend it.
 
-**6: Create sub-ticket**;
 
-**7: Create related ticket**;
+### Add Comments / See History
 
-**8: Schedule activity**;
+The user can write a comment and perform the following actions
 
-**9: Print**;
+|Option|Description|
+|-|-|
+|Add|Add the Comment to the Incident or Request|
+|Cancel|Cancel the Comment|
+|Comments|Area to make comments to people who access this ticket. Text in here can be formatted.|
+|History|See the Incident or Service Request history|
+|Post hours|Possibility to inform the hours spent on a task|
+|Public|By marking this the requester will be able to read the Comment. If this is left unmarked, the comment will only be visible by the team attending it|
+|Send email|Mark to send the Comment in an e-mail|
 
-### Attendance
+It is possible to view and interact with all comments made within the ticket (Edit - Delete - Reply the comment).
 
-The effective start of attendance occurs from the capture of ticket to finish or forward it to another area. Several features can be used by the analyst: Comments, History, Sending of email notification and Time posting.
 
-![Attendance ticket CITSmart][3]
+Another option for commenting and viewing comments is through the Quick Search on the Service Desk Interface. 
 
-**1: Comments** – area to make comments to people who access this ticket, having the option to be;
+1. To access this functionality go to the menu Processes > Ticket Management > Ticket;
 
-**Privacidade**:
+2. Click on "Search here" and enable the option **"Tickets with comment permission"**;
 
-•	**Private** – only the attendance team can view;
+3. The system will then turn the field "Number" as mandatory to perform the search, where you will enter the ticket number you wish to comment on. After entering the number, click on "Search";
 
-•	**Public** – the attendance team and final user can view;
+4. The system will return in the list the ticket you entered previously. Click once on it to present the options available for that ticket. One of the options presented for this ticket will be **"View and Comment"**;
 
-**Post hours**: possibility to inform the hours spent on a task;
+5. When clicking on "View and Comment", the system will open the ticket in preview mode. Without the possibility of viewing any attachments on the ticket, you can create and view only the comments on that ticket;
 
-**Send email**;
+6. After adding the comment, close the ticket preview page.
 
-**Cancel**;
+!!! note "NOTE"
 
-**Add**;
+    For this functionality to work, enable the following parameter and permission:
+    
+    - Enable the parameter: 298 - Display the occurrences of the Ticket (Values: "Y" or "N" Default: "N").
+    
+    - Enable Comment permission on the Group screen.
 
-![Attendance ticket CITSmart][4]
+### Assignment and Action
 
-**2: History** – where you can view and interact with all comments made within the ticket;
+You can
+Direct tickets to another group (identifying the group that will be directed within the flow) 
 
-#### Assignment and Statust
+**Or**
 
-![Assignment and Situation ticket CITSmart][5]
+Take actions (the actions are defined by the Service flow and will appear only if the flow step directs to it)
 
-**3: Direct to group** – group identifier that will be directed within the flow;
 
-**4: Status** – of ticket;
+### Defining Status (changed from Situation) of the Incident or Service Request
 
-- **Registered/In Progress** – the ticket isn't ready to be closed;
+Situation	The situation for the Incident or Request (Registered/In Progress, Solved or Canceled)
 
-- **Solved** – generate response solution to finish the ticket;
+Status – Status of Incident or Request:
 
-- **Canceled** – justify why the activity is being canceled;
+•	Registered/In Progress – The ticket isn't ready to be closed;
 
-**5: Back** – return to the desktop of Service Desk;
+•	Solved – Inform a solution to finish the ticket;
 
-**6: Save** - save and maintain the current status of flow;
+•	Canceled – Justify why the activity is being canceled;
 
-**7: Save and submit** - save and advance to the next status of the flow;
+
+### Linking additional items
+
+Access the small black Arrow button in the upper right side of the screen, below the menu bar, to perform the desired functions.
+
+|Function| Description|
+|-|-|
+|Create| related ticket	Link a related Incident or Request to the ticket|
+|Create sub-ticket|	View or Create a Sub Incident or Request for the ticket|
+|Email reading|Allows the attendant to search and read e-mails related to the ticket|
+|Knowledge|Allows the attendant to search and link Knowledges to the Incident or Service Request|
+|Project|Allows the attendant to search and link a Project to the Incident or Request|
+|Schedule|Allows the attendant to schedule an Activity for the Incident or Request|
+|Workarounds|View and maintain Workarounds related to this Incident or Request|
+
+
+### Saving 
+
+At the end of the page, you will find a floating button with the functions of:
+
+|Function| Description|
+|-|-|
+|Back|To get back to the Service Desk list of tickets|
+|Save|To save the Incident or Request and create the number for tracking and monitoring|
+|Save and Submit|To save the Incident or Request, create the number for tracking and monitoring and follow forward on the service flow|
 
 Related
 ------------
