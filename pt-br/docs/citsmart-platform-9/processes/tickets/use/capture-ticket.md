@@ -16,7 +16,7 @@ Capturar o incidente ou requisição de serviço significa assumir a responsabil
 
 2. Localize o ticket desejado, pressionando uma vez para abrir as ações e selecionando o botão “Abrir” ou com um clique duplo para abri-lo diretamente.
 
-## Incident or Service Request Information
+## Informações sobre o incidente ou a requisição de serviço
 
 Após a abertura da requisição de serviço ou incidente, o sistema recuperará as informações da requisição ou incidente
 
