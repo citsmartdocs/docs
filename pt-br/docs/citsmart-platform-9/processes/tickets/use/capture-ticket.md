@@ -96,6 +96,29 @@ O usuário pode escrever um comentário e executar as seguintes ações:
 
 Após adicionar o comentário, também é possível visualizar e interagir com todos os comentários feitos no ticket (Editar - Excluir - Responder o comentário).
 
+
+Outra opção para comentar e visualizar os comentários é através da Pesquisa Rápida na própria Interface de Atendimento. 
+
+1. Para acessar essa funcionalidade vá até o menu Processos > Gerência de ticket > Ticket;
+
+2. Clique em "Pesquise aqui" e habilite a funcionalidade **"Tickets com permissão de comentário"**;
+
+3. O sistema então habilitará como obrigatório para realizar a pesquisa o campo "Número", onde você informará o número do ticket que deseja comentar. Após informar o número, clique em "Pesquisar";
+
+4. O sistema retornará na lista o ticket que você informou anteriormente. Clique uma vez sobre ele para mostrar as opções disponíveis para esse ticket. Uma das opções apresentadas para esse ticket será de **"Visualizar e Comentar"**;
+
+5. Ao clicar em "Visualizar e Comentar", o sistema irá abrir o ticket em modo de visualização. Sem a possibilidade de visualização de eventuais anexos do ticket, você poderá inserir e visualizar apenas os comentários desse ticket;
+
+6. Após adicionar o comentário, feche a página de visualização do ticket.
+
+!!! note "NOTA"
+
+    Para que essa funcionalidade funcione, habilite o seguinte parâmetro e permissão:
+    
+    - Habilitar o parâmetro: 298 - Exibir as ocorrências da Ticket (Valores: "S" ou "N" Default: "N").
+    
+    - Habilitar a permissão de Comentar na tela de Grupo.
+
 ### Atribuição e Ação
 
 Você pode **Direcionar para o grupo** (identificando o grupo que será direcionado dentro do fluxo) ou  
