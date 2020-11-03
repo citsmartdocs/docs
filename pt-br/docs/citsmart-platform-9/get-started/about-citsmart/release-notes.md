@@ -3,7 +3,7 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 
 # Notas de Release
 
-## Versão 9.1.2.13 (2020/11/09)
+## Versão 9.1.2.13 (2020/11/03)
 
 !!! warning "ATENÇÃO"
 
