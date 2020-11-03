@@ -3,6 +3,70 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 
 # Notas de Release
 
+## Versão 9.1.2.13 (2020/11/09)
+
+!!! warning "ATENÇÃO"
+
+    Antes de baixar esta versão, verifique as orientações presentes no documento [Guia de orientações CITSmart V9 versão 9.1.2.13][2]
+
+
+Bem-vindos ao CITSmart Versão 9.1.2.13 Esta versão apresenta os seguintes itens:
+
+|Número|Tipo|Funcionalidade|Descrição|
+|--------|---------|---------|---------|
+|10005|Corretiva|Sistema|Correções na Auditoria|
+|10008|Corretiva|G. Ticket|Correção na visualização do SLA a Combinar|
+|10011|Corretiva|Webservice|Melhoria no webservice de telefonia quanto à sessão de usuário|
+|10012|Corretiva|G. Ticket|Correção na renderização de formulários Builder/Neuro|
+|10013|Corretiva|G. Ticket|Correção na visualização de um ticket|
+|10019|Corretiva|G. Ticket|Correção ao atualizar lista Sem Responsável|
+|10022|Corretiva|G. Ticket|Correção na recuperação de tickets para comentários|
+|10023|Corretiva|Webservice|Correção do mecanismo para websocket telefonia com Builder|
+|10031|Corretiva|G. Ticket||Correção nos registros de comentários Reclassificados
+|10034|Corretiva|G. Ticket|Correção na visualização de informações do solicitante do ticket|
+|10035|Corretiva|Webservice|Incluir informações sobre o ticket criado na nova modal de telefonia|
+|10044|Corretiva|Chat|Correção para avançar fluxo de chatcall de ticket cancelado/fechado|
+|10047|Corretiva|G. Ticket|[My 5540] – Correção no envio de e-mail na finalização do atendimento|
+|10051|Corretiva|G. Ticket|[My 5317] - Problema com a consulta que não está sendo filtrada de acordo com o grupo|
+|10052|Corretiva|G. Ticket|Não está listando os ticktes para usuário que tem apenas permissão 'Posso comentar'|
+|10056|Corretiva|G. Ticket|[My 5405] - Erro intermitente ao tentar realizar uma aprovação via token|
+|10057|Corretiva|G. Portfólio|[My 5351] - Problema no botão gravar ao editar um Portfólio|
+|10058|Corretiva|G. Ticket|[My 5339] - Erro ao criar ticket via leitura de e-mail|
+|10061|Corretiva|Chat|[My 5450] - Erro ao iniciar uma conversa via chat|
+|10065|Corretiva|G. Ticket|Verificar erro ao realizar busca pela pesquisa avançada|
+|10083|Corretiva|G. Ticket|Corrigindo chave internacionalizada de tipoSLA na ocorrência solicitação|
+|10093|Corretiva|G. Ticket|Tratar fechamento de transações no transacitionControlerIMPL|
+|10097|Corretiva|G. Ticket|Correção de mensagem "Aguarde, carregando..." na auditoria|
+|10098|Corretiva|G. Ticket|Tratar null pointer na classe OcorrenciaSolicitacaoBuilder|
+|10178|Corretiva|Fluxo|Criação de campo para agendamento de execuções de Script Rhino|
+|10204|Corretiva|G. Portfólio|Correção na exclusão de Causa Incidente no Portfólio|
+|10211|Corretiva|Sistema|Correção ao incluir uma imagem na galeria de imagem|
+|10216|Corretiva|G. Portfólio|Correção na obrigatoriedade de campo no Portfólio|
+|8542|Corretiva|G. Ticket|Exibição das respostas de comentários na exportação CSV|
+|8589|Corretiva|G. Ticket|Exibir os nomes dos anexos no histórico de criação do ticket|
+|9320|Corretiva|G. Ticket|Incluir nas ocorrências informações de Inclusão e Exclusão dos processos de negócio|
+|9826|Corretiva|Sistema|Remoção do SequenceBlock|
+|9839|Corretiva|G. Problema|[My 5160] - Erro ao incluir Portfólio de Problema|
+|9890|Corretiva|G. Ticket|[My 5408] - Corrigindo erro ao exibir nome do contrato ao visualizar o ticket|
+|9915|Corretiva|G. Problema|Erro ao desvincular contrato de Portfólio de Problema|
+|9955|Corretiva|G. Ticket|[My 5403] -Verificar falha na auditoria ao reportar Reclassificação de ticket|
+|9949|Corretiva|G. Ticket|[MY 5352] - Verificar histórico de delegação que não apresenta na aba histórico de ticket|
+|9965|Corretiva|G. Ticket|Verificar que não está exibindo a justificativa da reclassificação no histórico|
+|9968|Corretiva|Sistema|[My 5338] - Lentidão ambiente VNS ao listar fila de ticket|
+|9957|Corretiva|G. Ticket|[My 5121- 5180 - 5163] Erro ao inserir anexo em subticket criado por cópia|
+|9959|Corretiva|G. Ticket|[My 5172]- Paginação da tela de ticket ficando em zero|   
+
+Bem-vindos ao Neuro 1.3.5.1
+
+A versão apresentada possui a(s) seguinte(s) correção(ões):
+
+|Número|Tipo|Descrição|
+|--------|---------|---------|
+|100175|Corretiva|Correção na internacionalização em ambiente clusterizado|
+|10049|Corretiva|[My 5357]- Falha ao validar permissões de botões, mesmo com usuário com permissão|
+|9751|Corretiva|[My 5153] - Verificar que arquivos que possuem nomes com caracteres especiais não são feitos uploads|
+
+
 ## Versão 9.1 (2020/09/14)
 
 !!! warning "ATENÇÃO"
@@ -92,4 +156,4 @@ Bem-vindos ao Citsmart Versão 9.0. Esta versão apresenta os seguintes itens:
 
 
 [1]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Guidance-CITSmart-V9-111.zip
-
+[2]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Guidance-CITSmart-V9-91213.zip
