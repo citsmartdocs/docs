@@ -713,7 +713,7 @@ nav:
   - Neuro FAQ:
     - neuro/neuro-faq.md
 - Anuva:
-  - anuva/what_is_anuva.md
+  - anuva/overview.md
   - anuva/dialogues.md
   - anuva/create_edit_intent.md
   - anuva/skills.md
