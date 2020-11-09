@@ -3,6 +3,68 @@ Description: Release notes, bug fixes and improvements in the CITSmart.
 
 # Release Notes
 
+## Version 9.1.2.13 (2020/11/03)
+
+!!! warning "ATTENTION"
+
+    Before downloading this version, check the guidelines in the document [CITSmart 9 Guide version 1.2.13][2]
+
+Welcome to CITSmart 9 Version 1.2.13. This version features the following items:
+
+|Number|Type|Functionality|Description|
+|--------|---------|---------|---------|
+|10005|Corrective|System|Corrections in the Audit|
+|10008|Corrective|Ticket Mgmt.|Correction in the visualization of the SLA to be Combined|
+|10011|Corrective|Webservice|Improvement in telephony webservice regarding user session|
+|10012|Corrective|Ticket Mgmt.|Correction in the rendering of Neuro forms|
+|10013|Corrective|Ticket Mgmt.|Correction in viewing a ticket|
+|10019|Corrective|Ticket Mgmt.|Correction when updating the list Without Responsible|
+|10022|Corrective|Ticket Mgmt.|Correction in the recovery of tickets for comments|
+|10023|Corrective|Webservice|Correction of the mechanism for websocket telephony with Neuro|
+|10031|Corrective|Ticket Mgmt.|Correction in Reclassified comment records|
+|10034|Corrective|Ticket Mgmt.|Correction in viewing the ticket requester's information|
+|10035|Corrective|Webservice|Include information about the ticket created in the new telephony modal|
+|10044|Corrective|Chat|Correction to advance canceled/closed ticket chatcall flow|
+|10047|Corrective|Ticket Mgmt.|[My 5540] – Correction in sending e-mail at the end of the service|
+|10051|Corrective|Ticket Mgmt.|[My 5317] - Problem with query that is not being filtered according to group|
+|10052|Corrective|Ticket Mgmt.|Not listing tickets for user who has only 'I can comment' permission|
+|10056|Corrective|Ticket Mgmt.|[My 5405] - Intermittent error while attempting token approval|
+|10057|Corrective|Portfolio Mgmt.|[My 5351] - Record button problem when editing a Portfolio|
+|10058|Corrective|Ticket Mgmt.|[My 5339] - Error creating ticket via email reading|
+|10061|Corrective|Chat|[My 5450] - Error starting a chat conversation|
+|10065|Corrective|Ticket Mgmt.|Check for error when searching through the advanced search|
+|10083|Corrective|Ticket Mgmt.|Correcting SLAtype internationalized key on request occurrence|
+|10093|Corrective|Ticket Mgmt.|Handle closing transactions in transacitionControlerIMPL|
+|10097|Corrective|Ticket Mgmt.|Correction of message "Please wait, loading ..." in the audit|
+|10098|Corrective|Ticket Mgmt.|Treat null pointer in the OcorrenciaSolicitacaoNeuro class|
+|10178|Corrective|Flow|Field creation for scheduling Rhino Script executions|
+|10204|Corrective|Portfolio Mgmt.|Correction in the exclusion of Incident Cause in the Portfolio|
+|10211|Corrective|System|Correction when adding an image to the image gallery|
+|10216|Corrective|Portfolio Mgmt.|Correction in the mandatory field in the Portfolio|
+|8542|Corrective|Ticket Mgmt.|Displaying comment responses in CSV export|
+|8589|Corrective|Ticket Mgmt.|Display the names of attachments in the ticket creation history|
+|9320|Corrective|Ticket Mgmt.|Include information on Inclusion and Exclusion from business processes|
+|9826|Corrective|System|Removal of the SequenceBlock|
+|9839|Corrective|Problem Mgmt.|[My 5160] - Error adding problem portfolio|
+|9890|Corrective|Ticket Mgmt.|[My 5408] - Correcting error when displaying contract name when viewing ticket|
+|9915|Corrective|Problem Mgmt.|Error when unlinking Problem Portfolio contract|
+|9955|Corrective|Ticket Mgmt.|[My 5403] -Check audit failure when reporting Ticket Reclassification|
+|9949|Corrective|Ticket Mgmt.|[MY 5352] - Check delegation history that is not shown in the ticket history tab|
+|9965|Corrective|Ticket Mgmt.|Check that is not showing the reason for the reclassification in history|
+|9968|Corrective|System|[My 5338] - Slowness in the VNS environment when listing ticket queue|
+|9957|Corrective|Ticket Mgmt.|[My 5121- 5180 - 5163] Error inserting attachment in subticket created by copy|
+|9959|Corrective|Ticket Mgmt.|[My 5172]- Ticket screen pagination going to zero|   
+
+Welcome to Neuro 1.3.5.1
+
+The version presented has the following correction(s):
+
+|Number|Type|Description|
+|--------|---------|---------|
+|100175|Corrective|Correction in internationalization in a clustered environment|
+|10049|Corrective|[My 5357]- Failed to validate button permissions, even with user with permission|
+|9751|Corrective|[My 5153] - Check that files that have names with special characters are not uploaded|
+
 ## Version 9.1 (2020/09/14)
 Welcome to CITSmart Version 9.1. This version presents the following items:
 
@@ -84,3 +146,4 @@ Welcome to Citsmart Version 9.0. This version presents the following items:
 |8968|Corrective|Experience Center|Correction in the return of the list of Portfolios when parameter 293 that filters the portfolio by access groups is enabled|
 |4818|Corrective|Time of Service|Correction in scheduling an activity to link to the registered SLA|
 
+[2]:/en-us/citsmart-platform-9/get-started/about-citsmart/Guidance-Citsmart-91213.zip
