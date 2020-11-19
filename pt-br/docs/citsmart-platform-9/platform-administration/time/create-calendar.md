@@ -18,7 +18,7 @@ Procedimento
 
 3.  Inicie a criação do calendário preenchendo os campos disponibilizados da melhor maneira;
 
-!!! nota "NOTE"
+!!! nota "NOTA"
 
     Ao indicar a opção *sim*, no campo Considera Feriados, isto significa que os feriados serão considerados como dia de folga no calendário. Portanto, se o time relacionado ao calendário trabalha durante feriados, escolha a opção *não*.
 
