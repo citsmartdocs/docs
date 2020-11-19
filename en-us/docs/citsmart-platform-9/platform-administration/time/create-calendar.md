@@ -18,6 +18,10 @@ Procedure
 
 3.  Start creating the calendar by completing the fields provided in the best way;
 
+!!! note "NOTE"
+
+    By indicating the option *yes*, in the field Consider Holidays, this means that the holidays will be considered as a day off in the calendar. Therefore, if the team related to the calendar works during holidays, choose the option *no*.
+
 4.  In the exceptions part, click on the icon “+”, a window will open where exceptions for days off or work can be entered;
 
 5. Click on save to create the calendar;
