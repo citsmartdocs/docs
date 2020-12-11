@@ -3,6 +3,27 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 
 # Notas de Release
 
+## Versão 9.1.2.22 (2020/12/03)
+
+!!! warning "ATENÇÃO"
+
+    Antes de baixar esta versão, verifique as orientações presentes no documento [Guia de orientações CITSmart V9 versão 1.2.22][3]
+
+Bem-vindos ao CITSmart V9 Versão 1.2.22. Esta versão apresenta os seguintes itens:
+
+|Número|Tipo|Descrição|
+|--------|---------|---------|
+|10176|Corretiva|Correção de componente lookup|
+|Incidente 5800|Corretiva|Correção de erro ao limitar um select com comando TOP|
+
+Bem-vindos ao Neuro 1.3.6.1
+
+A versão apresentada possui a(s) seguinte(s) correção(ões):
+
+|Número|Tipo|Descrição|
+|--------|---------|---------|
+|10476|Correção|[My 5802] - Menus laterais do Neuro sem funcionamento correto|
+
 ## Versão 9.1.2.13 (2020/11/03)
 
 !!! warning "ATENÇÃO"
@@ -157,4 +178,4 @@ Bem-vindos ao Citsmart Versão 9.0. Esta versão apresenta os seguintes itens:
 
 [1]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Guidance-CITSmart-V9-111.zip
 [2]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Orientações-sobre-a-versão-CITSmart-V9-1.2.13.zip
-
+[3]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Orientações-sobre-a-vserão-Citsmart-V9.1.2.22.zip
