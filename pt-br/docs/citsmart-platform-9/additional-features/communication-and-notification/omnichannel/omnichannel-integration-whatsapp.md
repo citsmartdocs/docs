@@ -1,7 +1,7 @@
-Title: Omnichannel – Integração WhatsApp (Twilio)  
+Title: Integração WhatsApp (Twilio)  
 Description: Nesse documento iremos abordar como é feita a integração do CITSmart com a rede social WhatsApp Messenger  
 
-# Omnichannel – Integração WhatsApp (Twilio)
+# Integração WhatsApp (Twilio)
 
 A estratégia Ominichannel diz respeito à capacidade de um produto de estar presente e utilizável para o cliente em qualquer lugar e através de diversas plataformas, aplicativos, redes sociais, entre outros.  
 O CITSmart disponibiliza então a integração da ferramenta através de diversos canais e redes sociais que iremos conhecer através desse e de outros documentos sobre o Omnichannel. Nesse iremos abordar como é feita a integração do CITSmart com a rede social WhatsApp Messenger.
