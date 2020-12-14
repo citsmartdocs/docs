@@ -603,6 +603,10 @@ nav:
     - Comunicação e notificação:
       - Chat:
         - citsmart-platform-9/additional-features/communication-and-notification/chat/chat.md
+      - Omnichannel:
+        - citsmart-platform-9/additional-features/communication-and-notification/omnichannel/omnichannel-integration-facebook.md
+        - citsmart-platform-9/additional-features/communication-and-notification/omnichannel/omnichannel-integration-twitter.md
+        - citsmart-platform-9/additional-features/communication-and-notification/omnichannel/omnichannel-integration-whatsapp.md
       - E-mail:
         - citsmart-platform-9/additional-features/communication-and-notification/email/register-email-notification.md
       - Notificação:
