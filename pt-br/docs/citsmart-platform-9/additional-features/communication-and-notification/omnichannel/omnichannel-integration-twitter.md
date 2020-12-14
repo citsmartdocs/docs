@@ -1,7 +1,7 @@
-Title: Omnichannel – Integração Twitter Direct Message  
+Title: Integração Twitter Direct Message  
 Description: Nesse documento iremos abordar como é feita a integração do CITSmart com a rede social Twitter.  
 
-# Omnichannel – Integração Twitter Direct Message
+# Integração Twitter Direct Message
 
 A estratégia Ominichannel diz respeito à capacidade de um produto de estar presente e utilizável para o cliente em qualquer lugar e através de diversas plataformas, aplicativos, redes sociais, entre outros.  
 A CITSmart disponibiliza então a integração da ferramenta através de diversos canais e redes sociais que iremos conhecer através desse e de outros documentos sobre o Omnichannel. Nesse iremos abordar como é feita a integração do CITSmart com a rede social Twitter.  
