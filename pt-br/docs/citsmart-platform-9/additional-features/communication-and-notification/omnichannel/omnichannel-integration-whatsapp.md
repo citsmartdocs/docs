@@ -41,18 +41,10 @@ O Twilio vai enviar um código de verificação para o celular cadastrado.
        - “AUTH TOKEN” - para visualizar as informações contidas no campo deverá clicar no “Show”
 
 6.	Clicar em “All products & Services” e fixar a opção “Programmable SMS”
-7.	 Clicar em Whatsapp para abrir um menu abaixo
-8.	Clicar no Menu o Whatsapp na opção “Learn”
-
-  !!! warning "ATENÇÃO"
-  
-    1º - Deverá enviar a seguinte mensagem via Whatsapp para o número de telefone do Twilio para iniciar uma conversa “join pattern-swept”.  
-    2º - O Twilio irá responder com a seguinte mensagem “Twilio Sandbox: ✅ You are all set! The sandbox can now send/receive messages from WhatsApp:+14155238886. Reply stop to leave the sandbox any time.” O número de telefone apresentado na mensagem é o número do Twilio o qual irá gerenciar a comunicação via Whatsapp dos números de telefones cadastrados para conversar como CITSmart.
-    
+7.	Clicar em Whatsapp para abrir um menu abaixo
+8.	Clicar no Menu o Whatsapp na opção “Learn”   
 9.	Na tela ao lado da opção “Learn” verificar se apresenta a seguinte mensagem “Message Received!” após realizar o passo da OBS. Se apresentar significa que está funcionando.
-10.	Clicar no Menu o Whatsapp na opção “Sandbox”;
-11.	No campo “WHEN A MESSAGE COMES IN” - colocar o “URL de retorno de chamada” que se encontra no CITSmart. 
-12.	Caso tenham outros números de telefones cadastrados para poder utilizar este mesmo canal serão apresentados em uma listagem “Sandbox Participants”.
+
     
 ### Configuração CITSmart
 
