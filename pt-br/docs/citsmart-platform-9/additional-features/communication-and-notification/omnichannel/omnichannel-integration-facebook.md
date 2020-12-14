@@ -1,7 +1,7 @@
-Title: Omnichannel – Integração Facebook Messenger  
+Title: Integração Facebook Messenger  
 Description: Nesse documento iremos abordar como é feita a integração do CITSmart com a rede social Facebook Messenger
 
-# Omnichannel – Integração Facebook Messenger
+# Integração Facebook Messenger
 
 A estratégia Ominichannel diz respeito à capacidade de um produto de estar presente e utilizável para o cliente em qualquer lugar e através de diversas plataformas, aplicativos, redes sociais, entre outros.  
 A CITSmart disponibiliza então a integração da ferramenta através de diversos canais e redes sociais que iremos conhecer através desse e de outros documentos sobre o Omnichannel. Nesse iremos abordar como é feita a integração do CITSmart com a rede social Facebook Messenger.
