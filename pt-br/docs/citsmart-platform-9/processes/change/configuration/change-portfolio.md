@@ -68,10 +68,10 @@ Esta funcionalidade tem por objetivo criar um portfólio de mudanças a fim de a
 !!! Abstract "NOTA"
 
         Atenção com os templates:
-        - Possuir um Template de mudança cadastrado informando se possui vínculo com um formulário Builder.
+        - Possuir um Template de mudança cadastrado informando se possui vínculo com um formulário Neuro.
         - O formulário de mudança precisa estar vinculado a um Template;
         - Após o cadastro é preciso informar se o template é aplicável a ticket, a mudança ou aos dois;
-        - O template de mudança só pode ser do tipo Builder;
+        - O template de mudança só pode ser do tipo Neuro;
         - Conhecimento Relacionado: Cadastrar um Template de Ticket/Mudança
 
 #### Contratos
