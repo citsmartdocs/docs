@@ -58,21 +58,23 @@ Esta funcionalidade tem por objetivo criar um portfólio de mudanças a fim de a
 |Avaliação da qualidade de mudança|Seleção da qualidade da mudança no portfólio de mudança|
 |Satus|Definir o status entre "Novo", "Ativo" e "Aposentado"|
 
- !!! Abstract "NOTA"
+!!! Abstract "NOTA"
     
         Atenção com os tipos:
-        - "Normal: é uma mudança que segue um fluxo normal de avaliação, aprovação e autorização"
-        - "Emergencial: é uma alteração em um serviço que pretende reparar de emergência um erro no serviço de TI"
-        - "Padrão: é uma alteração previamente aprovada pelo Gerenciamento de Mudanças e já possui procedimentos aceitos e estabelecidos" 
+        
+            - "Normal: é uma mudança que segue um fluxo normal de avaliação, aprovação e autorização"
+            - "Emergencial: é uma alteração em um serviço que pretende reparar de emergência um erro no serviço de TI"
+            - "Padrão: é uma alteração previamente aprovada pelo Gerenciamento de Mudanças e já possui procedimentos aceitos e estabelecidos" 
 
 !!! Abstract "NOTA"
 
         Atenção com os templates:
-        - Possuir um Template de mudança cadastrado informando se possui vínculo com um formulário Neuro.
-        - O formulário de mudança precisa estar vinculado a um Template;
-        - Após o cadastro é preciso informar se o template é aplicável a ticket, a mudança ou aos dois;
-        - O template de mudança só pode ser do tipo Neuro;
-        - Conhecimento Relacionado: Cadastrar um Template de Ticket/Mudança
+        
+            - Possuir um Template de mudança cadastrado informando se possui vínculo com um formulário Neuro.
+            - O formulário de mudança precisa estar vinculado a um Template;
+            - Após o cadastro é preciso informar se o template é aplicável a ticket, a mudança ou aos dois;
+            - O template de mudança só pode ser do tipo Neuro;
+            - Conhecimento Relacionado: Cadastrar um Template de Ticket/Mudança
 
 #### Contratos
 
