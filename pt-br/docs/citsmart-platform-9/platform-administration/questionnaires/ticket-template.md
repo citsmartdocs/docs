@@ -1,12 +1,12 @@
-title: Cadastrar template de ticket
+title: Cadastrar template de ticket/mudança
 Description: habilitar algumas funcionalidades na tela de solicitação de serviço (ticket).
-# Cadastrar template de ticket
+# Cadastrar template de ticket/mudança
 
 Esta funcionalidade tem o objetivo de habilitar algumas funcionalidades na tela
 de solicitação de serviço (ticket).
 
 Esta funcionalidade disponibiliza ações diversas, tais como, incluir, alterar e
-excluir template de ticket.
+excluir template de ticket/mudança.
 
 Antes de começar
 --------------------
@@ -21,7 +21,7 @@ Procedimento
 ----------------
 
 1.  Acessar a funcionalidade de Template de Solicitação de Serviço através da
-    navegação no menu principal Sistema \> Template de Ticket;
+    navegação no menu principal Sistema \> Template de Ticket/Mudança;
 
 2.  Clicar no botão " Novo";
 
@@ -66,8 +66,34 @@ Procedimento
     a versão do formulário ao clicar no botão "Versão específica do
     formulário". As regras do template do tipo *Questionário* são válidas para o
     template do tipo Neuro.
+    
+4. Identifique o template através do campo "Identificação do template";
 
+5. Dê um nome para o template através do campo "Nome do template";
 
+6. Selecione as checkbox disponíveis para os templates:
+
+    - Aplicável a Ticket;
+    - Habilita direcionamento;
+    - Habilita situação;
+    - Habilita item de configuração;
+    - Habilita mudança;
+    - Habilita problema;    
+    - Habilita solução;    
+    - Habilita solicitação relacionada;
+    - Habilita botão gravar e continuar.
+
+!!! abstract "NOTA"
+
+    Ao selecionar o checkbox "Aplicável a Ticket", esse campo o usuário entende que o seu tipo de template é aplicável apenas à ticket.
+    
+!!! abstract "NOTA"
+ 
+    Ao selecionar o Tipo de Template "Neuro", será apresentado o novo campo do tipo checkbox com o texto: "Aplicável a Mudança". Ao selecionar esse campo o usuário entende que o seu tipo de template é aplicável apenas à Mudança.
+    
+!!! warning "ATENÇÃO"    
+
+    No caso de templates do Tipo "Neuro", o usuário poderá informar que o template será utilizado tanto para ticket quanto para mudança.
 Relacionado
 -----------
 
