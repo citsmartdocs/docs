@@ -53,6 +53,8 @@ Esta funcionalidade tem por objetivo criar um portfólio de mudanças a fim de a
 |Tipo (\*)|Selecionar o tipo de mudança entre "Normal", "Emergencial" e "Padrão"|
 |Categoria|Selecione a categoria do portfólio de mudança|
 |Análise ágil de risco|A análise de risco é usada no processo de disponibilidade para identificar riscos e disponibilidade|
+|Template de criação|Nesse campo serão apresentados os templates vinculados a mudança e que são aplicáveis ao momento da criação da mudança|
+|Template de acompanhamento|Nesse campo serão apresentados os templates vinculados a mudança e que  sãoaplicáveis ao momento da execução da mudança|
 |Avaliação da qualidade de mudança|Seleção da qualidade da mudança no portfólio de mudança|
 |Satus|Definir o status entre "Novo", "Ativo" e "Aposentado"|
 
@@ -62,7 +64,15 @@ Esta funcionalidade tem por objetivo criar um portfólio de mudanças a fim de a
         - "Normal: é uma mudança que segue um fluxo normal de avaliação, aprovação e autorização"
         - "Emergencial: é uma alteração em um serviço que pretende reparar de emergência um erro no serviço de TI"
         - "Padrão: é uma alteração previamente aprovada pelo Gerenciamento de Mudanças e já possui procedimentos aceitos e estabelecidos" 
-      
+
+!!! Abstract "NOTA"
+
+        Atenção com os templates:
+        - Possuir um Template de mudança cadastrado informando se possui vínculo com um formulário Builder.
+        - O formulário de mudança precisa estar vinculado a um Template;
+        - Após o cadastro é preciso informar se o template é aplicável a ticket, a mudança ou aos dois;
+        - O template de mudança só pode ser do tipo Builder;
+        - Conhecimento Relacionado: Cadastrar um Template de Ticket/Mudança
 
 #### Contratos
 
