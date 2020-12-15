@@ -59,21 +59,23 @@ This functionality is intended to create a portfolio of changes in order to spee
 |Assessment of the quality of the change|Select of the quality of the change to portfolio change|
 |Satus|Set the statur between "New","Active" and "Retired"|
 
- !!! Abstract "NOTE"
+!!! Abstract "NOTE"
     
         Attention with type between:
-        - "Normal: it's a change that follows a normal flow of evaluation, approval and authorization;;
-        - "Emergency: it's a change in a service that pretends to emergency repair an error in the IT service."
-        - "Standart: it's a change that is previously pre-approved by the Change Management and already has accepted and established procedures;" 
+        
+            - "Normal: it's a change that follows a normal flow of evaluation, approval and authorization;;
+            - "Emergency: it's a change in a service that pretends to emergency repair an error in the IT service."
+            - "Standart: it's a change that is previously pre-approved by the Change Management and already has accepted and established procedures;" 
 
 !!! Abstract "NOTE"
 
         Attention with the templates:
-        - It 's necessary to have a registered Change Template informing if it's linked to a Neuro form.
-        - The change form must be linked to a Template;
-        - After registering, it's necessary to inform if the template is applicable to the ticket, the change or both;
-        - The change template can only be of the Neuro type;
-        - Related Knowledge: Register a Ticket / Change Template
+        
+            - It 's necessary to have a registered Change Template informing if it's linked to a Neuro form.
+            - The change form must be linked to a Template;
+            - After registering, it's necessary to inform if the template is applicable to the ticket, the change or both;
+            - The change template can only be of the Neuro type;
+            - Related Knowledge: Register a Ticket / Change Template
 
 
 #### Contract
