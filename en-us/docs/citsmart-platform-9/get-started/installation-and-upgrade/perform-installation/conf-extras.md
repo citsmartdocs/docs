@@ -6,7 +6,7 @@ From version 9.1.2.19 onwards, the CITSMART.CFG file is now called “applicatio
 
 1. The update of the table will only occur when the parameter LOAD_FACTSERVICEREQUESTRULES of APPLICATION.INI has the value TRUE. In the absence of this configuration in the file, the system assumes the value FALSE for the parameter. That is, the default is NOT to update the table;  
 2. If there is a schedule related to a ticket escalation rule and the parameter LOAD_FACTSERVICEREQUESTRULES has the value FALSE, the system issues the alert in the LOG: The system cannot start processing escalation rules because the LOAD_FACTSERVICEREQUESTRULES property (configuration file) is equal to FALSE;  
-3. NEW PARAMETERS FOR APPLICATION.INI: To activate updateParameters, option to synchronize parameter values in memory, in a clustered environment; we must add the following configuration in the application.ini file: UPDATEPARAMETERS_PORT = <port number to be used> example: UPDATEPARAMETERS_PORT = 2002;
+3. NEW PARAMETERS FOR APPLICATION.INI: To activate updateParameters, option to synchronize parameter values in memory, in a clustered environment; we must add the following configuration in the application.ini file: UPDATEPARAMETERS_PORT = <port number to be used> example: UPDATEPARAMETERS_PORT = 2002.
 
 
 Create a file called application.ini in /opt/wildfly/standalone/configuration/ with the information bellow:
