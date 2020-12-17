@@ -2,7 +2,14 @@ Title: CITSmart extra settings
 
 # CITSmart extra settings
 
-Create a file called citsmart.cfg in /opt/wildfly/standalone/configuration/ with the information bellow:
+From version 9.1.2.19 onwards, the CITSMART.CFG file is now called “application.ini” and must follow the guidelines below:  
+
+1. The update of the table will only occur when the parameter LOAD_FACTSERVICEREQUESTRULES of APPLICATION.INI has the value TRUE. In the absence of this configuration in the file, the system assumes the value FALSE for the parameter. That is, the default is NOT to update the table;  
+2. If there is a schedule related to a ticket escalation rule and the parameter LOAD_FACTSERVICEREQUESTRULES has the value FALSE, the system issues the alert in the LOG: The system cannot start processing escalation rules because the LOAD_FACTSERVICEREQUESTRULES property (configuration file) is equal to FALSE;  
+3. NEW PARAMETERS FOR APPLICATION.INI: To activate updateParameters, option to synchronize parameter values in memory, in a clustered environment; we must add the following configuration in the application.ini file: UPDATEPARAMETERS_PORT = <port number to be used> example: UPDATEPARAMETERS_PORT = 2002;
+
+
+Create a file called application.ini in /opt/wildfly/standalone/configuration/ with the information bellow:
 
 ``` shell
 START_MONITORA_INCIDENTES=FALSE
@@ -20,12 +27,12 @@ INICIAR_PROCESSAMENTOS_BATCH=TRUE
 Give permission for the wildfly user to this file:
 
 ``` shell
-[root@server /tmp]# chown wildfly.wildfly /opt/wildfly/standalone/configuration/citsmart.cfg
+[root@server /tmp]# chown wildfly.wildfly /opt/wildfly/standalone/configuration/application.ini
 ```
 
 !!! note
 
-	In the citsmart.cfg file, the default value is TRUE (even if not set), that is, if this 
+	In the application.ini file, the default value is TRUE (even if not set), that is, if this 
 	option doesn't exist in the file, the system will use the TRUE value for this property. 
 	Defined as TRUE, it enables the Thread that updates the service request fact table at the 
 	system initialization. Defined as FALSE, the update will occur only after adding or changing 
