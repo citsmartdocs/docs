@@ -3,6 +3,27 @@ Description: Release notes, bug fixes and improvements in the CITSmart.
 
 # Release Notes
 
+## Version 9.1.2.22 (2020/12/03)
+
+!!! warning "ATTENTION"
+
+    Before downloading this version, check the guidelines in the document [CITSmart guide version 9.1.2.22][3]
+
+Welcome to CITSmart Version 9.1.2.22. This version presents the following items:
+
+|Number|Type|Description|
+|--------|---------|---------|
+|10176|Correction|Lookup component correction|
+|Incident 5800|Correction|Error correction when limiting a select with TOP command|
+
+Welcome to Neuro 1.3.6.1
+
+The version presented has the following correction(s):
+
+|Number|Type|Description|
+|--------|---------|---------|
+|10476|Correction|[My 5802] - Neuro side menus not working properly|
+
 ## Version 9.1.2.13 (2020/11/03)
 
 !!! warning "ATTENTION"
@@ -147,3 +168,4 @@ Welcome to Citsmart Version 9.0. This version presents the following items:
 |4818|Corrective|Time of Service|Correction in scheduling an activity to link to the registered SLA|
 
 [2]:/en-us/citsmart-platform-9/get-started/about-citsmart/Guidance-Citsmart-91213.zip
+[3]:/en-us/citsmart-platform-9/get-started/about-citsmart/Guidance-about-version-CITSmart-9.1.2.22.zip
