@@ -122,7 +122,7 @@ the clause below:
  [root@server /tmp]# systemctl status wildfly
  ```
  
- ## Configuring Firebase
+## Configuring Firebase
 
 1. The following file has the function of allowing the application to communicate with the application with messaging via Push whenever a new ticket is created, suspended, reactivated, reclassified and closed;  
 
