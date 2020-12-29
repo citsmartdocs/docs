@@ -121,6 +121,14 @@ the clause below:
  ``` shell
  [root@server /tmp]# systemctl status wildfly
  ```
+ 
+ ## Configuring Firebase
+
+1. The following file has the function of allowing the application to communicate with the application with messaging via Push whenever a new ticket is created, suspended, reactivated, reclassified and closed;  
+
+2. For that, it must be placed in one of the Citsmart repository folders;  
+
+3. After uploading the package, save the path to use it as instructed in: Configuring the application server.
 
 ## Next step
 
