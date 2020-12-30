@@ -60,6 +60,9 @@ Procedure
 
 3.  Click on "Save".
 
+!!! warning "ATTENTION"
+
+    The ticket approval system via email accepts a maximum deadline of ** 35791 in the time parameters, if the user exceeds this limit, the configuration is automatically set in 2 hours, or 120 minutes.**
 
 
 Related
