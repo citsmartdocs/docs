@@ -330,6 +330,7 @@ nav:
         - citsmart-platform-9/processes/tickets/configuration/create-ticket-receiving-email.md
       - Approval Ticket:
         - citsmart-platform-9/processes/tickets/use/approve-a-ticket.md
+        - citsmart-platform-9/processes/tickets/configuration/approve-request-via-email.md
       - Attending Ticket:
         - Capture Ticket:
           - citsmart-platform-9/processes/tickets/use/capture-ticket.md
@@ -368,7 +369,6 @@ nav:
       - Configuration:
         - citsmart-platform-9/processes/tickets/configuration/access-ticket-management.md
         - citsmart-platform-9/processes/tickets/use/register-ticket-source.md
-        - citsmart-platform-9/processes/tickets/configuration/approve-request-via-email.md
         - citsmart-platform-9/processes/tickets/configuration/create-template-of-ticket.md
         - citsmart-platform-9/processes/tickets/configuration/notification-delegated-email-ticket.md
         - citsmart-platform-9/processes/tickets/configuration/relate-group-to-contract.md
