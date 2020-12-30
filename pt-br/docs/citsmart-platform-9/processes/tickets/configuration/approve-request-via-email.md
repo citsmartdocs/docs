@@ -64,8 +64,11 @@ Procedimento
     -   MM (50) - Tempo de expiração do token em Minutos : esse campo pode ser
         alterado pelo usuário;
 
-1.  Clicar em "Gravar".
+3.  Clicar em "Gravar".
 
+!!! warning "ATENÇÃO"
+
+    O sistema de aprovação de ticket via e-mail aceita um prazo máximo de **35791 nos parâmetros de tempo, caso o usuário ultrapasse esse limite, a configuração é setada automaticamente em 2horas, ou 120 minutos.**
 
 Relacionado
 -------
