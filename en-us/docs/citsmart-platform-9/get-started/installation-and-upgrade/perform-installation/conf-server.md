@@ -130,6 +130,30 @@ the clause below:
 
 3. After uploading the package, save the path to use it as instructed in: Configuring the application server.
 
+## Configuring Message
+
+1. The configurations of the application server can be done in two ways: via jboss-cli or by editing the xml file. There is no technical difference in any of the options, and the choice is up to each administrator.
+
+2. Connect to jboss-cli (assuming the server is running) by executing the following command:
+
+	1. Where in the standalone file in <jms-queue> include a new line:
+
+	``` xml
+	<jms-queue name="advancedSearch" entries="queue/advancedSearch 	    java:jboss/exported/jms/queue/queue/advancedSearch"/>
+      Complete as in the example:
+      <!-- rest of code omitted -->
+      <subsystem xmlns="urn:jboss:domain:messaging-activemq:3.0">
+            <server name="default">
+                  <!-- rest of code omitted -->
+    <jms-queue name="advancedSearch"   
+         entries="queue/advancedSearch   
+         java:jboss/exported/jms/queue/queue/advancedSearch" />
+                                               <!-- rest of code omitted -->
+            </server>
+      </subsystem>
+      <!-- rest of code omitted -->
+      ```
+
 ## Next step
 
 [Configuring the Datasource and Drives of base][1]
