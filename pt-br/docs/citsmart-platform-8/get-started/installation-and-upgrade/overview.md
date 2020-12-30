@@ -1,6 +1,11 @@
 Title: Visão geral da instalação
 
 # Visão geral da instalação
+
+!!! warning "ATENÇÃO"
+
+    Após a instalação de todos os componentes do software altere todas as senhas padrões da instalação. Não mantenha em hipótese alguma qualquer senha padrão. Mantenha a rotina de troca periódica de senha dos usuários administradores e demais usuários.
+
 Antes de iniciar a instalação é necessário compreender todos os softwares necessários para funcionamento dos 13 processos certificados da plataforma. Cada software desempenha um papel dentro da solução, por isso é importante entender o papel de cada um deles, a ordem de instalação e o próprio contexto de instalação em si. Dependendo do tipo de instalação (sobretudo de quais processos serão implantados) não é necessário instalar todos eles. Abaixo os softwares que compõem a plataforma do CITSmart Workflow:
 
 - **CITSmart Workflow**: pacote do software no formato java WAR (Web Application ARchive) para ser instalado no Wildfly. Obrigatório em todos os cenários.
