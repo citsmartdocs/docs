@@ -15,7 +15,7 @@ registering the template with the "Waiting Approval" template attached, and
 the e-mail server must be configured with all the parameters for email
 parameterization rules.
 
-!!! Abstract "ATTENTION"
+!!! Warning "ATTENTION"
 
     Ticket approval via email is only possible with the following browsers configured as default: Mozilla Firefox, Google Chrome, and Microsoft Edge from version 42.17134.1.0.
 
@@ -58,7 +58,9 @@ Procedure
 
     - MM (50) - Token expiration time in Minutes: this field can be changed by the user;
 
-1.  Click on "Save".
+3.  Click on "Save".
+
+
 
 Related
 -------
