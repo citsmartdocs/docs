@@ -124,6 +124,30 @@ systemctl restart wildfly
 
 3. Após subir o pacote salve o caminho para utilizá-lo conforme orientado em: Configurando o servidor de aplicação
 
+## Configuração de Mensagem
+
+1. As configurações do servidor de aplicação podem ser feitas de duas formas: via jboss-cli ou editando o arquivo xml. Não existe diferença técnica em nenhuma das opções, e a escolha vai de cada administrador.
+
+2. Conecte-se ao jboss-cli (considerando-se que o servidor esteja rodando) executando o comando a seguir:
+
+	1. Onde no arquivo standalone em <jms-queue> incluir uma nova linha:
+
+	``` xml
+	<jms-queue name="advancedSearch" entries="queue/advancedSearch 	    java:jboss/exported/jms/queue/queue/advancedSearch"/>
+      Preencher conforme o exemplo:
+      <!-- restante do código omitido -->
+      <subsystem xmlns="urn:jboss:domain:messaging-activemq:3.0">
+            <server name="default">
+                  <!-- restante do código omitido -->
+    <jms-queue name="advancedSearch"   
+         entries="queue/advancedSearch   
+         java:jboss/exported/jms/queue/queue/advancedSearch" />
+                                               <!-- restante do código omitido -->
+            </server>
+      </subsystem>
+      <!-- restante do código omitido -->
+      ```
+
 ## Próximo passo
 
 [Configurando o Datasource e Drives de banco][1]
