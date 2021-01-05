@@ -89,7 +89,7 @@ the clause below:
 </extensions>
 ```
 
- After the coniguration closure `</extensions>` include the extract below:
+ In the standalone file in the attributes: `<system-properties>` include a new line and fill as presented below:
 
  ``` xml
  <system-properties>
