@@ -56,6 +56,18 @@ Para identificar a mudança, preencha os campos:
     
         Para [Criar portfólio de mudança](/pt-br/citsmart-platform-9/processes/change/configuration/change-portfolio.html)
         
+### Outras informações
+
+Ao informar o Portfólio desejado, caso ele contenha um formulário em seu conteúdo, o formulário será exibido na nova aba outras informações. Ela possui os seguintes campos:
+
+|Campo|Descrição|
+|-----|---------|
+|Ambiente (\*)| Informar o ambiente dessa mudança|
+|Banco de dados (\*)| Selecionar o banco de dados|
+
+(*) Indicar campos obrigatórios
+
+        
 ### Anáise ágil de risco
 
 Na área de análise de riscos, serão feitas três questões:
@@ -67,6 +79,10 @@ Na área de análise de riscos, serão feitas três questões:
 * Existe um risco de imagem? - com as opções "Sim" ou "Não"
 
 Será então apresentada uma representação do risco de 0 a 100.
+
+### Ação do fluxo
+
+é possível aprovar ou rejeitar uma mudança dentro do cadastro de mudança, através do campo ação de fluxo. As ações de fluxo são informadas no desenho de fluxo.
 
 ### Planejamento
 
@@ -87,6 +103,10 @@ Para planejar a mudança, use as funcionalidades:
 5. Também é necessário indicar as informações preliminares de "planejamento", "plano de reversão" e "revisão e encerramento".
 
 ### Plano de reversão
+
+!!! warning "ATENÇÃO"
+
+    A partir da versão 9.2.0.0 será obrigatório anexar o plano de reversão deverá estar desenhado no fluxo como uma expressão de saída. Essa expressão: "Sistema: Validar a existência do plano de reversão" flexibiliza a obrigatoriedade em qualquer atividade de mudança.
 
 Para planejar a reversão de mudanças, use os recursos:
 
@@ -144,6 +164,39 @@ Para definir as funções e responsabilidades da mudança, preencha os campos:
 |Papel|Papel que o usuário irá desempenhar|
 |Responsabilidades|Selecionar a responsabilidade que será vinculada ao usuário|
 
+### Aprovações
+
+Ao visualizar uma mudança cadastrada será apresentada no menu esquerdo uma nova aba chamada Aprovações. Ao selecionar essa aba será aberta uma janela pop-up com o Título: Aprovação Mudança <número> e 3 abas:
+
+1. Aba **Executadas**, onde serão apresentadas as seguintes colunas
+
+|Coluna|Descrição|
+|------|---------|
+|Responsável| Será apresentado o nome do usuário que votou|
+|Resultado| Será apresentado o voto do usuário|
+|Comentário| Será apresentado, se houver, o comentário do usuário|
+|Data/Hora| Será apresentado a Data e a Hora do voto|
+|Quantidade de aprovações| Será apresentada a quantidade de votos positivos da aprovação|
+|Quantidade de abstenções| Será apresentado a quantidade de votos em abstenção|
+|Quantidade de rejeições| Será apresentado a quantidade de votos negativos para aprovação|
+|Aprovações pendentes| Será apresentado quantas usuários antes faltam votar|
+
+2. Aba **Pendentes** com o campo:
+
+|Coluna|Descrição|
+|------|---------|
+|Responsável| Será apresentado o nome dos usuários que ainda não votaram|
+
+3. Aba **Histórico** com os campos:
+
+|Campo|Descrição|
+|-----|---------|
+|Responsável| Será apresentado o nome do usuário que mudou o voto|
+|Resultado| Será apresentado o voto anterior do usuário|
+|Comentário| Será apresentado, se houver, o comentário do usuário|
+|Data/Hora| Será apresentado a Data e a Hora da mudança do voto|
+
+
 ### Votação RDM
 
 A equipe de mudança pode visualizar a pontuação de votação para aprovação da mudança.
@@ -179,6 +232,8 @@ Relacionado
 ---------------
 
 [Criar um portfólio de mudança](/pt-br/citsmart-platform-9/processes/change/configuration/change-portfolio.html)
+
+[Configurar tarefa de usuário](/pt-br/citsmart-platform-9/workflow/use/user-task-configure.html)
 
 <!-- !!! tip "About"
 
