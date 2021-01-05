@@ -2,13 +2,12 @@ Title: Configurações extras do CITSmart
 
 # Configurações extras do CITSmart
 
-A partir da versão 9.1.2.19 o arquivo CITSMART.CFG passa a se chamar “application.ini” e deve seguir as orientações abaixo:  
+A partir da versão 9.2.0.0 seguir as orientações abaixo:  
 
-1. A atualização da tabela só vai ocorrer quando o parâmetro LOAD_FACTSERVICEREQUESTRULES do APPLICATION.INI possuir o valor TRUE. Na ausência dessa configuração no arquivo, o sistema assume o valor FALSE para o parâmetro. Ou seja, o default é NÃO atualizar a tabela;  
-2. Caso exista algum schedule relacionado a regra de escalação de um ticket e o parâmetro LOAD_FACTSERVICEREQUESTRULES possuir o valor FALSE, o sistema emite no LOG o alerta: The system cannot start processing escalation rules because the LOAD_FACTSERVICEREQUESTRULES property (configuration file) is equal to FALSE;  
-3. NOVOS PARÂMETROS PARA O APPLICATION.INI: Para ativar o updateParameters, opção para sincronizar os valores dos parâmetros em memória, de um ambiente clusterizado; devemos adicionar no arquivo application.ini a seguinte configuração: UPDATEPARAMETERS_PORT=<número da porta que será utilizado> exemplo: UPDATEPARAMETERS_PORT=2002.
-
-
+1. A atualização da tabela só vai ocorrer quando o parâmetro LOAD_FACTSERVICEREQUESTRULES do CITSMART.CFG/APPLICATION.INI possuir o valor TRUE. Na ausência dessa configuração no arquivo, o sistema assume o valor FALSE para o parâmetro. Ou seja, o default é NÃO atualizar a tabela;
+2. Caso exista algum schedule relacionado a regra de escalação de um ticket e o parâmetro LOAD_FACTSERVICEREQUESTRULES possuir o valor FALSE, o sistema emite no LOG o alerta: The system cannot start processing escalation rules because the LOAD_FACTSERVICEREQUESTRULES property (configuration file) is equal to FALSE;
+3. NOVOS PARÂMETROS PARA O CITSMART.CFG/ APPLICATION.INI:
+Para ativar o updateParameters, opção para sincronizar os valores dos parâmetros em memória, de um ambiente clusterizado; devemos adicionar no arquivo citsmart.cfg a seguinte configuração: UPDATEPARAMETERS_PORT=<número da porta que será utilizado> exemplo: UPDATEPARAMETERS_PORT=2002;
 
 Crie um arquivo chamado application.ini em /opt/wildfly/standalone/configuration/ com as informações abaixo:
 
