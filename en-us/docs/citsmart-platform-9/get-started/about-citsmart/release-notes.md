@@ -3,6 +3,26 @@ Description: Release notes, bug fixes and improvements in the CITSmart.
 
 # Release Notes
 
+## Version 9.1.2.23 (2020/11/10)
+
+!!! warning "ATTENTION"
+
+    Before downloading this version, check the guidelines in the document [CITSmart guide version 9.1.2.23][4]
+    
+Welcome to CITSmart Version 9.1.2.23. This version presents the following items:
+ 
+|Number|Type|Description|
+|--------|---------|---------|
+|Incident 5929| Correction| Security fix in the product avoiding accepting LDAP injection, special characters in user login and login size|
+
+Welcome to Neuro 1.3.5.4
+
+This version presents the following correction (s):
+
+|Number|Type|Description|
+|--------|---------|---------|
+|10280 | Correction| Recovery of the default value of the business object columns|
+
 ## Version 9.1.2.22 (2020/12/03)
 
 !!! warning "ATTENTION"
@@ -169,3 +189,4 @@ Welcome to Citsmart Version 9.0. This version presents the following items:
 
 [2]:/en-us/citsmart-platform-9/get-started/about-citsmart/Guidance-Citsmart-91213.zip
 [3]:/en-us/citsmart-platform-9/get-started/about-citsmart/Guidance-about-version-CITSmart-9.1.2.22.zip
+[4]:/en-us/citsmart-platform-9/get-started/about-citsmart/Update-Package- 9.1.2.23-CITSmart.zip
