@@ -13,15 +13,16 @@ Para que a Indexação de conhecimento funcione corretamente é necessário:
 ## Parametrizar o serviço de indexação
 
 1. Acessar o menu principal Parametrização > Parâmetros CITSmart;
-2. Configurar o parâmetro 304 informando a URL do componente SOLR;
+2. Configurar o Parâmetro 333 informando o intervalo em minutos para sincronizar os conhecimentos com o servidor de indexação – Valores aceitos entre 1 e 59;
+3. Configurar o parâmetro 304 informando a URL do componente SOLR;
 
     ```sh
     http://localhost:8983/solr/collection_name
     ```
 
-3. Configurar o parâmetro 308 informando a quantidade de itens a serem indexados por vez;
-4. Configurar o parâmetro 332 informando se a sincronização com o servidor de Indexação está ativa;
-5. Acessar o menu principal Sistema > Configurações > Gerência do Conhecimento (Indexação) e clicar em "Atualizar o servidor de indexação".
+4. Configurar o parâmetro 308 informando a quantidade de itens a serem indexados por vez;
+5. Configurar o parâmetro 332 informando se a sincronização com o servidor de Indexação está ativa;
+6. Acessar o menu principal Sistema > Configurações > Gerência do Conhecimento (Indexação) e clicar em "Atualizar o servidor de indexação".
 
 ## Gerenciar conteúdo
 
