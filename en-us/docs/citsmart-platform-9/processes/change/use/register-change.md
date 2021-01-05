@@ -60,6 +60,18 @@ To identify a change, complete the fields:
     
         For [Create change portfolio](/en-us/citsmart-platform-9/processes/change/configuration/change-portfolio.html)
         
+### Other information
+
+When informing the desired Portfolio, if it contains a form in its content, the form will be displayed in the new tab other information. It has the following fields:
+
+|Field|Description|
+|-----|---------|
+|Environment (\*)| Inform the environment of this change|
+|Database (\*)| Select the database|
+
+(*) Indicate mandatory field
+
+        
 ### Agile analysis of risk
 
 In the risk analysis area, three questions will be asked:
@@ -71,6 +83,10 @@ In the risk analysis area, three questions will be asked:
 * Is there an image risk? - with the options "Yes" or "No"
 
 then a representation of the risk from 0 to 100 will be presented.
+
+### Flow action
+
+It's possible to approve or reject a change within the change record, through the flow action field. Flow actions are reported in the flow designing.
 
 ### Planning
 
@@ -91,6 +107,10 @@ To plan the change use the features:
 5. It's also necessary to indicate the preliminary information of "planning", "reversion plan" and "review and closure".
 
 ### Reversion plan
+
+!!! warning "ATTENTION"
+
+    From CITSmart version 9.2.0.0, it'll be mandatory to attach the reversion plan, which must be designed in the flow as an output expression. This expression: "System: Validate the existence of the reversion plan" makes it mandatory in any change activity.
 
 To plan the change reversal use the features:
 
@@ -148,6 +168,38 @@ To define the roles and responsibilities of the change, complete the fields:
 |Role|Role that the user will perform|
 |Responsibilities|Select the responsibility to be linked to the user|
 
+### Approvals
+
+When viewing a registered change, a new tab called Approvals will appear in the left menu. When selecting this tab, a pop-up window will open with the Title: Change Approval <number> and 3 tabs:
+
+1. Tab **Executed**, where the following columns will appear:
+
+|Column|Description|
+|------|---------|
+|Responsible| The name of the user who voted will be displayed|
+|Result| The user's vote will be displayed|
+|Comment| If any, the user's comment will be displayed|
+|Date/Time| The date and time of the vote will be displayed|
+|Number of approvals| The number of positive votes for approval will be displayed|
+|Number of abstentions| The number of abstaining votes will be displayed|
+|Number of rejections| The number of negative votes for approval will be displayed|
+|Pending approvals| How many users will be left before voting|
+
+2. Tab **Pending** with the field:
+
+|Field|Description|
+|------|---------|
+|Responsible| The names of users who have not yet voted will be displayed|
+
+3. Tab **History** with the fields:
+
+|Field|Description|
+|-----|---------|
+|Responsible| The name of the user who changed the vote will be displayed|
+|Result| The user's previous vote will be displayed|
+|Comment| If any, the user's comment will be displayed|
+|Date/Time| Voting change date and time will be displayed|
+
 ### RFC Voting
 
 The change team can view the voting score for approval of the change.
@@ -183,8 +235,6 @@ Related
 
 [Create portfolio of change](/en-us/citsmart-platform-9/processes/change/configuration/change-portfolio.html)
 
-<!-- !!! tip "About"
+[Configure user task](/en-us/citsmart-platform-9/workflow/use/user-task-configure.html)
 
-    <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/31/2019 – Larissa Lourenço
 
