@@ -3,13 +3,36 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 
 # Notas de Release
 
+# Notas de Release
+
+## Versão 9.1.2.23 (2020/11/10)
+
+!!! warning "ATENÇÃO"
+
+    Antes de baixar esta versão, verifique as orientações presentes no documento [Guia de orientações CITSmart V9 versão 1.2.23][4]
+    
+Bem-vindos ao CITSmart Versão 9.1.2.23. Esta versão apresenta os seguintes itens:
+ 
+|Número|Tipo|Descrição|
+|--------|---------|---------|
+|Incidente 5929| Corretiva| Correção de segurança no produto evitando aceitar LDAP injection, caracteres especiais no login de usuário e tamanho de login|
+
+Bem-vindos ao Neuro 1.3.5.4
+
+A versão apresentada possui a(s) seguinte(s) correção(ões):
+
+|Número|Tipo|Descrição|
+|--------|---------|---------|
+|10280 | Correção| Recuperação do valor default das colunas do objeto de negócio|
+
+
 ## Versão 9.1.2.22 (2020/12/03)
 
 !!! warning "ATENÇÃO"
 
     Antes de baixar esta versão, verifique as orientações presentes no documento [Guia de orientações CITSmart V9 versão 1.2.22][3]
 
-Bem-vindos ao CITSmart V9 Versão 1.2.22. Esta versão apresenta os seguintes itens:
+Bem-vindos ao CITSmart Versão 9.1.2.22. Esta versão apresenta os seguintes itens:
 
 |Número|Tipo|Descrição|
 |--------|---------|---------|
@@ -179,3 +202,4 @@ Bem-vindos ao Citsmart Versão 9.0. Esta versão apresenta os seguintes itens:
 [1]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Guidance-CITSmart-V9-111.zip
 [2]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Orientações-sobre-a-versão-CITSmart-V9-1.2.13.zip
 [3]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Orientações-sobre-a-vserão-Citsmart-V9.1.2.22.zip
+[4]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Pacote-Atualizacao-9.1.2.23-Citsmart.zip
