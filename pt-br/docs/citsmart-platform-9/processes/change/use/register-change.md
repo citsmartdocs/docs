@@ -82,7 +82,7 @@ Será então apresentada uma representação do risco de 0 a 100.
 
 ### Ação do fluxo
 
-é possível aprovar ou rejeitar uma mudança dentro do cadastro de mudança, através do campo ação de fluxo. As ações de fluxo são informadas no desenho de fluxo.
+É possível aprovar ou rejeitar uma mudança dentro do cadastro de mudança, através do campo ação de fluxo. As ações de fluxo são informadas no desenho de fluxo.
 
 ### Planejamento
 
