@@ -84,7 +84,7 @@ E edite o arquivo stantalone-full.xml e inclua a configuração XML do CITSmart 
 </extensions>
 ```
 
- Após o fechamento da configuração `</extensions>` inclua o trecho a seguir:
+ No arquivo standalone nos atributos: `<system-properties>` incluir uma nova linha e preencher conforme o exemplo::
 
  ``` xml
  <system-properties>
