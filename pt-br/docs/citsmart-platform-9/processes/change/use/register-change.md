@@ -197,6 +197,22 @@ Ao visualizar uma mudança cadastrada será apresentada no menu esquerdo uma nov
 |Data/Hora| Será apresentado a Data e a Hora da mudança do voto|
 
 
+Além disso, na tela principal onde mostra a lista com todas as mudanças existentes, é apresentado uma aba chamada "Aprovações". Nessa aba será informada a quantidade de aprovações na fila do usuário logado, ou seja, as quais ele tem permissão para aprovar. Ao clicar em uma Aprovaçao, primeiramente você terá duas opções para visualizar as informações: "Aprovar/Rejeitar" e "Aprovações".
+
+**Aprovar/Rejeitar**  
+
+Nessa opção temos:  
+
+1. Opções aprovar, rejeitar e abster-se para serem selecionadas. A opção aprovar sempre estará seleciona por default;
+2. Campo motivo. Pode ser obrigatório ou não, conforme desenho de fluxo;
+3. Botões Gravar e Fechar.
+
+**Aprovações**
+
+Nessa opção temos as abas que já vimos anteriormente para: Executadas, Pendentes e Histórico.
+
+
+
 ### Votação RDM
 
 A equipe de mudança pode visualizar a pontuação de votação para aprovação da mudança.
