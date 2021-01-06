@@ -17,7 +17,8 @@ Procedimento
     caracteres especiais); o processo a que está vinculado (o fluxo estará
     visível apenas para o processo a que está vinculado) e a opção para permitir
     a reabertura de um serviço independentemente das configurações de grupo.
-    Também é possível visualizar qual versão o fluxo se encontra.
+    Também é possível visualizar qual versão o fluxo se encontra.  
+    Na aba existe também o campo "Timeout de Scripts (segundos): Campo Obrigatório aonde deverá ser informado os segundos conforme a regra. A partir da versão 9.2.0.0 o sistema interrompe a execução de um script Rhino de um fluxo Citsmart ou Neuro que demore mais que o tempo definido no atributo "Timeout de Scripts (segundos)". O valor default desse atributo pode ser configurado no parâmetro HINO_TIMEOUT_EXCECUTION (em segundos) do arquivo APPLICATION.INI. Caso o parâmetro não esteja configurado no arquivo, o sistema assume o valor default de 90 segundos. Os fluxos existentes antes na instalação da nova versão foram inicializados com o valor 90 segundos
 
 4.  Na aba “Diagrama” é apresentada a ferramenta para desenhar o fluxo inserindo os
     elementos que representam o cenário pretendido. Para tanto, basta clicar no
