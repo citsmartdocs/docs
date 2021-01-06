@@ -13,7 +13,8 @@ Procedure
 2.  Click on "New";
 
 3.  In the tab "Flow Data", it's necessary to complete the mandatory data: name 
-    (its internal identifier, it must be informed without space, accents and special characters); the process to which it's linked (the flow will be only visible to the process to which it's linked) and the option that allow to reopen the service regardless of group settings. It's also possible to view the version of the flow.
+    (its internal identifier, it must be informed without space, accents and special characters); the process to which it's linked (the flow will be only visible to the process to which it's linked) and the option that allow to reopen the service regardless of group settings. It's also possible to view the version of the flow.  
+    In the tab there is also the field "Scripts Timeout (seconds): Mandatory Field where the seconds must be informed according to the rule. From version 9.2.0.0, the system stops the execution of a Rhino script from a Citsmart or Neuro flow that takes longer than the time defined in the "Scripts Timeout (seconds)" attribute. The default value of this attribute can be configured in the parameter HINO_TIMEOUT_EXCECUTION (in seconds) of the file APPLICATION.INI. If the parameter is not configured in the file, the system defaults to 90 seconds. The flows existing before the installation of the new version were initialized to 90 seconds.
 
 3.  In the “Diagram” tab, it's presented the tool to design the flow by entering
     elements that represent the scenario. To do so, simply click on the element and drag it to the design area. When you do this, a screen will be displayed to set the properties. We must take into account that a flow starts with the "Start Event" element and ends with the "End Event".
