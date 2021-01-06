@@ -20,8 +20,9 @@ Para que a Indexação de conhecimento funcione corretamente é necessário:
     ```
 
 3. Configurar o parâmetro 308 informando a quantidade de itens a serem indexados por vez;
-4. Configurar o parâmetro 332 informando se a sincronização com o servidor de Indexação está ativa;
-5. Acessar o menu principal Sistema > Configurações > Gerência do Conhecimento (Indexação) e clicar em "Atualizar o servidor de indexação".
+4. Configurar o parâmetro 332 informando se a sincronização com o servidor de Indexação está ativa;  
+5. Configurar o Parâmetro 333 informando o intervalo em minutos para sincronizar os conhecimentos com o servidor de indexação – Valores aceitos entre 1 e 59;  
+6. Acessar o menu principal Sistema > Configurações > Gerência do Conhecimento (Indexação) e clicar em "Atualizar o servidor de indexação".
 
 ## Gerenciar conteúdo
 
