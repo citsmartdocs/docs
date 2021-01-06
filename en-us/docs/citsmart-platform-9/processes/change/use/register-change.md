@@ -200,6 +200,20 @@ When viewing a registered change, a new tab called Approvals will appear in the 
 |Comment| If any, the user's comment will be displayed|
 |Date/Time| Voting change date and time will be displayed|
 
+Moreover, on the main screen where it shows the list with all existing changes, a tab called "Approvals" is displayed. In this tab, the number of approvals in the logged user's queue will be informed, that is, which he/she is allowed to approve. When clicking on an Approval, you will first have two options to view the information: "Approve/Reject" and "Approvals".
+
+**Approve/Reject**  
+
+In this option we have:  
+
+1. Options approve, reject and abstain to be selected. The approve option will always be selected by default;
+2. Reason field. It may be mandatory or not, according to the flow design;
+3. Buttons Save and Close.
+
+**Approvals**
+
+In this option we have the tabs that we have already seen for: Executed, Pending and History.
+
 ### RFC Voting
 
 The change team can view the voting score for approval of the change.
