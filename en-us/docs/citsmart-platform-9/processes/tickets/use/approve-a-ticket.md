@@ -23,10 +23,6 @@ it.
 Procedure
 -------------
 
-*These steps are for functionality in CITSmart Platform 8 as for mobile
-CITSmart SM*.
-
-
 1.  Access the functionality Ticket through the main menu Processes \> Request
     and Incident Management \> Service Request and Incident;
 
@@ -41,8 +37,41 @@ CITSmart SM*.
 
     -   If you choose "Not approved", describe the observations, enter the
         justification and its complement.
+        
+5.  If the ticket task is of the approval type, the system will display under the Direct to Group field the Button: "View approvals". By clicking on View Approvals will display the Approval History for the task;  
 
-5.  Click on the options button “Operations” an then on the button “Save and
+6.  In the task's approval history, 3 tabs are displayed with the information:
+
+- Tab **Executed**, where the following columns will appear:
+
+|Column|Description|
+|------|---------|
+|Responsible| The name of the user who voted will be displayed|
+|Result| The user's vote will be displayed|
+|Comment| If any, the user's comment will be displayed|
+|Date/Time| The date and time of the vote will be displayed|
+|Number of approvals| The number of positive votes for approval will be displayed|
+|Number of abstentions| The number of abstaining votes will be displayed|
+|Number of rejections| The number of negative votes for approval will be displayed|
+|Pending approvals| How many users will be left before voting|
+
+- Tab **Pending** with the field:
+
+|Field|Description|
+|------|---------|
+|Responsible| The names of users who have not yet voted will be displayed|
+
+- Tab **History** with the fields:
+
+|Field|Description|
+|-----|---------|
+|Responsible| The name of the user who changed the vote will be displayed|
+|Result| The user's previous vote will be displayed|
+|Comment| If any, the user's comment will be displayed|
+|Date/Time| Voting change date and time will be displayed|        
+
+
+7.  Click on the options button “Operations” an then on the button “Save and
     Forward Flow” to save and advance the flow. Therefore, if the ticket is
     approved, it will be directed to the execution phase, that is, to its
     attendance. However, if the ticket is not approved, it will be closed.  
@@ -57,6 +86,8 @@ Related
 [Configure access permission of request/incident management](/en-us/citsmart-platform-9/processes/tickets/configuration/access-ticket-management.html)
 
 [Create workflow](/en-us/citsmart-platform-9/workflow/use/create-flow.html)
+
+[Create user task](/en-us/citsmart-platform-9/workflow/use/user-task-configure.html)
 
     
    <i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2RNrJnhiXj3dbmgsm9-quhfz)'
