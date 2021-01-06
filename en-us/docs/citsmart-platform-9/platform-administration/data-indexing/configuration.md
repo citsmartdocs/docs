@@ -21,7 +21,8 @@ In order for Knowledge Indexing to work correctly, it is necessary:
 
 3. Configure parameter 308 stating the number of items to be indexed each time;
 4. Configure parameter 332 stating whether synchronization with the Indexing server is active;
-5. Access the main menu System > Settings > Knowledge Management (Indexing) and click on "Update the index server".
+5. Configure Parameter 333 informing the interval in minutes to synchronize knowledge with the index server - Accepted values between 1 and 59;  
+6. Access the main menu System > Settings > Knowledge Management (Indexing) and click on "Update the index server".
 
 ## Managing content
 
