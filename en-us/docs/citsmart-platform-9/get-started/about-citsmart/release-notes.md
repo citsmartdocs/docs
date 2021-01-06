@@ -3,7 +3,7 @@ Description: Release notes, bug fixes and improvements in the CITSmart.
 
 # Release Notes
 
-## Version 9.1.2.23 (2020/11/10)
+## Version 9.1.2.23 (2021/01/05)
 
 !!! warning "ATTENTION"
 
