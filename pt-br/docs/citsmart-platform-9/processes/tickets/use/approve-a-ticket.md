@@ -24,9 +24,6 @@ mesmo.
 Procedimento 
 -------------
 
-*Estes passos são para a funcionalidade no CITSmart Platform 9 quanto para o mobile
-CITSmart SM.*
-
 
 1.  Acessar a funcionalidade Ticket navegando pelo menu principal Processos \>
     Gerência de Requisição e Incidente \> Ticket;
@@ -43,8 +40,41 @@ CITSmart SM.*
 
     -   Se marcar "Não aprovada", descrever as observações, informar a
         justificativa e o complemento da justificativa.
+        
+5.  Se a tarefa a tarefa do ticket for do tipo aprovação o sistema irá apresentar abaixo do campo Direcionar para Grupo o Botão: "Ver aprovações". Ao clicar em Ver Aprovações,  será apresentado o Histórico de aprovações da tarefa;
 
-5.  Clicar no botão de “Opções” e logo em seguida clicar no botão “Gravar e
+6.  No histórico de aprovações da tarefa é apresentado 3 abas com informações:
+
+- Aba **Executadas**, onde serão apresentadas as seguintes colunas
+
+|Coluna|Descrição|
+|------|---------|
+|Responsável| Será apresentado o nome do usuário que votou|
+|Resultado| Será apresentado o voto do usuário|
+|Comentário| Será apresentado, se houver, o comentário do usuário|
+|Data/Hora| Será apresentado a Data e a Hora do voto|
+|Quantidade de aprovações| Será apresentada a quantidade de votos positivos da aprovação|
+|Quantidade de abstenções| Será apresentado a quantidade de votos em abstenção|
+|Quantidade de rejeições| Será apresentado a quantidade de votos negativos para aprovação|
+|Aprovações pendentes| Será apresentado quantas usuários antes faltam votar|
+
+- Aba **Pendentes** com o campo:
+
+|Coluna|Descrição|
+|------|---------|
+|Responsável| Será apresentado o nome dos usuários que ainda não votaram|
+
+- Aba **Histórico** com os campos:
+
+|Campo|Descrição|
+|-----|---------|
+|Responsável| Será apresentado o nome do usuário que mudou o voto|
+|Resultado| Será apresentado o voto anterior do usuário|
+|Comentário| Será apresentado, se houver, o comentário do usuário|
+|Data/Hora| Será apresentado a Data e a Hora da mudança do voto|
+
+
+7.  Clicar no botão de “Opções” e logo em seguida clicar no botão “Gravar e
     avançar fluxo” para gravar e avançar o fluxo. Feito isso, se o ticket
     estiver sido aprovado, o mesmo será encaminhado para a fase de execução, ou
     seja, para o atendimento do mesmo. Mas, caso o ticket não seja aprovado, o
@@ -60,6 +90,8 @@ Relacionado
 [Configurar permissão de acesso do gerenciamento de requisições/incidentes](/pt-br/citsmart-platform-9/processes/tickets/configuration/access-ticket-management.html)
 
 [Criar um fluxo de trabalho](/pt-br/citsmart-platform-9/workflow/use/create-flow.html)
+
+[Configurar tarefa de usuário](/pt-br/citsmart-platform-9/workflow/use/user-task-configure.html)
 
 <i class='fa fa-youtube-play  fa-2x' style='color:#97ce17;vertical-align: middle;'> </i> [Video Library](https://www.youtube.com/playlist?list=PLB5qK2uzf2ROn4Xs6UdH84Ujzta2iJ6Ei)'
 
