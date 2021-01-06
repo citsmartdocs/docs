@@ -41,7 +41,7 @@ Procedimento 
     -   Se marcar "Não aprovada", descrever as observações, informar a
         justificativa e o complemento da justificativa.
         
-5.  Se a tarefa a tarefa do ticket for do tipo aprovação o sistema irá apresentar abaixo do campo Direcionar para Grupo o Botão: "Ver aprovações". Ao clicar em Ver Aprovações,  será apresentado o Histórico de aprovações da tarefa;
+5.  Se a tarefa do ticket for do tipo aprovação o sistema irá apresentar abaixo do campo Direcionar para Grupo o Botão: "Ver aprovações". Ao clicar em Ver Aprovações,  será apresentado o Histórico de aprovações da tarefa;
 
 6.  No histórico de aprovações da tarefa é apresentado 3 abas com informações:
 
