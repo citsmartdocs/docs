@@ -6,6 +6,11 @@ Para execução da plataforma e aplicações, os requisitos recomendados do sist
 
 ## Aplicação e banco de dados no mesmo servidor
 
+A partir da versão 9.1.2.23 a tabela Versões recomendadas dos pacotes deverá ser alterada para os Bancos de dados homologados:
+1.	Postgresql 12;
+2.	Microsoft SQL Server 2019;
+3.	Oracle 12c;
+
 Caso instale todos os programas, e o banco de dados relacional no mesmo servidor, recomendamos que o servidor tenha no mínimo `32GB` de memória para ambientes de produção. Caso deseje apenas realizar algum teste, ou ambientes de homologação e desenvolvimento, um servidor com `16GB` é o suficiente. Quanto ao tamanho do disco, recomendamos ter no mínimo `30GB` de espaço disponível.
 
 ## Aplicação e banco de dados desmembrados
