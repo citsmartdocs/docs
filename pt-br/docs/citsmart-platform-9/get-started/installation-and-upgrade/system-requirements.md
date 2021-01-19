@@ -6,7 +6,7 @@ Para execução da plataforma e aplicações, os requisitos recomendados do sist
 
 ## Aplicação e banco de dados no mesmo servidor
 
-A partir da versão 9.1.2.23 a tabela Versões recomendadas dos pacotes deverá ser alterada para os Bancos de dados homologados:
+
 1.	Postgresql 12;
 2.	Microsoft SQL Server 2019;
 3.	Oracle 12c;
@@ -23,15 +23,20 @@ Caso já tenha um servidor de banco relacional em seu ambiente, você pode fazer
 
 ## Versões recomendadas dos pacotes
 
+A partir da versão 9.1.2.23 a tabela Versões recomendadas dos pacotes deverá ser alterada para os Bancos de dados homologados:
+
 |Aplicação         | Versão   |
 -------------- | ------ |
 |Wildfly | `12.x` |
 |Java JDK | `8.x` |
-|PostgreSQL | `9.3 a 9.6` |
+|PostgreSQL | `12` |
 |Driver JDBC |`Depende da versão do banco. No documento usaremos a versão 9.3 pois o postgreSQL será nesta versão.` |
 |SOLR | `6.4.2` |
 |Sistema Operacional| Embora possa ser instalado em qualquer distribuição e versão, o documento considera a distribuição `Linux CentOS 7.x.`   |
 MongoDB   | `3.4.15`|
+|Microsoft SQL Server|`2019`|
+|Oracle| `12c`|
+
 
 
 Author         | Version   | Updated             | Description
