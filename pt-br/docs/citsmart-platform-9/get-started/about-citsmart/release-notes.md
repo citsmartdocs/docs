@@ -24,6 +24,7 @@ A versão Neuro compatível com essa versão é 1.3.5.5
 |10624|Melhoria|Revisão de critérios de segurança|
 
 |Erros conhecidos|Descrição|
+|--------|---------|
 |10670|Tela de acesso para visualização de conhecimentos externos não permite acesso sem logar ao sistema|
 
 ## Versão 9.1.2.23 (2021/01/05)
