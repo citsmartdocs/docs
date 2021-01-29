@@ -3,7 +3,28 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 
 # Notas de Release
 
-# Notas de Release
+## Versão 9.1.2.24 (2021/01/16)
+
+!!! warning "ATENÇÃO"
+
+    Antes de baixar esta versão, verifique as orientações presentes no documento [Guia de orientações CITSmart versão 9.1.2.24][5]
+    
+Bem-vindos ao Citsmart Versão 9.1.2.24. Esta versão apresenta os seguintes itens:
+
+A versão Neuro compatível com essa versão é 1.3.5.5
+
+|Número|Tipo|Descrição|
+|--------|---------|---------|
+|10619|Melhoria|Bloqueio de usuários após sucessivos erros de acesso|
+|10620|Melhoria|Envio de notificação de bloqueio de usuário|
+|10617|Melhoria|Inclusão de captcha ao acessar o sistema|
+|10663|Melhoria|Correção de acesso a usuários logados via LDAP|
+|10618|Melhoria|Ajustes de mensagens de autenticação do sistema|
+|10628|Melhoria|Inclusão de autenticação keycloack com gerenciamento de acesso e identidade|
+|10624|Melhoria|Revisão de critérios de segurança|
+
+|Erros conhecidos|Descrição|
+|10670|Tela de acesso para visualização de conhecimentos externos não permite acesso sem logar ao sistema|
 
 ## Versão 9.1.2.23 (2021/01/05)
 
@@ -203,3 +224,4 @@ Bem-vindos ao Citsmart Versão 9.0. Esta versão apresenta os seguintes itens:
 [2]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Orientações-sobre-a-versão-CITSmart-V9-1.2.13.zip
 [3]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Orientações-sobre-a-vserão-Citsmart-V9.1.2.22.zip
 [4]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Pacote-Atualizacao-9.1.2.23-Citsmart.zip
+[5]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Pacote-Atualizacao-9.1.2.24-Citsmart.zip
