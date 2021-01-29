@@ -113,8 +113,8 @@ Após o fechamento da configuração </extensions> inclua o trecho a seguir:
  </system-properties>
  ```
 Para atender o termo de privacidade do aplicativo, foi inserido dois novos parâmetros:
-		1. Que aponta a URL onde está o termo de privacidade
-		2. Que informa o tempo de verificação se existe nova versão do termo de privacidade
+1. Que aponta a URL onde está o termo de privacidade
+2. Que informa o tempo de verificação se existe nova versão do termo de privacidade
 
 2.Atualizar a documentação com as seguintes informações:
 3.A partir da versão 9.2.0.1 ou Heliium 2.0.1 foram inseridos duas novas linhas no <system-properties>:
