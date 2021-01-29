@@ -87,6 +87,8 @@ E edite o arquivo stantalone-full.xml e inclua a configuração XML do CITSmart 
 No arquivo standalone nos atributos: `<system-properties>` incluir uma nova linha e preencher conforme o exemplo:
 
  ``` xml
+Após o fechamento da configuração </extensions> inclua o trecho a seguir:
+
  <system-properties>
      <property name="mongodb.host" value="citmongo"/>
      <property name="mongodb.port" value="27017"/>
@@ -110,6 +112,16 @@ No arquivo standalone nos atributos: `<system-properties>` incluir uma nova linh
      <property name="snmp.oid.repository.directory" value="/opt/templates"/>
  </system-properties>
  ```
+Para atender o termo de privacidade do aplicativo, foi inserido dois novos parâmetros:
+1.	Que aponta a URL onde está o termo de privacidade
+2.	Que informa o tempo de verificação se existe nova versão do termo de privacidade
+
+2.	Atualizar a documentação com as seguintes informações:
+3.	A partir da versão 9.2.0.1 ou Heliium 2.0.1 foram inseridos duas novas linhas no <system-properties>:
+
+<property name="admin.url" value="https://my.cloud4biz.com/4biz"/>
+<property name="sync.adminprivacyterm.cron" value="0 0 0/23 * 1/1 * ? *"/>
+
 
  Após realizada as configurações, reinicie o serviço para efetivar as mudanças:
 
