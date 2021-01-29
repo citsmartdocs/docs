@@ -27,6 +27,13 @@ A versão Neuro compatível com essa versão é 1.3.5.5
 |--------|---------|
 |10670|Tela de acesso para visualização de conhecimentos externos não permite acesso sem logar ao sistema|
 
+Bem-vindos ao Neuro 1.3.5.5
+A versão apresentada possui a(s) seguinte(s) correção(ões):
+
+|Corretivas|Descrição|
+|--------|---------|
+||Correção de erro intermitente ocasionado em Scripts Rhino|
+
 ## Versão 9.1.2.23 (2021/01/05)
 
 !!! warning "ATENÇÃO"
