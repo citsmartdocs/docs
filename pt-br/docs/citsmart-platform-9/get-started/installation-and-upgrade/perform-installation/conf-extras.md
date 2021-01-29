@@ -4,38 +4,40 @@ Title: Configurações extras do CITSmart
 
 A partir da versão 9.1.2.24 foram inseridos novos parâmetros:
  
-Parâmetro: AUTHENTICATION_PROTOCOL
-Ojetivo: Definir o protocolo de autenticação
-Comportamento: Define se o sistema irá se autenticar com parâmetros internos ou com outro protocolo de autenticação.
-Tipo: varchar
-valor default: internal
-Tipos válidos: 
-1.	OAUTH2: Para autenticação com keycloack – essa informação sobrescreve qualquer política de segurança inserida no cadastro de Política de Segurança;
-2.	Internal: Para autenticação definida no sistema;
+- Parâmetro: AUTHENTICATION_PROTOCOL
+- Ojetivo: Definir o protocolo de autenticação
+- Comportamento: Define se o sistema irá se autenticar com parâmetros internos ou com outro protocolo de autenticação.
+- Tipo: varchar
+- Valor default: internal
+- Tipos válidos: 
+
+	1.	OAUTH2: Para autenticação com keycloack – essa informação sobrescreve qualquer política de segurança inserida no cadastro de Política de Segurança;
+	2.	Internal: Para autenticação definida no sistema;
  
-Parâmetro: AUTHENTICATION_CREATE_USER
-Ojetivo: Definir se o usuário será criado na aplicação após login
-Comportamento: Grava o usuário que fez login na aplicação;
-Tipo: boleano (true or false)
-valor default: FALSE 
-Valores possíveis:
-True – gravar
-False -–  não gravar
+- Parâmetro: AUTHENTICATION_CREATE_USER
+- Ojetivo: Definir se o usuário será criado na aplicação após login
+- Comportamento: Grava o usuário que fez login na aplicação;
+- Tipo: boleano (true or false)
+- Valor default: FALSE 
+- Valores possíveis:
+	
+	True – gravar
+	False -–  não gravar
 
 
 A partir da versão 9.1.2.23 foram inseridos novos parâmetros:
  
-Parâmetro: MAXIMUM_LOGIN_FIELD_SIZE
-Ojetivo: Definir o tamanho máximo aceitável no campo login
-Comportamento: Apenas impede o login, emitindo uma mensagem genérica, login ou senha inválidos.
-Tipo: numérico
-valor default: 25
+- Parâmetro: MAXIMUM_LOGIN_FIELD_SIZE
+- Ojetivo: Definir o tamanho máximo aceitável no campo login
+- Comportamento: Apenas impede o login, emitindo uma mensagem genérica, login ou senha inválidos.
+- Tipo: numérico
+- Valor default: 25
  
-Parâmetro: ALLOW_SYMBOLS_AT_LOGIN
-Ojetivo: Definir se o sistema aceita símbolos no campo login
-Comportamento: Apenas impede o login, emitindo uma mensagem genérica, login ou senha inválidos.
-Tipo: boleano (true or false)
-valor default: FALSE
+- Parâmetro: ALLOW_SYMBOLS_AT_LOGIN
+- Ojetivo: Definir se o sistema aceita símbolos no campo login
+- Comportamento: Apenas impede o login, emitindo uma mensagem genérica, login ou senha inválidos.
+- Tipo: boleano (true or false)
+- Valor default: FALSE
 
 
 A partir da versão 9.2.0.0 seguir as orientações abaixo:  
