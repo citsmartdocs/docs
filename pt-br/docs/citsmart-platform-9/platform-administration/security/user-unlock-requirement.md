@@ -15,7 +15,7 @@ A partir da versão 9.1.2.24 foram inseridos novas regras de segurança que orig
 
 1. Acessar o menu principal Sistema \> Segurança \> Usuários Bloqueados;
 
-2. Ao acessar a funcionalidade, aparecerá uma tela com o campo: Nome do usuário - Campo tipo texto para busca pelo nome do usuário bloqueado.
+2. Ao acessar a funcionalidade, aparecerá uma tela com o campo: Nome do usuário - Campo tipo texto para busca pelo nome do usuário bloqueado;
 
 3. Além desse campo, aparecerá uma lista com as seguintes informações:
 
