@@ -47,9 +47,30 @@ Procedure
 
 7.  For users who are already in operation, it's possible to force the password
     change of the new configuration, from the next login, click on the key "Force
-    password change at next login for all users"
+    password change at next login for all users";
+    
+From version 9.1.2.23, new parameters were added:  
 
-8.  Click on "Save”.
+8.  Enable the key “Enable user blocking policy”:
+    
+    - It'll be considered for both internal and external logins;
+        
+9.  Enable the key “Enable Captcha at Login”: This functionality enables a mandatory check for connections of all users in the system; during the login;    
+
+10.  In the User blocking field, the administrator must define the minimum number of successive errors of credentials for user blocking, this blocking occurs for both internal and external users and the unlocking is performed inside the product;  
+
+11.  Define the time of successive credential errors from the last minutes to block the user: This field is linked to the field “Block user after successive credential errors”, since the system needs a time parameter to compare the amount of error in a certain period of time and do not consider the user to be blocked if they are not within the defined time limit for reaching the number of attempts to block;  
+
+12.  In the field Notifications must be defined:
+        1. Send security alert to the group: Inform the group to whom the alert email will be sent in case of blocked user for exceeding the configured attempts;
+        2. Send security alert to e-mails: Inform the e-mail of possible employees who should be alerted in case of user blocking. E-mails must be separated by a comma and with no space between them and no space at the end;
+        
+        !!! warning "ATENÇÃO"
+        
+            Caso o sistema identifique o e-mail do usuário que teve o acesso bloqueado esse usuário também receberá e-mail de bloqueio.
+            O modelo de e-mail de bloqueio não está disponível para alteração nessa versão.    
+
+13.  Click on "Save”.
 
 !!! Abstract "NOTE"
 
@@ -65,6 +86,8 @@ Procedure
     To change the password, the user can reset the password in two different
     ways, see [Register user][1] and [Edit user account][2].
 
+
+## Related
 
 <!-- !!! tip "About"
 
