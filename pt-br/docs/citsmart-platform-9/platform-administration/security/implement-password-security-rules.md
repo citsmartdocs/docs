@@ -89,6 +89,9 @@ A partir da versão 9.1.2.23 ou Helium  9.2.1.0 foram inseridos novos parâmetro
 
 ## Relacionado
 
+[Requisito para Desbloqueio de Usuário](/pt-br/citsmart-platform-9/platform-administration/security/user-unlock-requirement.html)
+
+
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
