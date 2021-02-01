@@ -167,6 +167,7 @@ nav:
     - Segurança:
       - citsmart-platform-9/platform-administration/security/implement-password-security-rules.md
       - citsmart-platform-9/platform-administration/security/reset-password.md
+      - citsmart-platform-9/platform-administration/security/user-unlock-requirement.md
     - Tempo:
       - citsmart-platform-9/platform-administration/time/create-calendar.md
       - citsmart-platform-9/platform-administration/time/create-cycle.md
