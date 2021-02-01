@@ -27,3 +27,5 @@ A partir da versão 9.1.2.24 foram inseridos novas regras de segurança que orig
 4. Aqui também existirá a ação de Excluir, que permite a retirada do bloqueio imediato do usuário.
 
 ## Relacionado
+
+[Implementar regras de segurança de senha](/pt-br/citsmart-platform-9/platform-administration/security/implement-password-security-rules.html)
