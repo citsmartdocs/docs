@@ -2,6 +2,44 @@ Title: CITSmart extra settings
 
 # CITSmart extra settings
 
+From version 9.1.2.24, new parameters have been added:
+ 
+- Parameter: AUTHENTICATION_PROTOCOL
+- Ojective: Define the authentication protocol
+- Behavior: Defines whether the system will authenticate with internal parameters or with another authentication protocol.
+- Type: varchar
+- Default valor: internal
+- Valid types: 
+
+	1.	OAUTH2: For keycloack authentication - this information overrides any security policy entered in the Security Policy record;
+	2.	Internal: For system-defined authentication;
+ 
+- Parameter: AUTHENTICATION_CREATE_USER
+- Ojective: Define whether the user will be created in the application after the login
+- Behavior: Records the user who logged into the application;
+- Type: boolean (true or false)
+- Default value: FALSE 
+- Possible values:
+	
+	True – record
+	False -–  don't record
+
+
+From version 9.1.2.23, new parameters have been added:
+ 
+- Parameter: MAXIMUM_LOGIN_FIELD_SIZE
+- Ojective: Set the maximum acceptable size in the login field
+- Behavior: It just prevents login by issuing a generic message, invalid login or password.
+- Type: numeric
+- Default value: 25
+ 
+- Parameter: ALLOW_SYMBOLS_AT_LOGIN
+- Ojective: Define whether the system accepts symbols in the login field
+- Behavior: It just prevents login by issuing a generic message, invalid login or password.
+- Type: boolean (true or false)
+- Default value: FALSE
+
+
 From version 9.1.2.19 onwards, the CITSMART.CFG file is now called “application.ini” and must follow the guidelines below:  
 
 1. The update of the table will only occur when the parameter LOAD_FACTSERVICEREQUESTRULES of APPLICATION.INI has the value TRUE. In the absence of this configuration in the file, the system assumes the value FALSE for the parameter. That is, the default is NOT to update the table;  
