@@ -89,6 +89,8 @@ From version 9.1.2.23, new parameters were added:
 
 ## Related
 
+[Users Unlock Requirements](/en-us/citsmart-platform-9/platform-administration/security/user-unlock-requirement.html)
+
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
