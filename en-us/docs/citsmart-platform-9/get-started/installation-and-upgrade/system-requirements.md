@@ -2,53 +2,32 @@ Title: System requirements
 
 # System requirements
 
+For running the platform and its applications, the recommended system requirements may vary depending on the installation scenario.
 
-## Application Server
+## Application and database on the same server
 
-CITSmart runs on the Wildfly version 12 application server. The minimum system requirements required for the application server are:
+If you install all programs, and the relational database on the same server, we recommend that the server has at least `32GB` of memory for production environments. If you just want to do some testing, or approval and development environments, a `16GB` server is enough. As for the disk size, we recommend having at least `30GB` space available.
 
-| Resource | Value   |
-|---------|---------|
-| **Memory** | 8 GB   |
-| **CPU**     | 4 CPU's |
-| **Disk**   | 80 GB   |
+## Dismembered application and database
 
-## Relational Database Server
+If you already have a relational base server in your environment, you can use it to install the CITSmart. In this case, the application server must have at least `16GB` of memory. For the base server, we recommend at least `4GB` for a production environment.
 
-CITSmart is compatible with PostgreSQL, Oracle, and Microsoft SQL Server databases. If you already have an enterprise database management system, it can be used to host the CITSmart database. If you do not have and you want to install a new SGDB only for the application, we recommend using PostgreSQL 9.2 or later, with the following configurations:
+!!! Warning "ATTENTION"
 
-| Resource | Value   |
-|---------|---------|
-| **Memory** | 4 GB   |
-| **CPU**     | 2 CPU's |
-| **Disk**   | 80 GB   |
+    Whatever the case may be, these are the recommended minimum values. Remember that the CITSmart platform is composed of other applications, such as Neuro, which allows integrations with the most diverse purposes. These integrations can lead to different consumption and processing loads than normal, so the values of the system requirements may vary from environment to environment.   
 
-## NoSQL Database Server
+## Recommended package versions
 
-To install MongoDB, we recommend the following configuration:
+From version 9.1.2.23, the table "Recommended package versions" must be changed for the approved databases:
 
-| Resource | Value   |
-|---------|---------|
-| **Memory** | 4 GB   |
-| **CPU**     | 2 CPU's |
-| **Disk**   | 80 GB   |
-
-## Indexing system
-
-For installation of Apache SOLR, we recommend the following configurations:
-
-| Resource | Value   |
-|---------|---------|
-| **Memory** | 4 GB   |
-| **CPU**     | 2 CPU's |
-| **Disk**   | 80 GB   |
-
-!!! tip
-     The **SOLR** and **MongoDB** services can be installed on the same server as the CITSmart application. We recommend for production environments that you separate the database server from the application server.
-
-	 
-<!-- !!! tip "About"
-
-    <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/22/2019 - João Pelles  
-	
+|Application|Version|
+|-------------- | ------ |
+|Wildfly | `12.x` |
+|Java JDK | `8.x` |
+|PostgreSQL | `12` |
+|Driver JDBC |`It depends on the base version. In the document we will use version 9.3 because postgreSQL will be in this version.` |
+|SOLR | `6.4.2` |
+|Operational System| Although it can be installed in any distribution and version, the document considers the distribution `Linux CentOS 7.x.`   |
+|MongoDB   | `3.4.15`|
+|Microsoft SQL Server|`2019`|
+|Oracle| `12c`|
