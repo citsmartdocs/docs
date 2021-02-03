@@ -122,7 +122,7 @@ Para atender o termo de privacidade do aplicativo, foi inserido dois novos parâ
 <property name="sync.adminprivacyterm.cron" value="0 0 0/23 * 1/1 * ? *"/>
  ```
 
- Após realizada as configurações, reinicie o serviço para efetivar as mudanças:
+Após realizada as configurações, reinicie o serviço para efetivar as mudanças:
 
 ``` shell
 systemctl restart wildfly
