@@ -116,7 +116,18 @@ the clause below:
  </system-properties>
  ```
 
- After configuring, restart the service to implement the changes:
+To meet the privacy term of the application, two new parameters were added:
+
+1. Which points to the URL where the privacy term is  
+2. Which informs the verification time if there is a new version of the privacy term  
+3. From version 9.2.0.1, two new lines have been added in the `<system-properties>`:
+
+``` xml
+<property name="admin.url" value="https://my.cloud4biz.com/4biz"/>
+<property name="sync.adminprivacyterm.cron" value="0 0 0/23 * 1/1 * ? *"/>
+ ```
+
+After configuring, restart the service to implement the changes:
 
  ``` shell
  [root@server /tmp]# systemctl status wildfly
