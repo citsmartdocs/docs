@@ -3,6 +3,24 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 
 # Notas de Release
 
+## Versão 9.1.2.25 (2021/02/16)
+
+!!! warning "ATENÇÃO"
+
+    Antes de baixar esta versão, verifique as orientações presentes no documento [Guia de orientações CITSmart versão 9.1.2.25][6]
+    
+Bem-vindos ao Citsmart Versão 9.1.2.25. Esta versão apresenta os seguintes itens:
+
+A versão Neuro compatível com essa versão é 1.3.5.5
+
+|Número|Tipo|Descrição|
+|--------|---------|---------|
+|6231|Corretiva|Erro ao listar histórico de um ticket delegado pela pesquisa avançada|
+|10670|Corretiva|Sistema não apresenta conhecimento externo e público|
+|10802|Corretiva|Erro de charset em palavras acentuadas nos relatórios smart|
+|10892|Corretiva|Melhoria de performance nas consultas de auditoria|
+
+
 ## Versão 9.1.2.24 (2021/01/16)
 
 !!! warning "ATENÇÃO"
@@ -233,3 +251,4 @@ Bem-vindos ao Citsmart Versão 9.0. Esta versão apresenta os seguintes itens:
 [3]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Orientações-sobre-a-vserão-Citsmart-V9.1.2.22.zip
 [4]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Pacote-Atualizacao-9.1.2.23-Citsmart.zip
 [5]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Pacote-Atualizacao-9.1.2.24-Citsmart.zip
+[6]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Orientações-sobre-a-vserão-Citsmart-V9.1.2.25.zip
