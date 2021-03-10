@@ -65,10 +65,9 @@ A partir da versão 9.1.2.23 foram inseridos novos parâmetros:
         1. Enviar alerta de segurança para o grupo: Informar o grupo para quem será enviado o e-mail de alerta em caso de usuário bloqueado por exceder as tentativas configuradas;
         2. Enviar alerta de segurança para os e-mails: Informa o e-mail de possíveis colaboradores que deverão ser alertados em caso de bloqueio de usuário. Os e-mails deverão ser separados por vírgula e sem nenhum espaço entre eles e sem espaço no final;
         
-        !!! warning "ATENÇÃO"
+!!! warning "ATENÇÃO"
         
-            Caso o sistema identifique o e-mail do usuário que teve o acesso bloqueado esse usuário também receberá e-mail de bloqueio.
-            O modelo de e-mail de bloqueio não está disponível para alteração nessa versão. 
+    Caso o sistema identifique o e-mail do usuário que teve o acesso bloqueado esse usuário também receberá e-mail de bloqueio. O modelo de e-mail de bloqueio não está disponível para alteração nessa versão. 
 
 13.  Clicar em “Salvar”.
 
