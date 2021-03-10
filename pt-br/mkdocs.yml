@@ -156,6 +156,8 @@ nav:
     - Painel do usuário:
       - citsmart-platform-9/initial-settings/user-panel/home-panel.md
       - citsmart-platform-9/initial-settings/user-panel/register-menu.md
+  - Recomendações de segurança:
+    - citsmart-platform-9/security-recommendation/security-recommendation.md
   - Administração da Plataforma:
     - Introdução:
       - citsmart-platform-9/platform-administration/introduction.md
