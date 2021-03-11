@@ -154,6 +154,8 @@ nav:
     - User Panel:
       - citsmart-platform-9/initial-settings/user-panel/home-panel.md
       - citsmart-platform-9/initial-settings/user-panel/register-menu.md
+  - Safety Recommendations:
+    - citsmart-platform-9/security-recommendation/security-recommendation.md
   - Platform Administration:
     - Introduction:
       - citsmart-platform-9/platform-administration/introduction.md
