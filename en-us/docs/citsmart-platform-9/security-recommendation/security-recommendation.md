@@ -23,3 +23,5 @@ For greater safety of your operating environment, we recommend:
 
 
 ## Related
+
+[Implement password security rules](/en-us/citsmart-platform-9/platform-administration/security/implement-password-security-rules.html)
