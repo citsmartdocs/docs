@@ -19,7 +19,11 @@ For greater safety of your operating environment, we recommend:
 
 7. Still, for on-premises operating environments, we recommend that all infrastructure components that support the platform, including the database server and the application server, have regular password change routines.
 
-8. We request that any identified security fragility situation be immediately referred to our support team or one of our authorized partners. Under no circumstances, make any kind of statement before proper analysis by the manufacturer’s security team, as such situations may be part of the existing recommendations package or be a situation related to double or additional protections. CITSmart is a global trademarks, with patents registered and approved in the US, Europe, America, Africa, and Asia, and therefore unauthorized citations may be construed as a violation of rights.
+8. Also for on-premises operating environments, we recommend that the application server where the platform is installed does not have direct visibility on the internet, that is, we recommend the use of intermediate software (balancers, reverse proxy, or others) as a gateway to the platform, in addition to hiding internal details. It is also important to properly use firewall structures.
+
+9. It is important to maintain and fully control all levels of user access. Check the roles of all employees in the organization to define appropriate access to a specific component or functionality. Ensure authorized user access to items strictly necessary for the performance of their tasks. Such recommendations apply to on-premises installations, where there are several profiles with access to infrastructure information, as well as access and functions within the platform. The manufacturer is not responsible for improper use of access management on the platform, as well as in the component structure.
+
+10. We request that any identified security fragility situation be immediately referred to our support team or one of our authorized partners. Under no circumstances, make any kind of statement before proper analysis by the manufacturer’s security team, as such situations may be part of the existing recommendations package or be a situation related to double or additional protections. CITSmart is a global trademarks, with patents registered and approved in the US, Europe, America, Africa, and Asia, and therefore unauthorized citations may be construed as a violation of rights.
 
 
 ## Related
