@@ -16,6 +16,8 @@ Capturing a Ticket inside the Incident/Request Management means taking responsib
 
 2.	Clicking once on the Incident or Request you want attend will open the actions and selecting the "Open" button will open it. Double-clicking will directly open it.
 
+3.	If the system identifies that the executing user is linked to more than one group that could promote the conclusion of that ticket, the system displays an interface for the user to identify the group that will perform the task.
+
 
 ## Incident or Service Request Information
 
