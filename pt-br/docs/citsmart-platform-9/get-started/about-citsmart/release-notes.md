@@ -3,6 +3,21 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 
 # Notas de Release
 
+## Versão 9.1.2.27 (2021/03/23)
+
+Bem-vindos ao CITSmart Versão 9.1.2.27. Esta versão apresenta as seguintes melhorias:
+
+|Número|Tipo|Descrição|
+|------|----|---------|
+|11094| Corretiva| Correção da autenticação LDAP via webservice|
+|11094| Corretiva| Correção de null pointer e mensagens|
+|11094| Corretiva| Não persistir a senha do usuário LDAP|
+|11094| Corretiva| Tratamento de erros LDAP|
+
+Informações para atualização do pacote:
+
+1. Para essa versão o Neuro compatível é 1.3.6.6.
+
 ## Versão 9.1.2.26 (2021/03/23)
 
 Bem-vindos ao CITSmart Versão 9.1.2.26. Esta versão apresenta as seguintes melhorias:
