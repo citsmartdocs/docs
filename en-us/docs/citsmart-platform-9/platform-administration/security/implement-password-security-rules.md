@@ -48,8 +48,6 @@ Procedure
 7.  For users who are already in operation, it's possible to force the password
     change of the new configuration, from the next login, click on the key "Force
     password change at next login for all users";
-    
-From version 9.1.2.23, new parameters were added:  
 
 8.  Enable the key “Enable user blocking policy”:
     
@@ -72,19 +70,7 @@ From version 9.1.2.23, new parameters were added:
 
 13.  Click on "Save”.
 
-!!! Abstract "NOTE"
 
-    The System notifies the user 3 days before the expiration of the current password,
-    making this alert through a message in a text box that will appear
-    once a day when logging in the System. After the password expires,
-    the user is automatically sent to the user profile screen with open
-    password exchange panel (you can only use the system again if you
-    make a password change).
-
-!!! Abstract "NOTE"
-
-    To change the password, the user can reset the password in two different
-    ways, see [Register user][1] and [Edit user account][2].
 
 
 ## Related
