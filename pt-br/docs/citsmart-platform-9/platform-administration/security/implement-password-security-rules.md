@@ -49,6 +49,8 @@ Procedimento
     da nova configuração, a partir do próximo login, clicar na chave “Forçar
     troca de senha no próximo login para todos os usuários”;
 
+A partir da versão 9.1.2.23 ou 9.2.1.0 foram inseridos novos parâmetros:
+
 8.  Habilitar a chave “Habilitar política de bloqueio de usuário”:
     
     - Um símbolo com um i informando que: Será considerado tanto para logins internos quanto externos;
