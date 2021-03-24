@@ -14,9 +14,17 @@ Bem-vindos ao CITSmart Versão 9.1.2.27. Esta versão apresenta as seguintes mel
 |11094| Corretiva| Não persistir a senha do usuário LDAP|
 |11094| Corretiva| Tratamento de erros LDAP|
 
-Informações para atualização do pacote:
+Bem-vindos ao Neuro 1.3.6.6.
 
-1. Para essa versão o Neuro compatível é 1.3.6.6.
+A versão apresentada possui a(s) seguinte(s) correção(ões):
+
+|Número|Tipo|Descrição|
+|--------|---------|---------|
+|11025| Corretiva| Correção de redirecionamento para tela de login ao utilizar o webservice de mesmo nome|
+
+!!! warning "ATENÇÃO"
+
+    Para mais informações sobre o Neuro 1.3.6.6, veja o arquivo de [Notas de Release Neuro][7]
 
 ## Versão 9.1.2.26 (2021/03/23)
 
@@ -26,9 +34,17 @@ Bem-vindos ao CITSmart Versão 9.1.2.26. Esta versão apresenta as seguintes mel
 |--------|---------|---------|
 |ITSM 6396| Corretiva| Sintaxe de SQL incorreta ao criar ou abrir um problema|
 
-Informações para atualização do pacote:
+Bem-vindos ao Neuro 1.3.6.6.
 
-1. Para essa versão o Neuro compatível é 1.3.6.6.
+A versão apresentada possui a(s) seguinte(s) correção(ões):
+
+|Número|Tipo|Descrição|
+|--------|---------|---------|
+|11025| Corretiva| Correção de redirecionamento para tela de login ao utilizar o webservice de mesmo nome|
+
+!!! warning "ATENÇÃO"
+
+    Para mais informações sobre o Neuro 1.3.6.6, veja o arquivo de [Notas de Release Neuro][7]
 
 ## Versão 9.1.2.25 (2021/02/16)
 
@@ -279,3 +295,4 @@ Bem-vindos ao Citsmart Versão 9.0. Esta versão apresenta os seguintes itens:
 [4]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Pacote-Atualizacao-9.1.2.23-Citsmart.zip
 [5]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Pacote-Atualizacao-9.1.2.24-Citsmart.zip
 [6]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Orientações-sobre-a-vserão-Citsmart-V9.1.2.25.zip
+[7]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Notas-de-Release-Neuro-1.3.6.6.docx
