@@ -48,6 +48,8 @@ Procedure
 7.  For users who are already in operation, it's possible to force the password
     change of the new configuration, from the next login, click on the key "Force
     password change at next login for all users";
+    
+From version 9.1.2.23 or 9.2.1.0, new parameters were added:    
 
 8.  Enable the key “Enable user blocking policy”:
     
