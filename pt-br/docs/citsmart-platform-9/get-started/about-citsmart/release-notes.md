@@ -3,6 +3,20 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 
 # Notas de Release
 
+## Versão 9.1.2.28 (2021/03/24)
+
+Bem-vindos ao CITSmart Versão 9.1.2.28. Esta versão apresenta as seguintes melhorias:
+
+|Número|Tipo|Descrição|
+|------|----|---------|
+|11216 | Corretiva| Correção de vulnerabilidade do filtro de autocomplete|
+|11214 | Melhoria| Alteração do algoritmo de criptografia de senha e forçar alteração da senha no próximo login|
+|6588 | Corretiva| Incidente no relatório de Controle de SLA retornando datas fora do período solicitado|
+|6607 | Corretiva| Incidente no relatório Controle SLA Atrasado mostrando datas fora do período selecionado|
+|6527 | Corretiva| Incidente ao responder uma pesquisa de satisfação, o sistema não carrega a pesquisa|
+
+Para essa versão o Neuro compatível é 1.3.6.6.
+
 ## Versão 9.1.2.27 (2021/03/23)
 
 Bem-vindos ao CITSmart Versão 9.1.2.27. Esta versão apresenta as seguintes melhorias:
