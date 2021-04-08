@@ -395,4 +395,4 @@ Bem-vindos ao Citsmart Versão 9.0. Esta versão apresenta os seguintes itens:
 [6]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Orientações-sobre-a-vserão-Citsmart-V9.1.2.25.zip
 [7]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Notas-de-Release-Neuro-1.3.6.6.docx
 [8]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Pacote-Atualização-9.2.0.2.zip
-[9]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Notas de Release Neuro 1.3.7.0.docx
+[9]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Notas-de-Release-Neuro-1.3.7.0.docx
