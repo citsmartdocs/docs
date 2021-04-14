@@ -90,6 +90,14 @@ A versão apresentada possui a(s) seguinte(s) correção(ões):
 |------|----|---------|
 |11320| Correção| Correção da exibição de componentes|
 
+Bem-vindos ao Neuro 1.3.7.2.
+
+A versão apresentada possui a(s) seguinte(s) correção(ões):
+
+|Número|Tipo|Descrição|
+|------|----|---------|
+|10735| Correção| Correção de scripts|
+
 Bem-vindos ao Neuro 1.3.7.1.
 
 A versão apresentada possui a(s) seguinte(s) correção(ões):
