@@ -3,7 +3,7 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 
 # Notas de Release
 
-## Versão 9.2.0.2 (2021/04/07)
+## Versão 9.2.0.2 (2021/04/14)
 
 !!! warning "ATENÇÃO"
 
@@ -13,48 +13,81 @@ Bem-vindos ao CITSmart Versão 9.2.0.2 Esta versão apresenta as seguintes melho
 
 |Número|Tipo|Descrição|
 |------|----|---------|
-|10975|	Correção| Correção de erro ao adicionar uma imagem no conteúdo do conhecimento para visualização de usuários visitantes|
-|11190|	Correção| Correção de erro em que ao suspender um ticket e ele sumia da listagem|
-|10979|	Correção| Correção de erro para o versionamento de conhecimento|
-|11092|	Correção| Correção de erro em que ao editar um comentário na tela de ticket não era possível gravar o ticket|
-|11160|	Correção| Correção de erro que impedia a criação de um ticket via token|
-|11105|	Correção| Correção de erro em que ao abrir um ticket pelo centro de experiência ele acrescentava no campo descrição o nome da atividade do portfólio|
-|11106|	Correção| Correção de erro em que o botão Cancelar ticket não era exibido dentro do ticket selecionado no centro de experiência|
-|11109|	Correção| Correção de erro em que ao adicionar uma imagem em uma categoria de imagem ou em um conteúdo de conhecimento ele era redirecionado para a tela de login|
-|11110|	Correção| Correção de erro em que ao reprovar um ticket pelo smart portal ou pela tela ticket ele era cancelado, mas ficava aparecendo na lista principal|
-|11269|	Correção| Correção de erro ao mostrar a ocorrência em tickets fechados|
-|11195|	Correção| Correção do erro no campo direcionar para grupos, que carregava todos os grupos cadastrados|
-|10928|	Correção| Correção do erro ao utilizar os WebServices Save e Next setando os campos a serem alterados no ticket, eles não estavam sendo alterados no Front End e mostrava a alteração somente no histórico do ticket|
-|11287|	Correção| Correção do erro ao rejeitar um ticket com fluxo de aprovação via token pelo e-mail|
-|11197|	Correção| Correção do erro em que um ticket que foi capturado na tarefa de direcionar atendimento, ao delegar o ticket, não estava apresentando as informações na tabela 'capturecontrolservicerequest'|
-|10929|	Correção| Correção do erro em que o Ícone 'bandeira' para trocar o idioma não estava funcionando na tela 'Termos de serviço' em uma instalação do zero|
-|11231|	Correção| Correção do erro em que a pesquisa de satisfação não estava funcionando corretamente, quando o usuário clicava no link do email para responder. A aplicação redirecionava para url do sistema, porém ficava só no aguarde|
-|11260|	Correção| Correção do erro em que ao realizar a validação de um ticket que possuia mais de um grupo na atribuição do fluxo, com fluxo aprovação via token setando na tarefa de usuário executor "Aprovar" com mais de um grupo, ao aprovar ou rejeitar via e-mail na tabela bpm_itemtrabalhofluxo não setava o campo executor_grupo_id|
-|11263|	Correção| Correção de falha no webservice de empregado|
-|11258|	Correção| Correção do erro quando tínhamos um ticket origem vinculado a um ticket relacionado, ao fechar, o ticket origem e o ticket relacionado também eram fechados. Porém na tabela bpm_itemtrabalho não ficava gravado o grupo executor do ticket relacionado|
-|11261|	Correção| Correção do erro no webservice de check-in|
-|11196|	Correção| Correção do erro no componente de fluxo que não podia ser movido no Chrome|
-|11189|	Correção| Correção do erro ao criar um ticket que continha somente uma imagem no campo descrição o sistema não apresentava a imagem após a criação|
-|10476|	Correção| Correção do erro em que na tela de 'Midia' ao vincular um conhecimento e salvar, ao entrar dentro dele, novamente, o conhecimento ia replicando|
-|11239|	Correção| Correção do erro no comportamento do sistema quando o usuário não selecionava nenhum grupo ao capturar um ticket e clicava em avançar|
-|11223|	Correção| Correção do erro quando tentávamos gravar e avançar uma liberação que estava com a tarefa atual igual 'liberação' e essa liberação contina uma mudança que tinha um IC vinculado na mesma requisição de liberação, ele não salvava e apresenta mensagem de erro|
-|10971|	Correção| Correção do erro de key violation, remanescente da correção do Sequence_Block|
-|10665|	Correção| Melhoria em tickets que possuíam mais de um grupo na atribuição do fluxo|
-|11199|	Correção| Correção do erro ao delegar um ticket por dentro do chamado|
-|10487|	Correção| Correção do erro em que ao reclassificar, pelo webservice, não estava ficando a justificativa correta|
-|10546|	Correção| Correção do erro em que no portfólio ao editar qualquer campo da pop-up "Vincular Serviço de Requisição ou Incidente" apresentava o erro de SQL no Log e não salvava a edição. O botão de "Gravar" estava sem ação|
-|11217|	Correção| Correção do erro em que não estava sendo possível criar um problema do tipo 'Reativo', pois não conseguíamos vincular um ticket ao problema|
-|11188|	Correção| Correção do erro ao suspender um ticket por dentro do chamado|
-|11010|	Correção| Correção do erro em que não estava criando um ticket com o webservice create antigo|
-|11011|	Correção| Correção do erro em que ao suspender um ticket a aplicação não estava suspendendo e apresentava deadlock|
-|11159|	Melhoria| Melhoria no webservice de login do citsmart para um novo usuário LDAP|
-|11290|	Correção| Correção de erro que estava ocorrendo ao utilizar no WebService de listar portfólios. O mesmo não estava apresentando corretamente os portfólios do usuário logado, cujo o mesmo é o usuário fornecido no body do webService quando o parâmetro 293 está habilitado|
-|11158|	Melhoria| Melhoria no webservice de autenticação – Neuro|
-|11291|	Correção| Correção de erro quando cadastrávamos um usuário pela aplicação não estava ficando o domínio local, por exemplo, citsmart.local\re|
-|11288|	Correção| Correção de erro onde ao tentar reabrir um ticket que tinha um fluxo de aprovação via token, a aplicação exibia uma mensagem de erro|
-|11293|	Correção| Correção de erro em que ao tentar capturar um ticket pelo webservice, com um usuário logado e com permissão no fluxo para dois grupos, não era permitido capturar o ticket e exibia uma mensagem de erro|
-|11216|	Correção| Correção de vulnerabilidade no sistema|
-|11214|	Melhoria| Melhoria na alteração do algoritmo de criptografia de senha e forçar alteração da senha no próximo login|
+|10975| Correção|	[PostgreSQL / Sql Server] Correção de erro ao adicionar uma imagem no conteúdo do conhecimento para visualização de usuários visitantes.|
+|11190| Correção|	[G. Ticket] Correção de erro em que ao suspender um ticket ele sumia da listagem.|
+|10979| Correção|	[G. Conhecimento] Correção de erro para o versionamento de conhecimento.|
+|11092| Correção|	[G. Ticket] Correção de erro em que ao editar um comentário na tela de ticket não era possível gravar o ticket.|
+|11160| Correção|	[G. Ticket] Correção de erro que impedia a criação de um ticket via token.|
+|11105| Correção|	[Experience Center] Correção de erro em que ao abrir um ticket pelo centro de experiência ele acrescentava no campo descrição o nome da atividade do portfólio.|
+|11106| Correção|	[Experience Center] Correção de erro em que o botão Cancelar ticket não era exibido dentro do ticket selecionado no centro de experiência.|
+|11109| Correção|	[G. Conhecimento] Correção de erro em que ao adicionar uma imagem em uma categoria de imagem ou em um conteúdo de conhecimento ele era redirecionado para a tela de login.|
+|11110| Correção|	[G. Ticket] Correção de erro em que ao reprovar um ticket pelo smart portal ou pela tela ticket ele era cancelado, mas ficava aparecendo na lista principal.|
+|11269| Correção|	[Webservice] Correção de erro ao mostrar a ocorrência em tickets fechados.|
+|11195| Correção|	[G. Ticket] Correção do erro no campo direcionar para grupos, que carregava todos os grupos cadastrados.|
+|10928| Correção|	[Webservice] Correção do erro ao utilizar os WebServices Save e Next setando os campos a serem alterados no ticket, eles não estavam sendo alterados no Front End e mostrava a alteração somente no histórico do ticket.|
+|11287| Correção|	[G. Ticket] Correção do erro ao rejeitar um ticket com fluxo de aprovação via token pelo e-mail.|
+|11197| Correção|	[G. Ticket] Correção do erro em que um ticket que foi capturado na tarefa de direcionar atendimento, ao delegar o ticket, não estava apresentando as informações na tabela 'capturecontrolservicerequest'.|
+|10929| Correção|	[Sistema] Correção do erro em que o Ícone 'bandeira' para trocar o idioma não estava funcionando na tela 'Termos de serviço' em uma instalação do zero.|
+|11231| Correção|	[G. Ticket] Correção do erro em que a pesquisa de satisfação não estava funcionando corretamente, quando o usuário clicava no link do email para responder. A aplicação redirecionava para url do sistema, porém ficava só no aguarde.|
+|11260| Correção|	[G. Ticket] Correção do erro em que ao realizar a validação de um ticket que possuia mais de um grupo na atribuição do fluxo, com fluxo aprovação via token setando na tarefa de usuário executor "Aprovar" com mais de um grupo, ao aprovar ou rejeitar via e-mail na tabela bpm_itemtrabalhofluxo não setava o campo executor_grupo_id.|
+|11263| Correção|	[Webservice] Correção de falha no webservice de empregado.|
+|11258| Correção|	[G. Ticket] Correção do erro quando tínhamos um ticket origem vinculado a um ticket relacionado, ao fechar, o ticket origem e o ticket relacionado também eram fechados. Porém na tabela bpm_itemtrabalho não ficava gravado o grupo executor do ticket relacionado.|
+|11261| Correção|	[Webservice] Correção do erro no webservice de check-in.|
+|11196| Correção|	[G. Ticket] Correção do erro no componente de fluxo que não podia ser movido no Chrome.|
+|11189| Correção|	[G. Ticket] Correção do erro ao criar um ticket que continha somente uma imagem no campo descrição o sistema não apresentava a imagem após a criação.|
+|10476| Correção|	[CMDB] Correção do erro em que na tela de 'Midia' ao vincular um conhecimento e salvar, ao entrar dentro dele, novamente, o conhecimento ia replicando.|
+|11239| Correção|	[G. Ticket] Correção do erro no comportamento do sistema quando o usuário não selecionava nenhum grupo ao capturar um ticket e clicava em avançar.|
+|11223| Correção|	[G. Liberação] Correção do erro quando tentávamos gravar e avançar uma liberação que estava com a tarefa atual igual 'liberação' e essa liberação contina uma mudança que tinha um IC vinculado na mesma requisição de liberação, ele não salvava e apresenta mensagem de erro.|
+|10971| Correção|	[Corretiva] Correção do erro de key violation, remanescente da correção do Sequence_Block.|
+|11199| Correção|	[G. Ticket] Correção do erro ao delegar um ticket por dentro do chamado.|
+|10487| Correção|	[Webservice] Correção do erro em que ao reclassificar, pelo webservice, não estava ficando a justificativa correta. |
+|10546| Correção|	[G. Portfólio] Correção do erro em que no portfólio ao editar qualquer campo da pop-up "Vincular Serviço de Requisição ou Incidente" apresentava o erro de SQL no Log e não salvava a edição. O botão de "Gravar" estava sem ação.|
+|11217| Correção|	[G. Problemas] Correção do erro em que não estava sendo possível criar um problema do tipo 'Reativo', pois não conseguíamos vincular um ticket ao problema.|
+|11188| Correção|	[G. Ticket] Correção do erro ao suspender um ticket por dentro do chamado.|
+|11010| Correção|	[Webservice] Correção do erro em que não estava criando um ticket com o webservice create antigo.|
+|11011| Correção|	[G. Ticket] Correção do erro em que ao suspender um ticket a aplicação não estava suspendendo e apresentava deadlock.|
+|11290| Correção|	[Webservice] Correção de erro que estava ocorrendo ao utilizar no WebService de listar portfólios. O mesmo não estava apresentando corretamente os portfólios do usuário logado, cujo o mesmo é o usuário fornecido no body do webService quando o parâmetro 293 está habilitado.|
+|11291| Correção|	[Usuários] Correção de erro quando cadastrávamos um usuário pela aplicação não estava ficando o domínio local, por exemplo, citsmart.local\ re.|
+|11288| Correção|	[G. Ticket] Correção de erro onde ao tentar reabrir um ticket que tinha um fluxo de aprovação via token, a aplicação exibia uma mensagem de erro.|
+|11293| Correção|	[Webservice] Correção de erro em que ao tentar capturar um ticket pelo webservice, com um usuário logado e com permissão no fluxo para dois grupos, não era permitido capturar o ticket e exibia uma mensagem de erro.|
+|11216| Correção|	[Sistema] Correção de vulnerabilidade no sistema.|
+|10503| Correção|	[G. Ticket] Correção de erro ao validar chamados encerrados que continuavam aparecendo na lista de chamados em andamento.
+|10649| Correção|	[Sistema] Correção de erro porque o campo “useremail” da tabela “chatusers” não aceitava null. Ao logar com usuários LDAP, que não possuía e-mail cadastrado, apresentava erro.|
+|10930| Correção|	[Usuário] Correção de na tabela perfil de acesso.|
+|10931| Correção|	[Sistema] Correção de erros apresentados no log ao fazer uma instalação nova.|
+|10944| Correção|	[Sistema] Correção de erro ao criar um fluxo.|
+|10314| Correção|	[G. Liberação] Correção de erro em que não era apresentada as ocorrências de “criação e finalização” na pesquisa avançada e no nome da pessoa que realizou a ocorrência estava descrito o login do usuário e não o seu nome completo.|
+|10867| Correção|	[Webservices] Correção de erro ao gravar um ticket com um conhecimento vinculado o sistema limpava o conhecimento. 
+|10921| Correção|	[Webservices] Correção de erro no webservice location/last.|
+|10554| Correção|	[Smart Portal] Correção de erro quando parâmetro de id 293 = Sim, a aplicação estava apresentando erro ao abrir a tela de Smart portal.|
+|10866| Correção|	[G. Problema] Correção de erro em que ao criar uma requisição de problema era apresentado, na tela para o usuário e no log, um erro de SQL.|
+|10865| Correção|	[G. Mudança] Correção de erro na mudança ao inserir IC e gravar.|
+|10861| Correção|	[G. Mudança] Correção de erro no Java em que a tabela “RequisicaoMudancaServiceEjb” não estava trazendo a quantidade de requisições de aprovação na tela de mudança.|
+|10788| Correção|	[Sistema] Correção de erro em que ao atualizar a versão da 1.2.24 para 2.0.1-Snapshot-02, a aplicação apresentava erro nos parâmetros corpore do sistema.|
+|10922| Correção|	[Webservice] Correção de erro em que o push notification não estava chegando no aplicativo.|
+|10891| Correção|	[Sistema] Correção de erro para remover um agendamento, quando um processamento batch fosse automaticamente inativado.|
+|10902| Correção|	[Sistema] Correção de erro na sequencia da tabela “Rest_operation” que estava com valor equivalente ao “Restoperation_seq.nextval” para a chave primária.|
+
+E as seguintes melhorias:
+|Número|Tipo|Descrição|
+|------|----|---------|
+|11214| Melhoria|	[Usuários] Melhoria na alteração do algoritmo de criptografia de senha e forçar alteração da senha no próximo login.|
+|11159| Melhoria|	[Webservice] Melhoria no webservice de login do CITSmart para um novo usuário ldap.|
+|11158| Melhoria|	[Webservice] Melhoria no webservice de autenticação – Neuro.|
+|10665| Melhoria|	[G. Ticket] Melhoria em tickets que possuíam mais de um grupo na atribuição do fluxo.|
+| -   | Melhoria|	[Usuários] Melhoria na inclusão do método de autenticação Keycloack.|
+| -	  | Melhoria| [Usuários] Melhoria na inclusão do método de autenticação via redes sociais.|
+|10502| Melhoria|	[G. Ticket] Melhoria nas consultas de BI.|
+|10081| Melhoria|	[Webservice] Melhoria em que foi criado um webservice que permite visualizar os detalhes da mudança.|
+
+
+Bem-vindos ao Neuro 1.3.7.3.
+
+A versão apresentada possui a(s) seguinte(s) correção(ões):
+
+|Número|Tipo|Descrição|
+|------|----|---------|
+|11320| Correção| Correção da exibição de componentes|
 
 Bem-vindos ao Neuro 1.3.7.1.
 
