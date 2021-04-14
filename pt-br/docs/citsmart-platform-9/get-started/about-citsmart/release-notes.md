@@ -69,6 +69,7 @@ Bem-vindos ao CITSmart Versão 9.2.0.2 Esta versão apresenta as seguintes melho
 |10902| Correção|	[Sistema] Correção de erro na sequencia da tabela “Rest_operation” que estava com valor equivalente ao “Restoperation_seq.nextval” para a chave primária.|
 
 E as seguintes melhorias:
+
 |Número|Tipo|Descrição|
 |------|----|---------|
 |11214| Melhoria|	[Usuários] Melhoria na alteração do algoritmo de criptografia de senha e forçar alteração da senha no próximo login.|
