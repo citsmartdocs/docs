@@ -120,6 +120,13 @@ A versão apresentada possui a(s) seguinte(s) correção(ões):
 
     Para mais informações sobre o Neuro 1.3.7.0, veja o arquivo de [Notas de Release Neuro][9]
 
+## Versão 9.1.2.29 (2021/04/14)
+
+Bem-vindos ao CITSmart Versão 9.1.2.29. Esta versão apresenta a seguinte correção:
+
+|Número|Tipo|Descrição|
+|------|----|---------|
+|11344| Correção| Corretiva de segurança|
 
 ## Versão 9.1.2.28 (2021/03/24)
 
