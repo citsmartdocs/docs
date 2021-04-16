@@ -82,6 +82,16 @@ E as seguintes melhorias:
 |10081| Melhoria|	[Webservice] Melhoria em que foi criado um webservice que permite visualizar os detalhes da mudança.|
 
 
+Bem-vindos ao Neuro 1.3.7.4.
+
+A versão apresentada possui a(s) seguinte(s) correção(ões):
+
+|Número|Tipo|Descrição|
+|------|----|---------|
+|11320| Correção| Correção de mensagem de erro|
+|11353| Correção| Correção da criação de fluxos em ambiente Oracle|
+|11353| Correção| Correção do query componente|
+
 Bem-vindos ao Neuro 1.3.7.3.
 
 A versão apresentada possui a(s) seguinte(s) correção(ões):
@@ -135,6 +145,8 @@ Bem-vindos ao CITSmart Versão 9.1.2.29. Esta versão apresenta a seguinte corre
 |Número|Tipo|Descrição|
 |------|----|---------|
 |11344| Correção| Corretiva de segurança|
+
+O Neuro compatível com essa versão é o 1.3.7.4.
 
 ## Versão 9.1.2.28 (2021/03/24)
 
