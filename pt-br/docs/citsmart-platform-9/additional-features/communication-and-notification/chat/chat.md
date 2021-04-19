@@ -49,7 +49,7 @@ Serão apresentados os seguintes parâmetros:
 |Ação inicial| Quando informado iniciará uma ação vinda do assistente virtual na tela de Smart Chat|
 |Salvar| Botão para salvar as configurações|
 
-Após salvar, a tela do Smart Chat estará disponível na tela de login, assim como todos os serviços configurados para Smart Chat ou assistente virtual, seguindo as restrições, de grupo e perfil de acesso, impostas ao usuário convidado
+Após salvar, a tela do Smart Chat estará disponível na tela de login, assim como todos os serviços configurados para Smart Chat ou assistente virtual, seguindo as restrições, de grupo e perfil de acesso, impostas ao usuário convidado.
 
 A seguir apresentamos alguns exemplos de como utilizar o Chat do CITSmart em cenários diferentes:
 
