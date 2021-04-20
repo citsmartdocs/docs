@@ -3,6 +3,25 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 
 # Notas de Release
 
+## Versão 9.2.1.0 (2021/04/16)
+
+Bem-vindos ao CITSmart Versão 9.2.1.0. Esta versão apresenta as seguintes correções:
+
+|Número|Tipo|Descrição|
+|------|----|---------|
+|11235| Correção| Respostas ao formulário Neuro não aparecem na pesquisa avançada|
+|11348| Correção| Verificar que os formulários Neuro estão sendo gravados sem a validação de campos obrigatórios|
+
+E as seguintes melhorias:
+
+|Número|Tipo|Descrição|
+|------|----|---------|
+|11155| Melhoria| Melhoria na Manutenção de Portfólio|
+|11220| Melhoria| Criar área de configuração para o SmartChat|
+|11221| Melhoria| Permitir visualização e iteração do usuário com o SmartChat pela tela inicial do sistema|
+
+Para essa versão o Neuro compatível é 1.3.7.4.
+
 ## Versão 9.2.0.2 (2021/04/14)
 
 !!! warning "ATENÇÃO"
