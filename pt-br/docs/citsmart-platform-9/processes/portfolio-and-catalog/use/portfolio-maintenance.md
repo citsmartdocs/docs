@@ -27,13 +27,13 @@ Description: Veremos como realizar a manutenção de um portfólio de serviço.
 2. O sistema retorna todas as atividades ativas encontradas para o serviço de negócio/apoio selecionado. Atividades ativas são as que estão com status ativo.
 3. Selecione a(s) atividade(s) que deseja vincular. Para as Atividades, temos as seguintes informações:
 
-  - Nome
-  - Opção de filtrar
-  - ID
-  - Portfólio
-  - Serviço
-  - Contratos vinculados
-  - Visualizar detalhes
+       - Nome
+       - Opção de filtrar
+       - ID
+       - Portfólio
+       - Serviço
+       - Contratos vinculados
+       - Visualizar detalhes
 
 4. Quando selecionado as atividades, aparecerão dois botões, um mostrando a quantidade de atividades que foram selecionadas e outro "Comparar atividades selecionadas", onde apresenta um pop-up com as informações das atividades selecionadas.
 
@@ -42,13 +42,13 @@ Depois da lista de Atividades, é hora de selecionar o Contrato que deseja vincu
 1. O sistema apresenta a lista dos contratos ativos encontrados nas atividades selecionadas anteriormente.  
 2. Selecione o contrato que deseja vincular. Para os Contratos, temos as seguintes informações:
 
-  - Nome do contrato  
-  - Opção de filtrar  
-  - Cliente  
-  - Fornecedor  
-  - Portfólio, que irá retornar à quantidade de portfólios encontrados no contrato selecionado  
-  - Visualizar detalhes
-  - Seta de detalhes do contrato, que ao ser selecionada carrega logo abaixo as seguintes informações do contrato: Tipo de Acordo/Contrato, Data de Contrato, Horas de Suporte, Moeda, Data Término de Contrato
+       - Nome do contrato  
+       - Opção de filtrar  
+       - Cliente  
+       - Fornecedor  
+       - Portfólio, que irá retornar à quantidade de portfólios encontrados no contrato selecionado  
+       - Visualizar detalhes
+       - Seta de detalhes do contrato, que ao ser selecionada carrega logo abaixo as seguintes informações do contrato: Tipo de Acordo/Contrato, Data de Contrato, Horas de Suporte, Moeda, Data Término de Contrato
 
 3. Após vincular devidamente as Atividades e Contratos que deseja, clique em "Avançar".  
 4. Será apresentado a tela de "Características padrões da ação em massa". Nessa tela, você preencherá algumas informações que servirão como características padrões da ação em massa para todas atividades e contratos que você selecionou anteriormente.  
@@ -80,13 +80,13 @@ Depois da lista de Atividades, é hora de selecionar o Contrato que deseja vincu
 2. O sistema retorna todas os contratos ativos encontradas para o portfólio selecionado. Portfólio ativos são os que estão com status ativo.  
 3. Selecione o contrato que deseja desvincular. Para os Contratos, temos as seguintes informações:
 
-  - Nome do contrato  
-  - Opção de filtrar  
-  - Cliente  
-  - Fornecedor  
-  - Portfólio, que irá retornar à quantidade de portfólios encontrados no contrato selecionado  
-  - Visualizar detalhes
-  - Seta de detalhes do contrato, que ao ser selecionada carrega logo abaixo as seguintes informações do contrato: Tipo de Acordo/Contrato, Data de Contrato, Horas de Suporte, Moeda, Data Término de Contrato
+       - Nome do contrato  
+       - Opção de filtrar  
+       - Cliente  
+       - Fornecedor  
+       - Portfólio, que irá retornar à quantidade de portfólios encontrados no contrato selecionado  
+       - Visualizar detalhes
+       - Seta de detalhes do contrato, que ao ser selecionada carrega logo abaixo as seguintes informações do contrato: Tipo de Acordo/Contrato, Data de Contrato, Horas de Suporte, Moeda, Data Término de Contrato
 
 4. Quando selecionado os contratos, aparecerão dois botões, um mostrando a quantidade de contratos que foram selecionadas e outro "Comparar contratos selecionados", onde apresenta um pop-up com as informações dos contratos selecionados.
 
@@ -95,13 +95,13 @@ Depois da lista de Contratos, é hora de selecionar a Atividade que deseja desvi
 1. O sistema apresenta a lista das Atividades encontradas no portfólio selecionado.  
 2. Selecione a atividade que deseja desvincular. Para as Atividades, temos as seguintes informações:
 
-  - Nome
-  - Opção de filtrar
-  - ID
-  - Portfólio
-  - Serviço
-  - Contratos vinculados
-  - Visualizar detalhes
+       - Nome
+       - Opção de filtrar
+       - ID
+       - Portfólio
+       - Serviço
+       - Contratos vinculados
+       - Visualizar detalhes
 
 3. Clique em Avançar para prosseguir.  
 4. Será apresentado a tela de "Características padrões da ação em massa". Nessa tela, você preencherá algumas informações que servirão como características padrões da ação em massa para todos contratos e atividades que você selecionou anteriormente.  
