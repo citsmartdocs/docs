@@ -129,3 +129,7 @@ Depois da lista de Contratos, é hora de selecionar a Atividade que deseja desvi
 
 
 ## Relacionado
+
+[Cadastrar um contrato](/pt-br/citsmart-platform-9/additional-features/contract-management/use/register-contract.html)
+
+[Cadastrar atividade de serviço](/pt-br/citsmart-platform-9/processes/portfolio-and-catalog/use/register-service-activity.html)
