@@ -72,7 +72,7 @@ Depois da lista de Atividades, é hora de selecionar o Contrato que deseja vincu
 9. Será apresentado a tela de "Revisão de itens que serão alterados".  
 10. Nessa tela você poderá rever todas as características, atividades e contratos que você selecionou durante todo o processo de vínculo para averiguar se está de acordo com suas necessidades. Note que essa tela é apenas de visualização, não podendo ser alterada nenhuma informação.  
 11. Caso esteja de acordo com as informações, clique em "Confirmar". Será apresentado uma mensagem "Deseja confirmar e seguir com as ações em massa?", clique em "Sim, confirmar" para finalizar o vínculo.  
-12. Ao ser vinculado uma atividade a um contrato o sistema retornará para tela portfólio.
+12. Ao vincular uma atividade a um contrato o sistema retornará para tela portfólio.
 
 ### Desvinculando
 
