@@ -66,7 +66,7 @@ Depois da lista de Atividades, é hora de selecionar o Contrato que deseja vincu
 |Grupo aprovador|
 |Fluxo|
 
-6. Abaixo, será apresentado as atividades e os contratos que você selecionou anteriormente para serem vinculados anteriormente.  
+6. Abaixo, será apresentado as atividades e os contratos que você selecionou anteriormente para serem vinculados.  
 7. Todas as atividades e contratos selecionadas nessa etapa receberão as mesmas características informadas acima. Caso o sistema identifique uma característica para um serviço/contrato, a característica anterior não será subscrita.  
 8. Após configurar todos os campos, clique em Avançar.  
 9. Será apresentado a tela de "Revisão de itens que serão alterados".  
