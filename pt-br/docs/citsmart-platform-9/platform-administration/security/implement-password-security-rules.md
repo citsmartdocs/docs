@@ -10,21 +10,22 @@ disponibilizando maior nível de segurança com uso de diferentes caracteres.
     Esta política de segurança não está disponível para usuários LDAP.
      
 
-Regras default ao habilitar a Política de Segurança:
+1. A partir da versão 9.2.1.0 ao atualizar a aplicação o sistema irá automaticamente configurar os seguintes parâmetros da tela de política de privacidade:
 
--   Tamanho mínimo de 8 caracteres;
+       - Campo Habilitar política de senha virá configurado como habilitado;  
+       - Campo Tamanho mínimo virá configurado em 8;  
+       - Campo Exigir virá com as opções Minúsculas, Maiúsculas, Números e Símbolos setados como habilitados;  
+       - Campo A nova senha não pode ser igual as anteriores virá configurado em 2;  
+       - Campo Exigir a troca de senha no primeiro login virá setado em habilitado;  
+       - Campo Duração da senha virá setado em 2 meses.
 
--   No mínimo uma letra minúscula;
-
--   No mínimo uma letra maiúscula;
-
--   No mínimo um número;
-
--   No mínimo um caracter especial (símbolo)
-
--   A senha não pode ser igual às últimas 3 utilizadas;
-
--   A senha expira em 3 meses
+2. O sistema exigirá a alteração de senha no primeiro login, após uma atualização ou instalação;  
+3. Para atualizações, caso a política de senha já estiver habilitada, o sistema respeitará as configurações do cliente;  
+4. Caso a aplicação tenha sua versão alterada novamente no período inferior ao de 2 meses, setado na configuração inicial, o sistema não solicitará alteração de senha para os usuários locais que já tiverem realizado a alteração;  
+5. Essas configurações só serão válidas para usuários locais;  
+6. Ao habilitar a Política de Bloqueio de usuários, o administrador autoriza o bloqueio de usuários externos ou internos;  
+7. O uso de captcha altera a forma de realizar login, possuindo um método a mais de autenticação;  
+8. O administrador, caso habilite o bloqueio de usuários, poderá enviar e-mail aos responsáveis pela segurança do sistema.
 
 Procedimento
 ------------
