@@ -10,21 +10,22 @@ providing a higher level of security with the usage of different characters.
      This security policy is not available for LDAP users.
      
 
-Default rules when enabling Security Policy:
+1. From version Helium 2.1.0, when updating the application, the system will automatically configure the following parameters of the privacy policy screen:
 
--   Minimum of 8 characters;
+       - Field Enable password policy will be configured as enabled;  
+       - Minimum size field will be set to 8;  
+       - Require field will come with Lowercase, Uppercase, Numbers and Symbols options set as enabled;  
+       - Field The new password cannot be the same as the previous ones, it will be configured in 2;  
+       - Require password change at first login field will be set to enabled;  
+       - Password duration field will be set as 2 months.
 
--   At least one lower case letter;
-
--   At least one uppercase letter;
-
--   At least a number;
-
--   At least one special character (symbol);
-
--   The password cannot be the same as the last 3 passwords used;
-
--   The password expires in 3 months.
+2. The system will require changing the password at the first login, after an update or installation;  
+3. For updates, if the password policy is already enabled, the system will respect the client's settings;  
+4. If the application has its version changed again in less than 2 months, set in the initial configuration, the system will not request a password change for local users who have already made the change;  
+5. These settings will only be valid for local users;  
+6. By enabling the User Blocking Policy, the administrator authorizes the blocking of external or internal users;  
+7. The use of captcha changes the way of logging in, having an extra method of authentication;  
+8. The administrator, if enabling user blocking, can send e-mail to those responsible for system security.
 
 Procedure
 ------------
@@ -53,7 +54,7 @@ From version 9.1.2.23 or 9.2.1.0, new parameters were added:
 
 8.  Enable the key “Enable user blocking policy”:
     
-    - It'll be considered for both internal and external logins;
+    - A symbol with an "i" stating that: Will be considered for both internal and external logins;
         
 9.  Enable the key “Enable Captcha at Login”: This functionality enables a mandatory check for connections of all users in the system; during the login;    
 
@@ -79,10 +80,4 @@ From version 9.1.2.23 or 9.2.1.0, new parameters were added:
 
 [Users Unlock Requirements](/en-us/citsmart-platform-9/platform-administration/security/user-unlock-requirement.html)
 
-<!-- !!! tip "About"
 
-    <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/31/2019 - Anna Martins
-
-[1]:/en-us/citsmart-platform-9/initial-settings/access-settings/user/users.html
-[2]:/en-us/citsmart-platform-9/initial-settings/access-settings/user/user-data.html
