@@ -24,7 +24,7 @@ Para essa versão o Neuro compatível é 1.3.7.4.
 
 ## Versão 9.2.0.5 (2021/04/16)
 
-Bem-vindos ao CITSmart Versão 2.0.5. Esta versão apresenta as seguintes correções:
+Bem-vindos ao CITSmart Versão 9.2.0.5. Esta versão apresenta as seguintes correções:
 
 |Número|Tipo|Descrição|
 |------|----|---------|
@@ -33,6 +33,16 @@ Bem-vindos ao CITSmart Versão 2.0.5. Esta versão apresenta as seguintes corre�
 
 Para essa versão o Neuro compatível é 1.3.7.4.
 
+
+## Versão 9.2.0.3 (2021/04/16)
+
+Bem-vindos ao CITSmart Versão 9.2.0.3. Esta versão apresenta as seguintes correções:
+
+|Número|Tipo|Descrição|
+|------|----|---------|
+|11344| Correção| Tratamento de novas tags SQL Injection|
+
+Para essa versão o Neuro compatível é 1.3.7.4.
 
 ## Versão 9.2.0.2 (2021/04/14)
 
