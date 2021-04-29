@@ -34,6 +34,20 @@ Bem-vindos ao CITSmart Versão 9.2.0.5. Esta versão apresenta as seguintes corr
 Para essa versão o Neuro compatível é 1.3.7.4.
 
 
+## Versão 9.2.0.4 (2021/04/16)
+
+Bem-vindos ao CITSmart Versão 9.2.0.4. Esta versão apresenta as seguintes correções:
+
+|Número|Tipo|Descrição|
+|------|----|---------|
+|10735| Correção| Correção do filtro de segurança|
+|11235| Correção| Correção do tratamento de erros Neuro|
+|11235| Correção| Respostas ao formulario Neuro nao aparecem na pesquisa avançada|
+|11355| Correção| Alteracao para o sistema não usar a trigger bpm_itemtrabalhofluxo_mv|
+
+Para essa versão o Neuro compatível é 1.3.7.4.
+
+
 ## Versão 9.2.0.3 (2021/04/16)
 
 Bem-vindos ao CITSmart Versão 9.2.0.3. Esta versão apresenta as seguintes correções:
