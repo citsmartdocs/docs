@@ -27,7 +27,7 @@ O chat pode ser usado de três modos:
 
 Para que o chat esteja disponível é preciso configurar os parâmetros de ativação da funcionalidade.
 
-•	Uso Manual: 299, 315, 316, 317, 447 e 423.
+•	Uso Manual: 315, 316, 317, 447 e 423.
 
 •	Integração com a Anuva: 423
 
@@ -137,13 +137,21 @@ A seguir apresentamos alguns exemplos de como utilizar o Chat do CITSmart em cen
    a. Busca pelo número do ticket;
    b. Atendimentos na Fila - São atendimentos que não foi feito captura do chamado
    c. Atendimentos em Andamento -São atendimentos que já foram capturados e estão sendo atendidos
+   
+### Conversa entre ambos canais - Chat e Anuva
+
+1. Para haver integração entre ambos os canais é preciso habilitar os parâmetros: 402, 423, 441, 442, 450 3 453;  
+2. O parâmetro 453 deverá estar conter a informação no formato <b>menu</b>. Ex.: Prezado(a), não entendi muito bem o que você pediu. Digite <b>menu</b> para que eu mostre as formas que eu possa te ajudar;  
+3. Item 1: O usuário conversará com a Anuva;  
+4. Item 2: O assistente virtual enviará várias mensagens de fallback;  
+5. Item 3: O assistente virtual enviará opções de falar com o atendente ou abrir um novo ticket;  
+6. Item 4: O usuário seleciona falar com o atendente;  
+7. Item 5: O assistente virtual abre um novo ticket e caso tenha um agente do lado do ticket, o ticket será criado com um alert;  
+8. Item 6: Nesse momento poderá ocorrer interação entre o usuário e o atendente   
 
 ## Relacionado
 
-[Configurar parametrização - chat](/pt-br/citsmart-platform-9/platform-administration/parameters-list/configure-parametrization-chat.html)
-
-
-<!-- !!! tip "About"
-
-    <b>Product/Version:</b> CITSmart ESP | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/04/2019 – Anna Martins
+[Configurar parametrização - chat](/pt-br/citsmart-platform-9/platform-administration/parameters-list/configure-parametrization-chat.html)  
+[Integração Facebook Messenger](/pt-br/citsmart-platform-9/additional-features/communication-and-notification/omnichannel/omnichannel-integration-facebook.html)  
+[Integração Twitter Direct Message](/pt-br/citsmart-platform-9/additional-features/communication-and-notification/omnichannel/omnichannel-integration-twitter.html)  
+[Integração WhatsApp (Twilio)](/pt-br/citsmart-platform-9/additional-features/communication-and-notification/omnichannel/omnichannel-integration-whatsapp.html)
