@@ -3,6 +3,17 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 
 # Notas de Release
 
+## Versão 9.2.1.1 (2021/05/03)
+
+Bem-vindos ao CITSmart Versão 9.2.1.1. Esta versão apresenta as seguintes correções:
+
+|Número|Tipo|Descrição|
+|------|----|---------|
+|11607| Correção| Correção do erro onde o usuário que está configurado como usuário convidado é impedido de acessar o sistema|
+
+Para essa versão o Neuro compatível é 1.3.7.4.
+
+
 ## Versão 9.2.1.0 (2021/04/16)
 
 Bem-vindos ao CITSmart Versão 9.2.1.0. Esta versão apresenta as seguintes correções:
