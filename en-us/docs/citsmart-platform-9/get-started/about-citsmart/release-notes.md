@@ -3,6 +3,19 @@ Description: Release notes, bug fixes and improvements in the CITSmart.
 
 # Release Notes
 
+## Version 9.1.2.25 (2021/02/16)
+
+Welcome to CITSmart Version 9.1.2.25. This version features the following items:
+
+|Number|	Type|	Description|
+|------|--------|--------------|
+|6231 |	Corrective|	Error when listing history of a delegated ticket by the advanced search|
+|10670|	Corrective|	The system does not present external and public knowledge|
+|10802|	Corrective|	Charset error in accented words in smart reports|
+|10892|	Corrective|	Improvement of performance in the audit consultations|
+
+For this version, the compatible Neuro is 1.3.5.5.
+
 ## Version 9.1.2.24 (2021/01/16)
 
 Welcome to CITSmart Version 9.1.2.24. This version features the following items:
@@ -30,7 +43,6 @@ The version presented has the following correction(s):
 |Corrective|	Description|
 |----------|---------------|
 |          |Correction of intermittent error occasioned in Rhino Scripts|
-
 
 
 ## Version 9.1.2.23 (2021/01/05)
