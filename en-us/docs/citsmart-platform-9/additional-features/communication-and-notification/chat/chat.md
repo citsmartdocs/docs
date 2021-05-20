@@ -23,11 +23,31 @@ Chat can be used in three ways:
 
 In order for chat to be available, it's necessary to configure the parameters of activation of the functionality.
 
-•	Manual Usage: 315, 316, 317, 447 e 423.
+1.  Access the functionality through the main menu Parametrization \> Chat;
 
-•	Integration with Anuva: 423
+2.  Set the parameters value (attributes);
 
-By enabling parameter 423 the chat will open integrated with the virtual assistant Anuva.
+3.  Click on "Save";
+
+4.  The list below presents the parameter of the functionality "Chat" and the
+    purpose of each one of them.
+
+|  #  |                   Name                  | Possible Values |                               Purpose                               | Additional Guidance |
+|:---:|:---------------------------------------:|:---------------:|:-------------------------------------------------------------------:|:-------------------:|
+| 118 |  Default Contract ID for call opening.  |                 |                  Default contract ID to open calls                  |    Not applicable   |
+| 315 |  ID of the requests created by the chat |                 |                Source ID of requests created by chat                |    Not applicable   |
+| 316 |              Activate Chat              |      Y or N     |                            Activate Chat                            |    Not applicable   |
+| 317 | Activity ID of requests created by chat |                 |               Activity ID of requests created by chat               |    Not applicable   |
+| 388 |    Default user ID (External request)   |                 |                  Default user ID (External request)                 |    Not applicable   |
+| 389 |   Default group ID (External request)   |                 |                 Default group ID (External request)                 |    Not applicable   |
+| 390 |             Default unit ID             |                 | Unit ID that will be assigned to the user registered in the profile |    Not applicable   |
+| 447 |  Email template ID for notification of new messages in chat |                    | Email template ID for notification of new messages in chat |        Not applicable       |
+| 299 |     Ticket - Activate message exchange             |       Y or N       | Activate a chat icon next to the ticket number in the attedance queue |        Not applicable       |
+| 448 |    Text editor used by the application        |                    | Text editor used by the application |        Not applicable       |
+
+5. The parameters 315, 316, 317, 447 and 423  must be set manually.
+
+6. By enabling parameter 423 the chat will open integrated with the virtual assistant Anuva.
 
 ## Procedure
 
@@ -40,14 +60,14 @@ It'll be presented the following parameters:
 |Parameter|Description|
 |---------|---------|
 |Enable guest mode| Configure whether Smart Chat will be displayed on the login screen or not. The options will be Yes or No, default No. If the user chooses "Yes", the system will ask for the user's login. The login must follow the pattern: domain\\login|
-|Guest mode - User ID| It is the identifier number of the user who will log in as a guest. Information contained in the UserID column of the user table|
-|Guest mode - Secret key| The secret key is the password for the guest user|
+|Guest mode - User ID| Required field. It is the identifier number of the user who will log in as a guest. Information contained in the UserID column of the user table|
+|Guest mode - Secret key| Required field. The secret key is a security word to let the user know they are talking to a guest user.|
 |Welcome message| Change or keep the default welcome message|
 |Starts opened| When enabled, it means that Smart Chat will always be in the mode waiting for a message. The default will be No|
 |Initial action| When informed, an action will start from the virtual assistant on the Smart Chat screen|
 |Save| Button to save the configurations|
 
-After saving, the Smart Chat screen will be available on the login screen, as well as all services configured for Smart Chat or virtual assistant, following the restrictions, group and access profile, imposed on the guest user.
+After saving, the Smart Chat screen will be available on the login screen, but only for interactions with the virtual assistant. The services will follow the restrictions, group and access profile imposed on the guest user.
 
 Below there are some examples of how to use CITSmart Chat in different scenarios:
 
