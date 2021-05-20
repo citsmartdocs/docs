@@ -19,7 +19,7 @@ O chat pode ser usado de três modos:
 -   Ambos: utilizado para viabilizar o contato entre o solicitante e o
     atendente, possibilitando também que um usuário interaja com um chatbot.
 
-!!! note "NOTA"
+!!! Abstract "NOTA"
     
     Para interação com um Chatbot é necessário ter adquirido este serviço. Em caso de dúvidas, entrar em contato com a             CITSmart.
 
