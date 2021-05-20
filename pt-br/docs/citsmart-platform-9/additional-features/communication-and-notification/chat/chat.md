@@ -42,14 +42,14 @@ Serão apresentados os seguintes parâmetros:
 |Parâmetro|Descrição|
 |---------|---------|
 |Ativar modo convidado| Configurar se o Smart Chat será visualizado na tela de login. As opções serão Sim ou Não, default Não. Caso o usuário escolha "Sim", o sistema solicitará o login do usuário. O login deverá seguir o padrão: domínio\\login|
-|Modo convidado - ID Usuário| É o número identificador do usuário que iniciará sessão como convidado. Informação contida na coluna idUsuario da tabela usuário|
-|Modo convidado - Chave secreta| A chave secreta é a senha de acesso do usuário convidado|
+|Modo convidado - ID Usuário| Esse campo é obrigatório. É o número identificador do usuário que se logará como convidado. Informação contida na coluna idUsuario da tabela usuário.|
+|Modo convidado - Chave secreta| Esse campo é obrigatório. É uma palavra de segurança para que o usuário saiba que está conversando com um usuário convidado.|
 |Mensagem de boas-vindas| Alterar ou manter a mensagem padrão de boas-vindas|
 |Iniciar aberto| Quando ativo significa que o Smart Chat vai sempre estar no modo aguardando mensagem. O default será Não|
 |Ação inicial| Quando informado iniciará uma ação vinda do assistente virtual na tela de Smart Chat|
 |Salvar| Botão para salvar as configurações|
 
-Após salvar, a tela do Smart Chat estará disponível na tela de login, assim como todos os serviços configurados para Smart Chat ou assistente virtual, seguindo as restrições, de grupo e perfil de acesso, impostas ao usuário convidado.
+Após salvar as configurações do Smart Chat, as funcionalidades estarão disponíveis na tela de login somente para interação com o assistente virtual. Essas funcionalidades seguem as restrições de grupo e perfil  de acesso impostas ao usuário.
 
 A seguir apresentamos alguns exemplos de como utilizar o Chat do CITSmart em cenários diferentes:
 
