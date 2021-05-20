@@ -50,13 +50,7 @@ Welcome to CITSmart Version 9.1.2.27. This version presents the following improv
 |11094	|Corrective|	Do not continue using the LDAP user password|
 |11094	|Corrective|	LDAP error handling|
 
-Welcome to Neuro 1.3.6.6.
-The version presented has the following correction(s):
-
-|Number |	   Type|   Description|
-|-------|----------|--------------|
-|11025	|Corrective|	Correction of login screen redirection when using the webservice of the same name|
-
+For this version, the compatible Neuro is 1.3.6.6.
 
 ## Version 9.1.2.26 (2021/03/23)
 
