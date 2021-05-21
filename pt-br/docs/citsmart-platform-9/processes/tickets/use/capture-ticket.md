@@ -18,6 +18,53 @@ Capturar o incidente ou requisição de serviço significa assumir a responsabil
 
 3. Caso o sistema identifique que o usuário executor está vinculado a mais de um grupo que poderia promover a execução desse ticket o sistema exibi uma interface para que o usuário identifique o grupo que irá executar a tarefa.
 
+### Regra Negocial  
+
+1. Não se pode capturar uma tarefa que não tenha permissão para execução, porque, se não tem grupo não tem tarefa.  
+2. Não se pode capturar uma tarefa, uma vez que já foi, pelo usuário, capturada;  
+3. Não se pode capturar uma tarefa se ela já foi encerrada;  
+4. Se tiver apenas um grupo executor, deve-se setar ele automaticamente;  
+5. Se tiver mais de um grupo executor, deve-se solicitar que o usuário o informe;  
+6. Aplicar o grupo executor ao campo executor_group_id;  
+7. Atualizar a captureControlRequest com o grupo executor correto;  
+8. Em tarefas de aprovação, o sistema vai verificar:  
+
+      a. Se o desenho de fluxo possuir a expressão grupo aprovador, esse grupo já é informado no desenho das atividades, portanto o sistema deve atribuir ao grupo automaticamente;  
+      b. Caso tenha mais de um grupo, deverá perguntar ao usuário com qual grupo deverá ser feita a aprovação;  
+
+### Troubleshooting na inclusão de mais de um grupo no fluxo.   
+
+!!! Warning "Atenção"   
+
+     Se um usuário logado tiver permissão em dois ou mais grupos cuja tarefa de grupo foi atribuída, o sistema pode não conseguir identificar qual o grupo que deveria atuar, e pode escolher aleatoriamente entre os grupos disponíveis. Para evitar esse problema, é necessário seguir o procedimento descrito abaixo. Dessa forma, o sistema deverá apresentar uma caixa pop-up para que o usuário selecione qual dos grupos irá executar a tarefa em questão.
+     
+1. Deverá ser gravada na tabela ItemTrabalhofluxo:  
+
+      a. O id do responsável que capturou o ticket;  
+      b. O idgrupo que executou a tarefa 
+
+2. Atualizar a tabela capturecontrolservicerequest, para se registrar corretamente os grupos que já executaram a tarefa, no caso, de uma delegação o sistema remove as atribuições e atribui a outros grupos e usuários; 
+
+3. Criar script para atualizar este campo; 
+
+4. Descontinuar o campo idgrupoatual no banco de dados; 
+
+5. Avisar os técnicos de suporte, clientes e todo o pessoal envolvido que este campo idgrupoatual foi descontinuado, ou seja, ele não mais será alimentado pelo sistema. 
+
+ 
+
+<b> Impacto: </b> 
+
+Se o parâmetro 452 (Continuar na tela de Ticket após salvar?) estiver ativo o ticket é capturado automaticamente: 
+
+É preciso verificar esse caso, e antes de capturar o ticket é preciso fazer o processo (acima) de informar qual o grupo; 
+
+<b>Tabelas:</b> 
+
+bpm_itemtrabalhofluxo - executor_group_id , idresponsavelatual 
+
+capturecontrolservicereques
+
 ## Informações sobre o incidente ou a requisição de serviço
 
 Após a abertura da requisição de serviço ou incidente, o sistema recuperará as informações da requisição ou incidente
