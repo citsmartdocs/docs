@@ -18,6 +18,52 @@ Capturing a Ticket inside the Incident/Request Management means taking responsib
 
 3.	If the system identifies that the executing user is linked to more than one group that could promote the conclusion of that ticket, the system displays an interface for the user to identify the group that will perform the task.
 
+### Business Rule  
+
+1. It is not possible to capture a task without the proper permissions.  
+2. It is not possible to capture a task once it has been captured by another user. 
+3. It is not possible to capture a finished task.  
+4. If there is only one execution group, it must be set automatically.  
+5. If there is more than one execution group, the user must inform it.  
+6. Apply the executor group to the field executor_group_id;  
+7. Update captureControlRequest with the correct executor group;  
+8. During approval tasks, the system will verify:  
+
+      a. If the flow design contains the approval group expression, this group is already informed during activities design, therefore the system should assign the group automatically.  
+      b. If there is more than one group, the system will ask the user which group will perform the approval.  
+
+### Troubleshooting when including more than one group in the flow.   
+
+!!! Warning "Warning"   
+
+     If a user has permissions in two or more groups for the assigned task, the system might not be able to identify which group should be acting, and might randomly pick from one of the available groups. To avoid this problem, it is necessary to follow the procedure described below. This way, the system will show a pop-up window so the user can select which group will perform the task.
+     
+1. It should be saved on the table ItemWorkFlow:  
+
+      a. The id of the person who captured the ticket.  
+      b. The groupid that performed the task. 
+
+2. Update the table capturecontrolservicerequest, in order to register properly the groups which already performed the task. In case of delegation, the system removes the assignments and moves them to other groups and users; 
+
+3. Create script to update this field; 
+
+4. Discontinue the field currentgroupid on the database; 
+
+5. Warn support technicians, clients and everyone involved that the currentgroupid was discontinued and will be no longer supported. 
+
+ 
+
+<b> Impact: </b> 
+
+If the parameter 452 (Continue on the ticket screen after saving?) is active, the ticket is assigned automatically: 
+
+This case needs to be verified, and before capturing the tickets it's required to follow the process (above) and inform which group. 
+
+<b>Table:</b> 
+
+bpm_itemworkFlow - executor_group_id , currentresponsibleid  
+
+capturecontrolservicereques  
 
 ## Incident or Service Request Information
 
