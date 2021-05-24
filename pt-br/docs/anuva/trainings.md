@@ -166,29 +166,29 @@ A seguinte estrutura de arquivos é proposta para se manter um padrão organizac
    - <b>IV. support:</b> Diretório destinado a conter códigos de suporte aos arquivos de teste, devendo este conter os seguintes diretório para melhor agrupamento:</br> 
         - **commands:** Estes arquivos são utilizados pelos testes, localizados no diretório integration. Devem conter os código dos comandos utilizados pelos testes. Além dos arquivos commands individuais para cada arquivo de testes, temos também um de uso Global. Algumas boas práticas são:  </br> 
             
-            - O uso de commands é uma boa prática para agilizar o desenvolvimento e manutenção do projeto, pois evita códigos redundantes.</br>  
+            - O uso de commands é uma boa prática para agilizar o desenvolvimento e manutenção do projeto, pois evita códigos redundantes.  
             
-            - Por questão organizacional, deve se ter um arquivo command para cada arquivo de teste.</br> 
+            - Por questão organizacional, deve se ter um arquivo command para cada arquivo de teste.  
             
-            - Os commands não devem lidar com os dados diretamente. Os dados devem vir através de parâmetros. Assim sendo, não devem importar arquivos fixtures.</br>  
+            - Os commands não devem lidar com os dados diretamente. Os dados devem vir através de parâmetros. Assim sendo, não devem importar arquivos fixtures.  
             
-            - Os commands importam os arquivos locators.</br>  
+            - Os commands importam os arquivos locators.  
             
-            - Manter os métodos em ordem alfabética facilita a localização e leitura, além do que, intuitivamente, leva a um padrão na criação de suas nomenclaturas.</br>  
-            
-            - O arquivo commands de uso global, como o próprio nome diz, deve conter os comandos de testes de uso global no projeto. Um bom exemplo para este uso é o método de verificação de url’s, que pode ser único e servir a toda a aplicação.</br>     
+            - Manter os métodos em ordem alfabética facilita a localização e leitura, além do que, intuitivamente, leva a um padrão na criação de suas nomenclaturas.              
+            - O arquivo commands de uso global, como o próprio nome diz, deve conter os comandos de testes de uso global no projeto. Um bom exemplo para este uso é o método de verificação de url’s, que pode ser único e servir a toda a aplicação.  
+                      
          
-         
-        </br> - **llocators:** Diretório destinado a conter os arquivos que registram os endereços de acesso aos widgets de tela, url’s e demais endereços. Como determinado nas boas práticas deste projeto, os arquivos locators devem ser importados e utilizados pelos commands. Além dos arquivos locators individuais para cada arquivo de testes, temos também um de uso Globais. Algumas boas práticas são:  </br> 
+        - **llocators:** Diretório destinado a conter os arquivos que registram os endereços de acesso aos widgets de tela, url’s e demais endereços. Como determinado nas boas práticas deste projeto, os arquivos locators devem ser importados e utilizados pelos commands. Além dos arquivos locators individuais para cada arquivo de testes, temos também um de uso Globais. Algumas boas práticas são:   
         
-            - O uso de locators é uma boa prática para agilizar o desenvolvimento e manutenção do projeto, pois agrega em única área as vias de acesso aos widget’s de tela e url’s.</br>  
+            - O uso de locators é uma boa prática para agilizar o desenvolvimento e manutenção do projeto, pois agrega em única área as vias de acesso aos widget’s de tela e url’s.  
             
-            - Os arquivos locators devem ser importados pelos commands.</br>  
+            - Os arquivos locators devem ser importados pelos commands.  
             
-            - Deve-se ter um arquivo locators para cada arquivo de testes.</br>  
+            - Deve-se ter um arquivo locators para cada arquivo de testes.  
             
-            - Devem ser evitados blocos muito extensos. Quando o volume for grande, é sugerido a sua divisão em tópicos.</br>   
-           
+            - Devem ser evitados blocos muito extensos. Quando o volume for grande, é sugerido a sua divisão em tópicos.  
+
+
    - <b>V. node_modules:</b> Diretório que contém o registro e arquivos das bibliotecas utilizadas pelo projeto.  
       
    - <b>VI. cypress.json:</b> Arquivo de configuração central do Cypress. Basicamente contém valores de variáveis de escopo global ao sistema. Registre neste arquivo as url’s a serem manipuladas pelo sistema.  
