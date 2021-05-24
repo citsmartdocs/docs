@@ -118,7 +118,7 @@ Preliminarmente, você já deve possuir o Node.js instalado e, a nível de suges
    - <b>Instalar o cypress:</b> Permanecendo no diretório do projeto instale o Cypress, conforme indicado: <i>$ npm install cypress</i>  
  Se necessário, instruções completas podem ser obtidas junto à documentação oficial.  
  
- !!! note "Nota"  
+!!! note "Nota"  
         
            Se desejar instalar uma versão específica, como exemplo, faça da seguinte forma: <i>$ npm install cypress@4.6.2</i>
            
