@@ -141,34 +141,52 @@ ou através do VsCode, pelo caminho Outline > NPM Scripts > package.json > cypre
 A seguinte estrutura de arquivos é proposta para se manter um padrão organizacional do projeto. Porém, não existem restrições técnicas para outras abordagens, sendo as boas práticas a seguir mera convenção para o projeto em questão:
 
    - <b>I. Fixtures: </b>Diretório destinado aos arquivos que irão conter dicionários com dados a serem utilizados pelos no preenchimento de informações, pelos testes. Algumas boas práticas são:  
-        - O uso de fixtures é uma boa prática para agilizar o desenvolvimento e manutenção do projeto, pois agrega em única área os dados variáveis utilizados pelo projeto. 
-        - Por questão organizacional, deve se ter um arquivo fixture para cada arquivo de teste. 
+    
+        - O uso de fixtures é uma boa prática para agilizar o desenvolvimento e manutenção do projeto, pois agrega em única área os dados variáveis utilizados pelo projeto.  
+          
+        - Por questão organizacional, deve se ter um arquivo fixture para cada arquivo de teste.  
+         
         - Devem ser evitados blocos muito extensos. Quando o volume for grande, é sugerido a sua divisão em tópicos.  
+         
         - Os commands não devem lidar com os dados diretamente. Os dados devem ser manipulados nas intents.  
           
    
    - <b>II. integration:</b> Diretório destinado a conter os testes a serem realizados, na aplicação. Algumas boas práticas são:  
    
         - Estes arquivos devem se restringir à lógica dos testes e manipulação dos dados, deixando a cargo dos commands a execução dos procedimentos com as devidas interações com telas e api ‘ s. </br> 
+        
         - Por questão organizacional, deve se ter um arquivo command para cada arquivo de teste. </br> 
+        
         - Os arquivos de testes não devem lidar com os componentes de tela diretamente, ficando isto a cargo dos arquivos em commands. Assim sendo, não devem importar arquivos locators. </br> 
+        
         - Os arquivos de testes importam os arquivos fixtures, para a manipulação de dados e passagem destes para os commands. </br> 
 
    - <b>III. plugins:</b> Diretório destinado a conter o registro de eventuais plugins utilizados no projeto.  
    
    - <b>IV. support:</b> Diretório destinado a conter códigos de suporte aos arquivos de teste, devendo este conter os seguintes diretório para melhor agrupamento:</br> 
         - **commands:** Estes arquivos são utilizados pelos testes, localizados no diretório integration. Devem conter os código dos comandos utilizados pelos testes. Além dos arquivos commands individuais para cada arquivo de testes, temos também um de uso Global. Algumas boas práticas são:  </br> 
+            
             - O uso de commands é uma boa prática para agilizar o desenvolvimento e manutenção do projeto, pois evita códigos redundantes.</br>  
+            
             - Por questão organizacional, deve se ter um arquivo command para cada arquivo de teste.</br> 
+            
             - Os commands não devem lidar com os dados diretamente. Os dados devem vir através de parâmetros. Assim sendo, não devem importar arquivos fixtures.</br>  
+            
             - Os commands importam os arquivos locators.</br>  
+            
             - Manter os métodos em ordem alfabética facilita a localização e leitura, além do que, intuitivamente, leva a um padrão na criação de suas nomenclaturas.</br>  
+            
             - O arquivo commands de uso global, como o próprio nome diz, deve conter os comandos de testes de uso global no projeto. Um bom exemplo para este uso é o método de verificação de url’s, que pode ser único e servir a toda a aplicação.</br>     
          
+         
         </br> - **llocators:** Diretório destinado a conter os arquivos que registram os endereços de acesso aos widgets de tela, url’s e demais endereços. Como determinado nas boas práticas deste projeto, os arquivos locators devem ser importados e utilizados pelos commands. Além dos arquivos locators individuais para cada arquivo de testes, temos também um de uso Globais. Algumas boas práticas são:  </br> 
+        
             - O uso de locators é uma boa prática para agilizar o desenvolvimento e manutenção do projeto, pois agrega em única área as vias de acesso aos widget’s de tela e url’s.</br>  
+            
             - Os arquivos locators devem ser importados pelos commands.</br>  
+            
             - Deve-se ter um arquivo locators para cada arquivo de testes.</br>  
+            
             - Devem ser evitados blocos muito extensos. Quando o volume for grande, é sugerido a sua divisão em tópicos.</br>   
            
    - <b>V. node_modules:</b> Diretório que contém o registro e arquivos das bibliotecas utilizadas pelo projeto.  
@@ -185,7 +203,7 @@ A seguinte estrutura de arquivos é proposta para se manter um padrão organizac
    
 <b>6. Padrões de nomenclaturas</b>  
 
-Foi adotado o seguinte padrão para a criação e denominação de arquivos: 
+Foi adotado o seguinte padrão para a criação e denominação de arquivos:  
 
 <i>< conteudos > < Módulo > .js  </i>
 
@@ -201,7 +219,7 @@ Exemplos:
 
 A esta estrutura, temos uma exceção quanto aos arquivos de testes propriamente dito, que estão contidos no diretório integration. A estes arquivos aplica-se o seguinte padrão:  
     
-    _< módulo > .spec.js _ 
+<i>< módulo > .spec.js </i> 
     
 Exemplos:      
         - context.spec.js  
