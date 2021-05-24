@@ -209,9 +209,9 @@ Foi adotado o seguinte padrão para a criação e denominação de arquivos:
 
 Exemplos:  
 
-        - Arquivos do fixtures: _datasContext.js / datasTheme.js_ 
-        - Arquivos de commands: _commandsContext.js / commandsLogin.js_  
-        - Arquivos de locators: _locatorsLogin.js / locatorsTheme.js_    
+        - Arquivos do fixtures: datasContext.js / datasTheme.js 
+        - Arquivos de commands: commandsContext.js / commandsLogin.js  
+        - Arquivos de locators: locatorsLogin.js / locatorsTheme.js    
     
 !!! note "Nota"  
 
