@@ -221,7 +221,8 @@ A esta estrutura, temos uma exceção quanto aos arquivos de testes propriamente
     
 <i>< módulo > .spec.js </i> 
     
-Exemplos:      
+Exemplos:
+    
         - context.spec.js  
         - login.spec.js  
         - theme.spec.js 
