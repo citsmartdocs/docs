@@ -83,7 +83,7 @@ Para finalizar a instância adquirida, siga as instruções a seguir:
     3. Após selecionar o serviço, clique no botão Actions > Modify Access Policy
     4. Nesta página, inclua o número do IP copiado na relação de autorizados e clique no botaão Submit para aplicar a alteração.
     
- ### Testes Automatizados  
+### Testes Automatizados  
  
  Os testes de softwares estão inseridos no Gerenciamento de Ciclo de Vida de Aplicativos (mais conhecido como ALM). É uma etapa primordial para garantir a qualidade do produto entregue para o cliente, ou mesmo para ser utilizado pela própria equipe de desenvolvimento para assegurar-se de sua assertividade.  
 
