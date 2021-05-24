@@ -163,7 +163,8 @@ A seguinte estrutura de arquivos é proposta para se manter um padrão organizac
 
    - <b>III. plugins:</b> Diretório destinado a conter o registro de eventuais plugins utilizados no projeto.  
    
-   - <b>IV. support:</b> Diretório destinado a conter códigos de suporte aos arquivos de teste, devendo este conter os seguintes diretório para melhor agrupamento:</br> 
+   - <b>IV. support:</b> Diretório destinado a conter códigos de suporte aos arquivos de teste, devendo este conter os seguintes diretório para melhor agrupamento:  
+     
         - **commands:** Estes arquivos são utilizados pelos testes, localizados no diretório integration. Devem conter os código dos comandos utilizados pelos testes. Além dos arquivos commands individuais para cada arquivo de testes, temos também um de uso Global. Algumas boas práticas são:  </br> 
             
             - O uso de commands é uma boa prática para agilizar o desenvolvimento e manutenção do projeto, pois evita códigos redundantes.  
