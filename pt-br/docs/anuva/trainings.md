@@ -178,6 +178,7 @@ A seguinte estrutura de arquivos é proposta para se manter um padrão organizac
             - O arquivo commands de uso global, como o próprio nome diz, deve conter os comandos de testes de uso global no projeto. Um bom exemplo para este uso é o método de verificação de url’s, que pode ser único e servir a toda a aplicação.  
                       
          
+        
         - **llocators:** Diretório destinado a conter os arquivos que registram os endereços de acesso aos widgets de tela, url’s e demais endereços. Como determinado nas boas práticas deste projeto, os arquivos locators devem ser importados e utilizados pelos commands. Além dos arquivos locators individuais para cada arquivo de testes, temos também um de uso Globais. Algumas boas práticas são:   
         
             - O uso de locators é uma boa prática para agilizar o desenvolvimento e manutenção do projeto, pois agrega em única área as vias de acesso aos widget’s de tela e url’s.  
