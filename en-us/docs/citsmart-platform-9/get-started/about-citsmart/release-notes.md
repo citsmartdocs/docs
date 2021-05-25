@@ -86,6 +86,10 @@ The version presented has the following correction(s):
 
 ## Version 9.1.2.25 (2021/02/16)
 
+!!! warning "ATTENTION"
+
+    Before downloading this version, check the guidelines in the document [CITSMART Guide version 9.1.2.25][7]
+    
 Welcome to CITSmart Version 9.1.2.25. This version features the following items:
 
 |Number|	Type|	Description|
@@ -315,3 +319,4 @@ Welcome to Citsmart Version 9.0. This version presents the following items:
 [4]:/en-us/citsmart-platform-9/get-started/about-citsmart/Update-Package- 9.1.2.23-CITSmart.zip
 [5]:/en-us/citsmart-platform-9/get-started/about-citsmart/Update-Package-9.1.2.24.zip
 [6]:/en-us/citsmart-platform-9/get-started/about-citsmart/Release-Notes-Neuro-1.3.6.6.docx
+[7]:/en-us/citsmart-platform-9/get-started/about-citsmart/Guidance-about-version-CITSmart-9.1.2.25.rar
