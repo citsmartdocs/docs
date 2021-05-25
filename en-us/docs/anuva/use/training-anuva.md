@@ -5,13 +5,13 @@ In the Training screen, it is possible to schedule updates so that your Anuva ca
 considering the last added knowledge. This functionality allows scheduling the training according to your 
 need and can even define recurrence.
 
-Before getting started
---------------
+#Before getting started
 
-Make sure that there is at least one dialog created.
 
-Procedure
------------
+Make sure that all parametrization and configurations are correct and there is at least one dialog created.
+
+#Procedure
+
 
 1. Access the menu “Training”;
 
@@ -28,6 +28,7 @@ Procedure
     conversation with Anuva to check the effectiveness of its interactions by clicking on the floating 
     icon located in the lower right corner of the screen. Remembering that it will reflect the knowledge 
     added until the last training.
+
 
    
 Related
