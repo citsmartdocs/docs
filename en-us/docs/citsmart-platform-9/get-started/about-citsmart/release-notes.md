@@ -50,7 +50,19 @@ Welcome to CITSmart Version 9.1.2.27. This version presents the following improv
 |11094	|Corrective|	Do not continue using the LDAP user password|
 |11094	|Corrective|	LDAP error handling|
 
+Welcome to Builder 1.3.6.6.
+
+The version presented has the following correction(s):
+
+|Number   |Type      |	 Description|
+|---------|----------|--------------|
+|11025    |Corrective|Correction of login screen redirection when using the webservice of the same name|
+
 For this version, the compatible Neuro is 1.3.6.6.
+
+!!! warning "ATTENTION"
+
+    For more information about Builder 1.3.6.6, see the [Neuro Release Notes][6]
 
 ## Version 9.1.2.26 (2021/03/23)
 
@@ -61,13 +73,16 @@ Welcome to CITSmart Version 9.1.2.26. This version presents the following improv
 |ITSM 6396|Corrective|Incorrect SQL syntax when creating or opening a problem|
 
 Welcome to Neuro 1.3.6.6.
+
 The version presented has the following correction(s):
 
 |Number   |	     Type|   Description|
 |---------|----------|--------------|
 |11025    |Corrective|	Correction of login screen redirection when using the webservice of the same name|
 
+!!! warning "ATTENTION"
 
+    For more information about Builder 1.3.6.6, see the [Neuro Release Notes][6]
 
 ## Version 9.1.2.25 (2021/02/16)
 
@@ -299,3 +314,4 @@ Welcome to Citsmart Version 9.0. This version presents the following items:
 [3]:/en-us/citsmart-platform-9/get-started/about-citsmart/Guidance-about-version-CITSmart-9.1.2.22.zip
 [4]:/en-us/citsmart-platform-9/get-started/about-citsmart/Update-Package- 9.1.2.23-CITSmart.zip
 [5]:/en-us/citsmart-platform-9/get-started/about-citsmart/Update-Package-9.1.2.24.zip
+[6]:/en-us/citsmart-platform-9/get-started/about-citsmart/Release-Notes-Neuro-1.3.6.6.docx
