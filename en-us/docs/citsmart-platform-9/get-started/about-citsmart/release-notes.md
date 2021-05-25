@@ -84,6 +84,10 @@ For this version, the compatible Neuro is 1.3.5.5.
 
 ## Version 9.1.2.24 (2021/01/16)
 
+!!! warning "ATTENTION"
+
+    Before downloading this version, check the guidelines in the document [CITSMART Guide version 9.1.2.24][5]
+
 Welcome to CITSmart Version 9.1.2.24. This version features the following items:
 
 |Number|	Type|	Description|
@@ -112,10 +116,6 @@ The version presented has the following correction(s):
 
 
 ## Version 9.1.2.23 (2021/01/05)
-
-!!! warning "ATTENTION"
-
-    Before downloading this version, check the guidelines in the document [CITSmart guide version 9.1.2.23][4]
     
 Welcome to CITSmart Version 9.1.2.23. This version presents the following items:
  
@@ -298,3 +298,4 @@ Welcome to Citsmart Version 9.0. This version presents the following items:
 [2]:/en-us/citsmart-platform-9/get-started/about-citsmart/Guidance-Citsmart-91213.zip
 [3]:/en-us/citsmart-platform-9/get-started/about-citsmart/Guidance-about-version-CITSmart-9.1.2.22.zip
 [4]:/en-us/citsmart-platform-9/get-started/about-citsmart/Update-Package- 9.1.2.23-CITSmart.zip
+[5]:/en-us/citsmart-platform-9/get-started/about-citsmart/Update-Package-9.1.2.24.zip
