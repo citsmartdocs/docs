@@ -111,7 +111,7 @@ This will test all the functioning requirements of the application. It will quic
 
 Beforehand, you must have installed Node.js, and IDE VsCode is also recommended. If these requirements are met, follow these instructions:
     
-   - <b>Creat work directory:</b> Make a directory for the project, for example <i>cypress-tests $ mkdir cypress-tests</i> 
+   - <b>Create work directory:</b> Make a directory for the project, for example <i>cypress-tests $ mkdir cypress-tests</i> 
    - <b>Create the project:</b> Access the new directory and start the project with the following command, which will generate all of the necessary structure: <i>$ npm init -y</i>
    - <b>Instal cypress:</b> Still on the same directory, install Cypress as indicated: <i>$ npm install cypress</i>  
 
