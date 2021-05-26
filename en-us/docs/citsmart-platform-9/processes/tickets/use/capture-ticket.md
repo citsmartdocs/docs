@@ -63,7 +63,7 @@ This case needs to be verified, and before capturing the tickets it's required t
 
 bpm_itemworkFlow - executor_group_id , currentresponsibleid  
 
-capturecontrolservicereques  
+capturecontrolservicerequest  
 
 ## Incident or Service Request Information
 
