@@ -1,11 +1,10 @@
 title: How to train Anuva
 # Training  
 
-## How to train Anuva  
 
-In the Training screen, it is possible to schedule updates so that your Anuva can interact with the user 
-considering the last added knowledge. This functionality allows scheduling the training according to your 
-need and can even define recurrence.
+**What does it mean to train my virtual assistant?**
+
+It's the act of placing your assistant to understand how the interactions with the user will be, considering the dialogs constructed. Whenever new interactions are added, the assistant must be retrained so it can react as expected in a conversation.
 
 ## Before getting started  
 
@@ -14,22 +13,30 @@ Make sure that all parametrization and configurations are correct and there is a
 
 ## Procedure  
 
+### How to train Anuva  
 
-1. Access the menu “Training”;
-
-2. Click on “Schedule”;
-
-3. Complete the fields available and click on “Save”.
-
+In the Training screen, it is possible to schedule updates so that your Anuva can interact with the user 
+considering the last added knowledge. This functionality allows scheduling the training according to your 
+need and can even define recurrence.
 
 
-!!! Abstract "NOTE"
+1.  After accessing the platform, go to the menu "Training";
+
+2.  Click on "Schedule";
+
+3.  Define the scope of the update you want, with the following options: Dialogues, Complete, Skills (Text - Button - Image) or Custom skills;
+
+4.  Inform the day and time for the training to be performed.
+
+    > Observation: Remember to choose dates and times that will have less impact on ongoing calls, if there is any.
+
+!!! Abstract "Information"
     
     The duration of the training will depend on the volume of dialogues registered, but do not worry, 
     once the training is completed, Anuva will be updated automatically. At any time, you can start a 
     conversation with Anuva to check the effectiveness of its interactions by clicking on the floating 
-    icon located in the lower right corner of the screen. Remembering that it will reflect the knowledge 
-    added until the last training.
+    icon located in the lower right corner of the screen. Remember that it will reflect the knowledge 
+    added from the latest training.
 
 
 ### Troubleshoot  
