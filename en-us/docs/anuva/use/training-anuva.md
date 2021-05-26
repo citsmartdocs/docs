@@ -107,7 +107,7 @@ The following procedures will instruct you on the installation and basic configu
 
 This will test all the functioning requirements of the application. It will quickly verify if the app is able to perform the functions it was designed to do, and it can cover all functions within the scope, BackEnd and FrontEnd.
 
-<b>2. Instalação e configuração</b>
+<b>2. Instalation e configuration</b>
 
 Beforehand, you must have installed Node.js, and IDE VsCode is also recommended. If these requirements are met, follow these instructions:
     
