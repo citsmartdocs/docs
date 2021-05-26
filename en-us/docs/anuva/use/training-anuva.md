@@ -47,7 +47,7 @@ Make sure that all parametrization and configurations are correct and there is a
 To terminate the instance, follow these instructions:  
 
     1. Access the service EC2, on AWS dashboard.  
-    2. Clickar the link Instances (running)  
+    2. Click the link Instances (running)  
     3. Search for an instance that contains the term “spot”  
     4. Select the instance  
     5. Click Actions and request to stop the instance, and confirm your decision clicking the button "Stop"  
