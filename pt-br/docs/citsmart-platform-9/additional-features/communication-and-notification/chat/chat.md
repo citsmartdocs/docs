@@ -55,6 +55,8 @@ Para que o chat esteja disponível é preciso configurar os parâmetros de ativa
 
 ## Procedimento
 
+### Configurando o Smart Chat
+
 Acesse o menu principal > Parametrização > Chat
 
 Serão apresentados os seguintes parâmetros:
