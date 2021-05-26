@@ -81,7 +81,7 @@ Para finalizar a instância adquirida, siga as instruções a seguir:
     1. Selecione o menu Analytics > Elasticsearch Service
     2. No dashboard, clique em My Domains e selecione o serviço relacionado
     3. Após selecionar o serviço, clique no botão Actions > Modify Access Policy
-    4. Nesta página, inclua o número do IP copiado na relação de autorizados e clique no botaão Submit para aplicar a alteração.
+    4. Nesta página, inclua o número do IP copiado na relação de autorizados e clique no botão Submit para aplicar a alteração.
     
 ### Testes Automatizados  
  
@@ -101,9 +101,9 @@ De modo geral, os motivos para a abordagem da existência dos testes são:
 
    - Garantir que o trabalho desenvolvido pela equipe é de qualidade;  
 
-Para a automatização de testes do projeto em questão, está sendo utilizado a ferramenta Cypress. Um dos principais diferenciais do Cypress é que enquanto a maioria das ferramentas de testes operam fora do navegador, executando comandos remotos na rede, o Cypress é exatamente o oposto, ele é executado no mesmo loop de execução do aplicativo que está sendo testado, isso permite uma interatividade muito grande.  
+Para a automatização de testes do projeto em questão, está sendo utilizado a ferramenta Cypress. Um dos principais diferenciais do Cypress é que enquanto a maioria das ferramentas de testes operam fora do navegador, executando comandos remotos na rede, o Cypress é exatamente o oposto, ele é executado no mesmo loop de execução do aplicativo que está sendo testado. Isso permite uma interatividade muito grande.  
 
-Os procedimentos a seguir apresentam instruções sobre a instalação e configurações básicas para iniciar e interagir com este projeto de testes, assim como documenta os critérios e padrões adotados para a boa prática na sua condução e implementações seguintes.
+Os procedimentos a seguir apresentam instruções sobre a instalação e configurações básicas para iniciar e interagir com este projeto de testes, assim como documentar os critérios e padrões adotados para a boa prática na sua condução e implementações seguintes.
 
 <b>1. Teste funcional</b>
 
@@ -115,12 +115,12 @@ Preliminarmente, você já deve possuir o Node.js instalado e, a nível de suges
     
    - <b>Criar o diretório de trabalho:</b> Crie um diretório para o projeto, aqui sugestivamente criamos o diretório <i>cypress-tests $ mkdir cypress-tests</i> 
    - <b>Criar o projeto:</b> Acesse o diretório que foi criado e inicie o projeto com o comando abaixo. Este comando irá gerar toda a estrutura inicial necessária: <i>$ npm init -y</i>
-   - <b>Instalar o cypress:</b> Permanecendo no diretório do projeto instale o Cypress, conforme indicado: <i>$ npm install cypress</i>  
+   - <b>Instalar o cypress:</b> Permanecendo no diretório do projeto, instale o Cypress conforme indicado: <i>$ npm install cypress</i>  
  Se necessário, instruções completas podem ser obtidas junto à documentação oficial.  
  
 !!! note "Nota"  
         
-           Se desejar instalar uma versão específica, como exemplo, faça da seguinte forma: <i>$ npm install cypress@4.6.2</i>
+           Se desejar instalar uma versão específica, como 4.6.2 por exemplo, faça da seguinte forma: <i>$ npm install cypress@4.6.2</i>
            
  <b>3. Configurar o VsCode</b>  
  
@@ -140,7 +140,7 @@ ou através do VsCode, pelo caminho Outline > NPM Scripts > package.json > cypre
 
 A seguinte estrutura de arquivos é proposta para se manter um padrão organizacional do projeto. Porém, não existem restrições técnicas para outras abordagens, sendo as boas práticas a seguir mera convenção para o projeto em questão:
 
-   - <b>I. Fixtures: </b>Diretório destinado aos arquivos que irão conter dicionários com dados a serem utilizados pelos no preenchimento de informações, pelos testes. Algumas boas práticas são:  
+   - <b>I. Fixtures: </b>Diretório destinado aos arquivos que irão conter dicionários com dados a serem utilizados pelos testes no preenchimento de informações. Algumas boas práticas são:  
     
         - O uso de fixtures é uma boa prática para agilizar o desenvolvimento e manutenção do projeto, pois agrega em única área os dados variáveis utilizados pelo projeto.  
           
@@ -163,9 +163,9 @@ A seguinte estrutura de arquivos é proposta para se manter um padrão organizac
 
    - <b>III. plugins:</b> Diretório destinado a conter o registro de eventuais plugins utilizados no projeto.  
    
-   - <b>IV. support:</b> Diretório destinado a conter códigos de suporte aos arquivos de teste, devendo este conter os seguintes diretório para melhor agrupamento:  
+   - <b>IV. support:</b> Diretório destinado a conter códigos de suporte aos arquivos de teste, devendo este conter os seguintes diretórios para melhor agrupamento:  
      
-      - **commands:** Estes arquivos são utilizados pelos testes, localizados no diretório integration. Devem conter os código dos comandos utilizados pelos testes. Além dos arquivos commands individuais para cada arquivo de testes, temos também um de uso Global. Algumas boas práticas são:  </br> 
+      - **commands:** Estes arquivos são utilizados pelos testes, localizados no diretório integration. Devem conter os códigos dos comandos utilizados pelos testes. Além dos arquivos commands individuais para cada arquivo de testes, temos também um de uso Global. Algumas boas práticas são:  </br> 
             
             - O uso de commands é uma boa prática para agilizar o desenvolvimento e manutenção do projeto, pois evita códigos redundantes.  
             
@@ -180,9 +180,9 @@ A seguinte estrutura de arquivos é proposta para se manter um padrão organizac
                       
          
         
-      - **llocators:** Diretório destinado a conter os arquivos que registram os endereços de acesso aos widgets de tela, url’s e demais endereços. Como determinado nas boas práticas deste projeto, os arquivos locators devem ser importados e utilizados pelos commands. Além dos arquivos locators individuais para cada arquivo de testes, temos também um de uso Globais. Algumas boas práticas são:   
+      - **llocators:** Diretório destinado a conter os arquivos que registram os endereços de acesso aos widgets de tela, URLs e demais endereços. Como determinado nas boas práticas deste projeto, os arquivos locators devem ser importados e utilizados pelos commands. Além dos arquivos locators individuais para cada arquivo de testes, temos também um de uso Global. Algumas boas práticas são:   
         
-            - O uso de locators é uma boa prática para agilizar o desenvolvimento e manutenção do projeto, pois agrega em única área as vias de acesso aos widget’s de tela e url’s.  
+            - O uso de locators é uma boa prática para agilizar o desenvolvimento e manutenção do projeto, pois agrega em única área as vias de acesso aos widget’s de tela e urls.  
             
             - Os arquivos locators devem ser importados pelos commands.  
             
@@ -193,11 +193,11 @@ A seguinte estrutura de arquivos é proposta para se manter um padrão organizac
 
    - <b>V. node_modules:</b> Diretório que contém o registro e arquivos das bibliotecas utilizadas pelo projeto.  
       
-   - <b>VI. cypress.json:</b> Arquivo de configuração central do Cypress. Basicamente contém valores de variáveis de escopo global ao sistema. Registre neste arquivo as url’s a serem manipuladas pelo sistema.  
+   - <b>VI. cypress.json:</b> Arquivo de configuração central do Cypress. Basicamente contém valores de variáveis de escopo global ao sistema. Registre neste arquivo as urls a serem manipuladas pelo sistema.  
    
    - <b>VII. package.json:</b> Arquivo de dados de registros da aplicação e chamadas a scripts que automatizam seus processos de inicialização.  
 
-   - <b>VIII. package-lock.json:</b> Arquivo que registra as dependências das bibliotecas exteranas utilizadas pela aplicação.  
+   - <b>VIII. package-lock.json:</b> Arquivo que registra as dependências das bibliotecas externas utilizadas pela aplicação.  
    
    - <b>IX. .gitignore:</b> Arquivo que contém a relação de arquivos e ou diretórios que não devem ser versionados pelo Git.  
    
@@ -217,9 +217,9 @@ Exemplos:
     
 !!! note "Nota"  
 
-        Observar que plural apenas no conteúdo, pois este, habitualmente, deve se tratar de mais de um item e também que a identificação do módulo se inicia com letra maiúscula. 
+        Observar que o plural deve ser utilizado apenas no conteúdo, pois o conteúdo habitualmente se refere a mais de um item. Observe também que a identificação do módulo se inicia com letra maiúscula. 
 
-A esta estrutura, temos uma exceção quanto aos arquivos de testes propriamente dito, que estão contidos no diretório integration. A estes arquivos aplica-se o seguinte padrão:  
+Nesta esta estrutura, temos uma exceção quanto aos arquivos de testes propriamente ditos, que estão contidos no diretório integration. Estes arquivos devem seguir o seguinte padrão:  
     
 <i>< módulo > .spec.js </i> 
     
