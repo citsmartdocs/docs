@@ -63,7 +63,7 @@ Se o parâmetro 452 (Continuar na tela de Ticket após salvar?) estiver ativo o 
 
 bpm_itemtrabalhofluxo - executor_group_id , idresponsavelatual 
 
-capturecontrolservicereques
+capturecontrolservicerequest
 
 ## Informações sobre o incidente ou a requisição de serviço
 
