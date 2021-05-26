@@ -45,7 +45,7 @@ In order for chat to be available, it's necessary to configure the parameters of
 | 299 |     Ticket - Activate message exchange             |       Y or N       | Activate a chat icon next to the ticket number in the attedance queue |        Not applicable       |
 | 448 |    Text editor used by the application        |                    | Text editor used by the application |        Not applicable       |
 
-5. The parameters 315, 316, 317, 447 and 423  must be set manually.
+5. The parameters 315, 316, 317, 447 and 423  must be set manually.  
 
 6. By enabling parameter 423 the chat will open integrated with the virtual assistant Anuva.
 
