@@ -1,5 +1,5 @@
 Title: Captura de incidente ou requisição de serviço
-Description: Capturar o incidente ou requisição de serviço significa assumir a responsabilidade de produzir uma solução satisfatória para o chamado.
+Description: Description: Capturar o incidente ou requisição de serviço significa assumir a responsabilidade de produzir uma solução satisfatória para o chamado.
 
 # Captura de incidente ou requisição de serviço
 
