@@ -35,7 +35,7 @@ Capturar o incidente ou requisição de serviço significa assumir a responsabil
 
 ### Troubleshooting na inclusão de mais de um grupo no fluxo.   
 
-!!! Warning "Atenção"   
+!!! Warning "ATENÇÃO"   
 
      Se um usuário logado tiver permissão em dois ou mais grupos cuja tarefa de grupo foi atribuída, o sistema pode não conseguir identificar qual o grupo que deveria atuar, e pode escolher aleatoriamente entre os grupos disponíveis. Para evitar esse problema, é necessário seguir o procedimento descrito abaixo. Dessa forma, o sistema deverá apresentar uma caixa pop-up para que o usuário selecione qual dos grupos irá executar a tarefa em questão.
      
@@ -190,7 +190,7 @@ Executar ações (as ações são definidas pelo fluxo de Serviço e aparecerão
 
 ### Troubleshooting na inclusão de mais de um grupo no fluxo.   
 
-!!! Warning "Atenção"   
+!!! Warning "ATENÇÃO"   
 
      Se um usuário logado tiver permissão em dois ou mais grupos cuja tarefa de grupo foi atribuída, o sistema pode não conseguir identificar qual o grupo que deveria atuar, e pode escolher aleatoriamente entre os grupos disponíveis. Para evitar esse problema, é necessário seguir o procedimento descrito abaixo. Dessa forma, o sistema deverá apresentar uma caixa pop-up para que o usuário selecione qual dos grupos irá executar a tarefa em questão.
      
