@@ -16,53 +16,54 @@ Para começar o procedimento, é necessário fazer o download dos arquivos dispo
 
 ### Instalando o OS Ubuntu na máquina
 
-  1. Acesse a página web https://ubuntu.com/#download para fazer o download do Ubuntu. Clique no primeiro botão para baixar a versão Ubuntu Desktop. Lembre-se de sempre usar a versão mais recente.  
+ - Acesse a página web https://ubuntu.com/#download para fazer o download do Ubuntu. Clique no primeiro botão para baixar a versão Ubuntu Desktop. Lembre-se de sempre usar a versão mais recente.  
   
-  2. Após baixar o arquivo .iso, é necessário fazer o download do Rufus através do link https://rufus.ie/pt_BR/ para configurar um drive USB bootável.  
+ - Após baixar o arquivo .iso, é necessário fazer o download do Rufus através do link https://rufus.ie/pt_BR/ para configurar um drive USB bootável.  
   
-  3. Além do Rufus e do arquivo .iso do Ubuntu, para criar um drive USB bootável também é necessário ter um flashdrive com no mínimo 4gb de armazenamento.  
+ - Além do Rufus e do arquivo .iso do Ubuntu, para criar um drive USB bootável também é necessário ter um flashdrive com no mínimo 4gb de armazenamento.  
   
-  4. Para configurar o drive, siga o procedimento abaixo:  
+ - Para configurar o drive, siga o procedimento abaixo:  
   
-       1. Execute o Rufus.  
-       2. Insira o drive na máquina.
-       3. O Rufus irá atualizar para se definir o dispositivo dentro do campo Dispositivo ou Device.
-       4. Selecione o drive desejado entre as opções.  
+   1. Execute o Rufus.  
+   2. Insira o drive na máquina.
+   3. O Rufus irá atualizar para se definir o dispositivo dentro do campo Dispositivo ou Device.
+   4. Selecione o drive desejado entre as opções.  
        
 !!! note "Nota"  
 
          Para evitar a escolha de um dispositivo incorreto, tenha certeza que há apenas um dispositivo inserido na máquina
-         
-       5. Após selecionar o dispositivo, escolha a opção de inicialização. As opções serão _Não inicializável_ e _FreeDOS_. Já que você está criando um dispositivo Ubuntu inicializável, selecione _FreeDOS_.  
-       6. Deixe as opções para Esquema de partição (MBR) e Sistema de destino (BIOS (ou UEFI-CSM)) como padrão.  
-       7. Clique no botão SELECT ao lado da opção Boot Selection, procure o arquivo .iso do Ubuntu e clique em Abrir.  
-       8. O campo VOLUME LABEL será atualizado para reletir o ISO selecionado.  
-       9. Os outros parâmetros devem ser deixados em seus valores padrão.  
-       10. Clique START para iniciar o processo de gravação.  
-       11. Durante o processo, uma mensagem pode aparecer alertando de que a Rufus requer arquivos adicionais para concluir a gravação do ISO. Selecione Sim para continuar.  
-       12. Durante o processo, você será alertado de que Rufus detectou que o ISO do Ubuntu é uma imagem ISOHybrid. Mantenha a gravação no modo de imagem ISO selecionado e clique em OK para continuar.  
-       13. Rufus também irá avisá-lo de que todos os dados do dispositivo USB selecionado estão prestes a ser destruídos. Verifique se você selecionou o dispositivo correto antes de clicar em OK.  
-       14. Aguarde a conclusão do processo, que pode variar dependendo da sua máquina. Após a conclusão, clique em CLOSE para fechar o Rufus.  
+   
+   
+   5. Após selecionar o dispositivo, escolha a opção de inicialização. As opções serão _Não inicializável_ e _FreeDOS_. Já que você está criando um dispositivo Ubuntu inicializável, selecione _FreeDOS_.  
+   6. Deixe as opções para Esquema de partição (MBR) e Sistema de destino (BIOS (ou UEFI-CSM)) como padrão.  
+   7. Clique no botão SELECT ao lado da opção Boot Selection, procure o arquivo .iso do Ubuntu e clique em Abrir.  
+   8. O campo VOLUME LABEL será atualizado para reletir o ISO selecionado.  
+   9. Os outros parâmetros devem ser deixados em seus valores padrão.  
+   10. Clique START para iniciar o processo de gravação.  
+   11. Durante o processo, uma mensagem pode aparecer alertando de que a Rufus requer arquivos adicionais para concluir a gravação do ISO. Selecione Sim para continuar.  
+   12. Durante o processo, você será alertado de que Rufus detectou que o ISO do Ubuntu é uma imagem ISOHybrid. Mantenha a gravação no modo de imagem ISO selecionado e clique em OK para continuar.  
+   13. Rufus também irá avisá-lo de que todos os dados do dispositivo USB selecionado estão prestes a ser destruídos. Verifique se você selecionou o dispositivo correto antes de clicar em OK.  
+   14. Aguarde a conclusão do processo, que pode variar dependendo da sua máquina. Após a conclusão, clique em CLOSE para fechar o Rufus.  
        
-   5. Insira o drive com o ISO em seu computador e reinicie a máquina. A maioria dos computadores reconhecerá o drive bootável automaticamente e mostrará uma mensagem de boas vindas com opções para selecionar o idioma, instalar ou experimentar o Ubuntu Desktop.  
+ - Insira o drive com o ISO em seu computador e reinicie a máquina. A maioria dos computadores reconhecerá o drive bootável automaticamente e mostrará uma mensagem de boas vindas com opções para selecionar o idioma, instalar ou experimentar o Ubuntu Desktop.  
    
 !!! note "Nota"  
         
           Se o computador não inicializar automaticamente a partir da unidade USB, tente segurar F12 ou Delete quando o computador iniciar pela primeira vez. Na maioria das máquinas, isso permitirá que você selecione o dispositivo USB em um menu de inicialização específico do sistema. Caso não aconteça, verifique a opção de Boot no computador, selecionando o Boot através da unidade USB. Se você não tiver certeza, procure por uma breve mensagem quando o sistema for inicializado, isso geralmente o informará sobre qual tecla deve ser pressionada para abrir o menu de inicialização.  
           
-   6. Logo após a escolha do Idioma, você será solicitado a selecionar o layout do teclado. Se o instalador não adivinhar o layout padrão corretamente, use o botão 'Detectar layout do teclado' para executar um breve procedimento de configuração.  
+ - Logo após a escolha do Idioma, você será solicitado a selecionar o layout do teclado. Se o instalador não adivinhar o layout padrão corretamente, use o botão 'Detectar layout do teclado' para executar um breve procedimento de configuração.  
 
-   7. Depois de selecionar Continuar, você será perguntado por quais aplicativos deseja instalar para começar. As duas opções são 'Instalação normal' e 'Instalação mínima', selecione a opção 'Instalação normal'.  
+ - Depois de selecionar Continuar, você será perguntado por quais aplicativos deseja instalar para começar. As duas opções são 'Instalação normal' e 'Instalação mínima', selecione a opção 'Instalação normal'.  
 
-   8. Abaixo da questão do tipo de instalação, há duas caixas de seleção; um para habilitar atualizações durante a instalação e outro para habilitar software de terceiros.  
+ - Abaixo da questão do tipo de instalação, há duas caixas de seleção; um para habilitar atualizações durante a instalação e outro para habilitar software de terceiros.  
+  
+ - Habilite a opção Download updatese Install third-party software. 
    
-   9. Habilite a opção Download updatese Install third-party software. 
-   
-   10. Para a próxima etapa, é necessário estar conectado à internet. Se você não estiver conectado à Internet, será solicitado a seleção de uma rede sem fio, se disponível. Aconselhamos você a se conectar durante a instalação para que possamos garantir que sua máquina esteja atualizada.  
+ - Para a próxima etapa, é necessário estar conectado à internet. Se você não estiver conectado à Internet, será solicitado a seleção de uma rede sem fio, se disponível. Aconselhamos você a se conectar durante a instalação para que possamos garantir que sua máquina esteja atualizada.  
 
-   11. As demais opções de instalação serão de Localização e detalhes de Login.  
+ - As demais opções de instalação serão de Localização e detalhes de Login.  
 
-   12. Depois que tudo estiver instalado e configurado, uma pequena janela aparecerá solicitando que você reinicie sua máquina. Clique Restart Now e remova a unidade flash USB quando solicitado.
+ - Depois que tudo estiver instalado e configurado, uma pequena janela aparecerá solicitando que você reinicie sua máquina. Clique Restart Now e remova a unidade flash USB quando solicitado.
 
 !!! note "Dica"  
 
@@ -70,7 +71,7 @@ Para começar o procedimento, é necessário fazer o download dos arquivos dispo
 
 ### Instalando o Java  
 
-Acesse o terminal do Ubuntu pressionando Ctrl+Alt+T e digite a sequência a seguir:  
+ - Acesse o terminal do Ubuntu pressionando Ctrl+Alt+T e digite a sequência a seguir:  
 
 <i>sudo add-apt-repository ppa:openjdk-r/ppa  
 
@@ -78,13 +79,13 @@ sudo apt-get update
 
 sudo apt-get install openjdk-8-jdk</i>              
 
-Localize o arquivo .bashrc na pasta Home, após pressionar Ctrl+H, e acrescente, no fim dele, as duas linhas abaixo para as variáveis de ambiente **JAVA_HOME**  e **PATH**:
+ - Localize o arquivo .bashrc na pasta Home, após pressionar Ctrl+H, e acrescente, no fim dele, as duas linhas abaixo para as variáveis de ambiente **JAVA_HOME**  e **PATH**:
 
 <i>export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64  
 
 export PATH=$PATH:$JAVA_HOME/bin </i>  
 
-Execute os seguintes comandos no terminal:  
+ - Execute os seguintes comandos no terminal:  
 
 <i>source ~/.bashrc  
 
@@ -92,26 +93,30 @@ echo $JAVA_HOME
 
 echo $PATH  </i>
 
-Deverá aparece a tela de resultado com os diretórios do JAVA_HOME e PATH: 
+ - Deverá aparecer uma tela de resultados com os diretórios do JAVA_HOME e PATH: 
 
-Acesse o Terminal no Ubuntu e digite conforme abaixo para confirmar a instalação:  
+ - Acesse o Terminal no Ubuntu e digite conforme abaixo para confirmar a instalação:  
 
 <i>java -version 
 
 javac -version </i>
 
-!!! note "Nota"  
+!!! note "Dica"  
 
       Você pode limpar a tela do terminando pressionando Ctrl+L  
 
 
-## Autenticando o acesso no Artifactory
+### Autenticando o acesso no Artifactory
 
-Acesse o link abaixo para a autenticação dos seus dados de acesso à rede (Active Directory): 
+ - Acesse o link abaixo para a autenticação dos seus dados de acesso à rede (Active Directory): 
 
 https://artifactory.centralit.com.br:8092/artifactory/webapp/login.html?0  
 
-Insira seus dados, e após a autenticação, vá no canto superior direito da tela e clique sobre seu nome de usuário. Digite a sua senha de rede e clique em "Unlock". Copie o trecho que contém o nome de usuário e senha e substitua no settings.xml exatamente nas mesmas posições informadas anteriormente.
+ - Insira seus dados, e após a autenticação, vá no canto superior direito da tela e clique sobre seu nome de usuário. 
+ 
+ - Digite a sua senha de rede e clique em "Unlock".  
+ 
+ - Copie o trecho que contém o nome de usuário e senha e substitua no settings.xml exatamente nas mesmas posições informadas anteriormente.  
 
 !!! note "Nota" 
 
@@ -119,19 +124,19 @@ Insira seus dados, e após a autenticação, vá no canto superior direito da 
 
 ### Criando um clone do repositório CITSmart-ITESM  
 
-Acesse o link abaixo para a autenticação dos seus dados de acesso no SCMManager: 
+ - Acesse o link abaixo para a autenticação dos seus dados de acesso no SCMManager: 
 
 https://scm.centralit.com.br/scm/#repositoryPanel;4MRv1XSxO9 
 
-No campo Search digite: 
+ - No campo Search digite: 
 
 <i> citsmart-itsm-enterprise</i>  
 
-Copie o Link no campo Checkout na parte inferior da página para o Git Clone.
+ - Copie o Link no campo Checkout na parte inferior da página para o Git Clone.
 
-Abra a pasta onde deseja clonar o repositório CITSmart e execute o Terminal. 
+ - Abra a pasta onde deseja clonar o repositório CITSmart e execute o Terminal. 
 
-Digite git clone + o link copiado no campo Checkout e dê Enter. Será solicitada a senha de Rede. Esse processo pode levar alguns minutos.   
+ - Digite git clone + o link copiado no campo Checkout e dê Enter. Será solicitada a senha de Rede. Esse processo pode levar alguns minutos.   
 
 ### Criando o servidor, databases e Login Group Roles no PGADMIN
 
@@ -144,6 +149,7 @@ Digite git clone + o link copiado no campo Checkout e dê Enter. Será solicitad
  - Na Aba General e no campo Name, digite dbcitsmart.
 
  - Na Aba Connection digite:  
+  
  <i>postgres  
  5432  
  postgres  
