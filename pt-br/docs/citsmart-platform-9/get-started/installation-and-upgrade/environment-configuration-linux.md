@@ -190,7 +190,7 @@ psql -l  </i>
 
  - Logo após, retorne ao PgAdmin, clique com o botão Direito do mouse e dê o Refresh, acesse o dbcitsmart/Schemas/Tables e verifique as tabelas migradas pelo Docker.  
 
- ### Instalando o Eclipse  
+### Instalando o Eclipse  
 
 
  - Acesse o link a seguir para baixar o **Eclipse IDE**: 
@@ -211,7 +211,7 @@ https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-enterpr
 
  - Selecione em File a opção Import: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image2.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image2.png)
 
  
 
@@ -220,56 +220,56 @@ https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-enterpr
 
  - Insira o caminho do diretório que está o repositório do Citsmart-itsm: 
 
- ![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image3.jpg)
+ ![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image3.png)
  
 
  - O Projeto aparecerá conforme abaixo: 
 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image4.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image4.png)
   
 
  - Na tela inicial do eclipse, abra a janela **Window/Preferences** e preencha as opções das próximas telas conforme abaixo: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image5.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image5.png)
 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image6.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image6.png)
 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image7.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image7.png)
 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image8.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image8.png)
 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image9.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image9.png)
 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image10.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image10.png)
 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image11.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image11.png)
 
  
 
  - Localize a opção Validation, procurando na barra de pesquisa, e habilite a opção _Suspend all validators_, conforme abaixo: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image12.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image12.png)
  
 
 
  - Na tela inicial do eclipse, clique com o botão direito do mouse em cima do Projeto e escolha Run As/Run Configurations e preencha as opções das próximas telas conforme abaixo: 
 
  
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image13.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image13.png)
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image14.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image14.png)
  
 
  - O próximo passo será definir um novo Servers conforme abaixo: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image15.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image15.png)
  
 
  - Clique no link em azul _“No servers are available. Click this link toc reate a new server...”_  
@@ -277,9 +277,9 @@ https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-enterpr
  - Escolha a opção conforme abaixo: 
 
  
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image16.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image16.png)
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image17.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image17.png)
 
 !!! note "Nota"
 
@@ -292,7 +292,7 @@ https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-enterpr
 
  - Na opção do New Server, selecione WildFly 12: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image18.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image18.png)
  
 
  - Na opção Configuration file, selecione o arquivo xml _standalone-postgres-full.xml_, baixado no OneDrive: 
@@ -300,27 +300,27 @@ https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-enterpr
 
  - Na tela inicial do eclipse, abra a janela Window/Preferences, localize a opção Maven, selecione a opção _User Settings_ e preencha conforme abaixo: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image19.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image19.png)
  
 
  - Após a instalação do WildFly no Servers, aparecerá no Eclipse conforme abaixo: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image20.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image20.png)
 
  
 
  - Clique duas vezes em cima do WildFly 12 e preencha conforme abaixo: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image21.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image21.png)
 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image22.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image22.png)
 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image23.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image23.png)
 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image24.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image24.png)
 
 
  - Na opção “Program arguments” preencha conforme abaixo: 
@@ -339,19 +339,19 @@ _ "-Dprogram.name=JBossTools: WildFly 12" -server -Xms128m -Xmx2048m -Dorg.jboss
  - Ainda nas configurações do WildFly 12, preencha o Time Limit, conforme abaixo: 
 
  
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image25.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image25.png)
 
  - Logo após, clique em Salvar. 
 
  
  - Clique com o botão direito do mouse em cima do WildFly e escolha a opção Add and Remove, selecione o Citsmart9 e adicione: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image26.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image26.png)
  
 
  - Confira o arquivo _clean.sh_, baixado no OneDrive: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image27.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image27.png)
 
 !!! note "Nota"  
 
@@ -378,12 +378,12 @@ rm -rf /home/**run2biz/Documents/Desenvolvimento**/WILDFLY-12.0.0/standalone/tmp
  
  - Vá no Projeto, clique com o botão direito do mouse e escolha Refresh 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image28.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image28.png)
  
 
  - Ainda no Projeto, clique com o botão direito do mouse e escolha Run as/Run Configuration/Run 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image29.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image29.png)
 
  
 
@@ -391,9 +391,9 @@ rm -rf /home/**run2biz/Documents/Desenvolvimento**/WILDFLY-12.0.0/standalone/tmp
 
  - Clique com o botão direito do mouse em cima do WildFly e escolha a opção _Add and Remove_, selecione o Citsmart9 e adicione: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image30.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image30.png)
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image31.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image31.png)
 
  
 
@@ -401,9 +401,9 @@ rm -rf /home/**run2biz/Documents/Desenvolvimento**/WILDFLY-12.0.0/standalone/tmp
 
  - Aparecerá a tela abaixo, marque a opção _Remember my decision_ e clique no botão _No_: 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image32.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image32.png)
  
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image33.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image33.png)
 
  
 
@@ -414,7 +414,7 @@ rm -rf /home/**run2biz/Documents/Desenvolvimento**/WILDFLY-12.0.0/standalone/tmp
 
       Caso mesmo após todos os passos acima o Projeto não rode, clique com o botão direito do mouse em cima do Projeto, Maven / Update Project e repita novamente o Passo a Passo. 
 
-![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image34.jpg)
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image34.png)
  
 
  - Acesse o link abaixo para o CITSmart: 
