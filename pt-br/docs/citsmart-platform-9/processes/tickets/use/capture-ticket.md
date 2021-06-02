@@ -128,7 +128,7 @@ Nas opções, temos:
 ## Atender um Incidente ou Requisição de Serviço
 
 O início efetivo do atendimento ocorre desde a captura do incidente ou requisição de serviço até o término ou encaminhamento para outra área.  
-Vários recursos podem ser usados pelo analista: comentários, histórico, envio de notificação por email e registro de horas.
+Vários recursos podem ser usados pelo analista: comentários, histórico, envio de notificação por e-mail e registro de horas.
 
 ### Adicionar Comentários/Visualizar Histórico
 
