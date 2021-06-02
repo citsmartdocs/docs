@@ -205,7 +205,6 @@ nav:
     - Logs y auditoría:
       - citsmart-platform-9/platform-administration/logs-and-auditing/audit040-configure.md
       - citsmart-platform-9/platform-administration/logs-and-auditing/system-log.md
-      - citsmart-platform-9/platform-administration/logs-and-auditing/system-audit.md
     - Mobile:
       - citsmart-platform-9/platform-administration/mobile/webservice.md
     - Parámetros:
