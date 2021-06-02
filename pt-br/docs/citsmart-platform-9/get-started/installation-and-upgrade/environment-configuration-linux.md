@@ -197,7 +197,7 @@ https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-enterpr
 
  - Na pasta onde foi extraído o Eclipse, abra o arquivo eclipse.ini e edite as opções conforme abaixo:
 
- IBAGEN 1 <<<<<<necessaria
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image1.jpg)
 
  - Execute o arquivo Eclipse e selecione um diretório para ser o seu workspace. Você pode marcar a opção “Use this as the default and do no ask again” para que a seleção do diretório do workspace não seja solicitada novamente. 
 
@@ -205,47 +205,65 @@ https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-enterpr
 
  - Selecione em File a opção Import: 
 
-IBAGEN 3 EAI ISSO AQUI É O TAL DO ECLIPSE RODANDO? SERÁ QUE PRECISA DESSA IMAGEM? NÃO SAQUEI
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image2.jpg)
 
  
 
- - Na opção Maven, selecione Existing Maven Projects:  
+ - Na opção Maven, selecione Existing Maven Projects.  
  
 
  - Insira o caminho do diretório que está o repositório do Citsmart-itsm: 
 
-IBAGEN 6 ESSE CAMINHO AQUI MUDA? ESSE REPOSITÓRIO FICA NA MAQUINA? FICA NA NUVEM? AJUDA NOIS
+ ![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image3.jpg)
  
 
  - O Projeto aparecerá conforme abaixo: 
 
 
-IBAGEN 7 <<<<<<necessaria
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image4.jpg)
   
 
  - Na tela inicial do eclipse, abra a janela **Window/Preferences** e preencha as opções das próximas telas conforme abaixo: 
 
-IBAGENSSS 8 - 14 <<<<<<necessaria NÃO FAÇO IDEIA DO QUE ESTÁ ACONTECENDO NESSAS IMAGENS
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image5.jpg)
+
+
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image6.jpg)
+
+
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image7.jpg)
+
+
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image8.jpg)
+
+
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image9.jpg)
+
+
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image10.jpg)
+
+
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image11.jpg)
 
  
 
- - Localize a opção Validation, habilite a opção Suspend all validators, conforme abaixo: 
+ - Localize a opção Validation, procurando na barra de pesquisa, e habilite a opção _Suspend all validators_, conforme abaixo: 
 
-IBAGEN 15 ISSO AQUI AINDA É O ECLIPSE? TEM QUE PESQUISAR OS TERMOS QUE NEM TA MANDANDO NA IMAGEM? NÃO TEM UM JEITO MAIS FACIL?
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image12.jpg)
  
 
 
  - Na tela inicial do eclipse, clique com o botão direito do mouse em cima do Projeto e escolha Run As/Run Configurations e preencha as opções das próximas telas conforme abaixo: 
 
  
-IBAGEN 16 <<<<<<necessaria
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image13.jpg)
 
-IBAGEN 17 <<<<<<necessaria
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image14.jpg)
  
 
  - O próximo passo será definir um novo Servers conforme abaixo: 
 
-IBAGEN 18 <<<<<<necessaria
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image15.jpg)
  
 
  - Clique no link em azul _“No servers are available. Click this link toc reate a new server...”_  
@@ -253,25 +271,22 @@ IBAGEN 18 <<<<<<necessaria
  - Escolha a opção conforme abaixo: 
 
  
-IBAGEN 19 <<<<<<necessaria
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image16.jpg)
 
-IBAGEN 20 <<<<<<necessaria
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image17.jpg)
 
 !!! note "Nota"
 
-     Clique na barra de progresso conforme abaixo e arraste para ao lado da Aba Servers. 
+     Clique na barra de progresso e arraste para ao lado da Aba Servers. 
 
-     QUE BARRA DE PROGRESSO??? ABAIXO COMO???
-
- 
-
+  
  
 
  - Na Aba Markers, clique com o botão direito do mouse nas _Description_ que estiverem com o ícone vermelho e escolha Remove: 
 
  - Na opção do New Server, selecione WildFly 12: 
 
-IBAGEN 22 COMO QUE CHEGOU NESSA TELA???
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image18.jpg)
  
 
  - Na opção Configuration file, selecione o arquivo xml _standalone-postgres-full.xml_, baixado no OneDrive: 
@@ -279,24 +294,28 @@ IBAGEN 22 COMO QUE CHEGOU NESSA TELA???
 
  - Na tela inicial do eclipse, abra a janela Window/Preferences, localize a opção Maven, selecione a opção _User Settings_ e preencha conforme abaixo: 
 
-IBAGEN 24 <<<<<<necessaria
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image19.jpg)
  
 
  - Após a instalação do WildFly no Servers, aparecerá no Eclipse conforme abaixo: 
 
-IBAGEN 25 ESSA É A TELA INICIAL??
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image20.jpg)
 
  
 
  - Clique duas vezes em cima do WildFly 12 e preencha conforme abaixo: 
 
-IBAGEN 26 <<<<<<necessaria
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image21.jpg)
 
-IBAGEN 27 <<<<<<necessaria
 
-IBAGEN 28 <<<<<<necessaria
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image22.jpg)
 
-IBAGEN 29 <<<<<<necessaria
+
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image23.jpg)
+
+
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image24.jpg)
+
 
  - Na opção “Program arguments” preencha conforme abaixo: 
 
@@ -309,64 +328,56 @@ _-mp "/home/run2biz/Documents/Desenvolvimento/WILDFLY-12.0.0/modules" org.jboss.
 _ "-Dprogram.name=JBossTools: WildFly 12" -server -Xms128m -Xmx2048m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true "-Dorg.jboss.boot.log.file=/home/run2biz/Documents/Desenvolvimento/WILDFLY-12.0.0/standalone/log/boot.log" "-Dlogging.configuration=file:/home/run2biz/Documents/Desenvolvimento/WILDFLY-12.0.0/standalone/configuration/logging.properties" "-Djboss.home.dir=/home/run2biz/Documents/Desenvolvimento/WILDFLY-12.0.0" -Djboss.bind.address.management=localhost -XX:-UseGCOverheadLimit _
  
 
-EU SÓ COPIEI E COLEI ESSE BLOCO DE TEXTO NÃO SEI SE É ISSO O CORRETO 
-
  - Confira as informações do Diretório conforme o seu Diretório. 
 
  - Ainda nas configurações do WildFly 12, preencha o Time Limit, conforme abaixo: 
 
  
-IBAGEN 28 <<<<<<necessaria
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image25.jpg)
 
  - Logo após, clique em Salvar. 
 
  
  - Clique com o botão direito do mouse em cima do WildFly e escolha a opção Add and Remove, selecione o Citsmart9 e adicione: 
 
-IBAGEN 29
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image26.jpg)
  
 
  - Confira o arquivo _clean.sh_, baixado no OneDrive: 
 
-IBAGEN 30
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image27.jpg)
 
 !!! note "Nota"  
 
-      As informações do Diretório devem ser conforme o seu Diretório: 
+      As informações do Diretório destacadas em negrito devem ser substituídas conforme o seu Diretório: 
 
-rm -rf /home/run2biz/Documents/Desenvolvimento/workspace/citsmart-itsm-enterprise/target/* 
+rm -rf /home/**run2biz/Documents/Desenvolvimento**/workspace/citsmart-itsm-enterprise/target/* 
 
-rm -rf /home/run2biz/Documents/Desenvolvimento/WILDFLY-12.0.0/standalone/deployments/* 
+rm -rf /home/**run2biz/Documents/Desenvolvimento**/WILDFLY-12.0.0/standalone/deployments/* 
 
-rm -rf /home/run2biz/Documents/Desenvolvimento/WILDFLY-12.0.0/standalone/data/ 
+rm -rf /home/**run2biz/Documents/Desenvolvimento**/WILDFLY-12.0.0/standalone/data/ 
 
-rm -rf /home/run2biz/Documents/Desenvolvimento/WILDFLY-12.0.0/standalone/log/ 
+rm -rf /home/**run2biz/Documents/Desenvolvimento**/WILDFLY-12.0.0/standalone/log/ 
 
-rm -rf /home/run2biz/Documents/Desenvolvimento/WILDFLY-12.0.0/standalone/tmp/ 
+rm -rf /home/**run2biz/Documents/Desenvolvimento**/WILDFLY-12.0.0/standalone/tmp/ 
 
-Siga os próximos passos para que o Projeto rode corretamente. 
+ - Siga os próximos passos para que o Projeto rode corretamente. 
 
-ESSES DIRETÓRIOS SÃO DO GIT?????
-
- 
 
  - Execute o _clean.sh_ 
-
  
 
  - Remova o Projeto no WildFly clicando com o botão direito do mouse e escolhendo Remove 
 
  
-
  - Vá no Projeto, clique com o botão direito do mouse e escolha Refresh 
 
-IBAGEN 33 <<<<< necessaria
-
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image28.jpg)
  
 
  - Ainda no Projeto, clique com o botão direito do mouse e escolha Run as/Run Configuration/Run 
 
-IBAGEN 34
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image29.jpg)
 
  
 
@@ -374,9 +385,9 @@ IBAGEN 34
 
  - Clique com o botão direito do mouse em cima do WildFly e escolha a opção _Add and Remove_, selecione o Citsmart9 e adicione: 
 
-IBAGEN 35
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image30.jpg)
 
-IBAGEN 36
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image31.jpg)
 
  
 
@@ -384,10 +395,9 @@ IBAGEN 36
 
  - Aparecerá a tela abaixo, marque a opção _Remember my decision_ e clique no botão _No_: 
 
-IBAGEN 37
-
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image32.jpg)
  
-IBAGEN 38
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image33.jpg)
 
  
 
@@ -398,15 +408,13 @@ IBAGEN 38
 
       Caso mesmo após todos os passos acima o Projeto não rode, clique com o botão direito do mouse em cima do Projeto, Maven / Update Project e repita novamente o Passo a Passo. 
 
-IBAGEN 40
-
+![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image34.jpg)
  
 
  - Acesse o link abaixo para o CITSmart: 
 
 https://localhost:8443/citsmart 
 
-![diretorio linux](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/2tone.jpg)
 
  - Clique em **Avanced/Proceed** 
 
