@@ -59,7 +59,6 @@ Capturar o incidente ou requisição de serviço significa assumir a responsabil
 Se o parâmetro 452 (Continuar na tela de Ticket após salvar?) estiver ativo o ticket é capturado automaticamente: 
 
 É preciso verificar esse caso, e antes de capturar o ticket é preciso fazer o processo (acima) de informar qual o grupo; 
-
 <b>Tabelas:</b> 
 
 bpm_itemtrabalhofluxo - executor_group_id , idresponsavelatual 
@@ -188,7 +187,7 @@ Executar ações (as ações são definidas pelo fluxo de Serviço e aparecerão
 
 -   **Resolvida** – gerar solução de resposta para finalizar o ticket;
 
--   **Canceleda** – justificar porque a atividade está sendo cancelada;
+-   **Cancelada** – justificar porque a atividade está sendo cancelada;
 
 ### Vincular Itens Adicionais
 
