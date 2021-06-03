@@ -4,7 +4,7 @@ Description: Capturar el incidente o la solicitud de servicio significa asumir l
 
 # Captura de incidente o solicitud de servicio
 
-Capturar el incidente o la solicitud de servicio significa asumir la responsabilidad de atender un ticket o contribuir a la solución de este.
+Capturar el incidente o la solicitud de servicio significa asumir la responsabilidad de manejar un ticket o contribuir a su resolución.
 
 ## Antes de empezar
 
