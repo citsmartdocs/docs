@@ -9,7 +9,7 @@ Capturar el incidente o la solicitud de servicio significa asumir la responsabil
 ## Antes de empezar
 
 - [X] Para realizar la captura se requiere al menos un ticket abierto.
-- [X] Es necesario tener permiso para ver, capturar y realizar las acciones posibles dentro del ticket.
+- [X] Se requiere tener permiso para ver, capturar y realizar las acciones posibles dentro del ticket.
 
 ## Procedimiento
 
@@ -90,15 +90,15 @@ Después de abrir la solicitud de servicio o incidente, el sistema recuperará l
 
 ## Capturar el Incidente o la Solicitud de Servicio
 
-Para hacerse responsable de la incidencia o solicitud de servicio, puede encontrar en la barra de menú superior la opción "Responsable" para hacerse responsable de la misma.
+Para hacerse responsable del incidente o solicitud de servicio, puede encontrar en la barra de menú superior la opción "Responsable" para hacerse responsable de ello.
 
 ## Elementos de la barra de herramientas
 
 |Elemento		        | Descripción                                                     |
 |-----------------------|-----------------------------------------------------------------|
-| **Volver**            | Volver al espacio de trabajodel Service Desk    |
+| **Volver**            | Volver al espacio de trabajo del Service Desk    |
 | **Número**            | Identificador del incidente o solicitud de servicio   |
-| **Tarea**             | Paso del flujo de servicio     |
+| **Tarea**             | Etapa del flujo de servicio     |
 | **Grupo actual**      | El grupo responsable de la solución       |
 | **Asignación**        | La persona responsable del incidente o solicitud de servicio   |
 | **SLA**               | Tiempo total de resolución   |
@@ -120,7 +120,7 @@ En las opciones, tenemos:
 |**Suspender**              | Suspender el servicio del incidente o solicitud de servicio |
 |**Cambiar SLA**            | Cambiar el SLA asignado al incidente o solicitud de servicio |
 |**Reclasificar**           | Reclasificar el portafolio/servicio/actividad del incidente o solicitud de servicio |
-|**Crear sub-ticket**       | Crear un sub-incidente o una solicitud de servicio para el servicio|
+|**Crear sub-ticket**       | Crear un sub-incidente o una solicitud de servicio dentro el servicio|
 |**Crear ticket relacionado**| Vincular un incidente o una solicitud de servicio relacionada con el servicio    |
 |**Programar actividad**    | Puede crear un programa de actividades para el incidente o la solicitud de servicio |
 |**Imprimir**               | Imprimir la información de solicitud de servicio o incidente |
@@ -166,7 +166,7 @@ Después de agregar el comentario, cierre la página de vista previa del ticket.
 
     Para que esta funcionalidad funcione, habilite el siguiente parámetro y permiso:
     
-    - Habilitar el parámetro: 298 - Presenta las ocurrencias del Ticket (Valores: "S" o "N" Predeterminado: "N").
+    - Habilitar el parámetro: 298 - Presenta las ocurrencias del Ticket (Valores: "S" o "N" Default: "N").
     
     - Habilitar el permiso de Comentar en la pantalla de Grupo.
 
@@ -176,7 +176,7 @@ Puede **Direccionar al grupo** (identificando el grupo que será dirigido dentro
 Realizar acciones (las acciones son definidas por el flujo de Servicio y solo aparecerán si el paso del flujo lo dirige)
 
 
-### Definir situación del incidente o la solicitud de servicio
+### Definir la situación del incidente o la solicitud de servicio
 
 | Campo         | Descripción                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
