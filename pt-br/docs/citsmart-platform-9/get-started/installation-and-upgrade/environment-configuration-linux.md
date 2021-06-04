@@ -22,28 +22,42 @@ Para começar o procedimento, é necessário fazer o download dos arquivos dispo
   
  - Além do Rufus e do arquivo .iso do Ubuntu, para criar um drive USB bootável também é necessário ter um flashdrive com no mínimo 4gb de armazenamento.  
   
- - Para configurar o drive, siga o procedimento abaixo:  
   
-   1. Execute o Rufus.  
-   2. Insira o drive na máquina.
-   3. O Rufus irá atualizar para se definir o dispositivo dentro do campo Dispositivo ou Device.
-   4. Selecione o drive desejado entre as opções.  
+**Para configurar o drive, siga o procedimento abaixo:**  
+  
+  
+ - Execute o Rufus.  
+ 
+ - Insira o drive na máquina.
+ 
+ - O Rufus irá atualizar para se definir o dispositivo dentro do campo _Dispositivo_ ou _Device_.
+ 
+ - Selecione o drive desejado entre as opções.  
        
 !!! note "Nota"  
 
          Para evitar a escolha de um dispositivo incorreto, tenha certeza que há apenas um dispositivo inserido na máquina
    
    
-   5. Após selecionar o dispositivo, escolha a opção de inicialização. As opções serão _Não inicializável_ e _FreeDOS_. Já que você está criando um dispositivo Ubuntu inicializável, selecione _FreeDOS_.  
-   6. Deixe as opções para Esquema de partição (MBR) e Sistema de destino (BIOS (ou UEFI-CSM)) como padrão.  
-   7. Clique no botão SELECT ao lado da opção Boot Selection, procure o arquivo .iso do Ubuntu e clique em Abrir.  
-   8. O campo VOLUME LABEL será atualizado para reletir o ISO selecionado.  
-   9. Os outros parâmetros devem ser deixados em seus valores padrão.  
-   10. Clique START para iniciar o processo de gravação.  
-   11. Durante o processo, uma mensagem pode aparecer alertando de que a Rufus requer arquivos adicionais para concluir a gravação do ISO. Selecione Sim para continuar.  
-   12. Durante o processo, você será alertado de que Rufus detectou que o ISO do Ubuntu é uma imagem ISOHybrid. Mantenha a gravação no modo de imagem ISO selecionado e clique em OK para continuar.  
-   13. Rufus também irá avisá-lo de que todos os dados do dispositivo USB selecionado estão prestes a ser destruídos. Verifique se você selecionou o dispositivo correto antes de clicar em OK.  
-   14. Aguarde a conclusão do processo, que pode variar dependendo da sua máquina. Após a conclusão, clique em CLOSE para fechar o Rufus.  
+ - Após selecionar o dispositivo, escolha a opção de inicialização. As opções serão _Não inicializável_ e _FreeDOS_. Já que você está criando um dispositivo Ubuntu inicializável, selecione _FreeDOS_.  
+ 
+ - Deixe as opções para _Esquema de partição (MBR)_ e _Sistema de destino (BIOS (ou UEFI-CSM))_ como padrão.  
+ 
+ - Clique no botão _SELECT_ ao lado da opção _Boot Selection_, procure o arquivo .iso do Ubuntu e clique em Abrir.  
+ 
+ - O campo _VOLUME LABEL_ será atualizado para reletir o ISO selecionado.  
+ 
+ - Os outros parâmetros devem ser deixados em seus valores padrão.  
+ 
+ - Clique _START_ para iniciar o processo de gravação.  
+ 
+ - Durante o processo, uma mensagem pode aparecer alertando de que a Rufus requer arquivos adicionais para concluir a gravação do ISO. Selecione Sim para continuar.  
+ 
+ - Durante o processo, você será alertado de que Rufus detectou que o ISO do Ubuntu é uma imagem _ISOHybrid_. Mantenha a gravação no modo de imagem ISO selecionado e clique em OK para continuar.  
+ 
+ - Rufus também irá avisá-lo de que todos os dados do dispositivo USB selecionado estão prestes a ser destruídos. Verifique se você selecionou o dispositivo correto antes de clicar em OK.  
+ 
+ - Aguarde a conclusão do processo, que pode levar alguns minutos dependendo da sua máquina. Após a conclusão, clique em _CLOSE_ para fechar o Rufus.  
        
  - Insira o drive com o ISO em seu computador e reinicie a máquina. A maioria dos computadores reconhecerá o drive bootável automaticamente e mostrará uma mensagem de boas vindas com opções para selecionar o idioma, instalar ou experimentar o Ubuntu Desktop.  
    
@@ -51,19 +65,19 @@ Para começar o procedimento, é necessário fazer o download dos arquivos dispo
         
           Se o computador não inicializar automaticamente a partir da unidade USB, tente segurar F12 ou Delete quando o computador iniciar pela primeira vez. Na maioria das máquinas, isso permitirá que você selecione o dispositivo USB em um menu de inicialização específico do sistema. Caso não aconteça, verifique a opção de Boot no computador, selecionando o Boot através da unidade USB. Se você não tiver certeza, procure por uma breve mensagem quando o sistema for inicializado, isso geralmente o informará sobre qual tecla deve ser pressionada para abrir o menu de inicialização.  
           
- - Logo após a escolha do Idioma, você será solicitado a selecionar o layout do teclado. Se o instalador não adivinhar o layout padrão corretamente, use o botão 'Detectar layout do teclado' para executar um breve procedimento de configuração.  
+ - Logo após a escolha do Idioma, você será solicitado a selecionar o layout do teclado. Se o instalador não adivinhar o layout padrão corretamente, use o botão _'Detectar layout do teclado'_ para executar um breve procedimento de configuração.  
 
- - Depois de selecionar Continuar, você será perguntado por quais aplicativos deseja instalar para começar. As duas opções são 'Instalação normal' e 'Instalação mínima', selecione a opção 'Instalação normal'.  
+ - Depois de selecionar Continuar, você será perguntado por quais aplicativos deseja instalar para começar. As duas opções são _'Instalação normal'_ e _'Instalação mínima'_, selecione a opção _'Instalação normal'_.  
 
  - Abaixo da questão do tipo de instalação, há duas caixas de seleção; um para habilitar atualizações durante a instalação e outro para habilitar software de terceiros.  
   
- - Habilite a opção Download updatese Install third-party software. 
+ - Habilite a opção _Download updates_ e _Install third-party software._ 
    
- - Para a próxima etapa, é necessário estar conectado à internet. Se você não estiver conectado à Internet, será solicitado a seleção de uma rede sem fio, se disponível. Aconselhamos você a se conectar durante a instalação para que possamos garantir que sua máquina esteja atualizada.  
+ - Para a próxima etapa, é necessário estar conectado à internet. Se você não estiver conectado à Internet, será solicitado a seleção de uma rede sem fio, se disponível. Aconselhamos você a se conectar durante a instalação para garantir que sua máquina esteja atualizada.  
 
- - As demais opções de instalação serão de Localização e detalhes de Login.  
+ - As demais opções de instalação serão de _Localização_ e _detalhes de Login_.  
 
- - Depois que tudo estiver instalado e configurado, uma pequena janela aparecerá solicitando que você reinicie sua máquina. Clique Restart Now e remova a unidade flash USB quando solicitado.
+ - Depois que tudo estiver instalado e configurado, uma pequena janela aparecerá solicitando que você reinicie sua máquina. Clique _Restart Now_ e remova a unidade flash USB quando solicitado.
 
 !!! note "Dica"  
 
@@ -108,15 +122,15 @@ javac -version </i>
 
 ### Autenticando o acesso no Artifactory
 
- - Acesse o link abaixo para a autenticação dos seus dados de acesso à rede (Active Directory): 
+ - Acesse o link abaixo para a autenticação dos seus dados de acesso à rede _(Active Directory)_: 
 
 https://artifactory.centralit.com.br:8092/artifactory/webapp/login.html?0  
 
  - Insira seus dados, e após a autenticação, vá no canto superior direito da tela e clique sobre seu nome de usuário. 
  
- - Digite a sua senha de rede e clique em "Unlock".  
+ - Digite a sua senha de rede e clique em _"Unlock"_.  
  
- - Copie o trecho que contém o nome de usuário e senha e substitua no settings.xml exatamente nas mesmas posições informadas anteriormente.  
+ - Copie o trecho que contém o nome de usuário e senha e substitua no _settings.xml_ exatamente nas mesmas posições informadas anteriormente.  
 
 !!! note "Nota" 
 
@@ -132,7 +146,7 @@ https://scm.centralit.com.br/scm/#repositoryPanel;4MRv1XSxO9
 
 <i> citsmart-itsm-enterprise</i>  
 
- - Copie o Link no campo Checkout na parte inferior da página para o Git Clone.
+ - Copie o Link no campo _Checkout_ na parte inferior da página para o Git Clone.
 
  - Abra a pasta onde deseja clonar o repositório CITSmart e execute o Terminal. 
 
@@ -144,11 +158,11 @@ https://scm.centralit.com.br/scm/#repositoryPanel;4MRv1XSxO9
 
  - Pode ser necessário criar uma nova conta caso não tenha cadastro.
 
- - Após o acesso, clique com o botão direito em cima de Servers/Create/Server
+ - Após o acesso, clique com o botão direito em cima de _Servers/Create/Server_
 
- - Na Aba General e no campo Name, digite dbcitsmart.
+ - Na Aba _General_ e no campo _Name_, digite _dbcitsmart_.
 
- - Na Aba Connection digite:  
+ - Na Aba _Connection_ digite:  
   
  <i>postgres  
  5432  
@@ -156,13 +170,13 @@ https://scm.centralit.com.br/scm/#repositoryPanel;4MRv1XSxO9
  postgres  
  post  </i> 
 
- - No Servidor criado, no menu esquerdo da tela, clique com o botão Direito e crie um Database com o nome _ dbcitsmart _  
+ - No Servidor criado, no menu esquerdo da tela, clique com o botão Direito e crie um Database com o nome _dbcitsmart_  
 
  - Em Login/Group Roles, no menu esquerdo da tela, clique com o botão direito em cima e selecione **Create/Login/Group Roles**  
 
  - Na Aba General e no campo Name, digite _root_  
 
- - Repita a operação e crie um Login/Group Roles com o nome _rtsadmin_
+ - Repita a operação e crie um **Login/Group Roles** com o nome _rtsadmin_
 
 ### Instalando o Docker
 
@@ -188,7 +202,7 @@ psql -l  </i>
 
 <i>pg_restore -d dbcitsmart dbcitsmart.sql </i>
 
- - Logo após, retorne ao PgAdmin, clique com o botão Direito do mouse e dê o Refresh, acesse o dbcitsmart/Schemas/Tables e verifique as tabelas migradas pelo Docker.  
+ - Logo após, retorne ao PgAdmin, clique com o botão Direito do mouse e dê o Refresh, acesse o **dbcitsmart/Schemas/Tables** e verifique as tabelas migradas pelo Docker.  
 
 ### Instalando o Eclipse  
 
@@ -201,24 +215,24 @@ https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-enterpr
 
  - Extraia o arquivo baixado para a pasta de Desenvolvimento. 
 
- - Na pasta onde foi extraído o Eclipse, abra o arquivo eclipse.ini e edite as opções conforme abaixo:
+ - Na pasta onde foi extraído o Eclipse, abra o arquivo _eclipse.ini_ e edite as opções conforme abaixo:
 
 ![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image1.jpg)
 
- - Execute o arquivo Eclipse e selecione um diretório para ser o seu workspace. Você pode marcar a opção “Use this as the default and do no ask again” para que a seleção do diretório do workspace não seja solicitada novamente. 
+ - Execute o arquivo Eclipse e selecione um diretório para ser o seu workspace. Você pode marcar a opção **“Use this as the default and do not ask again”** para que a seleção do diretório do workspace não seja solicitada novamente. 
 
  
 
- - Selecione em File a opção Import: 
+ - Selecione em **File** a opção **Import**: 
 
 ![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image2.png)
 
  
 
- - Na opção Maven, selecione Existing Maven Projects.  
+ - Na opção Maven, selecione **Existing Maven Projects.**  
  
 
- - Insira o caminho do diretório que está o repositório do Citsmart-itsm: 
+ - Insira o caminho do diretório que está o repositório do _Citsmart-itsm_: 
 
  ![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image3.png)
  
@@ -253,13 +267,13 @@ https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-enterpr
 
  
 
- - Localize a opção Validation, procurando na barra de pesquisa, e habilite a opção _Suspend all validators_, conforme abaixo: 
+ - Localize a opção **Validation**, procurando na barra de pesquisa, e habilite a opção **Suspend all validators**, conforme abaixo: 
 
 ![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image12.png)
  
 
 
- - Na tela inicial do eclipse, clique com o botão direito do mouse em cima do Projeto e escolha Run As/Run Configurations e preencha as opções das próximas telas conforme abaixo: 
+ - Na tela inicial do eclipse, clique com o botão direito do mouse em cima do Projeto, escolha **Run As/Run Configurations** e preencha as opções das próximas telas conforme abaixo: 
 
  
 ![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image13.png)
@@ -288,9 +302,9 @@ https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-enterpr
   
  
 
- - Na Aba Markers, clique com o botão direito do mouse nas _Description_ que estiverem com o ícone vermelho e escolha Remove: 
+ - Na Aba Markers, clique com o botão direito do mouse nas **Description** que estiverem com o ícone vermelho e escolha **Remove**: 
 
- - Na opção do New Server, selecione WildFly 12: 
+ - Na opção do New Server, selecione **WildFly 12**: 
 
 ![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image18.png)
  
@@ -298,7 +312,7 @@ https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-enterpr
  - Na opção Configuration file, selecione o arquivo xml _standalone-postgres-full.xml_, baixado no OneDrive: 
  
 
- - Na tela inicial do eclipse, abra a janela Window/Preferences, localize a opção Maven, selecione a opção _User Settings_ e preencha conforme abaixo: 
+ - Na tela inicial do eclipse, abra a janela **Window/Preferences**, localize a opção Maven, selecione a opção **User Settings** e preencha conforme abaixo: 
 
 ![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image19.png)
  
@@ -323,15 +337,15 @@ https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-enterpr
 ![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image24.png)
 
 
- - Na opção “Program arguments” preencha conforme abaixo: 
+ - Na opção **Program arguments** preencha conforme abaixo: 
 
-_-mp "/home/run2biz/Documents/Desenvolvimento/WILDFLY-12.0.0/modules" org.jboss.as.standalone -b localhost --server-config=standalone-postgres-full.xml -Djboss.server.base.dir=/home/run2biz/Documents/Desenvolvimento/WILDFLY-12.0.0/standalone _
+<i>-mp "/home/run2biz/Documents/Desenvolvimento/WILDFLY-12.0.0/modules" org.jboss.as.standalone -b localhost --server-config=standalone-postgres-full.xml -Djboss.server.base.dir=/home/run2biz/Documents/Desenvolvimento/WILDFLY-12.0.0/standalone </i>
 
  
 
- - Na opção “VM arguments” preencha conforme abaixo: 
+ - Na opção **VM arguments** preencha conforme abaixo: 
 
-_ "-Dprogram.name=JBossTools: WildFly 12" -server -Xms128m -Xmx2048m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true "-Dorg.jboss.boot.log.file=/home/run2biz/Documents/Desenvolvimento/WILDFLY-12.0.0/standalone/log/boot.log" "-Dlogging.configuration=file:/home/run2biz/Documents/Desenvolvimento/WILDFLY-12.0.0/standalone/configuration/logging.properties" "-Djboss.home.dir=/home/run2biz/Documents/Desenvolvimento/WILDFLY-12.0.0" -Djboss.bind.address.management=localhost -XX:-UseGCOverheadLimit _
+<i> "-Dprogram.name=JBossTools: WildFly 12" -server -Xms128m -Xmx2048m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true "-Dorg.jboss.boot.log.file=/home/run2biz/Documents/Desenvolvimento/WILDFLY-12.0.0/standalone/log/boot.log" "-Dlogging.configuration=file:/home/run2biz/Documents/Desenvolvimento/WILDFLY-12.0.0/standalone/configuration/logging.properties" "-Djboss.home.dir=/home/run2biz/Documents/Desenvolvimento/WILDFLY-12.0.0" -Djboss.bind.address.management=localhost -XX:-UseGCOverheadLimit </i>
  
 
  - Confira as informações do Diretório conforme o seu Diretório. 
@@ -344,7 +358,7 @@ _ "-Dprogram.name=JBossTools: WildFly 12" -server -Xms128m -Xmx2048m -Dorg.jboss
  - Logo após, clique em Salvar. 
 
  
- - Clique com o botão direito do mouse em cima do WildFly e escolha a opção Add and Remove, selecione o Citsmart9 e adicione: 
+ - Clique com o botão direito do mouse em cima do WildFly, escolha a opção **Add and Remove**, selecione o Citsmart9 e adicione: 
 
 ![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image26.png)
  
@@ -373,23 +387,23 @@ rm -rf /home/**run2biz/Documents/Desenvolvimento**/WILDFLY-12.0.0/standalone/tmp
  - Execute o _clean.sh_ 
  
 
- - Remova o Projeto no WildFly clicando com o botão direito do mouse e escolhendo Remove 
+ - Remova o Projeto no WildFly clicando com o botão direito do mouse e escolhendo **Remove**. 
 
  
- - Vá no Projeto, clique com o botão direito do mouse e escolha Refresh 
+ - Vá no Projeto, clique com o botão direito do mouse e escolha **Refresh**. 
 
 ![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image28.png)
  
 
- - Ainda no Projeto, clique com o botão direito do mouse e escolha Run as/Run Configuration/Run 
+ - Ainda no Projeto, clique com o botão direito do mouse e escolha **Run as/Run Configuration/Run**. 
 
 ![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image29.png)
 
  
 
- - Vá no Projeto, clique com o botão direito do mouse e escolha Refresh. 
+ - Vá no Projeto, clique com o botão direito do mouse e escolha **Refresh.** 
 
- - Clique com o botão direito do mouse em cima do WildFly e escolha a opção _Add and Remove_, selecione o Citsmart9 e adicione: 
+ - Clique com o botão direito do mouse em cima do WildFly e escolha a opção **Add and Remove**, selecione o Citsmart9 e adicione: 
 
 ![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image30.png)
 
@@ -397,9 +411,9 @@ rm -rf /home/**run2biz/Documents/Desenvolvimento**/WILDFLY-12.0.0/standalone/tmp
 
  
 
- - Com o Projeto adicionado no Wildfly, clique com o botão direito do mouse em cima do WildFly e escolha _Clean_. 
+ - Com o Projeto adicionado no Wildfly, clique com o botão direito do mouse em cima do WildFly e escolha **Clean**. 
 
- - Aparecerá a tela abaixo, marque a opção _Remember my decision_ e clique no botão _No_: 
+ - Aparecerá a tela abaixo, marque a opção **Remember my decision** e clique no botão **No**: 
 
 ![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image32.png)
  
@@ -424,4 +438,4 @@ https://localhost:8443/citsmart
 
  - Clique em **Avanced/Proceed** 
 
- - O ambiente está configurado. 
+ - Pronto, o ambiente está configurado! 
