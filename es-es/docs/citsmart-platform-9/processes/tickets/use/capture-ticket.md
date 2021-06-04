@@ -170,7 +170,7 @@ Después de agregar el comentario, cierre la página de vista previa del ticket.
     
     - Habilitar el permiso de Comentar en la pantalla de Grupo.
 
-### Asignación y Acción
+### Atribución y Acción
  
 Puede **Direccionar al grupo** (identificando el grupo que será dirigido dentro del flujo) o  
 Realizar acciones (las acciones son definidas por el flujo de Servicio y solo aparecerán si el paso del flujo lo dirige)
