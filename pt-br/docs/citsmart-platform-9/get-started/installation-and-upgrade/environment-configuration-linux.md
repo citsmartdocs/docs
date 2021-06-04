@@ -436,6 +436,6 @@ rm -rf /home/**run2biz/Documents/Desenvolvimento**/WILDFLY-12.0.0/standalone/tmp
 https://localhost:8443/citsmart 
 
 
- - Clique em **Avanced/Proceed** 
+ - Clique em **Advance/Proceed** 
 
  - Pronto, o ambiente está configurado! 
