@@ -67,7 +67,7 @@ capturecontrolservicerequest
 
 ## Información sobre el incidente o la solicitud de servicio
 
-Tras la apertura de la solicitud de servicio o incidente, el sistema recuperará la información de la solicitud o incidente
+Después de abrir la solicitud de servicio o incidente, el sistema recuperará la información de la solicitud o incidente
 
 ### Campos
 
