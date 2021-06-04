@@ -96,16 +96,16 @@ Para hacerse responsable de la incidencia o solicitud de servicio, puede encontr
 
 |Elemento		        | Descripción                                                     |
 |-----------------------|-----------------------------------------------------------------|
-| **Volver**            | Volver al escritorio del Service Desk    |
-| **Número**            | Identificador de incidente o solicitud de servicio   |
-| **Tarea**             | Etapa del flujo de servicio     |
+| **Volver**            | Volver al espacio de trabajodel Service Desk    |
+| **Número**            | Identificador del incidente o solicitud de servicio   |
+| **Tarea**             | Paso del flujo de servicio     |
 | **Grupo actual**      | El grupo responsable de la solución       |
 | **Asignación**        | La persona responsable del incidente o solicitud de servicio   |
 | **SLA**               | Tiempo total de resolución   |
 | **Tiempo límite**     | Fecha y hora límite para el servicio		 |
-| **Anexos**            | Mostrar los anexos existentes o adjuntar un nuevo objeto   |
-| **Visualizar flujo**  | Mostrar el flujo de servicio                      |
-| **Scripts**           | Mostrar scripts para cumplir con el servicio |
+| **Archivos adjuntos** | Ver los archivos adjuntos existentes o adjuntar un nuevo objeto |
+| **Ver flujo**         | Mostrar el flujo de servicio                      |
+| **Scripts**           | Mostrar scripts para asistir el servicio |
 | **Conocimiento**      | Aparece cuando hay conocimiento vinculado al paso del flujo     |
 | **Layout**            | Activa la edición del diseño de la página (30% - 70%, 50% - 50% e 100%)|
 
@@ -115,109 +115,110 @@ En las opciones, tenemos:
 
 | Opción                    | Descripción                                                                   |
 |---------------------------|---------------------------------------------------------------------------------|
-|**Asignar ticket**         | Hacerse responsable del incidente o solicitud de servicio |
+|**Capturar solicitud**     | Hacerse responsable del incidente o solicitud de servicio |
 |**Delegar**                | Delegar el incidente o la solicitud de servicio a otro adjunto |
-|**Suspender**              | Suspender el servicio del incidente o la solicitud de servicio |
-|**Alterar SLA**            | Alterar el SLA asignado al incidente o a la solicitud de servicio |
-|**Reclasificar**           | Reclasificar el portafolio/servicio/actividad del incidente o la solicitud de servicio |
-|**Crear sub-ticket**       | Crear un sub-incidente o a solicitud de servicio para el servicio|
+|**Suspender**              | Suspender el servicio del incidente o solicitud de servicio |
+|**Cambiar SLA**            | Cambiar el SLA asignado al incidente o solicitud de servicio |
+|**Reclasificar**           | Reclasificar el portafolio/servicio/actividad del incidente o solicitud de servicio |
+|**Crear sub-ticket**       | Crear un sub-incidente o una solicitud de servicio para el servicio|
 |**Crear ticket relacionado**| Vincular un incidente o una solicitud de servicio relacionada con el servicio    |
-|**Programar actividad**    | Puede crear una programación de actividades para el incidente o la solicitud de servicio |
-|**Imprimir**               | Imprimir la información de incidente o la solicitud de servicio |
+|**Programar actividad**    | Puede crear un programa de actividades para el incidente o la solicitud de servicio |
+|**Imprimir**               | Imprimir la información de solicitud de servicio o incidente |
 
-## Atender un Incidente o Solicitud de Servicio
+## Asistir a un Incidente o Solicitud de Servicio
 
-El inicio efectivo del servicio ocurre desde la captura del incidente o solicitud de servicio hasta el final o el reenvío a otra área.  
-El analista puede utilizar varios recursos: comentarios, historial, envío de notificaciones por correo electrónico y registro de horas.
+El inicio efectivo del servicio ocurre desde la captura del incidente o solicitud de servicio hasta el final o remisión a otra área.  
+El analista puede utilizar varios recursos: comentarios, historial, notificaciones por correo electrónico y registro de tiempo.
 
 ### Agregar comentarios/ Visualizar historial
 
 El usuario puede escribir un comentario y realizar las siguientes acciones:
 
-| Opción		        | Descripción                                                                   |
+| Opción		      | Descripción                                                                   |
 |-----------------------|-------------------------------------------------------------------------------|
-|**Comentarios**        | Área de comentarios para las personas que acceden a este ticket, con la opción de tener el formato de edición |
-|**Historial**          | Vea el historial de Incidentes o Solicitudes de Servicio |
+|**Comentarios**        | Área de comentarios para las personas que acceden a este ticket, con opción de tener el formato de edición |
+|**Historial**          | Ver el historial de Incidentes o Solicitudes de Servicio |
 |**Cancelar**           | Cancelar el comentario    |
-|**Público**            | Compruebe si el equipo de servicio y el usuario final pueden visualizar |
-|**Horas publicadas**   | Posibilidad de informar las horas gastadas en una tarea |
+|**Público**            | Compruebe si el equipo de servicio y el usuario final pueden ver |
+|**Horas publicadas**   | Posibilidad de informar las horas dedicadas en una tarea |
 |**Enviar correo electrónico**| Marque para enviar el comentario como un correo electrónico |
-|**Agregar**            | Agregar el comentario al incidente o a la solicitud de servicio |
+|**Agregar**            | Agregar el comentario al incidente o solicitud de servicio |
 
-Después de añadir el comentario, también puede visualizar e interactuar con todos los comentarios realizados en el ticket (Editar - Borrar - Responder al comentario).
+Después de agregar el comentario, también puede visualizar e interactuar con todos los comentarios hechos en el ticket (Editar - Eliminar - Responder al comentario).
 
-
-Otra opción para comentar y ver los comentarios es a través de la Búsqueda Rápida en la propia Interfaz de Servicio. 
+Otra opción para comentar y ver los comentarios es a través de la Búsqueda Rápida en la Interfaz de Servicio. 
 
 1. Para acceder a esta funcionalidad, vaya al menú Procesos > Gestión de tickets > Ticket;
 
 2. Haga clic en "Buscar aquí" y habilite la funcionalidad **"Tickets con permiso de comentario"**;
 
-3. El sistema entonces, habilitará como obligatorio para realizar la búsqueda en el campo "Número", donde indicará el número del ticket que desea comentar. Después de introducir el número, haga clic en "Buscar";
+3. El sistema habilitará entonces el campo "Número" como obligatorio para realizar la búsqueda, donde ingresarás el número del ticket que deseas comentar. Después de ingresar el número, haga clic en "Buscar";
 
-4. El sistema volverá a la lista, el ticket que informó anteriormente. Haga clic una vez en él para mostrar las opciones disponibles para ese ticket. Una de las opciones presentadas para este ticket será **"Visualizar y Comentar"**;
+4. El sistema devolverá en la lista, el ticket informado anteriormente. Haga clic en él una vez para mostrar las opciones disponibles para ese ticket. Una de las opciones presentadas para este ticket será **"Ver y Comentar"**;
 
-5. Al hacer clic en "Visualizar y Comentar", el sistema abrirá el ticket en modo de visualización. Sin la posibilidad de ver los eventuales archivos adjuntos del ticket, solo podrá introducir y ver los comentarios de este ticket;
+5. Al hacer clic en "Ver y Comentar", el sistema abrirá el ticket en modo de vista previa. Sin la posibilidad de ver los archivos adjuntos del ticket, puede insertar y ver solo los comentarios en ese ticket;
 
-6. Después de agregar el comentario, cierre la página de visualización del ticket.
+6. Después de agregar el comentario, cierre la página de vista previa del ticket.
+
+Después de agregar el comentario, cierre la página de vista previa del ticket.
 
 !!! note "NOTA"
 
     Para que esta funcionalidad funcione, habilite el siguiente parámetro y permiso:
     
-    - Habilitar el parámetro: 298 - Mostrar las ocurrencias del Ticket (Valores: "S" o "N" Default: "N").
+    - Habilitar el parámetro: 298 - Presenta las ocurrencias del Ticket (Valores: "S" o "N" Predeterminado: "N").
     
     - Habilitar el permiso de Comentar en la pantalla de Grupo.
 
 ### Asignación y Acción
  
-Puede **Dirigir al grupo** (identificando el grupo que será dirigido dentro del flujo) o  
-Realizar acciones (las acciones son definidas por el flujo de Servicio y aparecerán solo si el paso del flujo lo dirige a él)
+Puede **Direccionar al grupo** (identificando el grupo que será dirigido dentro del flujo) o  
+Realizar acciones (las acciones son definidas por el flujo de Servicio y solo aparecerán si el paso del flujo lo dirige)
 
 
-### Definir el estado del incidente o la solicitud de servicio
+### Definir situación del incidente o la solicitud de servicio
 
 | Campo         | Descripción                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
-|**Situación**  | La situación del incidente o solicitud de servicio (registrada/en curso, resuelta o cancelada) |
+|**Situación**  | La situación del incidente o solicitud de servicio (registrado/en marcha, resuelto o cancelado) |
 
-**Status** – Status del Incidente o Solicitud de Servicio:
+**Situación** – Situación del Incidente o Solicitud de Servicio:
 
--   **Registrada/En Curso** – el ticket no está listo para ser cerrado;
+-   **Registrada/En Marcha** – el ticket no está listo para ser cerrado;
 
--   **Resuelta** – generar una solución de respuesta para finalizar el ticket;
+-   **Resuelto** – generar solución de respuesta para finalizar el ticket;
 
--   **Cancelada** – justificar porque la actividad está siendo cancelada;
+-   **Cancelado** – justificar por qué se cancela la actividad;
 
 ### Vincular Elementos Adicionales
 
-Acceda al pequeño botón de flecha negro en la esquina superior derecha de la pantalla, debajo de la barra de menú, para realizar las funciones deseadas.
+Acceda al pequeño botón de flecha negro en la parte superior derecha de la pantalla, debajo de la barra de menú, para realizar las funciones deseadas.
 
 | Función                       | Descripción                                                            |
 |-------------------------------|------------------------------------------------------------------------|
-|**Crear sub-ticket**           | Mostrar o crear un sub-incidente o solicitud de servicio para el servicio        |
-|**Crear ticket relacionado**   | Vincular un incidente o una solicitud de servicio relacionada con el servicio |
-|**Soluciones de contorno**     | Mostrar y mantener soluciones de contorno relacionadas con este incidente o solicitud de servicio  |
-|**Conocimiento**               | Puede buscar y vincular conocimientos al incidente o solicitud de servicio |
+|**Sub-ticket**                 | Ver o crear un sub-incidente o una solicitud de servicio para el servicio        |
+|**Tickets relacionados**       | Vincular un incidente o una solicitud de servicio relacionada con el servicio |
+|**Solución temporal**          | Ver y mantener soluciones alternativas relacionadas con este incidente o solicitud de servicio  |
+|**Conocimiento**               | Puede buscar y vincular el conocimiento al incidente o solicitud de servicio |
 |**Proyecto**                   | Puede buscar y vincular un proyecto al incidente o solicitud de servicio      |
-|**Agenda**                     | Puede crear una programación de actividades para el incidente o la solicitud de servicio   |
-|**Lectura de correos electrónicos**| Puede buscar y leer correos electrónicos|
+|**Agenda**                     | Puede crear un programa de actividades para el incidente o la solicitud de servicio   |
+|**Lectura de los correos electrónicos**| Puede buscar y leer correos electrónicos|
 |**IC del solicitante**         | Puede buscar y seleccionar los elementos de configuración del solicitante |
 |**IC relacionado**             | Puede buscar y seleccionar los elementos de configuración para el incidente o la solicitud de servicio |
-|**Problema**                   | Puede buscar problemas para vincular al incidente o a la solicitud de servicio, también puede crear y vincular el problema |
-|**Cambio**                     | Puede buscar Cambios para vincular al incidente o a la solicitud de servicio, también puede crear y vincular el Cambio |
-|**Liberación**	                | Puede buscar liberaciones para vincular al incidente o solicitud de servicio, también puede crear y vincular la liberación|
+|**Problema**                   | Puede buscar problemas para vincularlos al incidente o solicitud de servicio, también puede crear y vincular el problema |
+|**Cambio**                     | Puede buscar Cambios para vincular al incidente o solicitud de servicio, también puede crear y vincular el Cambio |
+|**Liberación**	              | Puede buscar liberaciones para vincular al incidente o solicitud de servicio, también puede crear y vincular la liberación|
 
 
 ### Guardar 
 
-Al final de la página, encontrará un botón flotante con las funciones de:
+En la parte inferior de la página, encontrará un botón flotante con las funciones de:
 
 |Función        	|Descripción	                            |
 |-------------------|-------------------------------------------|
-|**Back**           |Para volver al escritorio del Service Desk |
-|**Guardar**        | Para guardar el incidente o la solicitud de servicio y crear el número de seguimiento y monitoreo |
-|**Guardar y enviar**| Para guardar el incidente o la solicitud de servicio. Crea el número de seguimiento y monitoreo y sigue el flujo de servicio |
+|**Volver**         | Para volver al espacio de trabajo del Service Desk |
+|**Guardar**        | Para guardar el incidente o solicitud de servicio y crear el número de seguimiento y monitoreo |
+|**Guardar y enviar**| Para guardar el incidente o solicitud de servicio. Crea el número de seguimiento y monitoreo y sigue el flujo de servicio |
 
 
 
