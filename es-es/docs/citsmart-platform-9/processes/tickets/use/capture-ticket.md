@@ -13,9 +13,9 @@ Capturar el incidente o la solicitud de servicio significa asumir la responsabil
 
 ## Procedimiento
 
-1. Para acceder a la funcionalidad Interfaz de Servicio, acceda al menú Procesos > Gestión de tickets > Ticket > Abrir
+1. Para acceder a la funcionalidad de la Interfaz de Servicio, acceda al menú Procesos > Gestión de tickets > Ticket > Abrir
 
-2. Localice el ticket deseado pulsando una vez para abrir las acciones y seleccionando el botón "Abrir" o haciendo doble clic para abrirlo directamente.
+2. Busque el ticket deseado pulsando una vez para abrir las acciones y seleccionando el botón "Abrir" o haciendo doble clic para abrirlo directamente.
 
 3. En caso de que el sistema identifique que el usuario ejecutor está vinculado a más de un grupo que podría promover la ejecución de ese ticket, el sistema muestra una interfaz para que el usuario identifique el grupo que ejecutará la tarea.
 
