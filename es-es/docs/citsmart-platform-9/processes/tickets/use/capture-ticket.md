@@ -88,7 +88,7 @@ Después de abrir la solicitud de servicio o incidente, el sistema recuperará l
 |**Enviar correo electrónico**|Seleccione qué tipos y correo electrónico recibirá el usuario |
 
 
-## Capturar el Incidente o Solicitud de Servicio
+## Capturar el Incidente o la Solicitud de Servicio
 
 Para hacerse responsable del incidente o solicitud de servicio, puede encontrar en la barra de menú superior la opción "Asignar ticket" para hacerse responsable de ello.
 
