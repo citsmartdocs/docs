@@ -71,20 +71,20 @@ Después de abrir la solicitud de servicio o incidente, el sistema recuperará l
 
 ### Campos
 
-|Campo		            |Descripción		                            |
+|Campo		      |Descripción		                        |
 |-----------------------|-----------------------------------------------|
 |**Solicitante**        | Nombre del solicitante (se puede buscar con %%)|
 |**Correo electrónico** | Agregar un correo electrónico al solicitante |
 |**Unidad**             | Unidad del solicitante|
 |**Origen del contacto**| Service Desk, Correo electrónico, Facebook, Twitter, entre otros|
 |**Historial del solicitante**| El historial del solicitante con el número de tickets, tickets resueltos dentro del plazo, tickets retrasados, tickets aún abiertos, tickets en ejecución y retrasados, además del nivel de satisfacción|
-|**Portafolio**         | Portafolios a los que el usuario está vinculado | 
+|**Portafolio**         | Los portafolios a los que está vinculado el usuario | 
 |**Servicio**           | Los servicios del portafolio seleccionado |
 |**Actividad**          | Las actividades del servicio seleccionado |
 |**Contrato**           | Contratos vinculados al portafolio|
 |**Impacto**            | Impacto de la actividad|
 |**Urgencia**           | Urgencia de la actividad|
-|**Descripción**        | Describirá las necesidades del ticket|
+|**Descripción**        | Describe las necesidades del ticket|
 |**Enviar correo electrónico**|Seleccione qué tipos y correo electrónico recibirá el usuario |
 
 
