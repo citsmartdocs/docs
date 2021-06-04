@@ -90,7 +90,7 @@ Después de abrir la solicitud de servicio o incidente, el sistema recuperará l
 
 ## Capturar el Incidente o la Solicitud de Servicio
 
-Para hacerse responsable del incidente o solicitud de servicio, puede encontrar en la barra de menú superior la opción "Asignar ticket" para hacerse responsable de ello.
+Para hacerse responsable de la incidencia o solicitud de servicio, puede encontrar en la barra de menú superior la opción "Responsable" para hacerse responsable de la misma.
 
 ## Elementos de la barra de herramientas
 
@@ -100,7 +100,7 @@ Para hacerse responsable del incidente o solicitud de servicio, puede encontrar 
 | **Número**            | Identificador de incidente o solicitud de servicio   |
 | **Tarea**             | Etapa del flujo de servicio     |
 | **Grupo actual**      | El grupo responsable de la solución       |
-| **Asignación**       | La persona responsable del incidente o solicitud de servicio   |
+| **Asignación**        | La persona responsable del incidente o solicitud de servicio   |
 | **SLA**               | Tiempo total de resolución   |
 | **Tiempo límite**     | Fecha y hora límite para el servicio		 |
 | **Anexos**            | Mostrar los anexos existentes o adjuntar un nuevo objeto   |
