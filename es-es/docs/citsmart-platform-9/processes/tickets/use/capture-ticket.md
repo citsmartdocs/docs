@@ -77,7 +77,7 @@ Después de abrir la solicitud de servicio o incidente, el sistema recuperará l
 |**Correo electrónico** | Agregar un correo electrónico al solicitante |
 |**Unidad**             | Unidad del solicitante|
 |**Origen del contacto**| Service Desk, Correo electrónico, Facebook, Twitter, entre otros|
-|**Historial del solicitante**| El historial del solicitante con el número de tickets, tickets resueltos dentro del plazo, tickets atrasados, tickets aún abiertos, tickets en ejecución y atrasados y el nivel de satisfacción|
+|**Historial del solicitante**| El historial del solicitante con el número de tickets, tickets resueltos dentro del plazo, tickets retrasados, tickets aún abiertos, tickets en ejecución y retrasados, además del nivel de satisfacción|
 |**Portafolio**         | Portafolios a los que el usuario está vinculado | 
 |**Servicio**           | Los servicios del portafolio seleccionado |
 |**Actividad**          | Las actividades del servicio seleccionado |
