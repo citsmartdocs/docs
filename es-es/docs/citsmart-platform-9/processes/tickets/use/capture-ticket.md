@@ -74,7 +74,7 @@ Después de abrir la solicitud de servicio o incidente, el sistema recuperará l
 |Campo		            |Descripción		                            |
 |-----------------------|-----------------------------------------------|
 |**Solicitante**        | Nombre del solicitante (se puede buscar con %%)|
-|**Correo electrónico** | Añadir un correo electrónico para el solicitante |
+|**Correo electrónico** | Agregar un correo electrónico al solicitante |
 |**Unidad**             | Unidad del solicitante|
 |**Origen del contacto**| Service Desk, Correo electrónico, Facebook, Twitter, entre otros|
 |**Historial del solicitante**| El historial del solicitante con el número de tickets, tickets resueltos dentro del plazo, tickets atrasados, tickets aún abiertos, tickets en ejecución y atrasados y el nivel de satisfacción|
