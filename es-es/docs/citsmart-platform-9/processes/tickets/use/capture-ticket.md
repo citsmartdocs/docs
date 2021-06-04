@@ -130,7 +130,7 @@ En las opciones, tenemos:
 El inicio efectivo del servicio ocurre desde la captura del incidente o solicitud de servicio hasta el final o remisión a otra área.  
 El analista puede utilizar varios recursos: comentarios, historial, notificaciones por correo electrónico y registro de tiempo.
 
-### Agregar comentarios/ Visualizar historial
+### Agregar comentarios/ Ver historial
 
 El usuario puede escribir un comentario y realizar las siguientes acciones:
 
