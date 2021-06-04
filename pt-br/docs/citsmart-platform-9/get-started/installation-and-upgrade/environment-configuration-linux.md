@@ -117,7 +117,7 @@ javac -version </i>
 
 !!! note "Dica"  
 
-      Você pode limpar a tela do terminando pressionando Ctrl+L  
+      Você pode limpar a tela do terminal pressionando Ctrl+L  
 
 
 ### Autenticando o acesso no Artifactory
