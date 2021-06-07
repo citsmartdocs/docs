@@ -45,7 +45,7 @@ Para começar o procedimento, é necessário fazer o download dos arquivos dispo
  
  - Clique no botão _SELECT_ ao lado da opção _Boot Selection_, procure o arquivo .iso do Ubuntu e clique em Abrir.  
  
- - O campo _VOLUME LABEL_ será atualizado para reletir o ISO selecionado.  
+ - O campo _VOLUME LABEL_ será atualizado para refletir o ISO selecionado.  
  
  - Os outros parâmetros devem ser deixados em seus valores padrão.  
  
@@ -286,7 +286,7 @@ https://www.eclipse.org/downloads/packages/release/2020-06/r/eclipse-ide-enterpr
 ![imagem 1](/pt-br/citsmart-platform-9/get-started/installation-and-upgrade/images-linux/image15.png)
  
 
- - Clique no link em azul _“No servers are available. Click this link toc reate a new server...”_  
+ - Clique no link em azul _“No servers are available. Click this link to create a new server...”_  
 
  - Escolha a opção conforme abaixo: 
 
