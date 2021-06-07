@@ -119,7 +119,6 @@ nav:
 #      - citsmart-platform-9/get-started/installation-and-upgrade/download-software.md
 #      - citsmart-platform-9/get-started/installation-and-upgrade/perform-installation.md
       - citsmart-platform-9/get-started/architecture/operational-limits.md
-      - citsmart-platform-9/get-started/installation-and-upgrade/environment-configuration-linux.md
     - Instalação On Premisses:
       - citsmart-platform-9/get-started/installation-and-upgrade/perform-installation/start-install.md
       - citsmart-platform-9/get-started/installation-and-upgrade/perform-installation/install-jdk.md
