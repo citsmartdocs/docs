@@ -5,7 +5,7 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 
 ## Versão 9.1.2.31 (2021/05/12)
 
-Bem-vindos ao Citsmart Versão 9.1.2.31. Esta versão apresenta as seguintes correções de erros:
+Bem-vindos ao CITSmart Versão 9.1.2.31. Esta versão apresenta as seguintes correções de erros:
 
 |Número |Tipo    |Descrição|
 |-------|--------|---------|	
