@@ -12,6 +12,7 @@ Bem-vindos ao CITSmart Versão 9.1.2.31. Esta versão apresenta as seguintes cor
 |10025  |Correção| Registro do grupo executor, na tarefa de encerramento da solicitação, que foi lançada já resolvida|
 |11541	|Correção| Permite download de arquivos na tela de atividade periódica|
 
+Para essa versão o Neuro compatível é 1.3.7.4.
 
 ## Versão 9.1.2.30 (2021/05/03)
 
@@ -21,6 +22,7 @@ Bem-vindos ao CITSmart Versão 9.1.2.30. Esta versão apresenta a seguinte corre
 |-------|--------|---------|
 |11365  |Correção| Alteração no método para remoção de tags|
 
+Para essa versão o Neuro compatível é 1.3.7.4.
 
 ## Versão 9.1.2.29 (2021/04/14)
 
@@ -30,6 +32,7 @@ Bem-vindos ao CITSmart Versão 9.1.2.29. Esta versão apresenta a seguinte corre
 |------|----|---------|
 |11344| Correção| Corretiva de segurança|
 
+Para essa versão o Neuro compatível é 1.3.7.4.
 
 ## Versão 9.1.2.28 (2021/03/24)
 
