@@ -3,6 +3,17 @@ Description: Release notes, bug fixes and improvements in the CITSmart.
 
 # Release Notes
 
+## Version 9.1.2.31 (2021/05/12)
+
+Welcome to CITSmart Version 9.1.2.31. This version presents the following bug fixes:
+
+|Number |	   Type|   Description|
+|-------|----------|--------------|
+|10025  |Correction|  Register of the executing group in the task of closing the request, which has already been released and solved|
+|11541  |Correction|  Allow the download of files on the periodic activity screen|
+
+For this version, the compatible Neuro is 1.3.7.4.
+
 ## Version 9.1.2.30 (2021/05/03)
 
 Welcome to CITSmart Version 9.1.2.30. This version presents the following corrections:
