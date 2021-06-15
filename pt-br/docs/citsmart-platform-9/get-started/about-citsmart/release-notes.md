@@ -3,13 +3,23 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 
 # Notas de Release
 
+## Versão 9.1.2.31 (2021/05/12)
+
+Bem-vindos ao Citsmart Versão 9.1.2.31. Esta versão apresenta as seguintes correções de erros:
+
+|Número |Tipo     |Descrição|
+|-------|---------|---------|	
+|10025  |Corretiva| Registrando o grupo executor, na tarefa de encerramento da solicitação, que foi lançada já resolvida|
+|11541	|Corretiva| Permitindo download de arquivos na tela de atividade periódica|
+
+
 ## Versão 9.1.2.30 (2021/05/03)
 
 Bem-vindos ao CITSmart Versão 9.1.2.30. Esta versão apresenta a seguinte correção:
 
-|Número|Tipo|Descrição|
-|------|----|---------|
-|11365| Correção| Alteração no método para remoção de tags|
+|Número |Tipo     |Descrição|
+|-------|---------|---------|
+|11365  | Correção| Alteração no método para remoção de tags|
 
 
 ## Versão 9.1.2.29 (2021/04/14)
