@@ -24,19 +24,19 @@ Description:
 
 |Option|Description|
 |-----|---------|
-|Type| The type of authentication. There are 2 types: External and Internal. <br/> If external is chosen, the system can accept 3 types of authentication: Internal, Oauth2 or Both. <br/> If the option is set as Both, the system will show the login screen with authentication fields, password recovery and login, using Google, Facebook or Run2biz Keycloak. <br/> If the option is set as Both but no external providers are informed, the system will not show any external options. <br/> If the option is Oauth2 and no provider is informed, the screen with several option will not be shown, only the Run2Biz login screen|
+|Type| The type of authentication. There are 2 types: External and Internal. <br/> If external is chosen, the system can accept 3 types of authentication: Internal, Oauth2 or Both. <br/> If the option is set as Both, the system will show the login screen with authentication fields, password recovery and login, using Google, Facebook or Run2biz Keycloak. <br/> If the option is set as Both but no external providers are informed, the system will not show any external options. <br/> If the option is Oauth2 and no provider is informed, the screen with several option will not be shown, only the "Run2Biz login screen".|
 |Provider| Here you can inform if the provider is Google, Facebook or others|
 |Domain| Inform the authentication domain|
 |Client Name| Inform the name of the client for authentication|
 
 5. After filling the information in "Filters", if there is any option with the chosen filters, they will be shown on the table below "Authentication Method";  
 6. If there is no authentication method, you can create a new one by clicking "New";  
-7. When you click "New", you will be redirected to the creation screen, with 2 tabs to be filled: Identification and Field Mapping;  
-8. Fill in the Identification tab:
+7. When you click "New", you will be redirected to the creation screen, with 2 tabs to be filled: "Identification" and "Field Mapping";  
+8. Fill in the "Identification" tab:
 
 |Field|Description|
 |-----|---------|
-|Authentication Type| There are two options "Oauth2 - Internal" and "Oauth2|
+|Authentication Type| There are two options "Oauth2 - Internal" and "Oauth2"|
 |Provider| Here you should inform if the provider is "Google", "Facebook" ou "others" <br /> If it is Google or Facebook, it's only necessary to inform: Client's Id and Secret Key; <br /> If it is Others, it is necessary to inform: Name of the client, the Domain, that should be the same informed on the provider URL fields.|
 |Client Id| Here you should inform the client id used on the Oauth2 server| 
 |Type of concession| Identification of the access granted by the authentication provider. This usually contains the value "password"|
