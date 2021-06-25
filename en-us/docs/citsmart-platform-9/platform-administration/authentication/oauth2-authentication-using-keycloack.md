@@ -37,7 +37,7 @@ Description:
 |Field|Description|
 |-----|---------|
 |Authentication Type| There are two options "Oauth2 - Internal" and "Oauth2"|
-|Provider| Here you should inform if the provider is "Google", "Facebook" ou "others" <br /> If it is Google or Facebook, it's only necessary to inform: Client's Id and Secret Key; <br /> If it is Others, it is necessary to inform: Name of the client, the Domain, that should be the same informed on the provider URL fields.|
+|Provider| Here you should inform if the provider is "Google", "Facebook" or "others" <br /> If it is Google or Facebook, it's only necessary to inform: Client's Id and Secret Key; <br /> If it is Others, it is necessary to inform: Name of the client, the Domain, that should be the same informed on the provider URL fields.|
 |Client Id| Here you should inform the client id used on the Oauth2 server| 
 |Type of concession| Identification of the access granted by the authentication provider. This usually contains the value "password"|
 |Authentication URL| Here you should inform the path to the authentication server|
