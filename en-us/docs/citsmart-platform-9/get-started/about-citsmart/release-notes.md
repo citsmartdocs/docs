@@ -3,6 +3,10 @@ Description: Release notes, bug fixes and improvements in the CITSmart.
 
 # Release Notes
 
+!!! warning "ATTENTION"
+
+    For more information about Builder 1.3.7.6, see the [Neuro Release Notes][10]
+
 ## Version 9.1.2.31 (2021/05/12)
 
 Welcome to CITSmart Version 9.1.2.31. This version presents the following bug fixes:
@@ -73,7 +77,7 @@ For this version, the compatible Neuro is 1.3.6.6.
 
 !!! warning "ATTENTION"
 
-    For more information about Builder 1.3.6.6, see the [Neuro Release Notes][6]
+    For more information about Builder 1.3.6.6, see the [Neuro Release Notes][7]
 
 ## Version 9.1.2.26 (2021/03/23)
 
@@ -93,13 +97,13 @@ The version presented has the following correction(s):
 
 !!! warning "ATTENTION"
 
-    For more information about Builder 1.3.6.6, see the [Neuro Release Notes][6]
+    For more information about Builder 1.3.6.6, see the [Neuro Release Notes][7]
 
 ## Version 9.1.2.25 (2021/02/16)
 
 !!! warning "ATTENTION"
 
-    Before downloading this version, check the guidelines in the document [CITSMART Guide version 9.1.2.25][7]
+    Before downloading this version, check the guidelines in the document [CITSMART Guide version 9.1.2.25][6]
     
 Welcome to CITSmart Version 9.1.2.25. This version features the following items:
 
@@ -329,5 +333,7 @@ Welcome to Citsmart Version 9.0. This version presents the following items:
 [3]:/en-us/citsmart-platform-9/get-started/about-citsmart/Guidance-about-version-CITSmart-9.1.2.22.zip
 [4]:/en-us/citsmart-platform-9/get-started/about-citsmart/Update-Package- 9.1.2.23-CITSmart.zip
 [5]:/en-us/citsmart-platform-9/get-started/about-citsmart/Update-Package-9.1.2.24.zip
-[6]:/en-us/citsmart-platform-9/get-started/about-citsmart/Release-Notes-Neuro-1.3.6.6.docx
-[7]:/en-us/citsmart-platform-9/get-started/about-citsmart/Guidance-about-version-CITSmart-9.1.2.25.rar
+[6]:/en-us/citsmart-platform-9/get-started/about-citsmart/Guidance-about-version-CITSmart-9.1.2.25.rar
+[7]:/en-us/citsmart-platform-9/get-started/about-citsmart/Release-Notes-Neuro-1.3.6.6.docx
+[10]:/en-us/citsmart-platform-9/get-started/about-citsmart/Release-Notes-Neuro-1.3.7.6.docx
+
