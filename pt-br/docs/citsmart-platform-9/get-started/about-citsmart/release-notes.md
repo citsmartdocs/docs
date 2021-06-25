@@ -3,6 +3,10 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 
 # Notas de Release
 
+!!! warning "ATENÇÃO"
+
+    Para mais informações sobre o Neuro 1.3.7.6, veja o arquivo de [Notas de Release Neuro][10]
+    
 ## Versão 9.1.2.31 (2021/05/12)
 
 Bem-vindos ao CITSmart Versão 9.1.2.31. Esta versão apresenta as seguintes correções:
@@ -343,3 +347,5 @@ Bem-vindos ao Citsmart Versão 9.0. Esta versão apresenta os seguintes itens:
 [7]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Notas-de-Release-Neuro-1.3.6.6.docx
 [8]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Pacote-Atualização-9.2.0.2.zip
 [9]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Notas-de-Release-Neuro-1.3.7.0.docx
+[10]:/pt-br/citsmart-platform-9/get-started/about-citsmart/Notas-de-Release-Neuro-1.3.7.6.docx
+
