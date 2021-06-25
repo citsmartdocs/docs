@@ -23,7 +23,7 @@ Description:
 
 |Opción|Descripción|
 |------|-----------|
-|Tipo| Donde se elegirá el tipo de autenticación. Hay dos tipos: Interno o Externo. <br /> Si la opción es externa, el sistema podrá tener 3 tipos de autenticación: Interno, Oauth2 o Ambos. <br /> Si la opción está como ambos, el sistema mostrará la pantalla de inicio de sesión con el área para: "la autenticación", la opción de "olvidó su contraseña" y "acceder a su cuenta", que podrá ser a través de Google, Facebook o Run2biz Keycloak. <br /> Si la opción es ambos pero no tiene ningún proveedor externo registrado, el sistema no mostrará las opciones de autenticación por Google, Facebook o Run2biz Keycloak. <br /> Si la opción es Oauth2 y no tiene un proveedor registrado, no mostrará la pantalla con varios proveedores, mostrando directamente la "pantalla de inicio de sesión de Run2biz"|
+|Tipo| Donde se elegirá el tipo de autenticación. Hay dos tipos: Interno o Externo. <br /> Si la opción es externa, el sistema podrá tener 3 tipos de autenticación: Interno, Oauth2 o Ambos. <br /> Si la opción está como ambos, el sistema mostrará la pantalla de inicio de sesión con el área para: "la autenticación", la opción de "olvidó su contraseña" y "acceder a su cuenta", que podrá ser a través de Google, Facebook o Run2biz Keycloak. <br /> Si la opción es ambos pero no tiene ningún proveedor externo registrado, el sistema no mostrará las opciones de autenticación por Google, Facebook o Run2biz Keycloak. <br /> Si la opción es Oauth2 y no tiene un proveedor registrado, no mostrará la pantalla con varios proveedores, mostrando directamente la "pantalla de inicio de sesión de Run2biz".|
 |Provider| Donde será elegido si será del tipo Google, Facebook u otros|
 |Dominio| Identifica el dominio que se asignará al inicio de sesión del usuario|
 |Nombre del cliente| Nombre que se mostrará al usuario en la pantalla de inicio de sesión|
@@ -36,7 +36,7 @@ Description:
 
 |Campo|Descripción|
 |-----|-----------|
-|Tipo de autenticación| Hay dos opciones para seleccionar "Oauth2 - Interna" y "Oauth2|
+|Tipo de autenticación| Hay dos opciones para seleccionar "Oauth2 - Interna" y "Oauth2"|
 |Provider| Donde será escolhido se será do tipo "Google", "Facebook" u "outros" <br /> Si es del tipo Google o Facebook, solo será necesario informar: el Id del Cliente y la Clave Secreta del Cliente; <br /> Si es del tipo Otros, será necesario informar: el Nombre del cliente, el Dominio que deberá ser el mismo registrado en las URL de redirección del proveedor| 
 |Id del cliente| Donde debe ser informado el client id que fue registrado en el servidor Oauth2| 
 |Tipo de concesión| Identifica el grant de acceso concedido por el proveedor de autenticación. Generalmente contiene el valor “password”| 
@@ -61,6 +61,6 @@ Description:
 - La información que se puede asignar es: ID numero, Teléfono y Fecha de Nacimiento; 
 
 
-10. Debe configurarse la URL de Retorno a CITSMART a través de la Plataforma elegida para la autenticación externa. En el siguiente ejemplo, se mostrará la pantalla de KeyCloak.
+10. Debe configurarse la URL de Retorno a CITSmart a través de la Plataforma elegida para la autenticación externa. En el siguiente ejemplo, se mostrará la pantalla de KeyCloak.
 
 
