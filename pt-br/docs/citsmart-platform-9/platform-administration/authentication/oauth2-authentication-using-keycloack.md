@@ -23,7 +23,7 @@ Description:
 
 |Opção|Descrição|
 |-----|---------|
-|Tipo| Onde será escolhido o tipo de autenticação. Existem dois tipos: Interno ou Externo. <br /> Se a opção for externa o sistema poderá ter 3 tipos de autenticação: Interno, Oauth2 ou Ambos. <br /> Se a opção estiver como ambos o sistema irá apresentar a tela de login com a área para: "autenticação", a opção de "esqueceu sua senha" e "acesse a sua conta" que poderá ser através do Google, Facebook ou Run2biz Keycloak. <br /> Se a opção for ambos mas não tiver nenhum provedor externo cadastrado, o sistema não irá mostrar as opções de autenticação por Google, Facebook ou Run2biz Keycloak. <br /> Se a opção for Oauth2 e não tiver um provedor cadastrado ele não irá mostrar a tela com vários provedores, mostrando direto a "tela de login da Run2biz"|
+|Tipo| Onde será escolhido o tipo de autenticação. Existem dois tipos: Interno ou Externo. <br /> Se a opção for externa o sistema poderá ter 3 tipos de autenticação: Interno, Oauth2 ou Ambos. <br /> Se a opção estiver como ambos o sistema irá apresentar a tela de login com a área para: "autenticação", a opção de "esqueceu sua senha" e "acesse a sua conta" que poderá ser através do Google, Facebook ou Run2biz Keycloak. <br /> Se a opção for ambos mas não tiver nenhum provedor externo cadastrado, o sistema não irá mostrar as opções de autenticação por Google, Facebook ou Run2biz Keycloak. <br /> Se a opção for Oauth2 e não tiver um provedor cadastrado ele não irá mostrar a tela com vários provedores, mostrando direto a "tela de login da Run2biz".|
 |Provider| Onde será escolhido se será do tipo Google, Facebook ou outros|
 |Domínio| Informar o domínio da autenticação|
 |Nome do cliente| Informar o nome do cliente da autenticação|
