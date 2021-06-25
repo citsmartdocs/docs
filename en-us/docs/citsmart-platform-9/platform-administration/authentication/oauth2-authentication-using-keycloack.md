@@ -1,7 +1,7 @@
-Title: Oauth2 authentication using Keycloak
+Title: Oauth2 Authentication using Keycloak
 Description:
 
-# Oauth2 authentication using Keycloak
+# Oauth2 Authentication using Keycloak
 
 
 ## Before getting started
