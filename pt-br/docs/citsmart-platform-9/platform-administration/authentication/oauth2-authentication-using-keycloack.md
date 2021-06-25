@@ -36,7 +36,7 @@ Description:
 
 |Campo|Descrição|
 |-----|---------|
-|Tipo de Autenticação| Existem duas opções para selecionar "Oauth2 - Interna" e "Oauth2|
+|Tipo de Autenticação| Existem duas opções para selecionar "Oauth2 - Interna" e "Oauth2"|
 |Provider| Onde será escolhido se será do tipo "Google", "Facebook" ou "outros" <br /> Se for do tipo Google ou Facebook só será preciso informar: o Id do Cliente e a Chave Secreta do Cliente; <br /> Se for do tipo Outros será preciso informar: o Nome do cliente, o Domínio que deverá ser o mesmo cadastrado nas URLs de redirecionamento do provedor|
 |Id do Cliente| Onde deve ser informado o client id que foi cadastrado no servidor Oauth2| 
 |Tipo de concessão| Identifica o grant de acesso concedido pelo provedor de autenticação. Geralmente contém o valor “password”|
@@ -62,6 +62,6 @@ Description:
 - As informações que podem ser mapeadas são: CPF, Telefone e Data de Nascimento;
 
 
-10. Deverá ser configurada a URL de Retorno ao CITSMART através da Plataforma escolhida para autenticação externa. 
+10. Deverá ser configurada a URL de Retorno ao CITSmart através da Plataforma escolhida para autenticação externa. 
 
     
