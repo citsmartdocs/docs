@@ -161,6 +161,7 @@ nav:
       - citsmart-platform-9/platform-administration/introduction.md
     - Authentication:
       - citsmart-platform-9/platform-administration/authentication/overview.md
+      - citsmart-platform-9/platform-administration/authentication/oauth2-authentication-using-keycloack.md
       - citsmart-platform-9/platform-administration/authentication/ldap.md
       - citsmart-platform-9/platform-administration/authentication/sso.md
       - citsmart-platform-9/platform-administration/authentication/okta.md
