@@ -24,7 +24,7 @@ Description:
 
 |Option|Description|
 |-----|---------|
-|Type| The type of authentication. There are 2 types: External and Internal. <br/> If external is chosen, the system can accept 3 types of authentication: Internal, Oauth2 or Both. <br/> If the option is set as Both, the system will show the login screen with authentication fields, password recovery and login, using Google, Facebook or Run2biz Keycloack. <br/> If the option is set as Both but no external providers are informed, the system will not show any external options. <br/> If the option is Oauth2 and no provider is informed, the screen with several option will not be shown, only the Run2Biz login screen|
+|Type| The type of authentication. There are 2 types: External and Internal. <br/> If external is chosen, the system can accept 3 types of authentication: Internal, Oauth2 or Both. <br/> If the option is set as Both, the system will show the login screen with authentication fields, password recovery and login, using Google, Facebook or Run2biz Keycloak. <br/> If the option is set as Both but no external providers are informed, the system will not show any external options. <br/> If the option is Oauth2 and no provider is informed, the screen with several option will not be shown, only the Run2Biz login screen|
 |Provider| Here you can inform if the provider is Google, Facebook or others|
 |Domain| Inform the authentication domain|
 |Client Name| Inform the name of the client for authentication|
