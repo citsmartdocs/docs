@@ -50,6 +50,7 @@ From version 9.1.2.19 onwards, the CITSMART.CFG file is now called “applicatio
 Create a file called application.ini in /opt/wildfly/standalone/configuration/ with the information bellow:
 
 ``` shell
+RECORDS_LIMIT_TO_GENERATE_REPORT_IN_THE_BACKGROUND = 500	
 START_MONITORA_INCIDENTES=FALSE
 JDBC_ALIAS_REPORTS=
 JDBC_ALIAS_BPM=
