@@ -54,6 +54,7 @@ Para ativar o updateParameters, opção para sincronizar os valores dos parâmet
 Crie um arquivo chamado application.ini em /opt/wildfly/standalone/configuration/ com as informações abaixo:
 
 ``` shell
+RECORDS_LIMIT_TO_GENERATE_REPORT_IN_THE_BACKGROUND = 500
 START_MONITORA_INCIDENTES=FALSE
 JDBC_ALIAS_REPORTS=
 JDBC_ALIAS_BPM=
