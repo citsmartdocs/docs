@@ -147,7 +147,7 @@ org.quartz.jobStore.class = org.quartz.simpl.RAMJobStore
 Caso você tenha um standalone funcionando em modo cluster, as configurações do quartz são diferentes de acordo com banco de dados utilizado. Abaixo seguem as configurações para cada um dos possíveis cenários.
 QUalquer que seja o banco de dados, as configurações se aplicam ao mesmo arquivo quartz.properties no mesmo caminho informado anteriormente.
 
-**Configuração para banco de dados Banco de Dados Postgres
+**Configuração para banco de dados Banco de Dados Postgres**
 
 ``` shell
 #============================================================================
@@ -175,7 +175,7 @@ org.quartz.jobStore.clusterCheckinInterval = 20000
 org.quartz.dataSource.citsmart.jndiURL= java:/jdbc/citsmart
 ```
 
-**Configuração para o banco de dados Microsoft SQL Server
+**Configuração para o banco de dados Microsoft SQL Server**
 
 ``` shell
 #============================================================================
@@ -203,7 +203,7 @@ org.quartz.jobStore.clusterCheckinInterval = 20000
 org.quartz.dataSource.citsmart.jndiURL= java:/jdbc/citsmart
 ```
 
-**Configuração para o banco de dados Oracle
+**Configuração para o banco de dados Oracle**
 
 ``` shell
 #============================================================================
@@ -260,15 +260,15 @@ O script possui os seguintes parâmetros:
  
 O sistema irá executar as seguintes possiblidades até encontrar um id de grupo executor válido: 
 
-- 1º O grupo da Sigla informada; 
+ - 1º O grupo da Sigla informada; 
 
-- 2º O grupo executor da atividade no portfólio; 
+ - 2º O grupo executor da atividade no portfólio; 
 
-- 3º O grupo de 1º nível no portfólio; 
+ - 3º O grupo de 1º nível no portfólio; 
 
-- 4º O grupo do parâmetro Grupo executor padrão; 
+ - 4º O grupo do parâmetro Grupo executor padrão; 
 
-- 5º O grupo do parâmetro Grupo de primeiro nível; 
+ - 5º O grupo do parâmetro Grupo de primeiro nível; 
 
 
 ## Próximo passo
