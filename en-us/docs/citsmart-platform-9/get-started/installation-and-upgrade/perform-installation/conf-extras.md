@@ -11,7 +11,7 @@ From version 9.1.2.24, new parameters have been added:
 - Default valor: internal
 - Valid types: 
 
-	1.	OAUTH2: For keycloack authentication - this information overrides any security policy entered in the Security Policy record;
+	1.	OAUTH2: For keycloack authentication - this information overrides any security policy entered in the Security Policy record.!!!!!!!!!!!!!!Caso o usuário defina que a autenticação será via keycloak, a aplicação poderá não retornar a tela de login;
 	2.	Internal: For system-defined authentication;
  
 - Parameter: AUTHENTICATION_CREATE_USER
@@ -77,6 +77,42 @@ Give permission for the wildfly user to this file:
 	system initialization. Defined as FALSE, the update will occur only after adding or changing 
 	the service request.
 
+## Access settings with Keycloack  
+
+On CITSmart platform, the control of the authorization access to screens and APIs is done through the Access Profile screen. This will define which screens the users will have access to.  
+
+**There is no way to authorize access for APIs from this screen** 
+
+Some portals may require resources from other screens, and this may cause conflicts. For this reason, the access to screens can be configured in the access profile. 
+
+This way, it is possible to allow the use of portals and required resources, while also controlling if this user has access to restricted areas of the system.  
+
+### Experience Center
+
+The experience Center screen is an example of a portal, a homepage that can access resources from restricted areas. 
+
+It is possible to add Widgets to allow access to the tickets list, tickets awaiting approval, comments, ticket registration, check the knowledge database and others.
+
+### Access profile
+
+The access profile screen has been updated to no longer remove all permissions and automatically save. Now, it allows the operator to restrict user access to the system, while granting access to internal resources that may be required on Smart Portal and Experience Center 
+
+This way, the user will not be able to access internal parts of the system, but can use resources on the portals. 
+
+On the access profile screen it is possible to check the permission to each area of the system individually, as well as granting or denying access to the CITSmart system.
+
+### System Homescreen
+
+The parameter **4biz home screen? (Options: SD = Smart Decisions, SP = Smart Portal, EC = Experience Center)** defines which is the system's homescreen to all users. Only authorized users can access the internal part of the system.
+
+!!! warning "IMPORTANT"  
+
+		To ensure the success of tests and the correct parametrization, notice that the access profile can also be configured on the groups screen. It is important to verify the groups the user is linked to and which access profiles the groups have.
+
+It is important to highlight that, in order to ensure the aplication is functioning properly, the parameter 48 must also be enabled.  
+
+To edit the profile of a 'user with no access', go to Main Navigation Menu > System > Settings > User Profile. 
+
 
 ## Quartz Configuration
 
@@ -112,7 +148,7 @@ org.quartz.jobStore.class = org.quartz.simpl.RAMJobStore
 If you have a standalone running in cluster mode, quartz settings differ depending on the database used. Below are the settings for each of the possible scenarios.
 At any database, the settings apply to the same quartz.properties file in the same path you entered earlier.
 
-Configuration for Postgres Database
+**Configuration for Postgres Database**
 
 ``` shell
 #============================================================================
@@ -140,7 +176,7 @@ org.quartz.jobStore.clusterCheckinInterval = 20000
 org.quartz.dataSource.citsmart.jndiURL= java:/jdbc/citsmart
 ```
 
-Configuration for Microsoft SQL Server Database
+**Configuration for Microsoft SQL Server Database**
 
 ``` shell
 #============================================================================
@@ -168,7 +204,7 @@ org.quartz.jobStore.clusterCheckinInterval = 20000
 org.quartz.dataSource.citsmart.jndiURL= java:/jdbc/citsmart
 ```
 
-Configuration for Oracle Database
+**Configuration for Oracle Database**
 
 ``` shell
 #============================================================================
@@ -205,6 +241,34 @@ Create all directories below necessary for the solution to run. Remember that th
 [root@server /tmp]# chown -R wildfly.wildfly /opt/citsmart/
 
 ```
+
+## Flow design - Extra configurations
+
+In the flow design, it is possible to use the script below in an action, to insert a work item for solved service requests:  
+
+```shell
+flowExecution.insertWorkItemAndAttribution(flowInstance.getIdInstancia(), "Atender solicitacao", ""); 
+```
+ 
+
+The script contains the following parameters: 
+
+ - id of the flow execution instance; 
+ - name of the task that will be used to finish the request, this name must be present in the flow design; 
+ - abbreviation of the executor group that will finish the activity; 
+
+ 
+The system will execute the following possibilities until it finds a valid executor group id: 
+
+ - 1º The group of the informed abbreviation; 
+
+ - 2º The group executing the activity on the portfolio; 
+
+ - 3º The first level group on the portfolio; 
+
+ - 4º The group in the parameter Default executor group; 
+
+ - 5º The group in the parameter First level group; 
 
 ## Next step
 
