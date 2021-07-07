@@ -247,7 +247,7 @@ Create all directories below necessary for the solution to run. Remember that th
 In the flow design, it is possible to use the script below in an action, to insert a work item for solved service requests:  
 
 ```shell
-flowExecution.insertWorkItemAndAttribution(flowInstance.getIdInstancia(), "Atender solicitacao", ""); 
+flowExecution.insertWorkItemAndAttribution(flowInstance.getIdInstancia(), "Request attendance", ""); 
 ```
  
 
