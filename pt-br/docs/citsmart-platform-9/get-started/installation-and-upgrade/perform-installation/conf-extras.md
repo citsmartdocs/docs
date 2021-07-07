@@ -11,7 +11,7 @@ A partir da versão 9.1.2.24 foram inseridos novos parâmetros:
 - Valor default: internal
 - Tipos válidos: 
 
-	1.	OAUTH2: Para autenticação com keycloack – essa informação sobrescreve qualquer política de segurança inserida no cadastro de Política de Segurança;
+	1.	OAUTH2: Para autenticação com keycloack – essa informação sobrescreve qualquer política de segurança inserida no cadastro de Política de Segurança. Caso o usuário defina que a autenticação será via keycloak, a aplicação poderá não retornar a tela de login;
 	2.	Internal: Para autenticação definida no sistema;
  
 - Parâmetro: AUTHENTICATION_CREATE_USER
@@ -78,6 +78,42 @@ chown wildfly.wildfly /opt/wildfly/standalone/configuration/application.ini
 	No arquivo application.ini, o valor padrão é TRUE (mesmo se não for definido), ou seja, se essa opção não existir no arquivo, o sistema utilizará o valor TRUE para essa propriedade. Definido como TRUE, ativa o Thread que atualiza a tabela de fatos de solicitações de serviço na inicialização do sistema. Definido como FALSE, a atualização ocorrerá somente após a inclusão ou alteração da solicitação de serviço.
 
 
+## Configurações de acesso com Keycloak  
+
+No CITSmart, o controle de autorização para acesso às telas e APIs é feito através da tela de perfil de acesso. Esta tela define quais telas o usuário pode acessar.  
+
+**Não existe uma forma de permitir apenas o acesso às APIs desta tela.** 
+
+Para o caso dos portais que precisam de determinados recursos de outras telas, isto pode gerar conflito. Por isso, foi permitido dar acesso a telas no perfil de acesso. 
+
+Desta forma, será possível permitir a utilização dos portais nos recursos que serão necessários, e tendo o controle para evitar que este mesmo usuário acesse a área restrita do sistema.  
+
+### Centro de Experiência
+
+A tela Centro de experiência é exemplo de um portal, ou seja, uma tela de acesso inicial do sistema e que pode acessar recursos da área restrita do sistema. 
+
+Pode-se adicionar Widgets que permitem acesso à lista de tickets, tickets para aprovação, registro de comentários, o registro de tickets, consulta à base de conhecimento e outros.
+
+### Perfil de Acesso
+
+A tela de perfil de acesso foi alterada para não mais retirar todas as permissões das telas e salvar automaticamente. Agora, ela permite que o operador restrinja o acesso de um usuário ao sistema, mas dê acesso a algum recurso interno que poderá ser utilizado nos portais: Smart Portal e Centro de experiência. 
+
+Desta forma, o usuário não acessará as telas internas do sistema, mas poderá usar os recursos adicionados nos portais. 
+
+Na tela de Cadastro de Perfil de Acesso é possível marcar individualmente cada uma das permissões dentro do sistema, bem como autorizar ou não o acesso ao sistema CITSmart.
+
+### Tela Inicial do Sistema
+
+O parâmetro **46 - Tela inicial do CITSmart? (Opções: SD = Smart Decisions, SP = Smart Portal, EC = Centro de Experiência)** define qual será a tela inicial do sistema para todos os usuários. Apenas os usuários que têm permissão acessarão a área interna do sistema.
+
+!!! warning "IMPORTANTE"  
+
+		Para garantir o sucesso dos testes e parametrização correta do sistema, observar que o perfil de acesso também pode ser definido na tela de grupos. É importante verificar a quais grupos o usuário pertence e quais são os perfis de acesso ligados a eles.
+
+É importante ressaltar que para um bom funcionamento da aplicação o parâmetro 48 também deve estar habilitado.  
+
+Para poder realizar a edição do Perfil do 'usuário sem acesso', deve-se liberar o Menu: Sistema > Configurações > Perfil do Usuário. 
+
 ## Configuração do Quartz
 
 O processamento Batch do CITSmart utiliza o Quartz para o agendamento e processamento de rotinas de sistema. Crie um arquivo de nome "quartz.properties" no caminho
@@ -111,7 +147,7 @@ org.quartz.jobStore.class = org.quartz.simpl.RAMJobStore
 Caso você tenha um standalone funcionando em modo cluster, as configurações do quartz são diferentes de acordo com banco de dados utilizado. Abaixo seguem as configurações para cada um dos possíveis cenários.
 QUalquer que seja o banco de dados, as configurações se aplicam ao mesmo arquivo quartz.properties no mesmo caminho informado anteriormente.
 
-Configuração para banco de dados Banco de Dados Postgres
+**Configuração para banco de dados Banco de Dados Postgres
 
 ``` shell
 #============================================================================
@@ -139,7 +175,7 @@ org.quartz.jobStore.clusterCheckinInterval = 20000
 org.quartz.dataSource.citsmart.jndiURL= java:/jdbc/citsmart
 ```
 
-Configuração para o banco de dados Microsoft SQL Server
+**Configuração para o banco de dados Microsoft SQL Server
 
 ``` shell
 #============================================================================
@@ -167,7 +203,7 @@ org.quartz.jobStore.clusterCheckinInterval = 20000
 org.quartz.dataSource.citsmart.jndiURL= java:/jdbc/citsmart
 ```
 
-Configuração para o banco de dados Oracle
+**Configuração para o banco de dados Oracle
 
 ``` shell
 #============================================================================
@@ -205,6 +241,35 @@ mkdir -p /opt/citsmart/{ged,kb,twinwords,attachkb,upload}
 ``` shell
 chown -R wildfly.wildfly /opt/citsmart/
 ```
+
+## Configurações extras do desenho de fluxo
+
+No desenho de fluxo, podemos utilizar o script abaixo numa ação do fluxo, para inserir um item de trabalho para solicitações de serviço, registradas já resolvidas:  
+
+```shell
+flowExecution.insertWorkItemAndAttribution(flowInstance.getIdInstancia(), "Atender solicitacao", ""); 
+```
+ 
+
+O script possui os seguintes parâmetros: 
+
+ - id da instância de execução do fluxo; 
+ - nome da tarefa que será usada para encerrar a solicitação, este nome deve estar presente neste desenho de fluxo; 
+ - sigla do grupo executor que irá encerrar esta atividade; 
+
+ 
+O sistema irá executar as seguintes possiblidades até encontrar um id de grupo executor válido: 
+
+- 1º O grupo da Sigla informada; 
+
+- 2º O grupo executor da atividade no portfólio; 
+
+- 3º O grupo de 1º nível no portfólio; 
+
+- 4º O grupo do parâmetro Grupo executor padrão; 
+
+- 5º O grupo do parâmetro Grupo de primeiro nível; 
+
 
 ## Próximo passo
 
