@@ -6,12 +6,12 @@ Este guia ajuda você a praticar usando o Keycloak para avaliá-lo antes de usá
 
 Nesse guia você aprenderá como:
 
--[x] Instalar uma instância de amostra do Keycloack  
--[x] Criar usuários  
--[x] Criar conta de administração  
--[x] Proteger uma aplicação de amostra  
--[x] Instalar o adaptador de cliente WildFly  
--[x] Manter a instância WildFly
+- [x] Instalar uma instância de amostra do Keycloack  
+- [x] Criar usuários  
+- [x] Criar conta de administração  
+- [x] Proteger uma aplicação de amostra  
+- [x] Instalar o adaptador de cliente WildFly  
+- [x] Manter a instância WildFly
 
 Para acessar o conteúdo completo desse guia, faça o download do [Guia prático do Keycloack][1].
 
