@@ -755,8 +755,9 @@ nav:
   - faq.md
   - glossary.md
 - CITDocs:
-  - manual_citsmart_docs.md
-  - requisitos_funcionais.md
+  - citdocs/citdocs_manual.md
+  - citdocs/citbot_manual.md
+  - citdocs/functional_requirements_docs.md
 - Keycloak:
   - manual_usuario_citbot.md
 # - contribute.md
