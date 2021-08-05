@@ -4,7 +4,7 @@ Title: Manual do Usuário CITbot
 
 Este manual tem como objetivo orientar os usuários no uso da Plataforma CITbot, desenvolvida pela Central IT Tecnologia em Negócios.
 
-**Mas afinal o que são CITbots?**
+**Mas afinal, o que são CITbots?**
 
 CITbots são chatbots ou assistentes virtuais inteligentes desenvolvidos pela Gerência de Inteligência Artificial da Central IT. São programas de computador desenvolvidos para simular uma conversa humana utilizando linguagem natural por meio de aplicativos de mensagens, sites e outras plataformas digitais, respondendo por diretrizes pré-programadas ou Inteligência Artificial (IA).
 
