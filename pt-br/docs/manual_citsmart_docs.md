@@ -1,5 +1,6 @@
 Title: Manual CITSmart docs
 
+# Manual CITSmart docs 
 
 O Manual do Usuário trata das ativida¬des operacionais no CITSmart Docs e busca a efetividade nos procedi¬mentos propostos e adesão aos regulamentos relativos ao tratamento da documen¬tação da instituição.
 
