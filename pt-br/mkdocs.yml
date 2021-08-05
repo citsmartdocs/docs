@@ -760,7 +760,6 @@ nav:
   - citdocs/functional_requirements_docs.md
 - Keycloak:
   - keycloack/practicing_keycloack.md
-  - keycloack/guia_autorização_serviços.md
 # - contribute.md
 #- CITSmart 8:
 #  - 'https://documentation.citsmart.com/pt-br/index.html'
