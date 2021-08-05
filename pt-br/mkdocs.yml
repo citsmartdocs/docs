@@ -756,11 +756,9 @@ nav:
   - glossary.md
 - CITDocs:
   - manual_citsmart_docs.md
+  - requisitos_funcionais.md
 - Keycloak:
   - manual_usuario_citbot.md
-- Manual do usuário:
-  - requisitos_funcionais.md
-
 # - contribute.md
 #- CITSmart 8:
 #  - 'https://documentation.citsmart.com/pt-br/index.html'
