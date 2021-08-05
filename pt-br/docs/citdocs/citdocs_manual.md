@@ -7,3 +7,9 @@ Os documentos e processos refletem as atividades do órgão e são de extrema im
 O Manual do Usuário trata das atividades operacionais no CITSmart Docs e busca a efetividade nos procedi¬mentos propostos e adesão aos regulamentos relativos ao tratamento da documentação da instituição.  
 
 Este instrumento propõe um fluxo tramitação de documentos oficiais internamente em uma organização, de forma a garantir a confidencialidade, integridade, disponibilidade, autenticidade e rastreabilidades dos documentos, seguindo as premissas da Governança da Informação e legislações brasileiras de gestão de documentos públicos e privados, tendo também como referência padrões nacionais, como o E- Arq Brasil, e internacionais de requisitos de sistemas de gerenciamento de registros.
+
+Para ter acesso a toda informação sobre esse manual, por favor, faça o download do [Manual de Uso do CitSmart Docs][1]
+
+
+
+[1]:/pt-br/citdocs/Manual_CITSmart_Docs.pdf
