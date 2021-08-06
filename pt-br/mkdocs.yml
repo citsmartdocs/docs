@@ -759,7 +759,11 @@ nav:
   - citdocs/citbot_manual.md
   - citdocs/functional_requirements_docs.md
 - Keycloak:
-  - keycloack/practicing_keycloack.md
+  - keycloack/keycloack_installation_setting.md  
+  - keycloack/practicing_keycloack.md  
+  - keycloack/service_authorization.md  
+  - keycloack/developer_guide.md  
+  - keycloack/keycloack_docker_image.md
 # - contribute.md
 #- CITSmart 8:
 #  - 'https://documentation.citsmart.com/pt-br/index.html'
