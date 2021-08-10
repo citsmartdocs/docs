@@ -12,7 +12,7 @@ Neuro is a product that has been 100% ready and adequate within CITSmart, this p
 
 We understand that the concepts of Service Management is very powerful and can go beyond IT, allowing interesting gains to the business. Neuro runs with the concept of Dynamic Application & Hot Deploy where there's no need to restart the server or system on any deploy.
 
-CitSmart Neuro connects data, solutions and people, empowering departments and companies, is an agile and uncomplicated platform for business process automation, while allowing for fast customization and integration.
+CITSmart Neuro connects data, solutions and people, empowering departments and companies, is an agile and uncomplicated platform for business process automation, while allowing for fast customization and integration.
 
 NEURO has an approach to software development, through LOW CODE. You can abstract and automate each step of the application lifecycle to expedite the delivery of a variety of solutions. By breaking traditional business and IT silos, it promotes collaboration in your organization, and develops solutions that meet your business needs.
 
