@@ -1,6 +1,6 @@
-title: Visão geral  
+Title: Visão geral  
 
-description: conecta dados, soluções e pessoas, capacitando departamentos e empresas. é uma plataforma de automação de processos de negócios ágil e descomplicada. Ele permite personalização e integração rápida com outros aplicativos, sejam eles legados ou desenvolvidos internamente. O NEURO também é CODELESS!  
+Description: conecta dados, soluções e pessoas, capacitando departamentos e empresas. é uma plataforma de automação de processos de negócios ágil e descomplicada. Ele permite personalização e integração rápida com outros aplicativos, sejam eles legados ou desenvolvidos internamente. O NEURO também é CODELESS!  
 
 # Neuro
 
