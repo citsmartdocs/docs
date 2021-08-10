@@ -10,7 +10,7 @@ CITSmart Neuro allows fast development of applications, adapting process and bus
 
 Neuro is a product that has been 100% ready and adequate within CITSmart, this product is very powerful and allows to build new functionalities, applications and integrations. It is very close to RPA (Robotics process automation) products, but it brings different possibilities, such as the natural integration with the Service Management framework (SLAs, knowledge, portfolio, tickets, service portal, etc.)
 
-We understand that the concepts of Service Management is very powerful and can go beyond IT, allowing interesting gains to the business. Neuro runs with the concept of Dynamic Application & Hot Deploy where there´s no need to restart the server or system on any deploy.
+We understand that the concepts of Service Management is very powerful and can go beyond IT, allowing interesting gains to the business. Neuro runs with the concept of Dynamic Application & Hot Deploy where there's no need to restart the server or system on any deploy.
 
 CitSmart Neuro connects data, solutions and people, empowering departments and companies, is an agile and uncomplicated platform for business process automation, while allowing for fast customization and integration.
 
