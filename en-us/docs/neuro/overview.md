@@ -18,7 +18,7 @@ NEURO has an approach to software development, through LOW CODE. You can abstrac
 
 A LOW CODE platform is a family of tools that allows the development and delivery of complete applications visually. Instead of writing thousands of rows of complex code and syntax, you can use LOW CODE to build complete applications with modern user interfaces, integrations, data and logic quickly and visually.
 
-With Neuro, we can create automated workflows in minutes eliminating errors due to manual inputs during while operating in a secure environment.
+With Neuro, we can create automated workflows in minutes eliminating errors due to manual inputs while operating in a secure environment.
 
  -  Quick Customization
  -  Interchangeable
