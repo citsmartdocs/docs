@@ -226,4 +226,4 @@ Uma Versão é usada para identificar uma Baseline de um Item de Configuração.
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/23/2019 - Anna Martins
+    <b>Updated:</b>01/23/2021 - Anna Martins
