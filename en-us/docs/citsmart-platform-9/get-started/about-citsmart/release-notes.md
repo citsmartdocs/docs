@@ -3,6 +3,16 @@ Description: Release notes, bug fixes and improvements in the CITSmart.
 
 # Release Notes
 
+## Version 9.1.2.32 (2021/09/03)
+
+Welcome to CITSmart Version 9.1.2.32. This version presents the following bug fixes:
+
+|Number |Type|Description|
+|-------|----|--------------|
+|77719	|Correction| Validation of execution permission of the assignment groups |
+
+For this version, the compatible Neuro is 1.3.7.6.
+
 !!! warning "ATTENTION"
 
     For more information about Builder 1.3.7.6, see the [Neuro Release Notes][10]
@@ -11,7 +21,7 @@ Description: Release notes, bug fixes and improvements in the CITSmart.
 
 Welcome to CITSmart Version 9.1.2.31. This version presents the following bug fixes:
 
-|Number |	   Type|   Description|
+|Number |Type|   Description|
 |-------|----------|--------------|
 |10025  |Correction|  Register of the executing group in the task of closing the request, which has already been released and solved|
 |11541  |Correction|  Allow the download of files on the periodic activity screen|
