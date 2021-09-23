@@ -3,6 +3,16 @@ Description: Notas de release, correções de erros e melhorias no CITSmart.
 
 # Notas de Release
 
+## Versão 9.1.2.32 (2021/09/03)
+
+Bem-vindos ao CITSmart Versão 9.1.2.32. Esta versão apresenta as seguintes correções:
+
+|Número |Tipo |Descrição|
+|-------|--------|---------|	
+|77719	|Correção| Validação da permissão de execução dos grupos de atribuição |
+
+Para essa versão o Neuro compatível é 1.3.7.6.
+
 !!! warning "ATENÇÃO"
 
     Para mais informações sobre o Neuro 1.3.7.6, veja o arquivo de [Notas de Release Neuro][10]
