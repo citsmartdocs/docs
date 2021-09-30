@@ -154,10 +154,6 @@ To link a configuration item, select Cis of the Change > Search Configuration It
 
 To link a Service of Change, select Services of the Change > Add Service, and select the configuration item.
 
-### Questionnaires
-
-It's not mandatory, but some changes may come along with a questionnaire. It can be used to make a survey (assessment), questionnaires can be answered and the answers will be linked to the change. The questionnaire must be created beforehand.
-
 ### Roles and responsibilities
 
 To define the roles and responsibilities of the change, complete the fields:
