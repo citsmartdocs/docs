@@ -150,10 +150,6 @@ Para vincular um item de configuração, selecione ICs relacionados > Pesquisar 
 
 Para vincular um Serviço para a Mudança, selecione Serviços Relacionados > Adicionar Serviço e selecione o serviço.
 
-### Questionário
-
-Não é obrigatório, mas algumas mudanças podem vir junto com um questionário. Pode ser usado para fazer uma pesquisa (avaliação), questionários podem ser respondidos e as respostas serão vinculadas à mudança. O questionário deve ser criado previamente.
-
 ### Papéis e responsabilidades
 
 Para definir as funções e responsabilidades da mudança, preencha os campos:
