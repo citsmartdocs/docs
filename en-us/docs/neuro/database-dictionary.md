@@ -21,4 +21,4 @@ In the link below you can have access to the data dictionary of the tool CITSmar
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/23/2019 - João Pelles  
+    <b>Updated:</b>01/23/2021 - João Pelles  

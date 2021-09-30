@@ -52,4 +52,4 @@ Figura 4 - Pantalla de registro de parámetro
 
 
 <!-- !!! tip "About"
-    <b>Updated:</b>17/01/2019 - João Pelles Junior
+    <b>Updated:</b>17/01/2021 - João Pelles Junior

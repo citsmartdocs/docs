@@ -43,4 +43,4 @@ Related
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/08/2019 – Anna Martins
+    <b>Updated:</b>01/08/2021 – Anna Martins

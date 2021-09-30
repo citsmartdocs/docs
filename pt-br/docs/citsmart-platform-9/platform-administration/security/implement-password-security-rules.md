@@ -81,7 +81,7 @@ A partir da versão 9.1.2.23 ou 9.2.1.0 foram inseridos novos parâmetros:
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/31/2019 - Anna Martins
+    <b>Updated:</b>01/31/2021 - Anna Martins
 
 [1]:/pt-br/citsmart-platform-9/initial-settings/access-settings/user/users.html
 [2]:/pt-br/citsmart-platform-9/initial-settings/access-settings/user/user-data.html

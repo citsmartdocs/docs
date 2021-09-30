@@ -56,4 +56,4 @@ Figura 2 - Tela de listagem de tipo de dado
 5. Clique em "Salvar" para armazenar o arquivo. Clique em "Pesquisar" para voltar para a tela anterior.  
 
 <!-- !!! tip "About"
-    <b>Updated:</b>17/01/2019 - João Pelles Junior
+    <b>Updated:</b>17/01/2021 - João Pelles Junior

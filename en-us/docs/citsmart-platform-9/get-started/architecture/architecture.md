@@ -45,7 +45,7 @@ For each area above, we have technical security processes and measures that ensu
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/23/2019 - João Pelles  
+    <b>Updated:</b>01/23/2021 - João Pelles  
 
 [2]:images/citsmart-on-premises.jpg
 [3]:images/citsmart-inv-evm.jpg

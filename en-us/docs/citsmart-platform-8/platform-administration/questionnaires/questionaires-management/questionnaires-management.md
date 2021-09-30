@@ -14,7 +14,7 @@ Questionnaires are instruments that can be used to collect information. In CITSm
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/22/2019 - João Pelles  
+    <b>Updated:</b>01/22/2021 - João Pelles  
 	
 
 	

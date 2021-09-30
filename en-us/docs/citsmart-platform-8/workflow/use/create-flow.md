@@ -53,6 +53,6 @@ Related
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>02/21/2019 – Larissa Lourenço
+    <b>Updated:</b>02/21/2021 – Larissa Lourenço
 
 [2]:/en-us/citsmart-platform-8/workflow/configuration/expressions-creator.html

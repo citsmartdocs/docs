@@ -37,4 +37,4 @@ This report aims to present the changes registered.
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/04/2019 – Anna Martins
+    <b>Updated:</b>01/04/2021 – Anna Martins

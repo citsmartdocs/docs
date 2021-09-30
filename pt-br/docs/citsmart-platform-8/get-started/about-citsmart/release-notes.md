@@ -197,7 +197,7 @@ Bem-vindos ao Citsmart Versão 8.0.4.5. Esta versão apresenta as seguintes corr
 |--------|---------|---------|
 |3074 | Web Service | Ajuste no encerramento automático dos chamados via WebService.|
 
-## Versão 8.0.4.4 (2019/12/19)
+## Versão 8.0.4.4 (2021/12/19)
 
 Bem-vindos ao Citsmart Versão 8.0.4.4. Esta versão apresenta as seguintes correções:
 
@@ -205,7 +205,7 @@ Bem-vindos ao Citsmart Versão 8.0.4.4. Esta versão apresenta as seguintes corr
 |--------|---------|---------|
 |ITSM 2652 | Relatório de Manutenção de Base de Conhecimento. | Realizado corretiva no relatório de manutenção de base de conhecimento onde as informações estavam duplicadas.|
 
-## Versão 8.0.4.3 (2019/12/18)
+## Versão 8.0.4.3 (2021/12/18)
 
 Bem-vindos ao Citsmart Versão 8.0.4.3. Esta versão apresenta as seguintes correções:
 
@@ -216,7 +216,7 @@ Bem-vindos ao Citsmart Versão 8.0.4.3. Esta versão apresenta as seguintes corr
 | [ITSM-2960] | Gerenciamento de Ticket | Foi realizado corretiva onde ao executar um ticket, não estava sendo apresentado qual o serviço e atividade correspondente a ele. O que estava sendo apresentando era a etapa de seleção do portfólio.|
 
 
-## Versão 8.0.4.2 (2019/12/12)
+## Versão 8.0.4.2 (2021/12/12)
 
 Bem-vindos ao Citsmart Versão 8.0.4.2. Esta versão apresenta as seguintes correções:
 
@@ -226,7 +226,7 @@ Bem-vindos ao Citsmart Versão 8.0.4.2. Esta versão apresenta as seguintes corr
 |6277|Gerencia de Ticket|Realizado corretiva ao enviar um documento de texto em anexo para abertura do chamado via e-mail, o mesmo estava colocando essa descrição do anexo na descrição do ticket.|
 |6334|Gerencia de Ticket|Realizado corretiva na aplicação quando o parâmetro 446 estava habilitado, e ao encerrar o ticket e ele possuísse um anexo, o e-mail de finalização não é enviado com esse anexo.|
 
-## Versão 8.0.4.0 (2019/11/30)
+## Versão 8.0.4.0 (2021/11/30)
 
 Bem-vindos ao Citsmart Versão 8.0.4.0. Esta versão apresenta as seguintes correções e melhorias:
 
@@ -282,7 +282,7 @@ Bem-vindos ao Citsmart Versão 8.0.4.0. Esta versão apresenta as seguintes corr
 !!! success "DOWNLOAD"
     Os pacotes podem ser baixados no portal do parceiro (my.citsmart), acessando o menu "Downloads".
 
-## Versão 8.0.3.0 (2019/11/01)
+## Versão 8.0.3.0 (2021/11/01)
 
 Bem-vindos ao CITSmart Versão 8.0.3.0. Esta versão apresenta as seguintes correções e melhorias:
 
@@ -325,7 +325,7 @@ Bem-vindos ao CITSmart Versão 8.0.3.0. Esta versão apresenta as seguintes corr
 |6054|Adicionando a opção 'Importar dados de template descontinuado'|
 |6071|Alterando colunas impacto e urgencia para aceitar 2 caracteres conforme estrutura do banco para a matriz de prioridade|
 
-## Versão 8.0.2.0 (2019/10/07)
+## Versão 8.0.2.0 (2021/10/07)
 
 Bem-vindos ao CITSmart Versão 8.0.2.0. Esta versão apresenta as seguintes correções e melhorias:
 
@@ -396,7 +396,7 @@ Bem-vindos ao CITSmart Versão 8.0.2.0. Esta versão apresenta as seguintes corr
     Para uma melhor experiência da plataforma CITSmart versão 8.0.2.0, orientamos que os widgets “my requests” e “my approvals” sejam substituídos pelo widget “my tickets” no Centros de Experiência dos clientes.
 
 
-## Versão 8.0.1.7 (2019/09/13)
+## Versão 8.0.1.7 (2021/09/13)
 
 Bem-vindos ao CITSmart Versão 8.0.1.7. Esta versão apresenta as seguintes correções:
 
@@ -404,7 +404,7 @@ Bem-vindos ao CITSmart Versão 8.0.1.7. Esta versão apresenta as seguintes corr
 |--------|---------|
 |5569|[ITSM 1652] – Falha no Simple de Problema, Mudança e Liberação quando se cria uma Workspace, as Sprints se sobrescrevem.|
 
-## Versão 8.0.1.6 (2019/09/11)
+## Versão 8.0.1.6 (2021/09/11)
 
 Bem-vindos ao CITSmart Versão 8.0.1.6. Esta versão apresenta as seguintes correções:
 
@@ -413,7 +413,7 @@ Bem-vindos ao CITSmart Versão 8.0.1.6. Esta versão apresenta as seguintes corr
 |5288|Segurança – Não deixar visível a senha de usuários do sistema|
 |5272|Segurança – Não permitir acesso à tela de Scripts sem logar na aplicação|
 
-## Versão 8.0.1.5 (2019/09/02)
+## Versão 8.0.1.5 (2021/09/02)
 
 Bem-vindos ao CITSmart Versão 8.0.1.5. Esta versão apresenta as seguintes correções:
 
@@ -421,7 +421,7 @@ Bem-vindos ao CITSmart Versão 8.0.1.5. Esta versão apresenta as seguintes corr
 |--------|---------|
 |5407|Simple – Funcionalidade não permitia baixar os anexos dos cards do Simple|
 
-## Versão 8.0.1.4 (2019/08/20)
+## Versão 8.0.1.4 (2021/08/20)
 
 Bem-vindos ao CITSmart Versão 8.0.1.4. Esta versão apresenta as seguintes correções:
 
@@ -471,7 +471,7 @@ Bem-vindos ao CITSmart Versão 8.0.1.4. Esta versão apresenta as seguintes corr
 Na versão 8.0.1.4 o campo “Descrição” da tela de atendimento de solicitação de serviço virá bloqueado após a criação de um ticket.
 
 
-## Versão 8.0.1.3 (2019/07/31)
+## Versão 8.0.1.3 (2021/07/31)
 
 Bem-vindos ao Citsmart Versão 8.0.1.3. Esta versão apresenta as seguintes correções e melhorias:
 
@@ -532,7 +532,7 @@ Na versão 8.0.1.3 foi criado o parâmetro “452 - Continuar na tela de Ticket 
 
 Na versão 8.0.1.3 foi criado o parâmetro “451 - Página de redirecionamento após salvar o Ticket no Centro de Experiência” que permite informar a página que o usuário deseja retornar quando ocorrer uma ação no Centro de Experiência.
 
-## Versão 8.0.1.2 (2019/07/20)
+## Versão 8.0.1.2 (2021/07/20)
 
 Bem-vindos ao Citsmart Versão 8.0.1.2. Esta versão apresenta as seguintes correções.
 
@@ -545,7 +545,7 @@ Bem-vindos ao Citsmart Versão 8.0.1.2. Esta versão apresenta as seguintes corr
 A partir da versão 8.0.1.2 foi inserido o parâmetro “454 - Exibir a aba de conhecimentos do smart portal apenas quando houver conteúdo” esse parâmetro controla a exibição da Aba Conhecimentos  no Smart Portal somente quando existir conhecimentos vinculados à Atividade, caso não exista, o sistema não exibe a aba.
 
 
-## Versão 8.0.1.1 (2019/07/15)
+## Versão 8.0.1.1 (2021/07/15)
 
 Bem-vindos ao Citsmart Versão 8.0.1.1. Esta versão apresenta as seguintes correções.
 
@@ -560,7 +560,7 @@ Bem-vindos ao Citsmart Versão 8.0.1.1. Esta versão apresenta as seguintes corr
 |4596|[My 705] - Verificar erro no cálculo de Deadline para tickets.|
 
 
-## Versão 8.0.1.0 (2019/06/28)
+## Versão 8.0.1.0 (2021/06/28)
 
 Bem-vindos ao Citsmart Versão 8.0.1.0. A versão 8.0.1.0 do Citsmart apresenta as seguintes melhorias:
 
@@ -589,7 +589,7 @@ Bem-vindos ao Citsmart Versão 8.0.1.0. A versão 8.0.1.0 do Citsmart apresenta 
 |3911|Smart Portal - Após registro de ticket direcionar o usuário para "My Requests".|
 |2615|Simple – Busca por itens não selecionados.|
 
-## Versão 8.0.0.10 (2019/06/07)
+## Versão 8.0.0.10 (2021/06/07)
 
 Bem-vindos ao CITSmart Versão 8.0.0.10. Esta versão apresenta algumas correções emergenciais.
 
@@ -603,7 +603,7 @@ Bem-vindos ao CITSmart Versão 8.0.0.10. Esta versão apresenta algumas correç�
 |4148	| Melhoria nas queries da listagem de ticket |
 
 
-## Versão 8.0.0.9 (2019/05/31)
+## Versão 8.0.0.9 (2021/05/31)
 
 Bem-vindos ao CITSmart Versão 8.0.0.9. Esta versão apresenta algumas correções emergenciais.
 
@@ -618,7 +618,7 @@ Bem-vindos ao CITSmart Versão 8.0.0.9. Esta versão apresenta algumas correçõ
 |3915|Otimizando SQL lista de solicitações.|
 |4038|Correção de upload de imagem na apresentação do portfólio.|
 
-## Versão 8.0.0.7 (2019/05/17)
+## Versão 8.0.0.7 (2021/05/17)
 Com otimizações de desempenho, melhorias de usabilidade, ajustes e correções de falhas.
 
 | **Código** | **Descrição Ticket**                                                                                                                                                                                                                                            | **tipo**  |
@@ -709,7 +709,7 @@ Neuro: 1.2.4.10
 Audit: 0.4.0
 
 
-## Versão 8.0.0.5 (2019/04/25)
+## Versão 8.0.0.5 (2021/04/25)
 
 | Problema | Descrição                                                                                                                                              |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -775,14 +775,14 @@ EVM: 2.0.0.3
 Audit: 0.2.0
 
 
-## Versão 8.0.0.4 (2019/04/12)
+## Versão 8.0.0.4 (2021/04/12)
 
 | Problema | Descrição                                                                                 |
 |----------|-------------------------------------------------------------------------------------------|
 | 3275     | Falha no momento de restaurar Grupo Executor, Impacto e Urgência em Gerência de Liberação |
 
 
-## Versão 8.0.0.3 (2019/04/04)
+## Versão 8.0.0.3 (2021/04/04)
 
 | Problema | Descrição                                                                                                                                                                                                          |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -791,7 +791,7 @@ Audit: 0.2.0
 | 2917     | Falha ao realizar upload de anexos pela funcionalidade de solicitação de serviço. A versão 8.0.0.3 fornece solução para realizar upload dos anexos pela funcionalidade de solicitação de serviço.                  |
 | 2777     | Falha intermitente no método que retorna o timezone para gravar registro de data e hora. No componente Neuro. A versão 8.0.0.3 fornece solução definitiva no componente Neuro para gravar registro de data e hora. |
 
-## Versão 8.0.0.2 (2019/03/20)
+## Versão 8.0.0.2 (2021/03/20)
 
 | Problema | Descrição                      |
 |----------|-----------------|
@@ -800,14 +800,14 @@ Audit: 0.2.0
 | 2400     | Falha no componente de pesquisa avançada que não retornava palavras com “ç” e “ã”. A versão 8.0.0.2 fornece solução definitiva para a pesquisa avançada com palavras acentuadas.                                                                                          |
 
 
-## Versão 8.0.0.1 (2019/03/08)
+## Versão 8.0.0.1 (2021/03/08)
 
 | Problema | Descrição                 |
 |----------|---------------------------|
 | 2576     | Erro conhecido em portfólio que não é exibido quando existe uma data final no serviço do contrato. A versão 8.0.0.1 fornece solução definitiva para o erro ocasionado pelo portfólio de serviços. |
 
 
-## Versão 8.0.0.0 (2019/03/01)
+## Versão 8.0.0.0 (2021/03/01)
 
 | Tipo | Funcionalidade | Descrição |
 |------|------|-----------|

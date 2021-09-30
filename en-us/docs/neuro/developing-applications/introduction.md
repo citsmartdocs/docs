@@ -74,4 +74,4 @@ After you have your Business Objects and Forms created you can:
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>03/12/2019 - Anna Martins  
+    <b>Updated:</b>03/12/2021 - Anna Martins  

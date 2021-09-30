@@ -34,6 +34,6 @@ Knowledge Base Indexing".
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>06/25/2019
+    <b>Updated:</b>06/25/2021
 
 [1]:/en-us/citsmart-platform-9/get-started/installation-and-upgrade/download-software.html#servidor-de-indexacao-apache-solr_1

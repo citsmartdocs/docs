@@ -55,4 +55,4 @@ Figura 4 - Pantalla de registro de tipo de dato
 5- Haga clic en "Guardar" para almacenar el archivo. Haga clic en "Buscar" para volver a la pantalla anterior.  
 
 <!-- !!! tip "About"
-    <b>Updated:</b>17/01/2019 - João Pelles Junior
+    <b>Updated:</b>17/01/2021 - João Pelles Junior

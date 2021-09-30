@@ -191,7 +191,7 @@ This structure allows the creation of an experience center using only widgets.
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/04/2019 – Larissa Lourenço
+    <b>Updated:</b>01/04/2021 – Larissa Lourenço
 
 [1]:images/creat-experience-center.png
 [2]:images/permission-experience-center.png

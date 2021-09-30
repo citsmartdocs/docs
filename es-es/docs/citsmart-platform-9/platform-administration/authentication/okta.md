@@ -150,6 +150,6 @@ Concluido la integración del Okta con el CITSmart, algunos parámetros del CITS
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>05/30/2019 – Larissa Lourenço
+    <b>Updated:</b>05/30/2021 – Larissa Lourenço
 
 [1]: https://www.okta.com/

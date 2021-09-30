@@ -142,7 +142,7 @@ Enter keystore password:
 Owner: CN=Unknown, OU=Unknown, O=Unknown, L=Unknown, ST=Unknown, C=Unknown
 Issuer: CN=Unknown, OU=Unknown, O=Unknown, L=Unknown, ST=Unknown, C=Unknown
 Serial number: 73bf74b5
-Valid from: Thu Nov 14 14:17:45 UTC 2019 until: Fri Nov 13 14:17:45 UTC 2020
+Valid from: Thu Nov 14 14:17:45 UTC 2021 until: Fri Nov 13 14:17:45 UTC 2020
 Certificate fingerprints:
          MD5:  8E:55:89:17:76:F7:3D:20:97:C0:66:ED:3A:55:C6:BA
          SHA1: F2:4D:DC:3F:DE:6A:F1:60:39:32:BC:B6:45:50:B4:BE:2C:D7:24:38

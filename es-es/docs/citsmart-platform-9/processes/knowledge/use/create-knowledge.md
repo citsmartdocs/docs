@@ -134,7 +134,7 @@ En la creación del conocimiento, CITSmart siempre establecerá la versión "1.0
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.05 &nbsp;&nbsp;
-    <b>Updated:</b>12/26/2019 – Education Team
+    <b>Updated:</b>12/26/2021 – Education Team
     
 [1]:https://en.wikipedia.org/wiki/WYSIWYG
 [2]:/es-es/citsmart-platform-9/initial-settings/access-settings/profile/create-profile-access.html

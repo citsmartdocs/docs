@@ -21,6 +21,6 @@ Esta funcionalidade destina-se a configurar o idioma padrão do sistema.
 !!! tip "Sobre"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>02/05/2019 - Larissa Lourenço
+    <b>Updated:</b>02/05/2021 - Larissa Lourenço
 	
 	

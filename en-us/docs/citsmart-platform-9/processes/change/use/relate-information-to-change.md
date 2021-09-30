@@ -88,4 +88,4 @@ you must have access to a Change.
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/31/2019 – Larissa Lourenço
+    <b>Updated:</b>01/31/2021 – Larissa Lourenço

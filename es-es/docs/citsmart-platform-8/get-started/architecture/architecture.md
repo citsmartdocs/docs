@@ -71,7 +71,7 @@ Para cada una de las áreas anteriores, contamos con procesos y medidas de segur
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/17/2019 - Anna Martins
+    <b>Updated:</b>01/17/2021 - Anna Martins
 
 [2]:images/citsmart-on-premises.jpg
 [3]:images/citsmart-inv-evm.jpg

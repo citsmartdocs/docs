@@ -108,6 +108,6 @@ conhecimento na Base de Conhecimento
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>02/27/2019 – Anna Martins
+    <b>Updated:</b>02/27/2021 – Anna Martins
 
  

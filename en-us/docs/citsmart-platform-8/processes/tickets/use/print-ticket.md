@@ -23,5 +23,5 @@ Procedure
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/03/2019 – Larissa Lourenço
+    <b>Updated:</b>01/03/2021 – Larissa Lourenço
 

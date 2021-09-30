@@ -22,7 +22,7 @@ Copy to the application server in the folder `standalone/deployments`:
 Note the log `/opt/wildfly/standalone/log/server.log` with the option `tail -f` until the message below appears:
 
 ``` shell
-2019-11-14 17:20:37,731 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "CitsmartITSM-Enterprise-8.0.2.0.war" (runtime-name : "CitsmartITSM-Enterprise-8.0.2.0.war")
+2021-11-14 17:20:37,731 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "CitsmartITSM-Enterprise-8.0.2.0.war" (runtime-name : "CitsmartITSM-Enterprise-8.0.2.0.war")
 ```
 
 The above message confirms that the deployment was performed. The same applies to the Neuro package. Copy Neuro to the folder `standalone/deployments`:
@@ -34,7 +34,7 @@ The above message confirms that the deployment was performed. The same applies t
 Note the log `/opt/wildfly/standalone/log/server.log` with the option `tail -f` until the message below appears:
 
 ``` shell
-2019-11-14 17:37:43,647 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "citsmart-neuro-web-1.3.2.1.war" (runtime-name : "citsmart-neuro-web-1.3.2.1.war")
+2021-11-14 17:37:43,647 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "citsmart-neuro-web-1.3.2.1.war" (runtime-name : "citsmart-neuro-web-1.3.2.1.war")
 ```
 
 ## Accessing CITSmart for the first time

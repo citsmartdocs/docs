@@ -23,4 +23,4 @@ Anuva is already natively integrated with CITSmart, so it is easy to add it to y
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>04/07/2019 - Anna Martins
+    <b>Updated:</b>04/07/2021 - Anna Martins

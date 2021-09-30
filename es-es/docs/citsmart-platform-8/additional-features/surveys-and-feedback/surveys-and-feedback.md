@@ -16,7 +16,7 @@ La plataforma tiene mecanismos para medir la satisfacción de los usuarios que u
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/23/2019 - Anna Martins
+    <b>Updated:</b>01/23/2021 - Anna Martins
 
 
 

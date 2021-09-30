@@ -47,7 +47,7 @@ To test the service to change the password, access the login page, click on "For
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>02/21/2019 – Larissa Lourenço
+    <b>Updated:</b>02/21/2021 – Larissa Lourenço
 
 [1]:/en-us/citsmart-platform-9/platform-administration/email-settings/email-templates-configure-email-template.html
 [2]:/en-us/citsmart-platform-9/platform-administration/email-settings/configuration.html

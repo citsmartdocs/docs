@@ -130,4 +130,4 @@ A seguir apresentamos alguns exemplos de como utilizar o Chat do CITSmart em cen
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart ESP | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>07/04/2019 – Anna Martins
+    <b>Updated:</b>07/04/2021 – Anna Martins

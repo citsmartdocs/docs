@@ -55,6 +55,6 @@ Anexo
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>1/30/2019 – Anna Martins
+    <b>Updated:</b>1/30/2021 – Anna Martins
     
 [1]:/pt-br/citsmart-platform-9/additional-features/mobile-and-field-service/report/images/km-por-analista.citreport  

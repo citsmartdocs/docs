@@ -31,4 +31,4 @@ It is possible to perform different actions, such as adding, changing and deleti
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/09/2019 – Anna Martins
+    <b>Updated:</b>01/09/2021 – Anna Martins

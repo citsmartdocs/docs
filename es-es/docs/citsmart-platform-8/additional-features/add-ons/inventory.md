@@ -36,7 +36,7 @@ Para probar el Inventory, [configurar][4] las conexiones en la instancia CITSmar
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>06/25/2019
+    <b>Updated:</b>06/25/2021
 
 [1]:/es-es/citsmart-platform-8/additional-features/add-ons/event-monitor.html
 [2]:/es-es/citsmart-platform-8/get-started/installation-and-upgrade/perform-installation.html

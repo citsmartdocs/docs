@@ -41,5 +41,5 @@ Para enviar el comentario por correo electrónico es necesario [Configurar el se
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>06/26/2019
+    <b>Updated:</b>06/26/2021
 

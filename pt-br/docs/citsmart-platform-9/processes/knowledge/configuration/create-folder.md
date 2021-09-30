@@ -55,7 +55,7 @@ As permissões em pastas são aplicadas em duas perspectivas: perfil de acesso e
 
 <!-- !!! tip "About"
     <b>Product/Verssion:</b> CITSmart | 8.05 &nbsp;&nbsp;
-    <b>Updated:</b>12/23/2019 – Education Team
+    <b>Updated:</b>12/23/2021 – Education Team
 
 [1]:/pt-br/citsmart-platform-9/processes/knowledge/use/create-knowledge.html
 [2]:/pt-br/citsmart-platform-9/initial-settings/access-settings/user/register-groups.html

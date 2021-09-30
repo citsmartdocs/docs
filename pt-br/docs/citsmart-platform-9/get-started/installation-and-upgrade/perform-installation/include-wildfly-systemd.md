@@ -89,7 +89,7 @@ Você deverá ter como saída uma informação semelhante a esta:
 ```sh
 ● wildfly.service - WildFly application server
    Loaded: loaded (/etc/systemd/system/wildfly.service; enabled; vendor preset: disabled)
-   Active: active (running) since Tue 2019-11-12 14:43:54 UTC; 1min 29s ago
+   Active: active (running) since Tue 2021-11-12 14:43:54 UTC; 1min 29s ago
  Main PID: 18519 (standalone.sh)
     Tasks: 50
    Memory: 544.8M

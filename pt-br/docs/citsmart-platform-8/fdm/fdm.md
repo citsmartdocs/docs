@@ -59,18 +59,18 @@ alcançados com o uso da metodologia.
 
 | Artefato                                  | Data       | Versão |
 |-------------------------------------------|------------|--------|
-| Checklist da metodologia                  | 21/05/2019 | V.1    |
-| Lições Aprendidas (template)              | 21/05/2019 | V.1    |
-| Matriz de Comunicação (template)          | 21/05/2019 | V.1    |
-| Plano de Comunicação (template)           | 21/05/2019 | V.1    |
-| Plano de Projeto (template)               | 21/05/2019 | V.1    |
-| Registro de reunião (template)            | 21/05/2019 | V.1    |
-| Requerimento de Mudança (template)        | 21/05/2019 | V.1    |
-| Reunião de KickOff (template)             | 21/05/2019 | V.1    |
-| Roteiro de Teste (template)               | 21/05/2019 | V.1    |
-| Status Report (template)                  | 21/05/2019 | V.1    |
-| Termo de Aceite (template)                | 21/05/2019 | V.1    |
-| Workbook (template)                       | 21/05/2019 | V.1    |
+| Checklist da metodologia                  | 21/05/2021 | V.1    |
+| Lições Aprendidas (template)              | 21/05/2021 | V.1    |
+| Matriz de Comunicação (template)          | 21/05/2021 | V.1    |
+| Plano de Comunicação (template)           | 21/05/2021 | V.1    |
+| Plano de Projeto (template)               | 21/05/2021 | V.1    |
+| Registro de reunião (template)            | 21/05/2021 | V.1    |
+| Requerimento de Mudança (template)        | 21/05/2021 | V.1    |
+| Reunião de KickOff (template)             | 21/05/2021 | V.1    |
+| Roteiro de Teste (template)               | 21/05/2021 | V.1    |
+| Status Report (template)                  | 21/05/2021 | V.1    |
+| Termo de Aceite (template)                | 21/05/2021 | V.1    |
+| Workbook (template)                       | 21/05/2021 | V.1    |
 
 !!! Abstract "ATENÇÃO"
 

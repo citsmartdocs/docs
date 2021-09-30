@@ -83,5 +83,5 @@ Configuration
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/14/2019 – Larissa Lourenço
+    <b>Updated:</b>01/14/2021 – Larissa Lourenço
 

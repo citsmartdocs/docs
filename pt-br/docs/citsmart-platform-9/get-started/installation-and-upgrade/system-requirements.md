@@ -29,7 +29,7 @@ A partir da versão 9.1.2.23 a tabela Versões recomendadas dos pacotes deverá 
 |SOLR | `6.4.2` |
 |Sistema Operacional| Embora possa ser instalado em qualquer distribuição e versão, o documento considera a distribuição `Linux CentOS 7.x.`   |
 MongoDB   | `3.4.15`|
-|Microsoft SQL Server|`2019`|
+|Microsoft SQL Server|`2021`|
 |Oracle| `12c`|
 
 

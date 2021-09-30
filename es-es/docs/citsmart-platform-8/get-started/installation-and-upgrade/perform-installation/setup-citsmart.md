@@ -37,6 +37,6 @@ Si ha llegado aquí, creemos que ha completado con éxito el proceso de instalac
 
 !!! tip ""
 
-    Author: `Christiano Mendonça` Version: 8.0.2.0 Updated: 2019/11/18 Description: Updated installation process to latest
+    Author: `Christiano Mendonça` Version: 8.0.2.0 Updated: 2021/11/18 Description: Updated installation process to latest
 
 [1]:/es-es/citsmart-platform-8/initial-settings/navigation-and-user-interface.html

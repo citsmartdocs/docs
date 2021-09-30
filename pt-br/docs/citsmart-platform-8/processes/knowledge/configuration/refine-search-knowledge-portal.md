@@ -42,4 +42,4 @@ realizar buscas dentro do Portal do Conhecimento.
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/16/2019 - Anna Martins
+    <b>Updated:</b>01/16/2021 - Anna Martins

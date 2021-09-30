@@ -86,7 +86,7 @@ To check if the service is running, run the command below:
 [root@server /tmp]# systemctl status wildfly
 ● wildfly.service - WildFly application server
    Loaded: loaded (/etc/systemd/system/wildfly.service; enabled; vendor preset: disabled)
-   Active: active (running) since Tue 2019-11-12 14:43:54 UTC; 1min 29s ago
+   Active: active (running) since Tue 2021-11-12 14:43:54 UTC; 1min 29s ago
  Main PID: 18519 (standalone.sh)
     Tasks: 50
    Memory: 544.8M

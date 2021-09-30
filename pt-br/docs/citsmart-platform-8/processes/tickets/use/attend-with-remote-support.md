@@ -40,7 +40,7 @@ Relacionado
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/16/2019 - Larissa Lourenço
+    <b>Updated:</b>01/16/2021 - Larissa Lourenço
     
 
 [1]:/pt-br/citsmart-platform-8/processes/configuration/configuration/configure-remote-access.html

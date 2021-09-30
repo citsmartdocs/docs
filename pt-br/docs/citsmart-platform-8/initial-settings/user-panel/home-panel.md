@@ -19,7 +19,7 @@ Relacionado
 !!! tip "Sobre"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/23/2019 – Renato Aragao
+    <b>Updated:</b>01/23/2021 – Renato Aragao
 
 [1]:/pt-br/citsmart-platform-8/additional-features/reports/create/dashboard-customize-management-panel-smart-decision.html
 [2]:/pt-br/citsmart-platform-8/initial-settings/access-settings/user/user-data.html

@@ -43,7 +43,7 @@ Figura 1 - Aplicação
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>03/13/2019 - Anna Martins  
+    <b>Updated:</b>03/13/2021 - Anna Martins  
 
 
 

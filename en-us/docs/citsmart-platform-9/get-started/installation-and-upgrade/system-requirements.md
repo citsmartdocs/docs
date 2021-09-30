@@ -29,5 +29,5 @@ From version 9.1.2.23, the table "Recommended package versions" must be changed 
 |SOLR | `6.4.2` |
 |Operational System| Although it can be installed in any distribution and version, the document considers the distribution `Linux CentOS 7.x.`   |
 |MongoDB   | `3.4.15`|
-|Microsoft SQL Server|`2019`|
+|Microsoft SQL Server|`2021`|
 |Oracle| `12c`|

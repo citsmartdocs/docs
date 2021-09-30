@@ -40,7 +40,7 @@ Para visualizar o status de inventário de ICs é necessário ter definido um pr
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.05 &nbsp;&nbsp;
-    <b>Updated:</b>01/24/2019 - Anna Martins
+    <b>Updated:</b>01/24/2021 - Anna Martins
 
 
 [1]:/pt-br/citsmart-platform-9/processes/event/configuration/set-inventory-connection.html

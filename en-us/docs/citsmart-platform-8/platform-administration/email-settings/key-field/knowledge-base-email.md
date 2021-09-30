@@ -35,4 +35,4 @@ Table 1 - List of key fields
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/10/2019 - Anna Martins
+    <b>Updated:</b>01/10/2021 - Anna Martins

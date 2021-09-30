@@ -37,6 +37,6 @@ If you have arrived here, we believe you have successfully completed the install
 
 !!! tip ""
 
-    Author: `Christiano Mendonça` Version: 9.0.2.0 Updated: 2019/11/18 Description: Updated installation process to latest
+    Author: `Christiano Mendonça` Version: 9.0.2.0 Updated: 2021/11/18 Description: Updated installation process to latest
 
 [1]:/en-us/citsmart-platform-9/initial-settings/navigation-and-user-interface.html

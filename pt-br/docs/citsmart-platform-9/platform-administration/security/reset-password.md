@@ -51,7 +51,7 @@ local e apertar “Gravar”.
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>02/21/2019 – Larissa Lourenço
+    <b>Updated:</b>02/21/2021 – Larissa Lourenço
 
 [1]:/pt-br/citsmart-platform-9/platform-administration/email-settings/email-templates-configure-email-template.html
 [2]:/pt-br/citsmart-platform-9/platform-administration/email-settings/configuration.html

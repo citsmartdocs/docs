@@ -15,5 +15,5 @@ Relacionado
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart ESP | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>05/15/2019 - Anna Martins
+    <b>Updated:</b>05/15/2021 - Anna Martins
 

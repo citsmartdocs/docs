@@ -86,4 +86,4 @@ Figura 6 - Registro/edición de configuración del informe, pestaña Formulario
 
 
 <!-- !!! tip "About"
-    <b>Updated:</b>17/01/2019 - João Pelles Junior
+    <b>Updated:</b>17/01/2021 - João Pelles Junior

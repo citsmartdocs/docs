@@ -26,6 +26,6 @@ Para realizar la indexación es necesario antes [configurar su instancia][1] con
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>25/06/2019 – Anna Martins
+    <b>Updated:</b>25/06/2021 – Anna Martins
 
 [1]:/es-es/citsmart-platform-9/platform-administration/data-indexing/configuration.html

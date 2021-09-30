@@ -104,7 +104,7 @@ Welcome to Citsmart Version 8.0.4.5. This release has the following fixes:
 |--------|---------|---------|
 |3074 | Web Service | Adjustments in the automatic closure of tickets via WebService.|
 
-## Version 8.0.4.4 (2019/12/19)
+## Version 8.0.4.4 (2021/12/19)
 
 Welcome to Citsmart Version 8.0.4.4. This release has the following fixes:
 
@@ -112,7 +112,7 @@ Welcome to Citsmart Version 8.0.4.4. This release has the following fixes:
 |--------|---------|---------|
 |ITSM 2652 | Knowledge Base Maintenance Report | Fix in the knowledge base maintenance report where information was duplicated.|
 
-## Version 8.0.4.3 (2019/12/18)
+## Version 8.0.4.3 (2021/12/18)
 
 Welcome to Citsmart Version 8.0.4.3. This release has the following fixes:
 
@@ -122,7 +122,7 @@ Welcome to Citsmart Version 8.0.4.3. This release has the following fixes:
 | [ITSM-2995] | WEBSERVICES |Fix when closing a ticket via webservice. The ticket was leaving the Solution/Response field blank, and with no responsible.
 | [ITSM-2960] | Ticket Management | A corrective fix was implemented  where when executing a ticket, the service and activity corresponding to it was not being presented. What was being presented was the portfolio selection stage.|
 
-## Version 8.0.4.2 (2019/12/12)
+## Version 8.0.4.2 (2021/12/12)
 
 Welcome to Citsmart Version 8.0.4.2. This release has the following fixes:
 
@@ -132,7 +132,7 @@ Welcome to Citsmart Version 8.0.4.2. This release has the following fixes:
 |6277|Ticket Management|Fix when sending an attached text document to open the ticket via email, it was placing this attachment description in the ticket description.|
 |6334|Ticket Management|Fix in the application when parameter 446 was enabled, and when closing the ticket and it had an attachment, the closure email is not sent with that attachment.|
 
-## Version 8.0.4.0 (2019/11/30)
+## Version 8.0.4.0 (2021/11/30)
 
 Welcome to Citsmart Version 8.0.4.0. This release has the following fixes and improvements:
 
@@ -165,7 +165,7 @@ Welcome to Citsmart Version 8.0.4.0. This release has the following fixes and im
     6274 - Tickets with a status of "Canceled" in the floating menu show incorrect actions by the status of the ticket.
     6275 - #5544 - Facebook-Messenger error when closing or canceling a ticket created via Facebook Messenger. It still shows the chat icon in the list of "Tickets in progress" and does not open another ticket for this same Messenger requester.
 
-## Version 8.0.3.0 (2019/11/01)
+## Version 8.0.3.0 (2021/11/01)
 
 Welcome to CITSmart Version 8.0.3.0. This release has the following fixes and improvements:
 
@@ -208,7 +208,7 @@ Welcome to CITSmart Version 8.0.3.0. This release has the following fixes and im
 |6054|Adding the "Import discontinued template data" option|
 |6071|Changing impact and urgency columns to accept 2 characters as per bank structure for priority matrix|
 
-## Version 8.0.2.0 (2019/10/07)
+## Version 8.0.2.0 (2021/10/07)
 
 Welcome to CITSmart Version 8.0.2.0. This release has the following fixes and improvements:
 
@@ -278,7 +278,7 @@ Welcome to CITSmart Version 8.0.2.0. This release has the following fixes and im
 
     For a better experience of the CITSmart version 8.0.2.0, we advise that the “my requests” and “my approvals” widgets to be replaced by the “my tickets” widget in the customers Experience Centers.
 
-## Version 8.0.1.7 (2019/09/13)
+## Version 8.0.1.7 (2021/09/13)
 
 Welcome to CITSmart Version 8.0.1.7. This release has the following fixes:
 
@@ -286,7 +286,7 @@ Welcome to CITSmart Version 8.0.1.7. This release has the following fixes:
 |--------|---------|
 |5569|[ITSM 1652] – Failure in the Simple of Problem, Change and Release when creating a Workspace, the sprints overwrite themselves.|
 
-## Version 8.0.1.6 (2019/09/11)
+## Version 8.0.1.6 (2021/09/11)
 
 Welcome to CITSmart Version 8.0.1.6. This release has the following fixes:
 
@@ -295,7 +295,7 @@ Welcome to CITSmart Version 8.0.1.6. This release has the following fixes:
 |5288|Safety – Do not make system users password visible|
 |5272|Safety – Do not allow access to the Script screen without logging in to the application|
 
-## Version 8.0.1.5 (2019/09/02)
+## Version 8.0.1.5 (2021/09/02)
 
 Welcome to CITSmart Version 8.0.1.5. This release has the following fixes:
 
@@ -303,7 +303,7 @@ Welcome to CITSmart Version 8.0.1.5. This release has the following fixes:
 |--------|---------|
 |5407|Simple – Functionality did not allow downloading attachments from Simple cards|
 
-## Version 8.0.1.4 (2019/08/20)
+## Version 8.0.1.4 (2021/08/20)
 
 Welcome to CITSmart Version 8.0.1.4. This release has the following fixes:
 
@@ -353,7 +353,7 @@ Welcome to CITSmart Version 8.0.1.4. This release has the following fixes:
 In version 8.0.1.4 the “Description” field of the service request attendance screen will be blocked after the creation of a ticket.
 
 
-## Version 8.0.1.3 (2019/07/31)
+## Version 8.0.1.3 (2021/07/31)
 
 Welcome to Citsmart Version 8.0.1.3. This release has the following fixes and improvements:
 
@@ -415,7 +415,7 @@ In version 8.0.1.3 the parameter “452 - Continue in the Ticket screen after sa
 In version 8.0.1.3 the parameter “451 - Redirect page after saving the ticket in the Experience Center” was created, which allows informing the page that the user wants to return when an action in the Experience Center occurs.
 
 
-## Version 8.0.1.2 (2019/07/20)
+## Version 8.0.1.2 (2021/07/20)
 
 Welcome to the Citsmart Version 8.0.1.2. This version presents the following fixes.
 
@@ -427,7 +427,7 @@ Welcome to the Citsmart Version 8.0.1.2. This version presents the following fix
 
 From version 8.0.1.2 it was inserted the parameter “454 - Display the smart portal knowledge tab only when there is content” this parameter controls the display of the Knowledge Tab in Smart Portal only when there is knowledge linked to the Activity, if it does not exist, the system does not display the tab.
 
-## Version 8.0.1.1 (2019/07/15)
+## Version 8.0.1.1 (2021/07/15)
 
 Welcome to the Citsmart Version 8.0.1.1. This release contains the following fixes.
 
@@ -441,7 +441,7 @@ Welcome to the Citsmart Version 8.0.1.1. This release contains the following fix
 |4168|[My 001] - Error while viewing a ticket by advanced search.|
 |4596|[My 705] - Verifying error in deadline calculation for tickets.|
 
-## Version 8.0.1.0 (2019/06/28)
+## Version 8.0.1.0 (2021/06/28)
 
 Welcome to Citsmart Version 8.0.1.0. The Version 8.0.1.0 of Citsmart presents the following improvements:
 
@@ -470,7 +470,7 @@ Welcome to Citsmart Version 8.0.1.0. The Version 8.0.1.0 of Citsmart presents th
 |3911|Smart Portal - After ticket registration, direct the user to "My Requests".|
 |2615|Simple – Search for unselected items.|
 
-## Version 8.0.0.10 (2019/06/07)
+## Version 8.0.0.10 (2021/06/07)
 
 Welcome to CITSmart Version 8.0.0.10. This release features some emergency fixes.
 
@@ -483,7 +483,7 @@ Welcome to CITSmart Version 8.0.0.10. This release features some emergency fixes
 |4028	| Correction in the presentation of the responsible person in the registration of an occurrence |
 |4148	| Improvement in the queries of the ticket listing |
 
-## Version 8.0.0.9 (2019/05/31)
+## Version 8.0.0.9 (2021/05/31)
 
 Welcome to the Citsmart Version 8.0.0.9
 Version 8.0.0.9 of CITSmart presents some emergency corrections.
@@ -499,7 +499,7 @@ Version 8.0.0.9 of CITSmart presents some emergency corrections.
 |3915|Optimizing SQL list of requests|
 |4038|Correction of image upload in portfolio presentation|
 
-## Version 8.0.0.7 (2019/05/17)
+## Version 8.0.0.7 (2021/05/17)
 
 With performance optimizations, usability improvements, adjustments and bug fixes.
 
@@ -590,7 +590,7 @@ Neuro: 1.2.4.10
 
 Audit: 0.4.0
 
-## Version 8.0.0.5 (2019/04/25)
+## Version 8.0.0.5 (2021/04/25)
 
 | Problem  | Description                                                                                                                                              |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -656,14 +656,14 @@ EVM: 2.0.0.3
 Audit: 0.2.0
 
 
-## Version 8.0.0.4 (2019/04/12)
+## Version 8.0.0.4 (2021/04/12)
 
 | Problem  | Description                                                                                |
 |----------|--------------------------------------------------------------------------------------------|
 | 3275     | Failure when restoring the Executor Group, Impact and Urgency in the Release Management    |
 
 
-## Version 8.0.0.3 (2019/04/04)
+## Version 8.0.0.3 (2021/04/04)
 
 | Problem | Description                                                                                                                                                                                                          |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -673,7 +673,7 @@ Audit: 0.2.0
 | 2777     | Intermittent failure in the method that returns timezone to register the date and hour. In the Neuro component. Version 8.0.0.3 provides definitive solution in the Neuro component to register date and time. |
 
 
-## Version 8.0.0.2 (2019/03/20)
+## Version 8.0.0.2 (2021/03/20)
 
 | Problem | Description                                                                                                                                                                                                                                                                 |
 |----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -681,13 +681,13 @@ Audit: 0.2.0
 | 2124     | Incorrect validation failure while accessing an external knowledge base. Version 8.0.0.2 provides definitive solution to the session expiration message displayed improperly when the user attempted to access an external knowledge base.                    |
 | 2400     | Failure in the advanced search component that didn't return words with "ç" and "ã". Version 8.0.0.2 provides definitive solution for advanced search with accented words.                                                                                          |
 
-## Version 8.0.0.1 (2019/03/08)
+## Version 8.0.0.1 (2021/03/08)
 
 | Problem | Description                                                                                                                                                                                      |
 |----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2576     | Known error in the portfolio that is not displayed when there is an end date in the contract service. Version 8.0.0.1 provides a definitive solution to the error caused by the service portfolio. |
 
-## Version 8.0.0.0 (2019/03/01)
+## Version 8.0.0.0 (2021/03/01)
 
 |Type|Functionality|Description|
 |----|-------|-----------|

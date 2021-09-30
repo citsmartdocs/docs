@@ -47,7 +47,7 @@ Para probar el servicio de cambio de contraseña, acceder a la página de login,
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>02/21/2019 – Larissa Lourenço
+    <b>Updated:</b>02/21/2021 – Larissa Lourenço
 
 [1]:/es-es/citsmart-platform-8/platform-administration/email-settings/email-templates-configure-email-template.html
 [2]:/es-es/citsmart-platform-8/platform-administration/email-settings/configuration.html

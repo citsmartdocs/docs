@@ -34,4 +34,4 @@ Na próxima etapa, daremos início a instalação de todos os pacotes.
 
 Author         | Version   | Updated             | Description
 -------------- | ------ | ------------------- | -----------
-`Christiano Mendonça` | 8.0.2.0 | 11/08/2019| Updated installation process to latest version.
+`Christiano Mendonça` | 8.0.2.0 | 11/08/2021| Updated installation process to latest version.

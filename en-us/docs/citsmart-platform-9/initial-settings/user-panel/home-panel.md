@@ -22,7 +22,7 @@ Related
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/09/2019 – Anna Martins
+    <b>Updated:</b>01/09/2021 – Anna Martins
 
 
 [1]:/en-us/citsmart-platform-9/additional-features/reports/create/dashboard-customize-management-panel-smart-decision.html

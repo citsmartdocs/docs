@@ -21,6 +21,6 @@ Esta funcionalidad está destinada a configurar el idioma predeterminado del sis
 !!! tip "Sobre"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/22/2019 - João Pelles
+    <b>Updated:</b>01/22/2021 - João Pelles
 	
 	

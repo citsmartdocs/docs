@@ -49,4 +49,4 @@ Figura 3 - Pantalla de registro/edición de paquetes
 
 
 <!-- !!! tip "About"
-    <b>Updated:</b>17/01/2019 - João Pelles Junior
+    <b>Updated:</b>17/01/2021 - João Pelles Junior

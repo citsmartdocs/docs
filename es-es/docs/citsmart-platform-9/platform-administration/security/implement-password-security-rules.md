@@ -67,7 +67,7 @@ Procedimiento
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>01/31/2019 - Anna Martins
+    <b>Updated:</b>01/31/2021 - Anna Martins
 
 [1]:/es-es/citsmart-platform-9/initial-settings/access-settings/user/users.html
 [2]:/es-es/citsmart-platform-9/initial-settings/access-settings/user/user-data.html

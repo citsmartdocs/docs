@@ -48,7 +48,7 @@ Solr process 23010 running on port 8983
 {
   "solr_home":"/var/solr/data",
   "version":"6.4.2 34a975ca3d4bd7fa121340e5bcbf165929e0542f - ishan - 2017-03-01 23:30:23",
-  "startTime":"2019-11-14T17:45:18.589Z",
+  "startTime":"2021-11-14T17:45:18.589Z",
   "uptime":"0 days, 0 hours, 0 minutes, 7 seconds",
   "memory":"21.5 MB (%4.4) of 490.7 MB"}
 

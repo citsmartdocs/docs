@@ -119,4 +119,4 @@ Procedure
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 9.00 &nbsp;&nbsp;
-    <b>Updated:</b>04/22/2019 – Anna Martins
+    <b>Updated:</b>04/22/2021 – Anna Martins

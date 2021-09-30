@@ -53,7 +53,7 @@ Attachment
 !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>1/30/2019 – Anna Martins
+    <b>Updated:</b>1/30/2021 – Anna Martins
     
     
   [1]:/en-us/citsmart-platform-8/additional-features/mobile-and-field-service/report/images/km-por-analista.citreport

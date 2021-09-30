@@ -133,7 +133,7 @@ When creating a knowledge, CITSmart will always establish version "1.0" and, whe
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 9.05 &nbsp;&nbsp;
-    <b>Updated:</b>12/26/2019 – Education Team
+    <b>Updated:</b>12/26/2021 – Education Team
     
 [1]:https://en.wikipedia.org/wiki/WYSIWYG
 [2]:/en-us/citsmart-platform-9/initial-settings/access-settings/profile/create-profile-access.html

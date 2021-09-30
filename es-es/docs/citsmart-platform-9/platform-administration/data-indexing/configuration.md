@@ -33,6 +33,6 @@ indexados, haga clic en "Eliminar la indexación de la base de conocimiento".
 <!-- !!! tip "About"
 
     <b>Product/Version:</b> CITSmart | 8.00 &nbsp;&nbsp;
-    <b>Updated:</b>06/25/2019
+    <b>Updated:</b>06/25/2021
 
 [1]:/es-es/citsmart-platform-9/get-started/installation-and-upgrade/download-software.html#servidor-de-indexacion-apache-solr
