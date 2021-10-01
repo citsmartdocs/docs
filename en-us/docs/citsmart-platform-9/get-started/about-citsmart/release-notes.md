@@ -3,6 +3,17 @@ Description: Release notes, bug fixes and improvements in the CITSmart.
 
 # Release Notes
 
+## Version 9.1.2.33 (2021/09/30)
+
+Welcome to CITSmart Version 9.1.2.33. This version presents the following bug fixes:
+
+|Number |Type|Description|
+|-------|----|--------------|
+|12660  |Correction| Removal of Heart Beat code from the system |
+
+For this version, the compatible Neuro is 1.3.7.6.
+
+
 ## Version 9.1.2.32 (2021/09/03)
 
 Welcome to CITSmart Version 9.1.2.32. This version presents the following bug fixes:
