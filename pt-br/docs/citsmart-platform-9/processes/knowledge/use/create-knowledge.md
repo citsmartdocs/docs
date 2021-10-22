@@ -88,7 +88,7 @@ Na aba "Cadastro" será apresentado um formulário contento os campos para ident
 | Tipo do documento | Categoria que define o tipo de documento - pode haver mais (ou menos) opções nesta lista (verifique os Domínios ativos). or padrão, temos várias opções para selecionar: ***Documento, FAQ, Erro conhecido, Evidência de teste, Medida de recuperação, Plano de resposta a emergências, Plano de avaliação de danos, Plano de resgate, Registro de Plano Vital, Plano de gerenciamento de crises e relações públicas, Plano de acomodação e serviços, Plano de serviços e acomodações, Plano de comunicação, Finanças e Plano administrativo , Plano de qualidade de serviço, Plano de disponibilidade, Notícias*** |
 | Fonte/Referência | Informe a fonte/referência do conhecimento. Por padrão, temos as seguintes opções: ***Desenvolvimento, Construção, Teste de integração de sistemas, Teste de aceitação do usuário, Produção***|
 | Pasta | Local onde o conhecimento será salvo. Por padrão, temos as opções: ***Service Desk, FAQ, Para aprovação, portal do parceiro*** |
-| Origem | Gatilho para criação do Conhecimento. Por padrão, temos as seguintes opções: ***Conhecimento, Evento, Mudança, Incidente, Serviço, Problema, Qualidade, CMDB & ITAM, Disponibilidade e Liberação***|
+| Origem | Gatilho para criação do Conhecimento. Por padrão, temos as seguintes opções: ***Conhecimento, Evento, Mudança, Incidente, Serviço, Problema e Qualidade***|
 | Situação (automática) | Status do ciclo de vida do Conhecimento |
 | Data de Expiração | Data em que o conhecimento se torna obsoleto |
 | Justificativa/Observação | Uma descrição do conhecimento |
