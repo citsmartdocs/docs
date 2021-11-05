@@ -113,17 +113,17 @@ administrador pode melhorar sua interação e acurácia, construindo novos fluxo
 Inicie o Anuva em um único nó com estas variáveis de ambiente:
 
 ### Binário:
-BP_CONFIG_PRO_ENABLED=true
+` BP_CONFIG_PRO_ENABLED=true
 CLUSTER_ENABLED=true \
 BPFS_STORAGE=database \
 BP_CONFIG_PRO_LICENSEKEY=<license_key> \
 EXTERNAL_URL=<public_url> \
 REDIS_URL=redis://host:port \
 DATABASE_URL=postgres://login:password@host:port/database \
-./bp
+./bp `
 
 ### Docker:
-docker run -d \
+` docker run -d \
 --name bp \
 -p 3000:3000 \
 -v botpress_data:/botpress/data \
@@ -134,7 +134,7 @@ docker run -d \
 -e EXTERNAL_URL=<public_url> \
 -e REDIS_URL=redis://host:port \
 -e DATABASE_URL=postgres://login:password@host:port/database \
-botpress/server:$TAG
+botpress/server:$TAG `
 
 !!! warning "ATTENTION"
 
@@ -148,21 +148,21 @@ O Anuva pode se conectar a vários servidores Redis para melhor redundância se 
 
 Fornece a lista como um objeto JSON; veja o exemplo abaixo para o formato correto.
 
-PRO_ENABLED=true
+` PRO_ENABLED=true
 CLUSTER_ENABLED=true \
 BPFS_STORAGE=database \
 BP_LICENSE_KEY=<license_key> \
 EXTERNAL_URL=<public_url> \
 REDIS_URL=[{"host":"localhost","port":7004},{"host":"localhost","port":7001},{"host":"localhost","port":7002}]
 DATABASE_URL=postgres://login:password@host:port/database \
-./bp
+./bp `
 
 ## Opções avançadas de Redis
 
 Você pode configurar ainda mais seu Redis Sentinel / Cluster usando a REDIS_OPTIONSvariável de ambiente. Consulte a documentação do ioredis para a lista completa de opções.
 
 Exemplo:
-REDIS_OPTIONS={"password":"admin123", "connectTimeout": 20000}
+` REDIS_OPTIONS={"password":"admin123", "connectTimeout": 20000} `
 
 ## API Converse
 
@@ -180,22 +180,22 @@ Para 'falar' com o seu chatbot por meio da API inversa, faça uma chamada com o 
 
 Faça uma solicitação de postagem para a API inversa. abaixo está um exemplo do formato do pedido
 
-POST <your-bot-url.com>/api/v1/bots/{botId}/converse/{userId}
+` POST <your-bot-url.com>/api/v1/bots/{botId}/converse/{userId} `
 
 -Substitua userId por qualquer string única para representar um usuário conversando com seu chatbot ( botId ). -Para botId , vá para /data/bots/BOTNAMEe abra o bot.config.jsonarquivo onde as duas últimas linhas especificarão o id do bot.
 
 ### Corpo de Solicitação
 
 No corpo da solicitação, coloque a mensagem que você está enviando ao seu chatbot como um objeto JSON.
-{
+`{
   "type": "text",
   "text": "Google Stock Price"
-}
+} `
 
 ### Solicitar Resposta
 
 A resposta que você obtém desta chamada de API é a resposta do bot a esta mensagem no canal incorporado do site (ou em qualquer outro). Abaixo está uma resposta típica.
-{
+` {
     "responses": [
         {
             "type": "typing",
@@ -207,7 +207,7 @@ A resposta que você obtém desta chamada de API é a resposta do bot a esta men
             "text": "NASDAQ: GOOGL**2,385.50 USD** Get stock recommendations [here](http:somesite.com) "
         }
     ]
-}
+}`
 
 ## API de depuração
 
@@ -220,18 +220,20 @@ Para acessar essa rota, você precisa de um token jwt. Esse requisito existe por
 #### Solicitar
 
 Aqui está um exemplo de solicitação usando cURL para obter este token:
-curl --location --request POST 'http://<your.botpress.server.com>/api/v1/auth/login/basic/default' \
+
+`curl --location --request POST 'http://<your.botpress.server.com>/api/v1/auth/login/basic/default' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "email": "<YOUR-EMAIL>",
     "password": "<YOUR-PASSWORD>"
-}'
+}'`
     
 #### Resposta
     
 Na resposta, você pode encontrar o token JWT e a expiração desse token. A expiração pode ser configurada globalmente usando o jwtToken.durationcampo no arquivo botpress.config.json. Essa duração se aplicará a todos os tokens JWT gerados (isso se aplica a todos os usuários que efetuam login no Botpress).
 O corpo da resposta da solicitação acima será semelhante a este:
-{
+
+`{
   "status":"success",
   "message":"Login successful",
   "payload":
@@ -239,17 +241,17 @@ O corpo da resposta da solicitação acima será semelhante a este:
       "jwt":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWtsoiwic3RyYXRlZ3kiOiJkZWZhdWx0IiwidG9rZW5WZXJzaW9uIjoxLCJpc1N1cGVyQWRtaW4iOnRydWUsImlhdCI6MTYxODU3Mjk1MCwiZXhwIjoxNjE4NTc2NTUwLCJhsdwiOiJjb2xsYWJvcmF0b3JzIn0.urYZ5A8yXH3XqzSmu7GmImufSgZ0Nx6HknzuidGWnRs",
       "exp":3600000
       }
-  }
+  }`
 
 ## Pedido de API
     
 #### Cabeçalhos
     
 Para chamar a API Converse no caminho / secure, você precisará incluir um Content-Type e um cabeçalho Authorization na solicitação POST da seguinte maneira:
-{
+`{
 "Content-Type" : "application/json",
 "Authorization": "Bearer {token}"
-}
+}`
 Onde {token} é o token JWT fornecido pelo Anuva conforme descrito acima.
     
 #### Solicitar URL
@@ -260,13 +262,13 @@ Ao chamar a API de depuração, é possível obter as seguintes opções, além 
 •	sugestões : As sugestões de respostas feitas pelos módulos
 •	decisão : a decisão final feita pelo mecanismo de decisão
 Um exemplo de URL de solicitação é o seguinte:
-POST /api/v1/bots/{botId}/converse/{userId}/secured?include=nlu,state,suggestions,decision
+`POST /api/v1/bots/{botId}/converse/{userId}/secured?include=nlu,state,suggestions,decision`
     
 #### Resposta API
     
 Abaixo está um exemplo da resposta dada por nosso bot de suporte no Anuva quando é a primeira vez que você conversa com ele usando a API inversa com todas as opções de depuração incluídas.
     
-{
+`{
     "responses": [
         {
             "type": "typing",
@@ -338,7 +340,7 @@ Abaixo está um exemplo da resposta dada por nosso bot de suporte no Anuva quand
         "source": "decisionEngine",
         "sourceDetails": "execute default flow"
     }
-}
+}`
 
 # Conectando-se a um back-end existente
     
@@ -359,7 +361,8 @@ Você pode definir o token quando o bate-papo é inicializado: window.botpressWe
     
 Depois que o Anuva autentica um usuário, você pode querer extrair algumas informações das credenciais para salvá-las no userestado, como o nome, o sobrenome, etc. Tudo o que você precisa fazer é configurar um gancho para ouvir um tipo específico de evento , por exemplo update_profile,. Em seguida, selecione os campos obrigatórios.
 Exemplo de um gancho para ouvir um evento:
-if (event.type === 'update_profile') {
+
+`if (event.type === 'update_profile') {
   if (event.credentials) {
     event.state.user = {
       firstname: event.credentials.firstname,
@@ -374,7 +377,8 @@ if (event.type === 'update_profile') {
 
   // Since it's a custom event, we can safely skip the dialog engine
   event.setFlag(bp.IO.WellKnownFlags.SKIP_DIALOG_ENGINE, true)
-}
+}`
+
 Em seguida, envie um evento personalizado: window.botpressWebChat.sendEvent({ type: 'update_profile' }) 
     
 ## ID de usuário personalizado
@@ -419,10 +423,10 @@ Usamos memória para salvar a resposta dada pela API que estamos chamando. Por p
 
 O objeto de resposta salvo tem a seguinte aparência:
     
-{
+`{
   "body": <Response Body>,
   "status": 200
-}
+}`
     
 ### Não houve sucesso
     
