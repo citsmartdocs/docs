@@ -15,4 +15,4 @@ Para saber mais de tudo que o CITbot pode te oferecer e como realizar suas funci
 
 
 
-[1]:/pt-br/citdocs/Manual_Plataforma_CITbot.pdf
+[1]:/pt-br/citdocs/Manual_do_usuário_Plataforma_CITbot.pdf
