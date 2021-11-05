@@ -71,12 +71,13 @@ Se quiser usar um provedor externo por algum motivo, você pode fazer isso usand
 ## Recursos por provedores
 
 
-|**Provider**|**Intent**|**Entity**|**Slot**|**tagging**|**Lang**|**Context**|**Sentiment**|
+|**Provider**|**Intent**|**Entity**|**Slot Tagging**|**Lang**|**Context**|**Sentiment**|
 |-|-|-|-|-|-|-|
 |Native|X|X|X|X|X||
 |DialogFlow|X|X|X||X||
 |Luis|X|X||||X|
 |Recast|X|X||X||X|
 |Rasa|X|X|||||
+
 
 
