@@ -107,6 +107,10 @@ To become responsible for the Incident or Request, click on the option “Assign
 |Task|	Step of the service flow|
 |View flow|	Show the service flow|
 
+!!! tip "Note"
+      
+      If the ticket is not captured, the current group field will show the same group listed on the ticket screen
+      If the ticket is captured, the agent must pick the executor group and it will be shown on the current group field
 
 ### Ticket options
 
