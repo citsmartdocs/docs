@@ -78,6 +78,12 @@ chown wildfly.wildfly /opt/wildfly/standalone/configuration/application.ini
 	No arquivo application.ini, o valor padrão é TRUE (mesmo se não for definido), ou seja, se essa opção não existir no arquivo, o sistema utilizará o valor TRUE para essa propriedade. Definido como TRUE, ativa o Thread que atualiza a tabela de fatos de solicitações de serviço na inicialização do sistema. Definido como FALSE, a atualização ocorrerá somente após a inclusão ou alteração da solicitação de serviço.
 
 
+Na versão 2.1.14 o sistema não utiliza mais o parâmetro 449 para definir o tempo de sessão, ele, agora, é controlado pelo tempo de expiração do token JWT. 
+
+Esse tempo de expiração é parametrizado no arquivo application.ini, propriedade TOKEN_MAX_AGE definido em milissegundos. Caso não esteja definido, neste arquivo, o valor default é: 1 dia.  
+
+Porém, nesta versão existe um recurso para manter a sessão de usuário, ativa por tempo indeterminado, desde que ele continue usando o sistema dentro do período de um dia. Em outras palavras, se não completar um dia e o usuário utilizou o sistema, a sessão dele continuará ativa até que se passe mais de 24 horas. Este recurso foi removido na versão 3.0.0. 
+
 ## Configurações de acesso com Keycloak  
 
 No CITSmart, o controle de autorização para acesso às telas e APIs é feito através da tela de perfil de acesso. Esta tela define quais telas o usuário pode acessar.  
