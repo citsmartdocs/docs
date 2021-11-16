@@ -69,13 +69,13 @@ Give permission for the wildfly user to this file:
 [root@server /tmp]# chown wildfly.wildfly /opt/wildfly/standalone/configuration/application.ini
 ```
 
-!!! note
-
-	In the application.ini file, the default value is TRUE (even if not set), that is, if this 
-	option doesn't exist in the file, the system will use the TRUE value for this property. 
-	Defined as TRUE, it enables the Thread that updates the service request fact table at the 
-	system initialization. Defined as FALSE, the update will occur only after adding or changing 
-	the service request.
+!!! note "Note"  
+	
+	In the application.ini file, the default value is TRUE (even if not set), that is, if this option doesn't exist in the file, the system will use the TRUE value for this property. Defined as TRUE, it enables the Thread that updates the service request fact table at the system initialization. Defined as FALSE, the update will occur only after adding or changing the service request.
+	
+For version CITSmart 2.1.14 the system no longer uses the parameter 449 to define the session time, now it is controlled by the expiration time of the JWT token. 
+	
+This expiration time can be configured on the file application.ini, property TOKEN_MAX_AGE defined in miliseconds. If it is not defined, the default value is : 1 day. There is a resource to keep the user session active for an indetermined amount of time, as long as the user keeps using the system throughout the day. In other words, the session will remain active until 24hours have passed since their last interaction. This resource has been removed on version 3.0.0.
 
 ## Access settings with Keycloack  
 
